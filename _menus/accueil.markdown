@@ -54,7 +54,7 @@ sous-menus:
         url: 
   - titre: Institution corporative
     benefices:
-    - titre:  PORTAIL DE GESTION EN LIGNE
+    - titre: PORTAIL DE GESTION EN LIGNE
       liens:
       - titre: ÉVALUATION INTELLIGENTE DES ARBRES
         url: 
@@ -68,7 +68,7 @@ sous-menus:
         url: 
       - titre: GESTION DES ABATTAGES ET MISE EN VALEUR DU BOIS RÉSIDUEL
         url: 
-    - titre: OFFRE DE SERVICES ÉCONOMIQUES 
+    - titre: OFFRE DE SERVICES ÉCONOMIQUES
       liens:
       - titre: FORFAIT DE SURVEILLANCE ANNUEL
         url: 
