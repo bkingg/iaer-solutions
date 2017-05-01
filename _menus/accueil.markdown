@@ -7,10 +7,13 @@ liens:
   - titre: Municipalite 1.1
     benefices:
     - titre: Coordination Numerique de Gestion des actions
-      points:
+      liens:
       - titre: Communication et Reglementation
+        url: 
       - titre: Activites Preventives
+        url: 
       - titre: Activite intensives de lutte
+        url: 
   - titre: Municipalite 1.2
     benefices:
     - titre: Coordination Numerique de Gestion des actions 2
