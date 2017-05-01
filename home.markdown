@@ -1,27 +1,28 @@
 ---
-title: Municipalites
+title: Accueil
 date: 2017-03-07 23:06:00 -05:00
-permalink: "/municipalites"
+permalink: "/"
+menu: Accueil
 slider:
 - image: "/uploads/table-overlay-9939a3.jpg"
   image_icone: 
-  description: "Obtenir un inventaire rapide des frenes du territoire sans acquisition
-    di logiciel d'inventaire \n\n**Reduire temps, delai et budget**"
+  description: "La préservation **assurée** pour tous les frênes en **santé**\x03
+    et la valorisation garantie du **bois** de ceux infestés"
   telecharger: true
 - image: "/uploads/table-overlay-9939a3.jpg"
   image_icone: 
-  description: "Prendre le controle des frene et des especes envahissantes dans les
-    boises de des milieux humides \n\n**Anticiper sur les besoins et les solutions**"
+  description: "**Comprendre, évaluer et maîtriser vos besoins** d’intervention  \nPlanifier,
+    **agir** avec **assurance** et **contrôle** des enjeux"
   telecharger: true
 - image: "/uploads/table-overlay-9939a3.jpg"
   image_icone: 
-  description: "Utiliser les services innovants en ligne pour modeliser le depistage
-    avec precision et en continu \n\n**Techniques simples a utiliser**"
+  description: "En toute sécurité, sans **coûts supplémentaires**, \x03\n\nvaloriser
+    le bois infestés"
   telecharger: true
 - image: "/uploads/table-overlay-9939a3.jpg"
   image_icone: 
-  description: "Simplifier la collaboration entre tous les proprietaires de la municipalite
-    et les professionnels \n\n**Creer l'interet avec la simplicite**"
+  description: "En **contrôle**, **une action à la fois**,\x03nous vous **accompagnons**
+    \x03avec sérénité"
   telecharger: true
 sections:
 - titre: Offre de Services
@@ -69,7 +70,7 @@ sections:
     description: La valeur du bois de votre arbre est déterminée avant les travaux
       d’abattage
     url: 
-layout: citoyens-residents
+layout: default
 ---
 
 IAER propose depuis 2013 des solutions pour soutenir la gestion éco responsable de la forêt urbaine à des meilleurs coûts. Dans ses différents mandats avec ses clients tel la Ville de Montréal, de Québec, de Terrebonne les résultats sont concrets (des économies chiffrées en passant par la valorisation à 80 % du bois des frênes), la participation et le soutien intégré aux citoyens sont passés de l’idée à des projets réalisés et documentés. Il est maintenant clair avec ces expériences concrètes qu’il est possible de contrôler tout en maîtrisant les coûts les activités de lutte à l’agrile du frêne. Envisager vivre avec une population d’insectes sous contrôle à défaut d’éradiquer devient la solution proposée. L’entreprise établit avec valeur de mon frêne cet écosystème technologique qui propose dans un même environnement l’ensemble des outils pour agir efficacement avec les ressources locales. IAER se fixe un nouveau défi celui de rendre accessible ses services aux petites municipalités et aux propriétaires motivés par la volonté d’accorder une valeur à leurs frênes. Patrice Gouné, co-fondateur de IAER Solutions a la ferme conviction qu’en plus des traitements existant, ça prend des technologies pour bâtir la solution à cette problématique complexe.

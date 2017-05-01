@@ -9,21 +9,21 @@ sous-menus:
     - titre: Coordination numérique de gestion Des actions
       liens:
       - titre: communication et réglementation
-        url: 
+        url: "/communication"
       - titre: Activités préventives
-        url: 
+        url: "/activites-preventives"
       - titre: Activités intensives de lutte
-        url: 
+        url: "/activites-intensives"
     - titre: OFFRE DE SERVICES INTÉGRÉS ET CONCERTÉS
       liens:
       - titre: DIAGNOSTIC ET Inventaire et évaluation
-        url: 
+        url: "/diagnostique"
       - titre: Plateforme de gestion concertée
-        url: 
+        url: "/plateforme"
       - titre: Module de performances
-        url: 
+        url: "/module"
       - titre: Valorisation du bois infecté
-        url: 
+        url: "/valorisation"
     - titre: TECHNOLOGIE DE GESTION COLLABORATIVE
       liens:
       - titre: BESOINS ADMINISTRATIFS
@@ -35,6 +35,7 @@ sous-menus:
       - titre: MISE EN VALEUR DU BOIS INFESTÉ
         url: 
   - titre: RÉSIDENTS
+    url: "/residents"
     benefices:
     - titre: Outils de gestion des besoins en ligne
       liens:

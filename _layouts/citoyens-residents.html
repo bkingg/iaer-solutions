@@ -1,28 +1,146 @@
 {% include header.html %}
 
 
-  <div class="homepage__slider-wrapper">
-    <div class="homepage__slider">
-      <div class="slide">
-        <div class="image" style="background-image: url(/uploads/beau-frene-overlay.jpg)">
-          <div class="row">
-            <div class="caption">
-              <div class="col-sm-10 col-sm-offset-1">
-                <img src="/uploads/diagnostique-et-evaluation-blanc.png">
-                <h3>Diagnostique<br/> des donnees</h3>
-                <h6>L’INNOVATION POUR ASSURER L’INVENTAIRE RAPIDE ET INTELLIGENT DE TOUS LES FRÊNES</h6>
+  {% if page.slider %}
+    <div class="homepage__slider-wrapper">
+      <div class="homepage__slider">
+        {% for slide in page.slider %}
+          <div class="slide">
+            <div class="image" style="background-image: url({{ slide.image }})">
+              <div class="row">
+                <div class="caption">
+                  <div class="col-sm-6 col-sm-offset-3">
+                    {% if icone_image %}
+                      <img src="{{ slide.icone_image }}">
+                    {% endif %}
+                    {{ slide.description | markdownify }}
+                  </div>
+                </div>
+                <div class="download">
+                  {% if slide.telecharger == true %}
+                    <div class="download">
+                      <a class="download__link" href="#">
+                        <img src="/uploads/telecharger.png" class="download__image">
+                        <p class="download__text">Demandez L'evaluation des maintenant</p>
+                      </a>
+                    </div>
+                  {% endif %}
+                </div>
               </div>
             </div>
+
           </div>
-        </div>
+        {% endfor %}
 
       </div>
-
+      <div class="slider__dots"></div>
     </div>
-    <div class="slider__dots"></div>
-  </div>
+  {% endif %}
 
-  <div class="section">
+  {% if page.sections %}
+    {% assign sections = page.sections %}
+    {% for section in sections %}
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 class="section__title">{{ section.titre }}</h1>
+              
+              <p class="section__description center">{{ section.description }}</p>
+            </div>
+          </div>
+          <div class="row">
+            {% if section.icones %}
+              {% assign icones = section.icones %}
+              {% for icone in icones %}
+                {% if icones.size > 4 %}
+                  {% assign cols = 3 %}
+                {% else %}
+                  {% assign cols = 12 | divided_by: icones.size %}
+                {% endif %}
+                <div class="col-sm-6 col-md-{{ cols }}">
+                  <div class="offer">
+                    <a href="{{ icone.url }}">
+                      <img src="{{ icone.image }}">
+                      <h3 class="offer__title">{{ icone.titre }}</h3>
+                      <p class="offer__description">{{ icone.description | markdownify }}</p>
+                    </a>
+                  </div>
+                </div>
+              {% endfor %}
+            {% endif %}
+
+            {% if section.boites %}
+              {% assign boites = section.boites %}
+              {% for boite in boites %}
+                {% assign cols = 12 | divided_by: boites.size %}
+                {% if boites.size == 2 %}
+                    <div class="col-md-10 col-md-offset-3 row-eq-height">
+                {% else %}
+                    <div class="col-sm-6 col-md-{{ cols }}">
+                {% endif %}
+
+                    <div class="box">
+
+                        <h2 class="box__title">{{ boite.titre }}</h2>
+
+                        <div class="box__separator"></div>
+
+                        <p class="box__description">{{ boite.description | markdownify }}</p>
+                    </div>
+                </div>
+              {% endfor %}
+            {% endif %}
+
+            {% if section.benefices %}
+              {% assign benefices = section.benefices | sort: 'position' %}
+              {% for benefice in benefices %}
+                {% assign cols = 12 | divided_by: benefices.size %}
+                <div class="col-sm-6 col-md-{{ cols }}">
+                    <div class="box">
+
+                        <div class="text-center">
+                            <img class="" src="{{ boite.image }}">
+                        </div>
+                        <h2 class="box__title">{{ benefice.titre }}</h2>
+
+                        <div class="box__description">
+                            {{ benefice.description | markdownify }}
+                        </div>
+                    </div>
+                </div>
+              {% endfor %}
+            {% endif %}
+
+            {% if section.benefices_simple %}
+              {% assign benefices = section.benefices_simple | sort: 'position' %}
+              {% for benefice in benefices %}
+                <div class="col-sm-6 col-md-4">
+                    <div class="box small">
+                        <p class="box__description">{{ benefice.description}}</p>
+                    </div>
+                </div>
+              {% endfor %}
+            {% endif %}
+
+            <div class="download">
+              {% if slide.telecharger == true %}
+                <div class="download">
+                  <a class="download__link" href="#">
+                    <img src="/uploads/telecharger.png" class="download__image">
+                    <p class="download__text">Demandez L'evaluation des maintenant</p>
+                  </a>
+                </div>
+              {% endif %}
+            </div>
+
+            
+        </div>
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  <!--<div class="section">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -172,7 +290,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div>-->
 
 
 {% include footer.html %}

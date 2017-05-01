@@ -7,10 +7,13 @@ sous-menus:
   - titre: 
     benefices:
     - titre: La communication et la réglementation
+      url: "/communication"
       liens: 
     - titre: Activités préventives
+      url: "/activites-preventives"
       liens: 
     - titre: Activités intensives à la lutte
+      url: "/activites-intensives"
       liens: 
 - titre: Offre de Services
   colomnes:
@@ -19,10 +22,13 @@ sous-menus:
     - titre: Inventaire avec évaluation
       liens: 
     - titre: Plateforme de gestion concertée
+      url: "/plateforme"
       liens: 
     - titre: Module de performances
+      url: "/module"
       liens: 
     - titre: Valorisation du bois infecté
+      url: "/valorisation"
       liens: 
 - titre: SOLUTION TECHNOLOGIQUE
   colomnes: 
