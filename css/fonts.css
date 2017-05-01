@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Nauman';
+  src:  url('../fonts/Nauman-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nauman';
+  src:  url('../fonts/Nauman-Bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
