@@ -26,13 +26,27 @@ slider:
   telecharger: true
 sections:
 - type: icones
-  titre: test titre
-  description: Test paragraphe
+  titre: Offre de Services
+  description: 
   icones:
   - image: "/uploads/inventaire-avec-evaluation-detaillee.png"
-    titre: Inventaire Test
+    titre: |2-
+
+      INVENTAIRE  AVEC ÉVALUATION DÉTAILLÉE
     url: "/"
-    description: description of test
+    description: 
+  - image: "/uploads/services-en-ligne.png"
+    titre: Services en ligne
+    url: 
+    description: 
+  - image: "/uploads/preservation-durable.png"
+    titre: service de préservation durable
+    url: 
+    description: 
+  - image: "/uploads/valorisation-du-bois-infeste.png"
+    titre: Valorisation tu bois infeste
+    url: 
+    description: 
 - titre: test 2
   description: descriptif test
   type: 
