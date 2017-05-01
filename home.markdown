@@ -16,8 +16,8 @@ slider:
   telecharger: true
 - image: "/uploads/table-overlay-9939a3.jpg"
   image_icone: 
-  description: "En toute sécurité, sans **coûts supplémentaires**, \x03valoriser le
-    bois infestés"
+  description: "En toute sécurité, sans **coûts supplémentaires**, \x03\n\nvaloriser
+    le bois infestés"
   telecharger: true
 - image: "/uploads/table-overlay-9939a3.jpg"
   image_icone: 
