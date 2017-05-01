@@ -25,8 +25,7 @@ slider:
     \x03avec sérénité"
   telecharger: true
 sections:
-- type: icones
-  titre: Offre de Services
+- titre: Offre de Services
   description: 
   icones:
   - image: "/uploads/inventaire-avec-evaluation-detaillee.png"
@@ -45,13 +44,31 @@ sections:
     titre: Valorisation tu bois infeste
     url: 
     description: 
-- titre: test 2
-  description: descriptif test
-  type: 
+- titre: Bénéfices
+  description: "UN PORTAIL AVEC LES DONNÉES ET DE L’INFORMATION PRÉCISE POUR RÉPONDRE\x03AVEC
+    ASSURANCE À TOUS VOS BESOINS D’INVENTAIRES. C’EST..."
   icones:
-  - image: "/uploads/valorisation-du-bois-infeste.png"
-    titre: Valorisation
-    description: test no 2
+  - image: "/uploads/simple.png"
+    titre: "SIMPLE, RAPIDE \x03ET ÉCONOMIQUE"
+    description: Anticiper avec l’inventaire intelligent qui documente et précise
+      exactement quoi faire selon des indicateurs précis
+    url: 
+  - image: "/uploads/fonctionnel.png"
+    titre: FONCTIONNEL, PERSONNALISÉ, INTERACTIF et collaboratif
+    description: |2-
+
+
+      Faciliter l’accès contenu à toutes les ressources disponibles (professionnels, administration, subvention etc.)
+    url: 
+  - image: "/uploads/documente.png"
+    titre: DOCUMENTÉ, précis, basé sur les faits, mesurable
+    description: Nous contrôlons l’insecte avec nos technologies et vous maîtrisez
+      vos coûts avec les services concertés
+    url: 
+  - image: "/uploads/epidemie.png"
+    titre: "aide à protéger \x03l’épidémie "
+    description: La valeur du bois de votre arbre est déterminée avant les travaux
+      d’abattage
     url: 
 layout: default
 ---
