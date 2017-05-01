@@ -1,0 +1,76 @@
+---
+title: IAER Solutions
+timezone: America/New_York
+collections:
+  menus:
+    title: Menus
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+scope:
+  path: 
+  values:
+    liens:
+    - titre: Lien Menu Niveau 1
+      colomnes:
+      - titre: Municipalite 2.1
+        benefices:
+        - titre: Coordination Numerique de Gestion des actions
+          points:
+          - titre: Communication et Reglementation
+          - titre: Activites Preventives
+          - titre: Activite intensives de lutte
+      - titre: Municipalite 2.2
+        benefices:
+        - titre: Coordination Numerique de Gestion des actions 2
+          points:
+          - titre: Communication et Reglementation 2
+          - titre: Activites Preventives 2
+          - titre: Activite intensives de lutte 2
+      - titre: Municipalite 2.3
+        benefices:
+        - titre: Coordination Numerique de Gestion des actions 3
+          points:
+          - titre: Communication et Reglementation 3
+          - titre: Activites Preventives 3
+          - titre: Activite intensives de lutte 3
+    - titre: Lien Menu Niveau 1
+      colomnes:
+      - titre: Titre Colomne Niveau 2
+        benefices:
+        - titre: Benefice
+          points:
+          - titre: Point 1
+          - titre: Point 2
+          - titre: Point 3
+      - titre: Benefice 2
+        benefices:
+        - titre: Benefice
+          points:
+          - titre: Point 1
+          - titre: Point 2
+      - titre: Benefice 2
+        benefices:
+        - titre: Benefice
+          points:
+          - titre: Point 1
+          - titre: Point 2
+          - titre: Point 3
+          - titre: Point 4
+permalink: pretty
