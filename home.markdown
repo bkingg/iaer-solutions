@@ -30,9 +30,7 @@ sections:
   description: 
   icones:
   - image: "/uploads/inventaire-avec-evaluation-detaillee.png"
-    titre: |2-
-
-      INVENTAIRE  AVEC ÉVALUATION DÉTAILLÉE
+    titre: INVENTAIRE  AVEC ÉVALUATION DÉTAILLÉE
     url: "/"
     description: 
   - image: "/uploads/services-en-ligne.png"
