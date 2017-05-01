@@ -31,7 +31,6 @@ $(function(){
 	$(document).ready(function() {
 	  var maxColumnHeight = $('.row-eq-height .col-eq-height:first').height();
 	  var cols = $('.row-eq-height .col-eq-height');
-	  console.log('yo');
 	  cols.each(function(){
 	    var height = $(this).height();
 	    if(height > maxColumnHeight){
@@ -59,4 +58,13 @@ $(function(){
 	        offset: 30
 	    });
 	});
+
+	// Open Accordion
+    $(document).on('click', '.accordion__toggle', function(event) {
+        event.preventDefault();
+        var accordionName = $(this).data('accordion');
+        $('.accordion[data-accordion="' + accordionName + '"]').toggleClass('accordion--open');
+		var icon = $(this).find('i').toggleClass('fa-plus fa-minus');
+		console.log('yo');
+    });
 });

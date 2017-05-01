@@ -26,6 +26,14 @@ body, h1, h2, h3, h4, h5, h6, p, span, a{
      opacity:1;
 }
 
+.accordion__toggle{text-decoration: none;}
+.accordion__content{
+	display: none;
+	.accordion--open &{
+		display: block;
+	}
+}
+
 $navbar-height: 150;
 #navbar-full {
   position: absolute;
@@ -136,6 +144,14 @@ $navbar-height: 150;
       			font-size: 10px;
       			padding-left: 15px;
       			margin-bottom: 20px;
+						> li{
+							padding-bottom: 5px;
+							border-bottom: 1px solid $green;
+							margin-bottom: 15px;
+							> a{
+								text-decoration: none;
+							}
+						}
       			> li, > li > a, > li i{
       				list-style-type: none;
 							color: $green;
@@ -144,7 +160,7 @@ $navbar-height: 150;
 						> li i{
 							float: right;
 						}
-						.points{
+						.liens{
 							padding: 0;
 							> li{
 								color: #333;

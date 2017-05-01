@@ -104,31 +104,31 @@
         <ul class="list-inline text-center"
           {% for menu in site.menus %}
             {% if page.menu == menu.title %}
-              {% for lien in menu.liens %}
+              {% for sous-menu in menu.sous-menus %}
                 ><li>
-                  <a href="">{{ lien.titre }}</a>
-                  {% if lien.colomnes.size > 0 %}
-                    {% if lien.colomnes.size <= 4 %}
-                      {% assign num_of_cols = lien.colomnes.size %}
+                  <a href="{{ sous-menu.url }}">{{ sous-menu.titre }}</a>
+                  {% if sous-menu.colomnes.size > 0 %}
+                    {% if sous-menu.colomnes.size <= 4 %}
+                      {% assign num_of_cols = sous-menu.colomnes.size %}
                     {% else %}
                       {% assign num_of_cols = 4 %}
                     {% endif %}
                     <div class="submenu grid-{{ num_of_cols }}">
-                      {% for colomne in lien.colomnes %}
+                      {% for colomne in sous-menu.colomnes %}
                         <div class="column">
                           <h3 class="title">{{ colomne.titre }}</h3>
                           <ul class="description benefices">
                             {% for benefice in colomne.benefices %}
-                              <li class="accordion" data-accordion="{{ benefice.titre }}">
-                                <a class="accordion__toggle" data-accordion="{{ benefice.titre }}">
+                              <li class="accordion" data-accordion="{{ benefice.titre | slugify }}">
+                                <a class="accordion__toggle" data-accordion="{{ benefice.titre | slugify }}">
                                   {{ benefice.titre }}
                                   {% if benefice.liens.size > 0 %}
                                     <i class="fa fa-plus"></i>
                                   {% endif %}
                                 </a>
                                 {% if benefice.liens.size > 0 %}
-                                  <ul class="points accordion__content">
-                                    {% for point in benefice.liens %}
+                                  <ul class="liens accordion__content">
+                                    {% for lien in benefice.liens %}
                                       <li><a href="{{ lien.url }}">{{ lien.titre }}</a></li>
                                     {% endfor %}
                                   </ul>
