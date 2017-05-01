@@ -24,7 +24,7 @@ defaults:
   values:
     layout: page
 scope:
-  path: ''
+  path: 
   values:
     liens:
     - titre: Lien Menu Niveau 1
