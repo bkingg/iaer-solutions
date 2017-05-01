@@ -20,6 +20,7 @@ sous-menus:
   - titre: 
     benefices:
     - titre: Inventaire avec évaluation
+      url: "/diagnostique"
       liens: 
     - titre: Plateforme de gestion concertée
       url: "/plateforme"
