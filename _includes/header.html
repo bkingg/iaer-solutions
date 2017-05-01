@@ -122,14 +122,14 @@
                               <li class="accordion" data-accordion="{{ benefice.titre }}">
                                 <a class="accordion__toggle" data-accordion="{{ benefice.titre }}">
                                   {{ benefice.titre }}
-                                  {% if benefice.points.size > 0 %}
+                                  {% if benefice.liens.size > 0 %}
                                     <i class="fa fa-plus"></i>
                                   {% endif %}
                                 </a>
-                                {% if benefice.points.size > 0 %}
+                                {% if benefice.liens.size > 0 %}
                                   <ul class="points accordion__content">
-                                    {% for point in benefice.points %}
-                                      <li>{{ point.titre }}</li>
+                                    {% for point in benefice.liens %}
+                                      <li><a href="{{ lien.url }}">{{ lien.titre }}</a></li>
                                     {% endfor %}
                                   </ul>
                                 {% endif %}

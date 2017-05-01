@@ -129,6 +129,10 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
                 color: #333;
                 list-style-type: none;
                 text-transform: uppercase; }
+                .subnav ul:first-child > li .submenu .column ul.description .points > li > a, .subnav ul:first-child > li .submenu .column ol.description .points > li > a, .subnav ul:first-child > li .submenu .column .benefices .points > li > a {
+                  color: #333; }
+                  .subnav ul:first-child > li .submenu .column ul.description .points > li > a:hover, .subnav ul:first-child > li .submenu .column ol.description .points > li > a:hover, .subnav ul:first-child > li .submenu .column .benefices .points > li > a:hover {
+                    text-decoration: underline; }
                 .subnav ul:first-child > li .submenu .column ul.description .points > li:hover, .subnav ul:first-child > li .submenu .column ol.description .points > li:hover, .subnav ul:first-child > li .submenu .column .benefices .points > li:hover {
                   background: none; }
           .subnav ul:first-child > li .submenu .column .actions {
@@ -341,6 +345,8 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
   .section .offer {
     text-align: center;
     padding: 10px 0; }
+    .section .offer a {
+      text-decoration: none; }
     .section .offer img {
       margin: 0 auto;
       margin-bottom: 15px;
