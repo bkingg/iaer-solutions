@@ -9,6 +9,21 @@ slider:
   description: "La préservation **assurée** pour tous les frênes en **santé**\x03
     et la valorisation garantie du **bois** de ceux infestés"
   telecharger: true
+- image: "/uploads/table-overlay-9939a3.jpg"
+  image_icone: 
+  description: "**Comprendre, évaluer et maîtriser vos besoins** d’intervention  \nPlanifier,
+    **agir** avec **assurance** et **contrôle** des enjeux"
+  telecharger: 
+- image: "/uploads/table-overlay-9939a3.jpg"
+  image_icone: 
+  description: "En toute sécurité, sans **coûts supplémentaires**, \x03valoriser le
+    bois infestés"
+  telecharger: 
+- image: "/uploads/table-overlay-9939a3.jpg"
+  image_icone: 
+  description: "En **contrôle**, **une action à la fois**,\x03nous vous **accompagnons**
+    \x03avec sérénité"
+  telecharger: 
 sections:
 - type: icones
   titre: test titre
