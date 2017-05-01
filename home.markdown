@@ -13,17 +13,17 @@ slider:
   image_icone: 
   description: "**Comprendre, évaluer et maîtriser vos besoins** d’intervention  \nPlanifier,
     **agir** avec **assurance** et **contrôle** des enjeux"
-  telecharger: 
+  telecharger: true
 - image: "/uploads/table-overlay-9939a3.jpg"
   image_icone: 
   description: "En toute sécurité, sans **coûts supplémentaires**, \x03valoriser le
     bois infestés"
-  telecharger: 
+  telecharger: true
 - image: "/uploads/table-overlay-9939a3.jpg"
   image_icone: 
   description: "En **contrôle**, **une action à la fois**,\x03nous vous **accompagnons**
     \x03avec sérénité"
-  telecharger: 
+  telecharger: true
 sections:
 - type: icones
   titre: test titre
