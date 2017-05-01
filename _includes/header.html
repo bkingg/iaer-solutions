@@ -129,7 +129,7 @@
                       <ul class="description benefices">
                         {% for benefice in colomne.benefices %}
                           <li class="accordion" data-accordion="{{ benefice.titre | slugify }}">
-                            <a class="accordion__toggle" data-accordion="{{ benefice.titre | slugify }}">
+                            <a href="{{ benefice.url }}" class="accordion__toggle" data-accordion="{{ benefice.titre | slugify }}">
                               {{ benefice.titre }}
                               {% if benefice.liens.size > 0 %}
                                 <i class="fa fa-plus"></i>
