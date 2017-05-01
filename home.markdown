@@ -1,18 +1,14 @@
 ---
-title: Accueil
+title: Home
 date: 2017-03-07 23:06:00 -05:00
 permalink: "/"
 menu: Accueil
 slider:
 - image: "/uploads/table-overlay-9939a3.jpg"
   image_icone: 
-  description: "La préservation **assurée** pour tous les frênes en **santé** \x03et
-    la valorisation garantie du **bois** de ceux infestés"
-  telecharger: true
-- image: "/uploads/table-overlay-9939a3.jpg"
-  image_icone: 
-  description: "**Comprendre, évaluer et maîtriser vos besoins** d’intervention  \nPlanifier,
-    agir avec **assurance** et **contrôle** des enjeux"
+  description: "### > Comprendre, évaluer et maîtriser vos besoins d’intervention\n\n###
+    > Planifier, agir avec assurance et contrôle des enjeux locaux\x03\n\n### Parce
+    que nos services et nos technologies sont fonctionnels"
   telecharger: true
 sections:
 - type: icones
