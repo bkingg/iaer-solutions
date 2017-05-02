@@ -59,7 +59,7 @@ $(function(){
 				  });
 				  cols.height(maxColumnHeight);
 				});
-	    }, 100);
+	    }, 1000);
 	});
 
 	// Open Accordion
