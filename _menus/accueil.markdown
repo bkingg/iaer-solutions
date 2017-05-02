@@ -78,12 +78,16 @@ sous-menus:
   - titre: 
     benefices:
     - titre: Inventaire avec évaluation
+      url: "/diagnostique"
       liens: 
     - titre: Plateforme de gestion concertée
+      url: "/plateforme"
       liens: 
     - titre: Module de performances
+      url: "/module"
       liens: 
     - titre: Valorisation du bois infecté
+      url: "/valorisation"
       liens: 
 - titre: SOLUTION TECHNOLOGIQUE
   colomnes: 

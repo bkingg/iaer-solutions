@@ -27,19 +27,6 @@ $(function(){
         $(this).find('img').attr('src', newAttr);
     });
 
-    // Equalize adjacent rows
-	$(document).ready(function() {
-	  var maxColumnHeight = $('.row-eq-height .col-eq-height:first').height();
-	  var cols = $('.row-eq-height .col-eq-height');
-	  cols.each(function(){
-	    var height = $(this).height();
-	    if(height > maxColumnHeight){
-	      maxColumnHeight = height;
-	    }
-	  });
-	  cols.height(maxColumnHeight);
-	});
-
 	$(document).ready(function() {
 	    $('.box, .offer').addClass('hide_me').viewportChecker({
 	        classToAdd: 'visible animated fadeInDown',
@@ -57,6 +44,22 @@ $(function(){
 	        classToAdd: 'visible animated fadeIn',
 	        offset: 30
 	    });
+
+	    // Equalize adjacent rows
+	    setTimeout(function(){
+	    	$('.row-eq-height').each(function(){
+					var $row = $(this);
+					var maxColumnHeight = $row.find('.col-eq-height:first').height();
+				  var cols = $row.find('.col-eq-height');
+				  cols.each(function(){
+				    var height = $(this).height();
+				    if(height > maxColumnHeight){
+				      maxColumnHeight = height;
+				    }
+				  });
+				  cols.height(maxColumnHeight);
+				});
+	    }, 100);
 	});
 
 	// Open Accordion
