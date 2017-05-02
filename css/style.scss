@@ -430,6 +430,15 @@ $navbar-height: 150;
     	}
   	}
   }
+  .box {
+    border: 1px white solid;
+    &__title{
+      color: #222;
+    }
+    &__description{
+      color: #222;
+    }
+  }
   &:nth-of-type(even) {
     background-color: $green;
     color: white;
@@ -454,18 +463,50 @@ $navbar-height: 150;
     }
     .box {
     	border: 1px white solid;
+      &__title{
+        color: white;
+      }
+      &__description{
+        color: white;
+      }
   	}
+    .download{
+      &__link{
+        background-color: white;
+        &.white{
+          background: white;
+          color: white;
+          .download__text{
+            color: $green;
+          }
+        }
+        .download__image{
+          height: 30px;
+          display: inherit;
+          margin-bottom: 5px;
+        }
+        .download__text{
+          color: $green;
+        }
+      }
+    }
   }
   .offer{
   	text-align: center;
   	padding: 10px 0;
+    height: inherit;
+    display: table;
+    width: 100%;
 		a{
 			text-decoration: none;
+      display: table-cell;
+      vertical-align: middle;
 		}
   	img{
   		margin: 0 auto;
   		margin-bottom: 15px;
   		max-height: 160px;
+      display: block;
   	}
   	.offer__title{
   		text-transform: uppercase;
@@ -511,7 +552,7 @@ $navbar-height: 150;
     margin: auto;
     margin-bottom: 30px;
     max-width: 280px;
-    min-height: 400px;
+    height: inherit;
     &.middle {
       display: table;
       .box__description, .box__title{
@@ -535,8 +576,7 @@ $navbar-height: 150;
       }
     }
     img {
-      width: 34px;
-      height: 34px;
+      width: 70px;
       text-align: center;
     }
     .box__title {

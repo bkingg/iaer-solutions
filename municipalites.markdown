@@ -25,15 +25,15 @@ sections:
   icones:
   - image: "/uploads/commercial.png"
     titre: Municipalites
-    url: "/"
-    description: 
-  - image: "/uploads/energetique.png"
-    titre: Institutions
-    url: 
+    url: "/municipalites"
     description: 
   - image: "/uploads/matiere.png"
+    titre: Institutions
+    url: /institutions
+    description: 
+  - image: "/uploads/energetique.png"
     titre: Residents
-    url: 
+    url: /citoyens
     description: 
 - titre: OFFRE DE LA SOLUTION CONCERTÉE ET ÉCONOMIQUE 
   description: "UN PORTAIL AVEC LES DONNÉES ET DE L’INFORMATION PRÉCISE POUR RÉPONDRE\x03AVEC
