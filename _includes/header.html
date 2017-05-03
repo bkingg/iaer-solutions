@@ -102,43 +102,39 @@
     <div class="subnav">
       <div class="container">
         <ul class="list-inline text-center"
-          {% if page.title == 'Accueil' && menu.title == 'Accueil' %}
-            {% assign menu = site.menus | where: 'title', 'Accueil'  | first %}
-          {% else %}
-            {% assign menu = site.menus | where: 'title', 'Menu Pages'  | first %}
-          {% endif %}
+          {% assign menu = site.menus | where: 'title', page.title  | first %}
           
-          {% for sous-menu in menu.sous-menus %}
+          {% for link in menu.menu-niveau-1 %}
             ><li>
-              <a href="{{ sous-menu.url }}">
-                {% assign sous-menu_title = sous-menu.titre | slugify %}
-                {% if sous-menu_title == 'menu-des-solutions' %}
-                  <i class="fa fa-bars"></i> 
+              <a href="{{ link.url }}">
+                {% assign link_title = link.titre | slugify %}
+                {% if link_title == 'menu-des-solutions' %}
+                  <i class="fa fa-bars"></i>&nbsp;&nbsp;
                 {% endif %} 
-                {{ sous-menu.titre }}</a>
-              {% if sous-menu.colomnes.size > 0 %}
-                {% if sous-menu.colomnes.size <= 4 %}
-                  {% assign num_of_cols = sous-menu.colomnes.size %}
+                {{ link.titre }}</a>
+              {% if link.menu-niveau-2.size > 0 %}
+                {% if link.menu-niveau-2.size <= 4 %}
+                  {% assign num_of_cols = link.menu-niveau-2.size %}
                 {% else %}
                   {% assign num_of_cols = 4 %}
                 {% endif %}
                 <div class="submenu grid-{{ num_of_cols }}">
-                  {% for colomne in sous-menu.colomnes %}
+                  {% for link-2 in link.menu-niveau-2 %}
                     <div class="column">
-                      <h3 class="title">{{ colomne.titre }}</h3>
-                      <ul class="description benefices">
-                        {% for benefice in colomne.benefices %}
-                          <li class="accordion" data-accordion="{{ benefice.titre | slugify }}">
-                            <a href="{{ benefice.url }}" class="accordion__toggle" data-accordion="{{ benefice.titre | slugify }}">
-                              {{ benefice.titre }}
-                              {% if benefice.liens.size > 0 %}
+                      <h3 class="title">{{ link-2.titre }}</h3>
+                      <ul class="description menu-niveau-3">
+                        {% for link-3 in link-2.menu-niveau-3 %}
+                          <li class="accordion" data-accordion="{{ link-3.titre | slugify }}">
+                            <a href="{{ link-3.url }}" class="accordion__toggle" data-accordion="{{ link-3.titre | slugify }}">
+                              {{ link-3.titre }}
+                              {% if link-3.menu-niveau-4.size > 0 %}
                                 <i class="fa fa-plus"></i>
                               {% endif %}
                             </a>
-                            {% if benefice.liens.size > 0 %}
-                              <ul class="liens accordion__content">
-                                {% for lien in benefice.liens %}
-                                  <li><a href="{{ lien.url }}">{{ lien.titre }}</a></li>
+                            {% if link-3.menu-niveau-4.size > 0 %}
+                              <ul class="menu-niveau-4 accordion__content">
+                                {% for link-4 in link-3.menu-niveau-4 %}
+                                  <li><a href="{{ link-4.url }}">{{ link-4.titre }}</a></li>
                                 {% endfor %}
                               </ul>
                             {% endif %}

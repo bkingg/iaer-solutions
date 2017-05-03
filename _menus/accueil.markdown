@@ -1,13 +1,13 @@
 ---
 title: Accueil
 date: 2017-04-26 19:17:00 -04:00
-sous-menus:
+menu-niveau-1:
 - titre: MENU DES SOLUTIONs
-  colomnes:
+  menu-niveau-2:
   - titre: Municipalité
-    benefices:
+    menu-niveau-3:
     - titre: Coordination numérique de gestion Des actions
-      liens:
+      menu-niveau-4:
       - titre: communication et réglementation
         url: "/communication"
       - titre: Activités préventives
@@ -15,7 +15,7 @@ sous-menus:
       - titre: Activités intensives de lutte
         url: "/activites-intensives"
     - titre: OFFRE DE SERVICES INTÉGRÉS ET CONCERTÉS
-      liens:
+      menu-niveau-4:
       - titre: DIAGNOSTIC ET Inventaire et évaluation
         url: "/diagnostique"
       - titre: Plateforme de gestion concertée
@@ -25,7 +25,7 @@ sous-menus:
       - titre: Valorisation du bois infecté
         url: "/valorisation"
     - titre: TECHNOLOGIE DE GESTION COLLABORATIVE
-      liens:
+      menu-niveau-4:
       - titre: BESOINS ADMINISTRATIFS
         url: 
       - titre: SOLUTIONS DE SOUTIEN
@@ -36,9 +36,9 @@ sous-menus:
         url: 
   - titre: RÉSIDENTS
     url: "/residents"
-    benefices:
+    menu-niveau-3:
     - titre: Outils de gestion des besoins en ligne
-      liens:
+      menu-niveau-4:
       - titre: DEMANDE D’ÉVALUATION
         url: 
       - titre: Suivi services municipaux
@@ -46,7 +46,7 @@ sous-menus:
       - titre: Suivi services technique
         url: 
     - titre: SERVICES CONCERTÉS ET ÉCONOMIQUES
-      liens:
+      menu-niveau-4:
       - titre: PAR ARRONDISSEMENT
         url: 
       - titre: PAR QUARTIER
@@ -54,15 +54,15 @@ sous-menus:
       - titre: PAR RUE
         url: 
   - titre: Institution corporative
-    benefices:
+    menu-niveau-3:
     - titre: PORTAIL DE GESTION EN LIGNE
-      liens:
+      menu-niveau-4:
       - titre: ÉVALUATION INTELLIGENTE DES ARBRES
         url: 
       - titre: PLAN DE GESTION TECHNIQUE
         url: 
     - titre: SUPPORTS INTÉGRÉS ET  NUMÉRIQUES
-      liens:
+      menu-niveau-4:
       - titre: SUIVI DU DÉPISTAGE ET SURVEILLANCE
         url: 
       - titre: GESTION DES TRAITEMENT
@@ -70,30 +70,30 @@ sous-menus:
       - titre: GESTION DES ABATTAGES ET MISE EN VALEUR DU BOIS RÉSIDUEL
         url: 
     - titre: OFFRE DE SERVICES ÉCONOMIQUES
-      liens:
+      menu-niveau-4:
       - titre: FORFAIT DE SURVEILLANCE ANNUEL
         url: 
 - titre: Offre de Services
-  colomnes:
+  menu-niveau-2:
   - titre: 
-    benefices:
+    menu-niveau-3:
     - titre: Inventaire avec évaluation
       url: "/diagnostique"
-      liens: 
+      menu-niveau-4: 
     - titre: Plateforme de gestion concertée
       url: "/plateforme"
-      liens: 
+      menu-niveau-4: 
     - titre: Module de performances
       url: "/module"
-      liens: 
+      menu-niveau-4: 
     - titre: Valorisation du bois infecté
       url: "/valorisation"
-      liens: 
+      menu-niveau-4: 
 - titre: SOLUTION TECHNOLOGIQUE
-  colomnes: 
+  menu-niveau-2: 
 - titre: VALEUR DE MON FRÊNE
-  colomnes: 
+  menu-niveau-2: 
 - titre: CONTACTEZ-NOUS
-  colomnes: 
+  menu-niveau-2: 
 ---
 
