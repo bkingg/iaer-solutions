@@ -1,11 +1,11 @@
 ---
 title: Menu Pages
 date: 2017-04-26 19:17:00 -04:00
-sous-menus:
+menu-niveau-1:
 - titre: Vos actions de gestion
-  colomnes:
+  menu-niveau-2:
   - titre: 
-    benefices:
+    menu-niveau-3:
     - titre: La communication et la réglementation
       url: "/communication"
       liens: 
@@ -16,9 +16,9 @@ sous-menus:
       url: "/activites-intensives"
       liens: 
 - titre: Offre de Services
-  colomnes:
+  menu-niveau-2:
   - titre: 
-    benefices:
+    menu-niveau-3:
     - titre: Inventaire avec évaluation
       url: "/diagnostique"
       liens: 
@@ -32,10 +32,10 @@ sous-menus:
       url: "/valorisation"
       liens: 
 - titre: SOLUTION TECHNOLOGIQUE
-  colomnes: 
+  menu-niveau-2: 
 - titre: VALEUR DE MON FRÊNE
-  colomnes: 
+  menu-niveau-2: 
 - titre: CONTACTEZ-NOUS
-  colomnes: 
+  menu-niveau-2: 
 ---
 

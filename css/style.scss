@@ -140,7 +140,7 @@ $navbar-height: 150;
     					border-bottom: 1px $green solid;
     				}
       		}
-      		ul.description, ol.description, .benefices{
+      		ul.description, ol.description, .menu-niveau-3{
       			font-size: 10px;
       			padding-left: 15px;
       			margin-bottom: 20px;
@@ -160,7 +160,7 @@ $navbar-height: 150;
 						> li i{
 							float: right;
 						}
-						.liens{
+						.menu-niveau-4{
 							padding: 0;
 							> li{
 								color: #333;
