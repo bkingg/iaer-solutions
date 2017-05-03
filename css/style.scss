@@ -250,6 +250,11 @@ $navbar-height: 150;
 	  }
 	  .slide {
 	  	position: relative;
+      &__video{
+        iframe{
+          width: 100%;
+        }
+      }
 	    .image {
 	      background-size: cover;
 	      background-position: center;
@@ -368,6 +373,11 @@ $navbar-height: 150;
 			pointer-events: none;
 		}
 	}
+  &__video{
+    iframe{
+      width: 100%;
+    }
+  }
   .section__title {
     text-transform: uppercase;
     font-size: 18px;

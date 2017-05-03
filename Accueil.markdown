@@ -2,25 +2,24 @@
 title: Accueil
 date: 2017-03-07 23:06:00 -05:00
 permalink: "/"
-menu: Accueil
 slider:
 - image: "/uploads/table-overlay-9939a3.jpg"
-  image_icone: 
+  icone_image: 
   description: "La préservation **assurée** pour tous les frênes en **santé**\x03
     et la valorisation garantie du **bois** de ceux infestés"
   telecharger: true
 - image: "/uploads/table-overlay-9939a3.jpg"
-  image_icone: 
+  icone_image: 
   description: "**Comprendre, évaluer et maîtriser vos besoins** d’intervention  \nPlanifier,
     **agir** avec **assurance** et **contrôle** des enjeux"
   telecharger: true
 - image: "/uploads/table-overlay-9939a3.jpg"
-  image_icone: 
+  icone_image: 
   description: "En toute sécurité, sans **coûts supplémentaires**, \x03\n\nvaloriser
     le bois infestés"
   telecharger: true
 - image: "/uploads/table-overlay-9939a3.jpg"
-  image_icone: 
+  icone_image: 
   description: "En **contrôle**, **une action à la fois**,\x03nous vous **accompagnons**
     \x03avec sérénité"
   telecharger: true
