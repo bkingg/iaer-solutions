@@ -4,22 +4,22 @@ date: 2017-03-07 23:06:00 -05:00
 permalink: "/municipalites"
 slider:
 - image: "/uploads/table-overlay-9939a3.jpg"
-  image_icone: 
+  icone_image: 
   description: "Obtenir un inventaire rapide des frenes du territoire sans acquisition
     di logiciel d'inventaire \n\n**Reduire temps, delai et budget**"
   telecharger: true
 - image: "/uploads/table-overlay-9939a3.jpg"
-  image_icone: 
+  icone_image: 
   description: "Prendre le controle des frene et des especes envahissantes dans les
     boises de des milieux humides \n\n**Anticiper sur les besoins et les solutions**"
   telecharger: true
 - image: "/uploads/table-overlay-9939a3.jpg"
-  image_icone: 
+  icone_image: 
   description: "Utiliser les services innovants en ligne pour modeliser le depistage
     avec precision et en continu \n\n**Techniques simples a utiliser**"
   telecharger: true
 - image: "/uploads/table-overlay-9939a3.jpg"
-  image_icone: 
+  icone_image: 
   description: "Simplifier la collaboration entre tous les proprietaires de la municipalite
     et les professionnels \n\n**Creer l'interet avec la simplicite**"
   telecharger: true

@@ -198,6 +198,8 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
       visibility: visible; }
     .homepage__slider-wrapper .homepage__slider .slide {
       position: relative; }
+      .homepage__slider-wrapper .homepage__slider .slide__video iframe {
+        width: 100%; }
       .homepage__slider-wrapper .homepage__slider .slide .image {
         background-size: cover;
         background-position: center; }
@@ -290,6 +292,8 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
     margin: 0; }
     .section.map iframe {
       pointer-events: none; }
+  .section__video iframe {
+    width: 100%; }
   .section .section__title {
     text-transform: uppercase;
     font-size: 18px;
