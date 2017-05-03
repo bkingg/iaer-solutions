@@ -7,5 +7,6 @@ slider:
   description: Test description de Slider
 - image: "/uploads/table-overlay-9939a3.jpg"
   video: https://www.youtube.com/watch?v=0o6m2hd_KIs
+sections: 
 ---
 
