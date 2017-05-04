@@ -37,15 +37,15 @@ sections:
     url: module-de-performances.html
   - image: "/uploads/m-valorisation.png"
     titre: VALORISATION du bois
-    url: "valorisation-du-bois-infecte.html"
+    url: valorisation-du-bois-infecte.html
 - titre: VOS ACtions DE GESTION DE LA PROBLÈMATIQUE
   icones:
   - image: "/uploads/m-communication.png"
     titre: COMMUNICATION ET RÈGLEMENTATION
-    url: "communication-et-reglementation.html"
+    url: communication-et-reglementation.html
   - image: "/uploads/m-activites-preventives.png"
     titre: ACTIVITÉS PRÉVENTIVES
-    url: "activites-preventives.html"
+    url: activites-preventives.html
   - image: "/uploads/m-activites-intensives.png"
     titre: Activites Intensives
     url: activites-intensives-de-lutte.html

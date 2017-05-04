@@ -27,13 +27,13 @@ menu-niveau-1:
     - titre: TECHNOLOGIE DE GESTION COLLABORATIVE
       menu-niveau-4:
       - titre: BESOINS ADMINISTRATIFS
-        url: /besoins-administratifs.html
+        url: "/besoins-administratifs.html"
       - titre: SOLUTIONS DE SOUTIEN
-        url: /solutions-de-soutien.html
+        url: "/solutions-de-soutien.html"
       - titre: DÉPISTAGE ET SURVEILLANCE DE L’INSECTE
-        url: /depistage-et-surveillance-de-linsecte.html
+        url: "/depistage-et-surveillance-de-linsecte.html"
       - titre: MISE EN VALEUR DU BOIS INFESTÉ
-        url: /mise-en-valeur-du-bois-infeste
+        url: "/mise-en-valeur-du-bois-infeste"
   - titre: RÉSIDENTS
     url: "/residents"
     menu-niveau-3:
