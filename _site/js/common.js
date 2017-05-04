@@ -73,4 +73,31 @@ $(function(){
 		var icon = $(this).find('i').toggleClass('fa-plus fa-minus');
 		console.log('yo');
     });
+
+    // Smooth scroll
+    $(document).on('click', '.subnav ul.menu-niveau-1 > li > a', function(event) {
+        if ($(this).is('[href^="#"]')) {
+        	event.preventDefault();
+		      $('html, body').animate({
+			        scrollTop: $( $.attr(this, 'href') ).offset().top
+			    }, 500);
+
+		    }
+		    console.log('yo test');
+    });
+
+    // link tabs to their content
+    $('.tabs').on('click', '.tab', function() {
+        var tabNumber = $(this).data('tab');
+        var $tab = $(this);
+        var $tabContent = $('.tabs__content [data-tab="' + tabNumber + '"]');
+
+        $tab.addClass('tab__active');
+        $tab.siblings('.tab__active').removeClass('tab__active');
+
+        $tabContent.addClass('tab__content--active');
+        $tabContent.siblings('.tab__content--active').removeClass('tab__content--active');
+
+        $(window).trigger('tab:change', [$(this)]);
+    });
 });

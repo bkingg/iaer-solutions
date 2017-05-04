@@ -29,19 +29,19 @@ sections:
   icones:
   - image: "/uploads/inventaire-avec-evaluation-detaillee.png"
     titre: INVENTAIRE  AVEC ÉVALUATION DÉTAILLÉE
-    url: "/"
+    url: "/inventaire-avec-evaluation-detaillee.html"
     description: 
   - image: "/uploads/services-en-ligne.png"
     titre: Services en ligne
-    url: 
+    url: /services-en-ligne.html
     description: 
   - image: "/uploads/preservation-durable.png"
     titre: service de préservation durable
-    url: 
+    url: /preservation-durable.html
     description: 
   - image: "/uploads/valorisation-du-bois-infeste.png"
     titre: Valorisation tu bois infeste
-    url: 
+    url: /valorisation-du-bois-infeste.html
     description: 
 - titre: Bénéfices
   description: "UN PORTAIL AVEC LES DONNÉES ET DE L’INFORMATION PRÉCISE POUR RÉPONDRE\x03AVEC
@@ -69,6 +69,11 @@ sections:
     description: La valeur du bois de votre arbre est déterminée avant les travaux
       d’abattage
     url: 
+- titre: PARTENAIRES DE DéVELOPPEMENT DES SOLUTIONS
+  icones:
+  - image: "/uploads/quebec.png"
+  - image: "/uploads/terrebonne.png"
+  - image: "/uploads/montreal.png"
 layout: default
 ---
 

@@ -5,13 +5,15 @@
   {% if page.sections %}
     {% assign sections = page.sections | sort: 'position' %}
     {% for section in sections %}
-      <div id="{{ section.titre | slugify | xml_escape }}" class="section">
+      <div id="{{ section.titre | slugify | replace: 'é', 'e' | replace: 'è', 'e' | replace: 'à', 'a' | replace: 'ê', 'e' | replace: 'î', 'i' | replace: 'â', 'a' }}" class="section">
         <div class="container">
           <div class="row">
             <div class="col-sm-12">
               <h1 class="section__title">{{ section.titre }}</h1>
               
-              <p class="section__description center">{{ section.description }}</p>
+              {% if section.description %}
+                <p class="section__description center col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">{{ section.description }}</p>
+              {% endif %}
             </div>
           </div>
           <div class="row">
@@ -58,7 +60,7 @@
     <div class="section" id="histoire-et-clients">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12s">
+          <div class="col-sm-12">
             <h1 class="section__title"><img src="/uploads/iaer-logo-old.png" alt=""></h1>
             <p class="section__description half">
               {{ page.content }}
