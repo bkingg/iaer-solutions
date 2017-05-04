@@ -9,31 +9,31 @@ menu-niveau-1:
     - titre: Coordination numérique de gestion Des actions
       menu-niveau-4:
       - titre: communication et réglementation
-        url: "/communication"
+        url: "/communication-et-reglementation.html"
       - titre: Activités préventives
-        url: "/activites-preventives"
+        url: "/activites-preventives.html"
       - titre: Activités intensives de lutte
-        url: "/activites-intensives"
+        url: "/activites-intensives-de-lutte.html"
     - titre: OFFRE DE SERVICES INTÉGRÉS ET CONCERTÉS
       menu-niveau-4:
       - titre: DIAGNOSTIC ET Inventaire et évaluation
-        url: "/diagnostique"
+        url: "/diagnostique-et-inventaire-et-evaluation.html"
       - titre: Plateforme de gestion concertée
-        url: "/plateforme"
+        url: "/plateforme-de-gestion-concertee.html"
       - titre: Module de performances
-        url: "/module"
+        url: "/module-de-performances.html"
       - titre: Valorisation du bois infecté
-        url: "/valorisation"
+        url: "/valorisation-du-bois-infecte.html"
     - titre: TECHNOLOGIE DE GESTION COLLABORATIVE
       menu-niveau-4:
       - titre: BESOINS ADMINISTRATIFS
-        url: 
+        url: "/besoins-administratifs.html"
       - titre: SOLUTIONS DE SOUTIEN
-        url: 
+        url: "/solutions-de-soutien.html"
       - titre: DÉPISTAGE ET SURVEILLANCE DE L’INSECTE
-        url: 
+        url: "/depistage-et-surveillance-de-linsecte.html"
       - titre: MISE EN VALEUR DU BOIS INFESTÉ
-        url: 
+        url: "/mise-en-valeur-du-bois-infeste"
   - titre: RÉSIDENTS
     url: "/residents"
     menu-niveau-3:
@@ -74,26 +74,29 @@ menu-niveau-1:
       - titre: FORFAIT DE SURVEILLANCE ANNUEL
         url: 
 - titre: Offre de Services
+  url: "&#35offre-de-services"
   menu-niveau-2:
   - titre: 
     menu-niveau-3:
     - titre: Inventaire avec évaluation
-      url: "/diagnostique"
+      url: "/inventaire-et-evaluation.html"
       menu-niveau-4: 
     - titre: Plateforme de gestion concertée
-      url: "/plateforme"
+      url: "/plateforme-de-gestion-concertee.html"
       menu-niveau-4: 
     - titre: Module de performances
-      url: "/module"
+      url: "/module-de-performances.html"
       menu-niveau-4: 
     - titre: Valorisation du bois infecté
-      url: "/valorisation"
+      url: "/valorisation-du-bois-infecte.html"
       menu-niveau-4: 
-- titre: SOLUTION TECHNOLOGIQUE
-  menu-niveau-2: 
-- titre: VALEUR DE MON FRÊNE
-  menu-niveau-2: 
-- titre: CONTACTEZ-NOUS
-  menu-niveau-2: 
+- titre: Bénéfices
+  url: "&#35benefices"
+- titre: Histoire et Clients
+  url: "&#35histoire-et-clients"
+- titre: Villes Désservies
+  url: "&#35villes-desservies"
+- titre: Partenaires
+  url: "&#35partenaires-de-developpement-des-solutions"
 ---
 

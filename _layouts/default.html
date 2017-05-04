@@ -2,39 +2,18 @@
 
   {% include slider.html %}
 
-  <!--<div class="slider-caption">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-3 caption active">
-          <img src="/uploads/icon__Recyclage.png" class="icon">
-          <p>Evaluer</p>
-        </div>
-        <div class="col-sm-3 caption">
-          <img src="/uploads/icon__Recyclage.png" class="icon">
-          <p>Evaluer</p>
-        </div>
-        <div class="col-sm-3 caption">
-          <img src="/uploads/icon__Recyclage.png" class="icon">
-          <p>Evaluer</p>
-        </div>
-        <div class="col-sm-3 caption">
-          <img src="/uploads/icon__Recyclage.png" class="icon">
-          <p>Evaluer</p>
-        </div>
-      </div>
-    </div>
-  </div>-->
-
   {% if page.sections %}
     {% assign sections = page.sections | sort: 'position' %}
     {% for section in sections %}
-      <div class="section">
+      <div id="{{ section.titre | slugify | replace: 'é', 'e' | replace: 'è', 'e' | replace: 'à', 'a' | replace: 'ê', 'e' | replace: 'î', 'i' | replace: 'â', 'a' }}" class="section">
         <div class="container">
           <div class="row">
             <div class="col-sm-12">
               <h1 class="section__title">{{ section.titre }}</h1>
               
-              <p class="section__description center">{{ section.description }}</p>
+              {% if section.description %}
+                <p class="section__description center col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">{{ section.description }}</p>
+              {% endif %}
             </div>
           </div>
           <div class="row">
@@ -78,16 +57,16 @@
 
 
   {% if page.title == 'Accueil' %}
-    <div class="section">
+    <div class="section" id="histoire-et-clients">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12s">
+          <div class="col-sm-12">
             <h1 class="section__title"><img src="/uploads/iaer-logo-old.png" alt=""></h1>
             <p class="section__description half">
               {{ page.content }}
             </p>
 
-            <h1 class="section__title">ILS NOUS FONT CONFIANCES</h1>
+            <h1 class="section__title">ILS NOUS FONT CONFIANCE</h1>
 
             <h1 class="section__title"><img src="/uploads/quebec.png" alt="">&nbsp;&nbsp;<img src="/uploads/terrebonne.png" alt="">&nbsp;&nbsp;<img src="/uploads/montreal.png" alt=""></h1>
           </div>
@@ -96,11 +75,11 @@
     </div>
   {% endif %}
 
-  <div class="section">
+  <div id="villes-desservies" class="section">
     <div class="container">
       <div class="row">
         <div class="col-sm-12s">
-          <h1 class="section__title" style="margin:0; padding:0;">carte des villes déservies</h1>
+          <h1 class="section__title" style="margin:0; padding:0;">carte des villes désservies</h1>
         </div>
       </div>
     </div>
@@ -111,5 +90,7 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d174615.0545655111!2d-71.48615471253846!3d46.85628295842766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb8968a05db8893%3A0x8fc52d63f0e83a03!2sQu%C3%A9bec+City%2C+QC!5e0!3m2!1sen!2sca!4v1492800935351" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
   </div>
+
+
 
 {% include footer.html %}

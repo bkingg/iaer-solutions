@@ -3,6 +3,91 @@
 
   {% include slider.html %}
 
+  {% comment %}<div class="section section__tabs" style="background:white;">
+    <div class="container">
+      <div class="row">
+        <h1 class="section__title">Comment ça fonctionne</h1>
+        <div class="col-md-8 col-md-offset-2">
+          <div class="tabs__wrapper">
+              <div class="tabs"><!--
+                --><div class="tab tab__active" data-tab="etape-1">
+                    <h3 class="tab__title">Etape 1</h3>
+                </div><!--
+                --><div class="tab" data-tab="etape-2">
+                    <h3 class="tab__title">Etape 2</h3>
+                </div><!--
+                --><div class="tab" data-tab="etape-3">
+                    <h3 class="tab__title">Etape 3</h3>
+                </div><!--
+            --></div>
+              <div class="tabs__content">
+                <div class="tab__content tab__content--active" data-tab="etape-1">
+                  <div class="tab__content--title">1</div>
+                  <div class="tab__content--title">INVENTAIRE INTELLIGENT</div>
+                  <div class="tab__content--description">TOUS LES PROPRIÉTAIRES ONT ACCÈS À LA SOLUTION D’ÉVALUATION DES FRÊNES</div>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <a href="municipalites.html" class="offer small">
+                        <img class="img-responsive" src="uploads/m-municipalites.png">
+                        <h3 class="offer__title">Municipalités</h3>
+                      </a>
+                    </div>
+                    <div class="col-sm-4">
+                      <a href="institutions.html" class="offer small">
+                        <img class="img-responsive" src="uploads/m-institutions.png">
+                        <h3 class="offer__title">Institutions</h3>
+                      </a>
+                    </div>
+                    <div class="col-sm-4">
+                      <a href="residents.html" class="offer small">
+                        <img class="img-responsive" src="uploads/m-residents.png">
+                        <h3 class="offer__title">Résidents</h3>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab__content" data-tab="etape-2">
+                   <div class="tab__content--title">2</div>
+                    <div class="tab__content--title">Intelligence artificielle</div>
+                    <div class="tab__content--description">Une suite de logiciels integres:</div>
+                    <div class="tab__content--description">Réalise des analyses et alimente par des supports numériques tous les intervenants</div>
+                    <div class="tab__content--description">Modélise et coordone toutes les activités techniques à partir des données des frênes de l'ensemble des propriétaires du territoire</div>
+                </div>
+                <div class="tab__content" data-tab="etape-3">
+                   <div class="tab__content--title">3</div>
+                    <div class="tab__content--title">Solutions numériques</div>
+                    <div class="tab__content--description">Tous les intervenants peuvent communiquer et agir rapidement en tout temps</div>
+                    <div class="tab__content--description">Tous les propriétaires on accès aux solutions et services économiques</div>
+                    <div class="tab__content--description">Modélise et coordone toutes les activités techniques à partir des données des frênes de l'ensemble des propriétaires du territoire</div>
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <a href="municipalites.html" class="offer small">
+                          <img class="img-responsive" src="uploads/m-municipalites.png">
+                          <h3 class="offer__title">Municipalités</h3>
+                        </a>
+                      </div>
+                      <div class="col-sm-4">
+                        <a href="institutions.html" class="offer small">
+                          <img class="img-responsive" src="uploads/m-institutions.png">
+                          <h3 class="offer__title">Institutions</h3>
+                        </a>
+                      </div>
+                      <div class="col-sm-4">
+                        <a href="residents.html" class="offer small">
+                          <img class="img-responsive" src="uploads/m-residents.png">
+                          <h3 class="offer__title">Résidents</h3>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+              </div>   
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>{% endcomment %}
+
   {% if page.sections %}
     {% assign sections = page.sections %}
     {% for section in sections %}
@@ -23,13 +108,18 @@
           </div>
         </div>
       {% else %}
-        <div class="section {% cycle 'white', 'green' %}">
+        <div class="section {% cycle 'white', 'green' %}" id="{{ section.titre | slugify | replace: 'é', 'e' | replace: 'è', 'e' | replace: 'à', 'a' | replace: 'ê', 'e' | replace: 'î', 'i' | replace: 'â', 'a' }}">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
                 <h1 class="section__title">{{ section.titre }}</h1>
                 
-                <p class="section__description center">{{ section.description }}</p>
+                {% if section.description %}
+                    <p class="section__description center col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">{{ section.description }}</p>
+                {% endif %}
+                {% if section.description_half %}
+                    <p class="section__description half">{{ section.description }}</p>
+                {% endif %}
               </div>
             </div>
             <div class="row row-eq-height">
@@ -107,15 +197,11 @@
                 {% endfor %}
               {% endif %}
 
-              {% if section.carte %}
-                {% assign benefices = section.benefices_simple | sort: 'position' %}
-                {% for benefice in benefices %}
-                  <div class="col-sm-6 col-md-4">
-                      <div class="box small">
-                          <p class="box__description">{{ benefice.description}}</p>
-                      </div>
-                  </div>
-                {% endfor %}
+              {% if section.video %}
+                {% assign video_url = section.video | replace: 'https://www.youtube.com/watch?v=', 'https://www.youtube.com/embed/' | replace: 'http://www.youtube.com/watch?v=', 'https://youtube.com/embed/' | replace: 'http://youtube.com/watch?v=', 'https://www.youtube.com/embed/' | replace: 'https://youtu.be/', 'https://www.youtube.com/embed/' | replace: 'http://youtu.be/', 'https://www.youtube.com/embed/' %}
+                <div class="section__video">
+                  <iframe width="100%" height="600" src="{{ video_url }}" frameborder="0" allowfullscreen></iframe>
+                </div>
               {% endif %}
 
               {% if section.demander_evaluation == true %}

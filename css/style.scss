@@ -258,8 +258,10 @@ $navbar-height: 150;
 	    .image {
 	      background-size: cover;
 	      background-position: center;
+        height: inherit;
 	      .caption {
-		      padding-top: 220px;
+		      padding-top: 320px;
+          padding-bottom: 60px;
 		      text-transform: uppercase;
 		      width: inherit;
 		      text-align: center;
@@ -282,11 +284,15 @@ $navbar-height: 150;
 		      	line-height: 42px;
 		      }
 					h3{
-		      	font-size: 18px;
+		      	font-size: 24px;
 		      	line-height: 30px;
 						margin: 0;
 						padding: 0;
 		      }
+          p{
+            font-size: 22px;
+            line-height: 30px;
+          }
 		    }
 		    .download{
 		    	text-decoration: none;
@@ -314,6 +320,7 @@ $navbar-height: 150;
 							padding-right: 5px;
 			    	}
 			    	.download__text{
+              font-size: 18px;
 							display: table-cell;
               vertical-align: middle;
 			    		color: white;
@@ -343,18 +350,20 @@ $navbar-height: 150;
   	color: $green;
 		.slick-dots{
 			li{
-				display: inline-block;
+				display: block;
+        padding: 2px 0;
 				.slider__dot{
-					background: white;
-					width: 7px;
-					height: 7px;
-					margin: 0 3px;
-					border-radius: 50%;
-					cursor: pointer;
+					background: #777;
+          text-align: center;
+          color: #333;
+          font-weight: bold;
+          cursor: pointer;
+          padding: 1px 7px;
+          transition: all 0.2s;
 				}
 				&:hover, &.slick-active{
 					.slider__dot{
-						background: $green;
+						background: white;
 					}
 				}
 			}
@@ -376,6 +385,10 @@ $navbar-height: 150;
   &__video{
     iframe{
       width: 100%;
+
+      @media screen and (max-width: 700px) {
+        height: 300px;
+      }
     }
   }
   .section__title {
@@ -391,18 +404,68 @@ $navbar-height: 150;
   	color: #808080;
   	font-size: 12px;
 		//text-transform: uppercase;
+    margin-bottom: 30px;
     &.half{
 			text-align: justify;
 			color: #504949;
 			font-weight: bold;
 			font-size: 1em;
-			-webkit-column-count: 2;
-			-moz-column-count: 2;
-			column-count: 2;
-			-webkit-column-gap: 40px;
-			-moz-column-gap: 40px;
-			column-gap: 40px;
+      @media (min-width: 768px){
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        -webkit-column-gap: 40px;
+        -moz-column-gap: 40px;
+        column-gap: 40px;
+      }
 		}
+  }
+  &__tabs{
+    .tabs__wrapper{
+      text-align: center;
+      .tabs{
+        .tab{
+          display: inline-block;
+          padding: 5px 20px;
+          margin: 0 3px;
+          background-color: #333;
+          color: white;
+          cursor: pointer;
+          text-transform: uppercase;
+          transition: all 0.3s;
+          &__active, &:hover{
+            background-color: $green;
+          }
+          &__title{
+            font-size: 14px;
+            font-weight: bold;
+            margin: 0;
+          }
+
+          @media screen and (max-width: 700px) {
+            display: block;
+            margin: 3px;
+            padding: 15px 10px;
+          }
+        }
+      }
+      .tab__content{
+        display: none;
+        padding: 20px 0;
+        &--active{
+          display: block;
+        }
+        &--title{
+          color: $green;
+          text-transform: uppercase;
+        }
+        &--description{
+          font-weight: normal;
+          text-transform: uppercase;
+          margin-bottom: 20px;
+        }
+      }
+    }
   }
   p{
   	color: #444;
@@ -646,7 +709,7 @@ $navbar-height: 150;
 }
 
 .footer {
-  background-image: url('/uploads/footer-bg.png');
+  background-image: url('../uploads/footer-bg.png');
   position: relative;
   display: block;
   height: 350px;

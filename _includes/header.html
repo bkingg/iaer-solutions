@@ -43,37 +43,31 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
+
+                    <li class="{% if page.url contains 'municipalites' %}active{% endif %}">
+                        <a href="municipalites.html">
+                            <img src="/uploads/menu-municipalites{% if page.url contains 'municipalites' %}-hover{% endif %}.png" class="icon">
+                            <p>Municipalités</p>
+                        </a>
+                    </li>
+
                     <li class="{% if page.url contains 'institutions' %}active{% endif %}">
-                        <a href="/institutions">
-                            <img src="/uploads/institutions-{% if page.url contains 'institutions' %}blanc{% else %}contour{% endif %}.png" class="icon">
+                        <a href="institutions.html">
+                            <img src="/uploads/menu-institutions{% if page.url contains 'institutions' %}-hover{% endif %}.png" class="icon">
                             <p>Institutions</p>
                         </a>
                     </li>
 
                     <li class="{% if page.url contains 'citoyens' %}active{% endif %}">
-                        <a href="/citoyens">
-                            <img src="/uploads/citoyens-{% if page.url contains 'citoyens' %}blanc{% else %}contour{% endif %}.png" class="icon">
+                        <a href="citoyens.html">
+                            <img src="/uploads/menu-citoyens{% if page.url contains 'citoyens' %}-hover{% endif %}.png" class="icon">
                             <p>Citoyens</p>
-                        </a>
-                    </li>
-
-                    <li class="{% if page.url contains 'municipalites' %}active{% endif %}">
-                        <a href="/municipalites">
-                            <img src="/uploads/municipalites-{% if page.url contains 'municipalites' %}blanc{% else %}contour{% endif %}.png" class="icon">
-                            <p>Municipalités</p>
-                        </a>
-                    </li>
-
-                    <li class="{% if page.url contains 'professionnels' %}active{% endif %}">
-                        <a href="/">
-                            <img src="/uploads/professionnels-{% if page.url contains 'professionnels' %}blanc{% else %}contour{% endif %}.png" class="icon">
-                            <p>Professionels</p>
                         </a>
                     </li>
 
                     <li>
                         <a href="#">
-                            <img src="/uploads/se-connecter-contour.png" class="icon">
+                            <img src="/uploads/menu-connexion.png" class="icon">
                             <p>Se Connecter</p>
                         </a>
                     </li>
@@ -101,57 +95,70 @@
 
     <div class="subnav">
       <div class="container">
-        <ul class="list-inline text-center"
-          {% assign menu = site.menus | where: 'title', page.title  | first %}
-          
-          {% for link in menu.menu-niveau-1 %}
-            ><li>
-              <a href="{{ link.url }}">
-                {% assign link_title = link.titre | slugify %}
-                {% if link_title == 'menu-des-solutions' %}
-                  <i class="fa fa-bars"></i>&nbsp;&nbsp;
-                {% endif %} 
-                {{ link.titre }}</a>
-              {% if link.menu-niveau-2.size > 0 %}
-                {% if link.menu-niveau-2.size <= 4 %}
-                  {% assign num_of_cols = link.menu-niveau-2.size %}
-                {% else %}
-                  {% assign num_of_cols = 4 %}
-                {% endif %}
-                <div class="submenu grid-{{ num_of_cols }}">
-                  {% for link-2 in link.menu-niveau-2 %}
-                    <div class="column">
-                      <h3 class="title">{{ link-2.titre }}</h3>
-                      <ul class="description menu-niveau-3">
-                        {% for link-3 in link-2.menu-niveau-3 %}
-                          <li class="accordion" data-accordion="{{ link-3.titre | slugify }}">
-                            <a href="{{ link-3.url }}" class="accordion__toggle" data-accordion="{{ link-3.titre | slugify }}">
-                              {{ link-3.titre }}
-                              {% if link-3.menu-niveau-4.size > 0 %}
-                                <i class="fa fa-plus"></i>
-                              {% endif %}
-                            </a>
-                            {% if link-3.menu-niveau-4.size > 0 %}
-                              <ul class="menu-niveau-4 accordion__content">
-                                {% for link-4 in link-3.menu-niveau-4 %}
-                                  <li><a href="{{ link-4.url }}">{{ link-4.titre }}</a></li>
-                                {% endfor %}
-                              </ul>
-                            {% endif %}
-                          </li>
-                        {% endfor %}
-                      </ul>
-                      <!--<div class="actions">
-                        <a href="communication.php"><button class="btn"><span>EN SAVOIR PLUS</span></button></a>
-                        <a href=""><button class="btn"><span>TÉLÉCHARGEZ NOTRE OFFRE D’ACCOMPAGNEMENT</span></button></a>
-                      </div>-->
+        <ul class="list-inline text-center menu-niveau-1"
+          {% for menu in site.menus %}
+            {% assign page_slug = page.title | slugify %}
+            {% assign menu_slug = menu.title | slugify %}
+            {% if page_slug == menu_slug %}
+              {% for link in menu.menu-niveau-1 %}
+                ><li>
+                  <a href="{{ link.url }}">
+                    {% assign link_title = link.titre | slugify %}
+                    {% if link_title == 'menu-des-solutions' %}
+                      <i class="fa fa-bars"></i>&nbsp;&nbsp;
+                    {% endif %} 
+                    {{ link.titre }}</a>
+                  {% if link.menu-niveau-2.size > 0 %}
+                    {% if link.menu-niveau-2.size <= 4 %}
+                      {% assign num_of_cols = link.menu-niveau-2.size %}
+                    {% else %}
+                      {% assign num_of_cols = 4 %}
+                    {% endif %}
+                    <div class="submenu grid-{{ num_of_cols }}">
+                      {% for link-2 in link.menu-niveau-2 %}
+                        <div class="column">
+                          <h3 class="title">{{ link-2.titre }}</h3>
+                          <ul class="description menu-niveau-3">
+                            {% for link-3 in link-2.menu-niveau-3 %}
+                              <li class="accordion" data-accordion="{{ link-3.titre | slugify }}">
+                                <a href="{{ link-3.url }}" class="accordion__toggle" data-accordion="{{ link-3.titre | slugify }}">
+                                  {{ link-3.titre }}
+                                  {% if link-3.menu-niveau-4.size > 0 %}
+                                    <i class="fa fa-plus"></i>
+                                  {% endif %}
+                                </a>
+                                {% if link-3.menu-niveau-4.size > 0 %}
+                                  <ul class="menu-niveau-4 accordion__content">
+                                    {% for link-4 in link-3.menu-niveau-4 %}
+                                      <li><a href="{{ link-4.url }}">{{ link-4.titre }}</a></li>
+                                    {% endfor %}
+                                  </ul>
+                                {% endif %}
+                              </li>
+                            {% endfor %}
+                          </ul>
+                          <!--<div class="actions">
+                            <a href="communication.php"><button class="btn"><span>EN SAVOIR PLUS</span></button></a>
+                            <a href=""><button class="btn"><span>TÉLÉCHARGEZ NOTRE OFFRE D’ACCOMPAGNEMENT</span></button></a>
+                          </div>-->
+                        </div>
+                      {% endfor %}
                     </div>
-                  {% endfor %}
-                </div>
-              {% endif %}
-            </li
+                  {% endif %}
+                </li
+              {% endfor %}
+            {% endif %}
           {% endfor %}
-        ></ul>
+          ><!--<li>
+            <a href="https://www.facebook.com" class="social"><i class="fa fa-facebook"></i></a>
+          <li
+          ><li>
+            <a href="https://www.youtube.com" class="social"><i class="fa fa-youtube"></i></a>
+          <li
+          ><li>
+            <a href="https://www.twitter.com" class="social"><i class="fa fa-twitter"></i></a>
+          <li
+        >--></ul>
       </div>
     </div>
   </div> <!-- end menu-dropdown -->
