@@ -31,5 +31,6 @@ sections:
     description: paragraphe de texte ou liste de benefices
   - titre: Test
     description: paragraphe de texte ou liste de benefices
+- video: https://www.youtube.com/watch?v=0o6m2hd_KIs
 ---
 

@@ -258,8 +258,10 @@ $navbar-height: 150;
 	    .image {
 	      background-size: cover;
 	      background-position: center;
+        height: inherit;
 	      .caption {
-		      padding-top: 220px;
+		      padding-top: 320px;
+          padding-bottom: 60px;
 		      text-transform: uppercase;
 		      width: inherit;
 		      text-align: center;
@@ -282,11 +284,15 @@ $navbar-height: 150;
 		      	line-height: 42px;
 		      }
 					h3{
-		      	font-size: 18px;
+		      	font-size: 24px;
 		      	line-height: 30px;
 						margin: 0;
 						padding: 0;
 		      }
+          p{
+            font-size: 22px;
+            line-height: 30px;
+          }
 		    }
 		    .download{
 		    	text-decoration: none;
@@ -314,6 +320,7 @@ $navbar-height: 150;
 							padding-right: 5px;
 			    	}
 			    	.download__text{
+              font-size: 18px;
 							display: table-cell;
               vertical-align: middle;
 			    		color: white;
@@ -343,18 +350,19 @@ $navbar-height: 150;
   	color: $green;
 		.slick-dots{
 			li{
-				display: inline-block;
+				display: block;
+        padding: 2px 0;
 				.slider__dot{
-					background: white;
-					width: 7px;
-					height: 7px;
-					margin: 0 3px;
-					border-radius: 50%;
-					cursor: pointer;
+					background: #777;
+          color: #333;
+          font-weight: bold;
+          cursor: pointer;
+          padding: 1px 7px;
+          transition: all 0.2s;
 				}
 				&:hover, &.slick-active{
 					.slider__dot{
-						background: $green;
+						background: white;
 					}
 				}
 			}
@@ -376,6 +384,10 @@ $navbar-height: 150;
   &__video{
     iframe{
       width: 100%;
+
+      @media screen and (max-width: 700px) {
+        height: 300px;
+      }
     }
   }
   .section__title {

@@ -11,19 +11,19 @@ $(function(){
 	    fade: true,
 	    autoplay: true,
 	    customPaging : function(slider, i) {
-	        return '<div class="slider__dot"></div>';
+	        return '<div class="slider__dot">'+ (i + 1) +'</div>';
 	    }
 	});
 
 	$('#navbar ul > li:not(.active)').mouseenter(function(){ 
 		var oldAttr = $(this).find('img').attr('src');
-		var newAttr = oldAttr.replace('contour', 'blanc');
+		var newAttr = oldAttr.replace('.png', '-hover.png');
         $(this).find('img').attr('src', newAttr);
     });
 
     $('#navbar ul > li:not(.active)').mouseleave(function(){
         var oldAttr = $(this).find('img').attr('src');
-		var newAttr = oldAttr.replace('blanc', 'contour');
+		var newAttr = oldAttr.replace('-hover.png', '.png');
         $(this).find('img').attr('src', newAttr);
     });
 

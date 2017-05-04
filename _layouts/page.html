@@ -107,15 +107,11 @@
                 {% endfor %}
               {% endif %}
 
-              {% if section.carte %}
-                {% assign benefices = section.benefices_simple | sort: 'position' %}
-                {% for benefice in benefices %}
-                  <div class="col-sm-6 col-md-4">
-                      <div class="box small">
-                          <p class="box__description">{{ benefice.description}}</p>
-                      </div>
-                  </div>
-                {% endfor %}
+              {% if section.video %}
+                {% assign video_url = section.video | replace: 'https://www.youtube.com/watch?v=', 'https://www.youtube.com/embed/' | replace: 'http://www.youtube.com/watch?v=', 'https://youtube.com/embed/' | replace: 'http://youtube.com/watch?v=', 'https://www.youtube.com/embed/' | replace: 'https://youtu.be/', 'https://www.youtube.com/embed/' | replace: 'http://youtu.be/', 'https://www.youtube.com/embed/' %}
+                <div class="section__video">
+                  <iframe width="100%" height="600" src="{{ video_url }}" frameborder="0" allowfullscreen></iframe>
+                </div>
               {% endif %}
 
               {% if section.demander_evaluation == true %}

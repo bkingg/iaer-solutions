@@ -74,6 +74,7 @@ menu-niveau-1:
       - titre: FORFAIT DE SURVEILLANCE ANNUEL
         url: 
 - titre: Offre de Services
+  url: "&#35offre-de-services"
   menu-niveau-2:
   - titre: 
     menu-niveau-3:
@@ -89,11 +90,13 @@ menu-niveau-1:
     - titre: Valorisation du bois infecté
       url: "/valorisation"
       menu-niveau-4: 
-- titre: SOLUTION TECHNOLOGIQUE
-  menu-niveau-2: 
-- titre: VALEUR DE MON FRÊNE
-  menu-niveau-2: 
-- titre: CONTACTEZ-NOUS
-  menu-niveau-2: 
+- titre: Bénéfices
+  url: "&#35benefices"
+- titre: Histoire et Clients
+  url: "&#35histoire-et-clients"
+- titre: Villes Désservies
+  url: "&#35villes-desservies"
+- titre: Partenaires
+  url: "&#35partenaires"
 ---
 
