@@ -32,15 +32,15 @@ sections:
     description: 
   - image: "/uploads/services-en-ligne.png"
     titre: Services en ligne
-    url: /services-en-ligne.html
+    url: "/services-en-ligne.html"
     description: 
   - image: "/uploads/preservation-durable.png"
     titre: service de préservation durable
-    url: /preservation-durable.html
+    url: "/preservation-durable.html"
     description: 
   - image: "/uploads/valorisation-du-bois-infeste.png"
     titre: Valorisation tu bois infeste
-    url: /valorisation-du-bois-infeste.html
+    url: "/valorisation-du-bois-infeste.html"
     description: 
 - titre: Bénéfices
   description: "UN PORTAIL AVEC LES DONNÉES ET DE L’INFORMATION PRÉCISE POUR RÉPONDRE\x03AVEC

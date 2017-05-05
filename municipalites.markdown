@@ -43,10 +43,10 @@ sections:
   icones:
   - image: "/uploads/m-communication.png"
     titre: COMMUNICATION ET RÈGLEMENTATION
-    url: "communication-et-reglementation.html"
+    url: communication-et-reglementation.html
   - image: "/uploads/m-activites-preventives.png"
     titre: ACTIVITÉS PRÉVENTIVES
-    url: "activites-preventives.html"
+    url: activites-preventives.html
   - image: "/uploads/m-activites-intensives.png"
     titre: Activites Intensives
     url: activites-intensives-de-lutte.html

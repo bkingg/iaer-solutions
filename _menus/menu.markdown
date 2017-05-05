@@ -8,13 +8,13 @@ menu-niveau-1:
   - titre: 
     menu-niveau-3:
     - titre: La communication et la réglementation
-      url: "communication-et-reglementation.html"
+      url: communication-et-reglementation.html
       liens: 
     - titre: Activités préventives
-      url: "activites-preventives.html"
+      url: activites-preventives.html
       liens: 
     - titre: Activités intensives à la lutte
-      url: "activites-intensives-de-lutte.html"
+      url: activites-intensives-de-lutte.html
       liens: 
 - titre: Offre de Services
   url: "&#35offre-de-la-solution-concertÉe-et-Économique"
@@ -22,13 +22,13 @@ menu-niveau-1:
   - titre: 
     menu-niveau-3:
     - titre: Inventaire avec évaluation
-      url: "diagnostique-et-inventaire-et-evaluation.html"
+      url: diagnostique-et-inventaire-et-evaluation.html
       liens: 
     - titre: Plateforme de gestion concertée
-      url: "plateforme-de-gestion-concertee.html"
+      url: plateforme-de-gestion-concertee.html
       liens: 
     - titre: Module de performances
-      url: "module-de-performances.html"
+      url: module-de-performances.html
       liens: 
     - titre: Valorisation du bois infesté
       url: "valorisation-du-bois-infeste.html"
