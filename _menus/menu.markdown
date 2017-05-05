@@ -1,5 +1,5 @@
 ---
-title: Municipalites
+title: Menu
 date: 2017-04-26 19:17:00 -04:00
 menu-niveau-1:
 - titre: Vos actions de gestion
@@ -30,8 +30,8 @@ menu-niveau-1:
     - titre: Module de performances
       url: module-de-performances.html
       liens: 
-    - titre: Valorisation du bois infecté
-      url: valorisation-du-bois-infecte.html
+    - titre: Valorisation du bois infesté
+      url: valorisation-du-bois-infeste.html
       liens: 
 - titre: SOLUTION TECHNOLOGIQUE
   url: solution-technologique.html

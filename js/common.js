@@ -3,7 +3,7 @@ $(function(){
 		slidesToShow: 1,
 	    slidesToScroll: 1,
 	    dots: true,
-	    infinite: false,
+	    infinite: true,
 	    speed: 1200,
 	    appendDots: $('.slider__dots'),
 	    arrows: false,
@@ -13,6 +13,37 @@ $(function(){
 	    customPaging : function(slider, i) {
 	        return '<div class="slider__dot">'+ (i + 1) +'</div>';
 	    }
+	});
+
+	$('.icones-slider').each(function() {
+
+    var $carousel = $(this);
+    var $carouselWrapper = $carousel.closest('.icones-slider-wrapper');
+
+		$carousel.on('init', function(event, slick){
+        if (slick.slideCount > 3) {
+            $carouselWrapper.find('.icones-slider__arrow--left').fadeIn();
+            $carouselWrapper.find('.icones-slider__arrow--right').fadeIn();
+        }
+      }).slick({
+			slidesToShow: 3,
+	    slidesToScroll: 1,
+	    dots: false,
+	    infinite: true,
+	    speed: 1200,
+	    arrows: false,
+	    swipe: true,
+	    autoplay: true
+		});
+
+      // Slider arrows
+		  $(document).on('click', '.icones-slider__arrow--left', function () {
+		      $carousel.slick('prev');
+		  });
+
+		  $(document).on('click', '.icones-slider__arrow--right', function () {
+		      $carousel.slick('next');
+		  });
 	});
 
 	$('#navbar ul > li:not(.active)').mouseenter(function(){ 
@@ -100,4 +131,31 @@ $(function(){
 
         $(window).trigger('tab:change', [$(this)]);
     });
+
+    // Open Modal with proper content
+    $(document).on('click', '.offer--modal a', function(event) {
+        event.preventDefault();
+        var title = $(this).find('.offer__title span').html();
+        var problemes = $(this).find('.offer__problemes').html();
+        var solutions = $(this).find('.offer__solutions').html();
+        var $modal = $('#problemes-solutions');
+        $modal.find('.modal-title').html(title);
+        $modal.find('.problemes').html(problemes);
+        $modal.find('.solutions').html(solutions);
+    });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

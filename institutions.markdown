@@ -1,7 +1,7 @@
 ---
-title: Citoyens
+title: Institutions
 date: 2017-03-07 23:06:00 -05:00
-permalink: "/citoyens"
+permalink: "/institutions"
 slider:
 - image: uploads/table-overlay-9939a3.jpg
   icone_image: 

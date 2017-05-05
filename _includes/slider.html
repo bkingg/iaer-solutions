@@ -7,7 +7,7 @@
               <div class="row">
                 <div class="caption">
                   <div class="col-sm-10 col-sm-offset-1">
-                    {% if icone_image %}
+                    {% if slide.icone_image %}
                       <img src="{{ slide.icone_image }}">
                     {% endif %}
                     {% if slide.video %}
@@ -21,12 +21,10 @@
                 </div>
                 <div class="download">
                   {% if slide.telecharger == true %}
-                    <div class="download">
-                      <a class="download__link" href="#">
-                        <img src="/uploads/telecharger.png" class="download__image">
-                        <p class="download__text">Découvrez comment dès maintenant</p>
-                      </a>
-                    </div>
+                    <a class="btn btn-default btn--green" href="#">
+                      <img src="uploads/telecharger.png">
+                      <span>Découvrez comment dès maintenant</span>
+                    </a>
                   {% endif %}
                 </div>
               </div>

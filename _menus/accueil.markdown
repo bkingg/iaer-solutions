@@ -22,8 +22,8 @@ menu-niveau-1:
         url: "/plateforme-de-gestion-concertee.html"
       - titre: Module de performances
         url: "/module-de-performances.html"
-      - titre: Valorisation du bois infecté
-        url: "/valorisation-du-bois-infecte.html"
+      - titre: Valorisation du bois infesté
+        url: "/valorisation-du-bois-infeste.html"
     - titre: TECHNOLOGIE DE GESTION COLLABORATIVE
       menu-niveau-4:
       - titre: BESOINS ADMINISTRATIFS
@@ -87,8 +87,8 @@ menu-niveau-1:
     - titre: Module de performances
       url: "/module-de-performances.html"
       menu-niveau-4: 
-    - titre: Valorisation du bois infecté
-      url: "/valorisation-du-bois-infecte.html"
+    - titre: Valorisation du bois infesté
+      url: "/valorisation-du-bois-infeste.html"
       menu-niveau-4: 
 - titre: Bénéfices
   url: "&#35benefices"
