@@ -25,7 +25,6 @@ slider:
   telecharger: true
 sections:
 - titre: Offre de Services
-  description: 
   icones:
   - image: "/uploads/inventaire-avec-evaluation-detaillee.png"
     titre: INVENTAIRE  AVEC ÉVALUATION DÉTAILLÉE
@@ -69,12 +68,15 @@ sections:
     description: La valeur du bois de votre arbre est déterminée avant les travaux
       d’abattage
     url: 
+- histoire: ""
+- carte: ""
+- skip: ""
 - titre: PARTENAIRES DE DéVELOPPEMENT DES SOLUTIONS
   icones:
   - image: "/uploads/quebec.png"
   - image: "/uploads/terrebonne.png"
   - image: "/uploads/montreal.png"
-layout: default
+layout: page
 ---
 
 IAER propose depuis 2013 des solutions pour soutenir la gestion éco responsable de la forêt urbaine à des meilleurs coûts. Dans ses différents mandats avec ses clients tel la Ville de Montréal, de Québec, de Terrebonne les résultats sont concrets (des économies chiffrées en passant par la valorisation à 80 % du bois des frênes), la participation et le soutien intégré aux citoyens sont passés de l’idée à des projets réalisés et documentés. Il est maintenant clair avec ces expériences concrètes qu’il est possible de contrôler tout en maîtrisant les coûts les activités de lutte à l’agrile du frêne. Envisager vivre avec une population d’insectes sous contrôle à défaut d’éradiquer devient la solution proposée. L’entreprise établit avec valeur de mon frêne cet écosystème technologique qui propose dans un même environnement l’ensemble des outils pour agir efficacement avec les ressources locales. IAER se fixe un nouveau défi celui de rendre accessible ses services aux petites municipalités et aux propriétaires motivés par la volonté d’accorder une valeur à leurs frênes. Patrice Gouné, co-fondateur de IAER Solutions a la ferme conviction qu’en plus des traitements existant, ça prend des technologies pour bâtir la solution à cette problématique complexe.

@@ -24,6 +24,7 @@ slider:
     et les professionnels \n\n**Creer l'interet avec la simplicite**"
   telecharger: true
 sections:
+- etapes: " "
 - titre: OFFRE DE LA SOLUTION CONCERTÉE ET ÉCONOMIQUE
   icones:
   - image: "/uploads/m-inventaire.png"
@@ -37,7 +38,7 @@ sections:
     url: module-de-performances.html
   - image: "/uploads/m-valorisation.png"
     titre: VALORISATION du bois
-    url: "valorisation-du-bois-infecte.html"
+    url: "valorisation-du-bois-infeste.html"
 - titre: VOS ACtions DE GESTION DE LA PROBLÈMATIQUE
   icones:
   - image: "/uploads/m-communication.png"

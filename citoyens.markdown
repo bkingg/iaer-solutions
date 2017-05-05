@@ -3,7 +3,7 @@ title: Citoyens
 date: 2017-03-07 23:06:00 -05:00
 permalink: "/citoyens"
 slider:
-- image: "/uploads/table-overlay-9939a3.jpg"
+- image: "uploads/table-overlay-9939a3.jpg"
   icone_image: 
   description: "Prendre la bonne decision en economisant temps et argent maintenant!
     \n\n **Obtenez l'evaluation gratuite de 2 a 6 frenes sur votre**"
@@ -11,56 +11,64 @@ slider:
 sections:
 - titre: Vous etes proprietaire de
   description: 
-  icones:
-  - image: "/uploads/terrains-residentiels.png"
+  icones_modal_slider:
+  - image: "uploads/terrains-residentiels.png"
     titre: Terrains residentiels
-    url: "/"
     description: 
-  - image: "/uploads/terrains-institutionnels.png"
+  - image: "uploads/terrains-institutionnels.png"
     titre: Terrains institutionnels
     url: 
     description: 
-  - image: "/uploads/club-de-golf-et-loisir.png"
+  - image: "uploads/club-de-golf-et-loisir.png"
     titre: club de golf et loisir
+    description: 
+  - image: "uploads/terrains-residentiels.png"
+    titre: Terrains residentiels
+    description: 
+  - image: "uploads/terrains-institutionnels.png"
+    titre: Terrains institutionnels
     url: 
+    description: 
+  - image: "uploads/club-de-golf-et-loisir.png"
+    titre: club de golf et loisir
     description: 
 - titre: Nous vous accompagnons et vous aidons a ...
   demander_evaluation: true
-  icones:
-  - image: "/uploads/c-asseoir.png"
+  icones_inline:
+  - image: "uploads/c-asseoir.png"
     description: Asseoir vos décisions sur l’évaluation détaillée, documentée et informatisée
     url: 
-  - image: "/uploads/c-gagner.png"
+  - image: "uploads/c-gagner.png"
     description: Gagner du temps grâce au portail d’informations et de services sur
       mesure en ligne
     url: 
-  - image: "/uploads/c-prendre.png"
+  - image: "uploads/c-prendre.png"
     description: Prendre soin de vos frenes avec assurance et confiance en utilisant
       un service professionel de suivi annuel
     url: 
-  - image: "/uploads/c-reduire.png"
+  - image: "uploads/c-reduire.png"
     description: Reduire et controler les couts de services grace au service concerte
       local
     url: 
-  - image: "/uploads/c-chiffrer.png"
+  - image: "uploads/c-chiffrer.png"
     description: Chiffrer les bénéfices procurés annuellement par chacun des arbres.
     url: 
-  - image: "/uploads/c-maitriser.png"
+  - image: "uploads/c-maitriser.png"
     description: Maîtriser les activités et besoins liés à la préservation ou à l’abattage
       des frênes
     url: 
-  - image: "/uploads/c-obtenir.png"
+  - image: "uploads/c-obtenir.png"
     description: Obtenir du revenu avec du bois infesté ou de réaliser des économies
       sur votre facture d’abattage
     url: 
-  - image: "/uploads/c-accelerer.png"
+  - image: "uploads/c-accelerer.png"
     description: Accélérer l’obtention des subventions et des services de soutien
       municipaux
     url: 
 - titre: 'Voici ce que comprennent nos services pour:'
   demander_evaluation: true
   benefices:
-  - image: "/uploads/c-evaluer.png"
+  - image: "uploads/c-evaluer.png"
     titre: Evaluer
     description: |
       - Évaluation gratuite de 2 à 6 premiers frênes
@@ -70,7 +78,7 @@ sections:
       - Recommandation des actions concrètes
       - Estimation des bénéfices ou de la valeur du bois résiduel
       - Mise à disposition en ligne du bilan de santé permanent de l’arbre
-  - image: "/uploads/c-suivre.png"
+  - image: "uploads/c-suivre.png"
     titre: Suivre les frênes en ligne
     description: |-
       - Accès à l’information sur vos arbres
@@ -80,7 +88,7 @@ sections:
       - Paiement  des services
       - Préparation des demandes de services.
       - Gestion rapide  des cas d’urgence
-  - image: "/uploads/c-preserver.png"
+  - image: "uploads/c-preserver.png"
     titre: préserver
     description: |-
       - Surveillance continue de la présence de l’insecte
@@ -90,7 +98,7 @@ sections:
       - Archivage et mise à jour des interventions
       - Forfait de mise en condition de préservation
       - Forfait annuel de préservation
-  - image: "/uploads/c-valoriser.png"
+  - image: "uploads/c-valoriser.png"
     titre: VALORISER LE BOIS
     description: |-
       - Estimation de la valeur du bois résiduel
@@ -102,7 +110,7 @@ sections:
       - Suivi et récupération des subventions
       - Suivi de la demande du certificat ou permis d’abattage
 - titre: SERVICES CONCERTÉS
-  benefices:
+  boites:
   - titre: PAR ARRONDISSEMENT OU MUNICIPALITÉ
     description: |-
       - Atelier d’identification des besoins des propriétaires
@@ -122,6 +130,6 @@ sections:
       - Plan de suivi des activités de préservation
       - Forfait de préservation
       - Forfait de valorisation du bois résiduel
-layout: citoyens-residents
+layout: page
 ---
 
