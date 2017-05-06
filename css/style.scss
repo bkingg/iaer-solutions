@@ -893,9 +893,12 @@ $navbar-height: 150;
       display: table;
       width: 100%;
       margin-bottom: 0;
+      background-color: $green;
+      border-color: white;
       .box__description, .box__title{
         display: table-cell;
         vertical-align: middle;
+        color: white;
       }
     }
     &.has-icon {

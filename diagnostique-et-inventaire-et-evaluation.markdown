@@ -1,11 +1,11 @@
 ---
-title: Citoyens
+title: Diagnostiques et Inventaire et Evaluation
 date: 2017-03-07 23:06:00 -05:00
 permalink: "diagnostique-et-inventaire-et-evaluation"
 slider:
 - image: "uploads/plateforme-overlay.jpg"
   icone_image: "uploads/d-inventaire.png"
-  description: "## Inventaire et Évaluation\nL’outil technologique grand public  pour impliquer vos citoyens et professionnels"
+  description: "## **Inventaire et Évaluation**\nL’outil technologique grand public  pour impliquer vos citoyens et professionnels"
   telecharger: true
 sections:
 - titre: PRÉSENTATION

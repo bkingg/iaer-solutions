@@ -675,10 +675,13 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
     .section .box.small {
       display: table;
       width: 100%;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      background-color: #83b739;
+      border-color: white; }
       .section .box.small .box__description, .section .box.small .box__title {
         display: table-cell;
-        vertical-align: middle; }
+        vertical-align: middle;
+        color: white; }
     .section .box.has-icon {
       position: relative; }
       .section .box.has-icon:after {
