@@ -11,7 +11,6 @@ sections:
 - engagement: ''
 - titre: NOTRE MISSION
   description: Une expertise basée sur des technologies d’analyses spatiales et le cloud de dernière génération pour simplifier et bonifier l’accès à des décisions précises et économiques. La collecte et l’utilisation des données en temps réel.
-  technologie: ''
 - titre: NOtRE VISION
   benefices: 
   - titre: VILLE AVEC LA PRÉSENCE AGRILE DU FRÊNE
