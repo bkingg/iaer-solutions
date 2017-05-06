@@ -37,6 +37,4 @@ menu-niveau-1:
   url: solution-technologique.html
 - titre: VALEUR DE MON FRÊNE
   url: valeur-de-mon-frene.html
-- titre: CONTACTEZ-NOUS
-  menu-niveau-2: 
 ---

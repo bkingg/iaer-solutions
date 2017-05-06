@@ -2,6 +2,7 @@
 title: Activites Intensives de Lutte
 date: 2017-03-07 23:06:00 -05:00
 permalink: "/activites-intensives-de-lutte"
+parent: municipalites
 slider:
 - image: "uploads/table-overlay-9939a3.jpg"
   icone_image: "uploads/activites-intensives-contour-blanc.png"
@@ -73,5 +74,5 @@ sections:
       2. Amélioration des processus de suivi et de contrôle des frênes
       3. Optimisation des déplacements et du temps d’intervention
       4. Valorisation des intervenants
-layout: page
+layout: default
 ---

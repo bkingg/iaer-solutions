@@ -110,7 +110,7 @@ $(function(){
         if ($(this).is('[href^="#"]')) {
         	event.preventDefault();
 		      $('html, body').animate({
-			        scrollTop: $( $.attr(this, 'href') ).offset().top
+			        scrollTop: $( $.attr(this, 'href') ).offset().top - 60
 			    }, 500);
 
 		    }
@@ -142,7 +142,23 @@ $(function(){
         $modal.find('.modal-title').html(title);
         $modal.find('.problemes').html(problemes);
         $modal.find('.solutions').html(solutions);
-    });
+  	});
+
+  //   $(window).on('scroll', function() {
+	 //    	var scrollTop = $(this).scrollTop();
+
+  //       var topDistance = $('.subnav').offset().top;
+
+  //       if ( (topDistance) < scrollTop ) {
+  //           $('.subnav').addClass('fixed');
+  //       }
+		// });
+
+		// // $('.subnav').first().prev().on('scroll', function() {
+  // //       if($(this).scrollTop() + $(this).innerHeight() >= $(this)[0].scrollHeight) {
+  // //           $('.subnav').removeClass('fixed');
+  // //       }
+  // //   })
 });
 
 

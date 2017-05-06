@@ -17,7 +17,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".subnav">
   <div id="navbar-full">
     <div id="navbar">
        <!--    
@@ -95,9 +95,13 @@
 
     
     
-      <div class="subnav">
+      <div class="subnav" data-spy="affix" data-offset-top="150">
       <div class="container">
         <ul class="list-inline text-center menu-niveau-1"
+          
+            
+            
+            
           
             
             
@@ -227,26 +231,18 @@
                   
                 </li
               
-                ><li>
-                  <a href="">
-                    
-                     
-                    CONTACTEZ-NOUS</a>
-                  
-                </li
-              
             
           
-          ><!--<li>
-            <a href="https://www.facebook.com" class="social"><i class="fa fa-facebook"></i></a>
+          ><li class="social">
+            <a href="https://www.linkedin.com" class="social__link" target="_blank"><i class="fa fa-linkedin"></i></a>
           <li
-          ><li>
-            <a href="https://www.youtube.com" class="social"><i class="fa fa-youtube"></i></a>
+          ><li class="social">
+            <a href="https://www.youtube.com" class="social__link" target="_blank"><i class="fa fa-youtube"></i></a>
           <li
-          ><li>
-            <a href="https://www.twitter.com" class="social"><i class="fa fa-twitter"></i></a>
+          ><li class="social">
+            <a href="https://www.facebook.com" class="social__link" target="_blank"><i class="fa fa-facebook"></i></a>
           <li
-        >--></ul>
+        ></ul>
       </div>
     </div>
     
@@ -273,7 +269,7 @@
                 <div class="download">
                   
                     <a class="btn btn-default btn--green" href="#">
-                      <img src="uploads/telecharger.png">
+                      <div class="btn__image"></div>
                       <span>Découvrez comment dès maintenant</span>
                     </a>
                   
@@ -299,7 +295,7 @@
                 <div class="download">
                   
                     <a class="btn btn-default btn--green" href="#">
-                      <img src="uploads/telecharger.png">
+                      <div class="btn__image"></div>
                       <span>Découvrez comment dès maintenant</span>
                     </a>
                   
@@ -325,7 +321,7 @@
                 <div class="download">
                   
                     <a class="btn btn-default btn--green" href="#">
-                      <img src="uploads/telecharger.png">
+                      <div class="btn__image"></div>
                       <span>Découvrez comment dès maintenant</span>
                     </a>
                   
@@ -351,7 +347,7 @@
                 <div class="download">
                   
                     <a class="btn btn-default btn--green" href="#">
-                      <img src="uploads/telecharger.png">
+                      <div class="btn__image"></div>
                       <span>Découvrez comment dès maintenant</span>
                     </a>
                   
@@ -368,16 +364,14 @@
   
 
   
-
-  
     
     
       
-        <div class="section white" id="">
+        <div class="section white section__tabs" id="comment-ça-fonctionne">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
-                <h1 class="section__title"></h1>
+                <h1 class="section__title">Comment ça fonctionne</h1>
                 
                 
                 
@@ -403,87 +397,80 @@
               
 
               
-                <div class="section section__tabs" style="background:white;">
-                  <div class="container">
-                    <div class="row">
-                      <h1 class="section__title">Comment ça fonctionne</h1>
-                      <div class="col-md-8 col-md-offset-2">
-                        <div class="tabs__wrapper">
-                            <div class="tabs"><!--
-                              --><div class="tab tab__active" data-tab="etape-1">
-                                  <h3 class="tab__title">Etape 1</h3>
-                              </div><!--
-                              --><div class="tab" data-tab="etape-2">
-                                  <h3 class="tab__title">Etape 2</h3>
-                              </div><!--
-                              --><div class="tab" data-tab="etape-3">
-                                  <h3 class="tab__title">Etape 3</h3>
-                              </div><!--
-                          --></div>
-                            <div class="tabs__content">
-                              <div class="tab__content tab__content--active" data-tab="etape-1">
-                                <div class="tab__content--title">1</div>
-                                <div class="tab__content--title">INVENTAIRE INTELLIGENT</div>
-                                <div class="tab__content--description">TOUS LES PROPRIÉTAIRES ONT ACCÈS À LA SOLUTION D’ÉVALUATION DES FRÊNES</div>
-                                <div class="row">
-                                  <div class="col-sm-4">
-                                    <a href="municipalites.html" class="offer small">
-                                      <img class="img-responsive" src="uploads/m-municipalites.png">
-                                      <h3 class="offer__title">Municipalités</h3>
-                                    </a>
-                                  </div>
-                                  <div class="col-sm-4">
-                                    <a href="institutions.html" class="offer small">
-                                      <img class="img-responsive" src="uploads/m-institutions.png">
-                                      <h3 class="offer__title">Institutions</h3>
-                                    </a>
-                                  </div>
-                                  <div class="col-sm-4">
-                                    <a href="residents.html" class="offer small">
-                                      <img class="img-responsive" src="uploads/m-residents.png">
-                                      <h3 class="offer__title">Résidents</h3>
-                                    </a>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="tab__content" data-tab="etape-2">
-                                 <div class="tab__content--title">2</div>
-                                  <div class="tab__content--title">Intelligence artificielle</div>
-                                  <div class="tab__content--description">Une suite de logiciels integres:</div>
-                                  <div class="tab__content--description">Réalise des analyses et alimente par des supports numériques tous les intervenants</div>
-                                  <div class="tab__content--description">Modélise et coordone toutes les activités techniques à partir des données des frênes de l'ensemble des propriétaires du territoire</div>
-                              </div>
-                              <div class="tab__content" data-tab="etape-3">
-                                 <div class="tab__content--title">3</div>
-                                  <div class="tab__content--title">Solutions numériques</div>
-                                  <div class="tab__content--description">Tous les intervenants peuvent communiquer et agir rapidement en tout temps</div>
-                                  <div class="tab__content--description">Tous les propriétaires on accès aux solutions et services économiques</div>
-                                  <div class="tab__content--description">Modélise et coordone toutes les activités techniques à partir des données des frênes de l'ensemble des propriétaires du territoire</div>
-                                  <div class="row">
-                                    <div class="col-sm-4">
-                                      <a href="municipalites.html" class="offer small">
-                                        <img class="img-responsive" src="uploads/m-municipalites.png">
-                                        <h3 class="offer__title">Municipalités</h3>
-                                      </a>
-                                    </div>
-                                    <div class="col-sm-4">
-                                      <a href="institutions.html" class="offer small">
-                                        <img class="img-responsive" src="uploads/m-institutions.png">
-                                        <h3 class="offer__title">Institutions</h3>
-                                      </a>
-                                    </div>
-                                    <div class="col-sm-4">
-                                      <a href="residents.html" class="offer small">
-                                        <img class="img-responsive" src="uploads/m-residents.png">
-                                        <h3 class="offer__title">Résidents</h3>
-                                      </a>
-                                    </div>
-                                  </div>
-                              </div>
-                            </div>   
+                <div class="col-md-8 col-md-offset-2">
+                  <div class="tabs__wrapper">
+                      <div class="tabs"><!--
+                        --><div class="tab tab__active" data-tab="etape-1">
+                            <h3 class="tab__title">Etape 1</h3>
+                        </div><!--
+                        --><div class="tab" data-tab="etape-2">
+                            <h3 class="tab__title">Etape 2</h3>
+                        </div><!--
+                        --><div class="tab" data-tab="etape-3">
+                            <h3 class="tab__title">Etape 3</h3>
+                        </div><!--
+                    --></div>
+                      <div class="tabs__content">
+                        <div class="tab__content tab__content--active" data-tab="etape-1">
+                          <div class="tab__content--title">1</div>
+                          <div class="tab__content--title">INVENTAIRE INTELLIGENT</div>
+                          <div class="tab__content--description">TOUS LES PROPRIÉTAIRES ONT ACCÈS À LA SOLUTION D’ÉVALUATION DES FRÊNES</div>
+                          <div class="row">
+                            <div class="col-sm-4">
+                              <a href="municipalites.html" class="offer small">
+                                <img class="img-responsive" src="uploads/m-municipalites.png">
+                                <h3 class="offer__title">Municipalités</h3>
+                              </a>
+                            </div>
+                            <div class="col-sm-4">
+                              <a href="institutions.html" class="offer small">
+                                <img class="img-responsive" src="uploads/m-institutions.png">
+                                <h3 class="offer__title">Institutions</h3>
+                              </a>
+                            </div>
+                            <div class="col-sm-4">
+                              <a href="residents.html" class="offer small">
+                                <img class="img-responsive" src="uploads/m-residents.png">
+                                <h3 class="offer__title">Résidents</h3>
+                              </a>
+                            </div>
                           </div>
                         </div>
-                      </div>
+                        <div class="tab__content" data-tab="etape-2">
+                           <div class="tab__content--title">2</div>
+                            <div class="tab__content--title">Intelligence artificielle</div>
+                            <div class="tab__content--description">Une suite de logiciels integres:</div>
+                            <div class="tab__content--description">Réalise des analyses et alimente par des supports numériques tous les intervenants</div>
+                            <div class="tab__content--description">Modélise et coordone toutes les activités techniques à partir des données des frênes de l'ensemble des propriétaires du territoire</div>
+                        </div>
+                        <div class="tab__content" data-tab="etape-3">
+                           <div class="tab__content--title">3</div>
+                            <div class="tab__content--title">Solutions numériques</div>
+                            <div class="tab__content--description">Tous les intervenants peuvent communiquer et agir rapidement en tout temps</div>
+                            <div class="tab__content--description">Tous les propriétaires on accès aux solutions et services économiques</div>
+                            <div class="tab__content--description">Modélise et coordone toutes les activités techniques à partir des données des frênes de l'ensemble des propriétaires du territoire</div>
+                            <div class="row">
+                              <div class="col-sm-4">
+                                <a href="municipalites.html" class="offer small">
+                                  <img class="img-responsive" src="uploads/m-municipalites.png">
+                                  <h3 class="offer__title">Municipalités</h3>
+                                </a>
+                              </div>
+                              <div class="col-sm-4">
+                                <a href="institutions.html" class="offer small">
+                                  <img class="img-responsive" src="uploads/m-institutions.png">
+                                  <h3 class="offer__title">Institutions</h3>
+                                </a>
+                              </div>
+                              <div class="col-sm-4">
+                                <a href="residents.html" class="offer small">
+                                  <img class="img-responsive" src="uploads/m-residents.png">
+                                  <h3 class="offer__title">Résidents</h3>
+                                </a>
+                              </div>
+                            </div>
+                        </div>
+                      </div>   
                     </div>
                   </div>
                 </div>
@@ -500,7 +487,7 @@
       
     
       
-        <div class="section green" id="offre-de-la-solution-concertÉe-et-Économique">
+        <div class="section green " id="offre-de-la-solution-concertÉe-et-Économique">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
@@ -593,7 +580,7 @@
       
     
       
-        <div class="section white" id="vos-actions-de-gestion-de-la-problÈmatique">
+        <div class="section white " id="vos-actions-de-gestion-de-la-problÈmatique">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
@@ -728,7 +715,7 @@
         </div>
         <div class="modal-footer">
           <a class="btn btn-default btn--white">
-            <img src="uploads/telecharger-green.png">
+            <div class="btn__image"></div>
             <span>Participer au projet pilote de démonstration</span>
           </a>
         </div>

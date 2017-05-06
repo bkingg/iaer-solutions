@@ -4,10 +4,10 @@
           {% for menu in site.menus %}
             {% assign page_slug = page.title | slugify %}
             {% assign menu_slug = menu.title | slugify %}
-            {% if menu_slug == 'menu' %}
+            {% if menu_slug == 'citoyens-institutions' %}
               {% for link in menu.menu-niveau-1 %}
                 ><li>
-                  <a href="{{ link.url | downcase }}">
+                  <a href="{{ link.url }}">
                     {% assign link_title = link.titre | slugify %}
                     {% if link_title == 'menu-des-solutions' %}
                       <i class="fa fa-bars"></i>&nbsp;&nbsp;
@@ -26,7 +26,7 @@
                           <ul class="description menu-niveau-3">
                             {% for link-3 in link-2.menu-niveau-3 %}
                               <li class="accordion" data-accordion="{{ link-3.titre | slugify }}">
-                                <a href="{{ link-3.url | downcase }}" class="accordion__toggle" data-accordion="{{ link-3.titre | slugify }}">
+                                <a href="{{ link-3.url }}" class="accordion__toggle" data-accordion="{{ link-3.titre | slugify }}">
                                   {{ link-3.titre }}
                                   {% if link-3.menu-niveau-4.size > 0 %}
                                     <i class="fa fa-plus"></i>

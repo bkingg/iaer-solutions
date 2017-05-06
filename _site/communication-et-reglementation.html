@@ -17,7 +17,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".subnav">
   <div id="navbar-full">
     <div id="navbar">
        <!--    
@@ -44,9 +44,9 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
 
-                    <li class="">
+                    <li class="active">
                         <a href="municipalites.html">
-                            <img src="uploads/menu-municipalites.png" class="icon">
+                            <img src="uploads/menu-municipalites-hover.png" class="icon">
                             <p>Municipalités</p>
                         </a>
                     </li>
@@ -95,9 +95,13 @@
 
     
     
-      <div class="subnav">
+      <div class="subnav" data-spy="affix" data-offset-top="150">
       <div class="container">
         <ul class="list-inline text-center menu-niveau-1"
+          
+            
+            
+            
           
             
             
@@ -227,26 +231,18 @@
                   
                 </li
               
-                ><li>
-                  <a href="">
-                    
-                     
-                    CONTACTEZ-NOUS</a>
-                  
-                </li
-              
             
           
-          ><!--<li>
-            <a href="https://www.facebook.com" class="social"><i class="fa fa-facebook"></i></a>
+          ><li class="social">
+            <a href="https://www.linkedin.com" class="social__link" target="_blank"><i class="fa fa-linkedin"></i></a>
           <li
-          ><li>
-            <a href="https://www.youtube.com" class="social"><i class="fa fa-youtube"></i></a>
+          ><li class="social">
+            <a href="https://www.youtube.com" class="social__link" target="_blank"><i class="fa fa-youtube"></i></a>
           <li
-          ><li>
-            <a href="https://www.twitter.com" class="social"><i class="fa fa-twitter"></i></a>
+          ><li class="social">
+            <a href="https://www.facebook.com" class="social__link" target="_blank"><i class="fa fa-facebook"></i></a>
           <li
-        >--></ul>
+        ></ul>
       </div>
     </div>
     
@@ -286,12 +282,10 @@
   
 
   
-
-  
     
     
       
-        <div class="section white" id="dÉfis-et-enjeux">
+        <div class="section white " id="dÉfis-et-enjeux">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
@@ -335,7 +329,7 @@
       
     
       
-        <div class="section green" id="">
+        <div class="section green " id="">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
@@ -434,7 +428,7 @@
       
     
       
-        <div class="section white" id="la-solution">
+        <div class="section white " id="la-solution">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
@@ -512,8 +506,8 @@
 
               
                 <div class="download">
-                  <a class="btn btn-default btn--green" href="#">
-                    <img src="uploads/telecharger.png">
+                  <a class="btn btn-default" href="#">
+                    <div class="btn__image"></div>
                     <span>Télécharger L'offre dès maintenant</span>
                   </a>
                 </div>
@@ -524,7 +518,7 @@
       
     
       
-        <div class="section green" id="bÉnÉfices-directs-et-indirects">
+        <div class="section green " id="bÉnÉfices-directs-et-indirects">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
@@ -671,7 +665,7 @@
         </div>
         <div class="modal-footer">
           <a class="btn btn-default btn--white">
-            <img src="uploads/telecharger-green.png">
+            <div class="btn__image"></div>
             <span>Participer au projet pilote de démonstration</span>
           </a>
         </div>

@@ -46,6 +46,17 @@ body, h1, h2, h3, h4, h5, h6, p, span, a{
     vertical-align: middle;
     height: auto;
   }
+  .btn__image{
+    width: 40px;
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    height: auto;
+    background-image: url('../uploads/telecharger.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
   span{
     text-transform: uppercase;
     font-weight: bold;
@@ -71,10 +82,15 @@ body, h1, h2, h3, h4, h5, h6, p, span, a{
   @extend .btn--green;
   background-color: white;
   color: $green;
+  .btn__image{
+    background-image: url('../uploads/telecharger-green.png');
+  }
   span{
     color: $green;
   }
-  &:hover{
+  &:hover,
+  &:focus,
+  &:active{
     background-color: lighten($green, 50%);
     color: $green;
     span{
@@ -176,6 +192,12 @@ $navbar-height: 150;
 
 .subnav {
   background-color: rgba(79, 80, 84, 0.85);
+  transition: all 0.3s;
+  &.affix {
+      position: fixed;
+      top: 0;
+      width: 100%;
+  }
   ul:first-child {
   	position: relative;
     margin-bottom: 0;
@@ -184,6 +206,9 @@ $navbar-height: 150;
       padding: 0 !important;
       cursor: pointer;
       margin: 0;
+      &.social:hover{
+        background-color: transparent;
+      }
       @media (max-width: 768px){
       	display: block;
       }
@@ -195,8 +220,30 @@ $navbar-height: 150;
         font-weight: bold;
         display: block;
         font-size: 10px;
-        padding: 20px 25px !important;
+        line-height: 20px;
+        padding: 20px !important;
         transition: all 0.2s ease-in;
+        &:hover,
+        &:active,
+        &:focus{
+          background-color: $green;
+          color: white;
+        }
+        &.social__link{
+          padding: 18px 10px !important;
+          line-height: 20px;
+          &:hover{
+            background-color: transparent;
+            i{
+              color: $green;
+            }
+          }
+          i{
+            color: white;
+            font-size: 18px;
+            line-height: 18px;
+          }
+        }
       }
       .submenu{
       	padding: 15px 0 25px 0;
@@ -313,7 +360,9 @@ $navbar-height: 150;
       		}
       	}
       }
-      &:hover{
+      &:hover,
+      &:active,
+      &:focus{
       	background-color: $green;
       	.submenu{
       		display: block;
@@ -322,7 +371,7 @@ $navbar-height: 150;
       &.active {
         background-color: $green;
       }
-      &:hover > a, &.active > a {
+      &:hover > a, &.active > a, &:active > a, &:focus > a {
         color: white;
         cursor: pointer;
       }
@@ -482,6 +531,7 @@ $navbar-height: 150;
       background-size: cover;
       width: 20px;
       height: 20px;
+      padding: 10px;
       position: absolute;
       top: 47%;
       z-index: 1;
@@ -838,7 +888,7 @@ $navbar-height: 150;
       }
     }
     &.small {
-      min-height: 120px;
+      // min-height: 120px;
     }
     &.has-icon {
       position: relative;
@@ -866,7 +916,7 @@ $navbar-height: 150;
       margin-top: 10px;
     }
     .box__separator {
-      width: 150px;
+      max-width: 150px;
       background-color: white;
       height: 1px;
       margin: auto;
@@ -936,6 +986,7 @@ $navbar-height: 150;
     }
     &-dialog{
       min-width: 80%;
+      top: 20%;
     }
     &-body{
       border-radius: 5px;
@@ -966,10 +1017,12 @@ $navbar-height: 150;
     &__description{
       p{
         font-size: 12px;
+        color: black;
       }
       ul{
         font-size: 12px;
         list-style-type: circle;
+        color: black;
       }
     }
     &-footer{

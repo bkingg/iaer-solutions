@@ -17,7 +17,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".subnav">
   <div id="navbar-full">
     <div id="navbar">
        <!--    
@@ -95,7 +95,7 @@
 
     
     
-      <div class="subnav">
+      <div class="subnav" data-spy="affix" data-offset-top="150">
       <div class="container">
         <ul class="list-inline text-center menu-niveau-1"
           
@@ -128,11 +128,11 @@
                                 
                                   <ul class="menu-niveau-4 accordion__content">
                                     
-                                      <li><a href="/communication-et-reglementation.html">communication et réglementation</a></li>
+                                      <li><a href="communication-et-reglementation.html">communication et réglementation</a></li>
                                     
-                                      <li><a href="/activites-preventives.html">Activités préventives</a></li>
+                                      <li><a href="activites-preventives.html">Activités préventives</a></li>
                                     
-                                      <li><a href="/activites-intensives-de-lutte.html">Activités intensives de lutte</a></li>
+                                      <li><a href="activites-intensives-de-lutte.html">Activités intensives de lutte</a></li>
                                     
                                   </ul>
                                 
@@ -148,13 +148,13 @@
                                 
                                   <ul class="menu-niveau-4 accordion__content">
                                     
-                                      <li><a href="/diagnostique-et-inventaire-et-evaluation.html">DIAGNOSTIC ET Inventaire et évaluation</a></li>
+                                      <li><a href="diagnostique-et-inventaire-et-evaluation.html">DIAGNOSTIC ET Inventaire et évaluation</a></li>
                                     
-                                      <li><a href="/plateforme-de-gestion-concertee.html">Plateforme de gestion concertée</a></li>
+                                      <li><a href="plateforme-de-gestion-concertee.html">Plateforme de gestion concertée</a></li>
                                     
-                                      <li><a href="/module-de-performances.html">Module de performances</a></li>
+                                      <li><a href="module-de-performances.html">Module de performances</a></li>
                                     
-                                      <li><a href="/valorisation-du-bois-infeste.html">Valorisation du bois infesté</a></li>
+                                      <li><a href="valorisation-du-bois-infeste.html">Valorisation du bois infesté</a></li>
                                     
                                   </ul>
                                 
@@ -203,11 +203,11 @@
                                 
                                   <ul class="menu-niveau-4 accordion__content">
                                     
-                                      <li><a href="">DEMANDE D’ÉVALUATION</a></li>
+                                      <li><a href="citoyens.html&#35vous-etes-proprietaire-de">DEMANDE D’ÉVALUATION</a></li>
                                     
-                                      <li><a href="">Suivi services municipaux</a></li>
+                                      <li><a href="citoyens.html&#35voici-ce-que-comprennent-nos-services-pour">Suivi services municipaux</a></li>
                                     
-                                      <li><a href="">Suivi services technique</a></li>
+                                      <li><a href="citoyens.html&#35voici-ce-que-comprennent-nos-services-pour">Suivi services technique</a></li>
                                     
                                   </ul>
                                 
@@ -223,11 +223,11 @@
                                 
                                   <ul class="menu-niveau-4 accordion__content">
                                     
-                                      <li><a href="">PAR ARRONDISSEMENT</a></li>
+                                      <li><a href="citoyens.html&#35services-concertes">PAR ARRONDISSEMENT</a></li>
                                     
-                                      <li><a href="">PAR QUARTIER</a></li>
+                                      <li><a href="citoyens.html&#35services-concertes">PAR QUARTIER</a></li>
                                     
-                                      <li><a href="">PAR RUE</a></li>
+                                      <li><a href="citoyens.html&#35services-concertes">PAR RUE</a></li>
                                     
                                   </ul>
                                 
@@ -254,9 +254,9 @@
                                 
                                   <ul class="menu-niveau-4 accordion__content">
                                     
-                                      <li><a href="">ÉVALUATION INTELLIGENTE DES ARBRES</a></li>
+                                      <li><a href="citoyens.html&#35vous-etes-proprietaire-de">ÉVALUATION INTELLIGENTE DES ARBRES</a></li>
                                     
-                                      <li><a href="">PLAN DE GESTION TECHNIQUE</a></li>
+                                      <li><a href="citoyens.html&#35vous-etes-proprietaire-de">PLAN DE GESTION TECHNIQUE</a></li>
                                     
                                   </ul>
                                 
@@ -403,16 +403,20 @@
             
             
           
-          ><!--<li>
-            <a href="https://www.facebook.com" class="social"><i class="fa fa-facebook"></i></a>
+            
+            
+            
+          
+          ><li class="social">
+            <a href="https://www.linkedin.com" class="social__link" target="_blank"><i class="fa fa-linkedin"></i></a>
           <li
-          ><li>
-            <a href="https://www.youtube.com" class="social"><i class="fa fa-youtube"></i></a>
+          ><li class="social">
+            <a href="https://www.youtube.com" class="social__link" target="_blank"><i class="fa fa-youtube"></i></a>
           <li
-          ><li>
-            <a href="https://www.twitter.com" class="social"><i class="fa fa-twitter"></i></a>
+          ><li class="social">
+            <a href="https://www.facebook.com" class="social__link" target="_blank"><i class="fa fa-facebook"></i></a>
           <li
-        >--></ul>
+        ></ul>
       </div>
     </div>
     
@@ -437,7 +441,7 @@
                 <div class="download">
                   
                     <a class="btn btn-default btn--green" href="#">
-                      <img src="uploads/telecharger.png">
+                      <div class="btn__image"></div>
                       <span>Découvrez comment dès maintenant</span>
                     </a>
                   
@@ -462,7 +466,7 @@ Planifier, <strong>agir</strong> avec <strong>assurance</strong> et <strong>cont
                 <div class="download">
                   
                     <a class="btn btn-default btn--green" href="#">
-                      <img src="uploads/telecharger.png">
+                      <div class="btn__image"></div>
                       <span>Découvrez comment dès maintenant</span>
                     </a>
                   
@@ -488,7 +492,7 @@ Planifier, <strong>agir</strong> avec <strong>assurance</strong> et <strong>cont
                 <div class="download">
                   
                     <a class="btn btn-default btn--green" href="#">
-                      <img src="uploads/telecharger.png">
+                      <div class="btn__image"></div>
                       <span>Découvrez comment dès maintenant</span>
                     </a>
                   
@@ -512,7 +516,7 @@ Planifier, <strong>agir</strong> avec <strong>assurance</strong> et <strong>cont
                 <div class="download">
                   
                     <a class="btn btn-default btn--green" href="#">
-                      <img src="uploads/telecharger.png">
+                      <div class="btn__image"></div>
                       <span>Découvrez comment dès maintenant</span>
                     </a>
                   
@@ -529,12 +533,10 @@ Planifier, <strong>agir</strong> avec <strong>assurance</strong> et <strong>cont
   
 
   
-
-  
     
     
       
-        <div class="section white" id="offre-de-services">
+        <div class="section white " id="offre-de-services">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
@@ -627,7 +629,7 @@ Planifier, <strong>agir</strong> avec <strong>assurance</strong> et <strong>cont
       
     
       
-        <div class="section green" id="benefices">
+        <div class="section green " id="benefices">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
@@ -723,7 +725,7 @@ Planifier, <strong>agir</strong> avec <strong>assurance</strong> et <strong>cont
       
     
       
-        <div class="section white" id="">
+        <div class="section white " id="">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
@@ -751,7 +753,7 @@ Planifier, <strong>agir</strong> avec <strong>assurance</strong> et <strong>cont
               
 
               
-                <div class="section" id="histoire-et-clients" style="padding:0">
+                <div class="section" id="histoire-et-clients" style="margin:0; padding:0;">
                   <div class="container">
                     <div class="row">
                       <div class="col-sm-12">
@@ -805,7 +807,7 @@ Planifier, <strong>agir</strong> avec <strong>assurance</strong> et <strong>cont
       
     
       
-        <div class="section green" id="partenaires-de-developpement-des-solutions">
+        <div class="section green " id="partenaires-de-developpement-des-solutions">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
@@ -922,7 +924,7 @@ Planifier, <strong>agir</strong> avec <strong>assurance</strong> et <strong>cont
         </div>
         <div class="modal-footer">
           <a class="btn btn-default btn--white">
-            <img src="uploads/telecharger-green.png">
+            <div class="btn__image"></div>
             <span>Participer au projet pilote de démonstration</span>
           </a>
         </div>

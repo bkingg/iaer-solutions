@@ -2,6 +2,7 @@
 title: Activites Preventives
 date: 2017-03-07 23:06:00 -05:00
 permalink: "/activites-preventives"
+parent: municipalites
 slider:
 - image: "uploads/table-overlay-9939a3.jpg"
   icone_image: "uploads/ap-activites-preventives.png"
@@ -79,5 +80,5 @@ sections:
       2. Gain d’efficacité et de temps
       3. Augmentation du niveau précision des actions techniques
       4. Optimisation des déplacements et des délais d’intervention
-layout: page
+layout: default
 ---
