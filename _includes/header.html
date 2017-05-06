@@ -17,7 +17,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".subnav">
   <div id="navbar-full">
     <div id="navbar">
        <!--    
@@ -44,23 +44,23 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
 
-                    <li class="{% if page.url contains 'municipalites' %}active{% endif %}">
+                    <li class="{% if page.url contains 'municipalites' or page.parent contains 'municipalites' %}active{% endif %}">
                         <a href="municipalites.html">
-                            <img src="uploads/menu-municipalites{% if page.url contains 'municipalites' %}-hover{% endif %}.png" class="icon">
+                            <img src="uploads/menu-municipalites{% if page.url contains 'municipalites' or page.parent contains 'municipalites' %}-hover{% endif %}.png" class="icon">
                             <p>Municipalités</p>
                         </a>
                     </li>
 
-                    <li class="{% if page.url contains 'institutions' %}active{% endif %}">
+                    <li class="{% if page.url contains 'institutions' or page.parent contains 'institutions' %}active{% endif %}">
                         <a href="institutions.html">
-                            <img src="uploads/menu-institutions{% if page.url contains 'institutions' %}-hover{% endif %}.png" class="icon">
+                            <img src="uploads/menu-institutions{% if page.url contains 'institutions' or page.parent contains 'institutions' %}-hover{% endif %}.png" class="icon">
                             <p>Institutions</p>
                         </a>
                     </li>
 
-                    <li class="{% if page.url contains 'citoyens' %}active{% endif %}">
+                    <li class="{% if page.url contains 'citoyens' or page.parent contains 'citoyens' %}active{% endif %}">
                         <a href="citoyens.html">
-                            <img src="uploads/menu-citoyens{% if page.url contains 'citoyens' %}-hover{% endif %}.png" class="icon">
+                            <img src="uploads/menu-citoyens{% if page.url contains 'citoyens' or page.parent contains 'citoyens' %}-hover{% endif %}.png" class="icon">
                             <p>Citoyens</p>
                         </a>
                     </li>
@@ -96,6 +96,8 @@
     {% assign page_slug = page.title | slugify %}
     {% if page_slug == 'accueil' %}
       {% include menu-accueil.html %}
+    {% elsif page_slug == 'citoyens' or page_slug == 'institutions' %}
+      {% include menu-citoyens-institutions.html %}
     {% else %}
       {% include menu.html %}
     {% endif %}

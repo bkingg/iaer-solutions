@@ -2,6 +2,7 @@
 title: Valorisation du bois infeste
 date: 2017-03-07 23:06:00 -05:00
 permalink: valorisation-du-bois-infeste
+parent: municipalites
 slider:
 - image: uploads/plateforme-overlay.jpg
   icone_image: uploads/v-valorisation.png
@@ -45,6 +46,6 @@ sections:
   - description: Réutilisation sécuritaire du bois infesté suite à la mise en valeur
   - description: Économie sur la facture de disposition des résidus bois
   - description: Réutilisation pour les nouvelles plantations
-layout: page
+layout: default
 ---
 

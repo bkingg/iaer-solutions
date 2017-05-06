@@ -2,6 +2,7 @@
 title: Plateforme de Gestion Concertee
 date: 2017-03-07 23:06:00 -05:00
 permalink: plateforme-de-gestion-concertee
+parent: municipalites
 slider:
 - image: uploads/plateforme-overlay.jpg
   icone_image: uploads/p-plateforme.png
@@ -51,6 +52,6 @@ sections:
   - description: Accès à l’information actualisée en continue
   - description: Bilan de santé et sécurité accessible et disponible en tout temps
   - description: Réduction des coûts d’intervention situation d’urgence
-layout: page
+layout: default
 ---
 

@@ -2,6 +2,7 @@
 title: Communication et Reglementation
 date: 2017-03-07 23:06:00 -05:00
 permalink: "/communication-et-reglementation"
+parent: municipalites
 slider:
 - image: uploads/communication-overlay.jpg
   icone_image: uploads/c-communication.png
@@ -74,6 +75,6 @@ sections:
       vulgarisation de la réglementation \n3. Gain d’efficacité et de temps dansles
       échanges avec  les propriétaire\n4. Valorisation de l’image des profes-sionnels
       auprès des résidents"
-layout: page
+layout: default
 ---
 
