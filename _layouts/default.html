@@ -105,7 +105,7 @@
               {% if section.benefices_simple %}
                 {% assign benefices = section.benefices_simple | sort: 'position' %}
                 {% for benefice in benefices %}
-                  <div class="col-sm-6 col-md-4">
+                  <div class="col-sm-6 col-md-4 col-eq-height"  style="margin-bottom: 20px;">
                       <div class="box small">
                           <p class="box__description">{{ benefice.description}}</p>
                       </div>

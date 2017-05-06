@@ -657,6 +657,8 @@ $navbar-height: 150;
   	display: inline-block;
   	text-align: center;
   	width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
   	.download__link{
   		display: inline-block;
   		background-color: $green;
@@ -888,7 +890,13 @@ $navbar-height: 150;
       }
     }
     &.small {
-      // min-height: 120px;
+      display: table;
+      width: 100%;
+      margin-bottom: 0;
+      .box__description, .box__title{
+        display: table-cell;
+        vertical-align: middle;
+      }
     }
     &.has-icon {
       position: relative;
