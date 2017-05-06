@@ -1,16 +1,23 @@
 ---
 title: Citoyens
 date: 2017-03-07 23:06:00 -05:00
-permalink: "citoyens"
+permalink: "diagnostique-et-inventaire-et-evaluation"
 slider:
-- image: "uploads/table-overlay-9939a3.jpg"
-  icone_image: 
-  description: "Prendre la bonne decision en economisant temps et argent maintenant!
-    \n\n **Obtenez l'evaluation gratuite de 2 a 6 frenes sur votre**"
+- image: "uploads/plateforme-overlay.jpg"
+  icone_image: "uploads/d-inventaire.png"
+  description: "## Inventaire et Évaluation\nL’outil technologique grand public  pour impliquer vos citoyens et professionnels"
   telecharger: true
 sections:
-- titre: Vous etes proprietaire de
-  description: 
+- titre: PRÉSENTATION
+  description:  L’application services web  pour bonifier les procédés opérationnels d’inventaire et accélérer la collecte intelligente de données de tous les frênes du territoire. 
+- titre: Valeur de mon frêne accompagne les professionnels selon les priorités et les objectifs  de manière à…
+  benefices_simple: 
+  - description: "Évaluer votre territoire ou des emplacements précis  selon vos besoins. Les résultats offrent:\n
+ - Les choix décisionnels et straté- giques ciblés et les solutions économiques."
+  - description: Créer en fonction de la distribution des frênes sur le territoire des zones géographiques de déploiement des actions techniques intégrées de lutte préventives ou intensives
+  - description: Adapter la solution technologique aux besoins de  vos résidents ou profession- nels. Mettre à la disposition de tous les citoyens l’outil technologique convivial
+  telecharger: true
+- titre: DEs critères précis pour de l’information adaptée aux frênes des...
   icones_modal_slider:
   - image: "uploads/terrains-residentiels.png"
     titre: Terrains residentiels
@@ -129,104 +136,17 @@ Comment préserver les frênes de rue sur la base des critères concrets et des 
 - Etc.\n\n
  Être proactif aide à trouver des subventions ou à anticiper afin de prendre les décisions économiques
 "
-- titre: Nous vous accompagnons et vous aidons a ...
-  demander_evaluation: true
-  icones:
-  - image: "uploads/c-asseoir.png"
-    description: Asseoir vos décisions sur l’évaluation détaillée, documentée et informatisée
-    url: 
-  - image: "uploads/c-gagner.png"
-    description: Gagner du temps grâce au portail d’informations et de services sur
-      mesure en ligne
-    url: 
-  - image: "uploads/c-prendre.png"
-    description: Prendre soin de vos frenes avec assurance et confiance en utilisant
-      un service professionel de suivi annuel
-    url: 
-  - image: "uploads/c-reduire.png"
-    description: Reduire et controler les couts de services grace au service concerte
-      local
-    url: 
-  - image: "uploads/c-chiffrer.png"
-    description: Chiffrer les bénéfices procurés annuellement par chacun des arbres.
-    url: 
-  - image: "uploads/c-maitriser.png"
-    description: Maîtriser les activités et besoins liés à la préservation ou à l’abattage
-      des frênes
-    url: 
-  - image: "uploads/c-obtenir.png"
-    description: Obtenir du revenu avec du bois infesté ou de réaliser des économies
-      sur votre facture d’abattage
-    url: 
-  - image: "uploads/c-accelerer.png"
-    description: Accélérer l’obtention des subventions et des services de soutien
-      municipaux
-    url: 
-- titre: 'Voici ce que comprennent nos services pour:'
-  demander_evaluation: true
-  benefices:
-  - image: "uploads/c-evaluer.png"
-    titre: Evaluer
-    description: |
-      - Évaluation gratuite de 2 à 6 premiers frênes
-      - Traitement des demandes
-      - Analyse détaillée de l’arbre (feuillage, branches, tronc, souche)
-      - Vérification des résultats
-      - Recommandation des actions concrètes
-      - Estimation des bénéfices ou de la valeur du bois résiduel
-      - Mise à disposition en ligne du bilan de santé permanent de l’arbre
-  - image: "uploads/c-suivre.png"
-    titre: Suivre les frênes en ligne
-    description: |-
-      - Accès à l’information sur vos arbres
-      - Infrastructures d’hébergement des données outil de simulation des coûtsde service
-      - Les supports de communication avec des professionnels
-      - Les outils d'échange d’informations avec la municipalité
-      - Paiement  des services
-      - Préparation des demandes de services.
-      - Gestion rapide  des cas d’urgence
-  - image: "uploads/c-preserver.png"
-    titre: préserver
-    description: |-
-      - Surveillance continue de la présence de l’insecte
-      - Taille ou nettoyage de préservation
-      - Traitement préventif ou curatif
-      - Suivi et récupération des subventions
-      - Archivage et mise à jour des interventions
-      - Forfait de mise en condition de préservation
-      - Forfait annuel de préservation
-  - image: "uploads/c-valoriser.png"
-    titre: VALORISER LE BOIS
-    description: |-
-      - Estimation de la valeur du bois résiduel
-      - Simulation des coûts des travaux d’abattage en ligne
-      - Exécution des travaux d’abattage
-      - Précision de la valeur commerciale du bois résiduel
-      - Paiement des revenus générés par le bois commercial
-      - Récupération du bois infestés
-      - Suivi et récupération des subventions
-      - Suivi de la demande du certificat ou permis d’abattage
-- titre: SERVICES CONCERTéS
-  boites:
-  - titre: PAR ARRONDISSEMENT OU MUNICIPALITÉ
-    description: |-
-      - Atelier d’identification des besoins des propriétaires
-      - Mise en place des outils de déploiement
-      - Plan de suivi des activités
-      - Forfait de préservation
-      - Forfait de valorisation du bois résiduel
-  - titre: PAR QUARTIER OU BLOC
-    description: |-
-      - Création de la communauté
-      - Plan de suivi des activités
-      - Forfait de préservation
-      - Forfait de valorisation du bois résiduel
-      - Nos technologies et profes- sionnels vous aident en  tout temps
-  - titre: PAR RUE (10 propriétaires et +)
-    description: |-
-      - Plan de suivi des activités de préservation
-      - Forfait de préservation
-      - Forfait de valorisation du bois résiduel
+- titre: "BÉNÉFICES"
+  benefices_simple:
+  - description: Anticipation des besoins ou enjeux et priorisation des activités
+  - description: Contrôle des coûts et budgets des actions et solutions 
+  - description: Responsabilisation des propriétaires et professionnels
+  - description: Accroissement de la visibilité des activités de lutte 
+  - description: Optimisation des budgets en acquisitions des  technologies et des équipements 
+  - description: Découpage optimale des zones intégrées d’intervention
+  - description: Augmentation de l’efficacité des communications 
+  - description: Bonification de la qualité de l’information et des données
+  - description: Contrôle de l’information à plusieurs niveaux d’intervention
 layout: default
 ---
 

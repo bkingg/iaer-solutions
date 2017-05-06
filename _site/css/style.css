@@ -504,7 +504,9 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
     text-decoration: none;
     display: inline-block;
     text-align: center;
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px; }
     .section .download .download__link {
       display: inline-block;
       background-color: #83b739;
@@ -668,6 +670,13 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
     .section .box.middle {
       display: table; }
       .section .box.middle .box__description, .section .box.middle .box__title {
+        display: table-cell;
+        vertical-align: middle; }
+    .section .box.small {
+      display: table;
+      width: 100%;
+      margin-bottom: 0; }
+      .section .box.small .box__description, .section .box.small .box__title {
         display: table-cell;
         vertical-align: middle; }
     .section .box.has-icon {
