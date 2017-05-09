@@ -4,7 +4,7 @@ title: Page de test
 date: 2017-05-08 21:54
 permalink: page-de-test
 slider:
-- image: "/_uploads/table-overlay.jpg"
+- image: "/uploads/table-overlay-9939a3.jpg"
   icone_image: ''
   description: ''
   telecharger: ''
