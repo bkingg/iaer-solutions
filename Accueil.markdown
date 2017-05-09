@@ -3,22 +3,22 @@ title: Accueil
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: "/"
 slider:
-- image: "uploads/table-overlay.jpg"
+- image: uploads/table-overlay.jpg
   icone_image: 
   description: "La préservation **assurée** pour tous les frênes en **santé**\x03
     et la valorisation garantie du **bois** de ceux infestés"
   telecharger: true
-- image: "uploads/table-overlay.jpg"
+- image: uploads/table-overlay.jpg
   icone_image: 
   description: "**Comprendre, évaluer et maîtriser vos besoins** d’intervention  \nPlanifier,
     **agir** avec **assurance** et **contrôle** des enjeux"
   telecharger: true
-- image: "uploads/table-overlay.jpg"
+- image: uploads/table-overlay.jpg
   icone_image: 
   description: "En toute sécurité, sans **coûts supplémentaires**, \x03\n\nvaloriser
     le bois infestés"
   telecharger: true
-- image: "uploads/table-overlay.jpg"
+- image: uploads/table-overlay.jpg
   icone_image: 
   description: "En **contrôle**, **une action à la fois**,\x03nous vous **accompagnons**
     \x03avec sérénité"
@@ -26,19 +26,19 @@ slider:
 sections:
 - titre: Offre de Services
   icones:
-  - image: "uploads/inventaire-avec-evaluation-detaillee.png"
+  - image: uploads/inventaire-avec-evaluation-detaillee.png
     titre: INVENTAIRE  AVEC ÉVALUATION DÉTAILLÉE
     url: "/inventaire-avec-evaluation-detaillee.html"
     description: 
-  - image: "uploads/services-en-ligne.png"
+  - image: uploads/services-en-ligne.png
     titre: Services en ligne
     url: "/services-en-ligne.html"
     description: 
-  - image: "uploads/preservation-durable.png"
+  - image: uploads/preservation-durable.png
     titre: service de préservation durable
     url: "/preservation-durable.html"
     description: 
-  - image: "uploads/valorisation-du-bois-infeste.png"
+  - image: uploads/valorisation-du-bois-infeste.png
     titre: Valorisation tu bois infeste
     url: "/valorisation-du-bois-infeste.html"
     description: 
@@ -46,24 +46,24 @@ sections:
   description: "UN PORTAIL AVEC LES DONNÉES ET DE L’INFORMATION PRÉCISE POUR RÉPONDRE\x03AVEC
     ASSURANCE À TOUS VOS BESOINS D’INVENTAIRES. C’EST..."
   icones:
-  - image: "uploads/simple.png"
+  - image: uploads/simple.png
     titre: "SIMPLE, RAPIDE \x03ET ÉCONOMIQUE"
     description: Anticiper avec l’inventaire intelligent qui documente et précise
       exactement quoi faire selon des indicateurs précis
     url: 
-  - image: "uploads/fonctionnel.png"
+  - image: uploads/fonctionnel.png
     titre: FONCTIONNEL, PERSONNALISÉ, INTERACTIF et collaboratif
     description: |2-
 
 
       Faciliter l’accès contenu à toutes les ressources disponibles (professionnels, administration, subvention etc.)
     url: 
-  - image: "uploads/documente.png"
+  - image: uploads/documente.png
     titre: DOCUMENTÉ, précis, basé sur les faits, mesurable
     description: Nous contrôlons l’insecte avec nos technologies et vous maîtrisez
       vos coûts avec les services concertés
     url: 
-  - image: "uploads/epidemie.png"
+  - image: uploads/epidemie.png
     titre: "aide à protéger \x03l’épidémie "
     description: La valeur du bois de votre arbre est déterminée avant les travaux
       d’abattage
@@ -73,9 +73,9 @@ sections:
 - skip: ''
 - titre: PARTENAIRES DE DéVELOPPEMENT DES SOLUTIONS
   icones:
-  - image: "uploads/quebec.png"
-  - image: "uploads/terrebonne.png"
-  - image: "uploads/montreal.png"
+  - image: uploads/quebec.png
+  - image: uploads/terrebonne.png
+  - image: uploads/montreal.png
 layout: default
 ---
 

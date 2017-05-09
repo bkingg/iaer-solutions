@@ -31,8 +31,8 @@ sections:
 - skip: ''
 - titre: PARTENAIRES DE DéVELOPPEMENT DES SOLUTIONS
   icones:
-  - image: "uploads/quebec.png"
-  - image: "uploads/terrebonne.png"
-  - image: "uploads/montreal.png"
+  - image: uploads/quebec.png
+  - image: uploads/terrebonne.png
+  - image: uploads/montreal.png
 layout: default
 ---
