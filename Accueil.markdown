@@ -1,6 +1,6 @@
 ---
 title: Accueil
-date: 2017-03-07 23:06:00 -05:00
+date: '2017-03-08T04:06:00.000+00:00'
 permalink: "/"
 slider:
 - image: "/uploads/table-overlay.jpg"
@@ -68,9 +68,9 @@ sections:
     description: La valeur du bois de votre arbre est déterminée avant les travaux
       d’abattage
     url: 
-- histoire: ""
-- carte: ""
-- skip: ""
+- histoire: ''
+- carte: ''
+- skip: ''
 - titre: PARTENAIRES DE DéVELOPPEMENT DES SOLUTIONS
   icones:
   - image: "/uploads/quebec.png"

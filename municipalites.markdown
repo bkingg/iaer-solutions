@@ -1,6 +1,6 @@
 ---
 title: Municipalites
-date: 2017-03-07 23:06:00 -05:00
+date: '2017-03-08T04:06:00.000+00:00'
 permalink: "/municipalites"
 slider:
 - image: "/uploads/table-overlay.jpg"
@@ -24,7 +24,7 @@ slider:
     et les professionnels \n\n**Creer l'interet avec la simplicite**"
   telecharger: true
 sections:
-- titre: 'Comment ça fonctionne'
+- titre: Comment ça fonctionne
   etapes: " "
 - titre: OFFRE DE LA SOLUTION CONCERTÉE ET ÉCONOMIQUE
   icones:
@@ -39,7 +39,7 @@ sections:
     url: module-de-performances.html
   - image: "/uploads/m-valorisation.png"
     titre: VALORISATION du bois
-    url: "valorisation-du-bois-infeste.html"
+    url: valorisation-du-bois-infeste.html
 - titre: VOS ACtions DE GESTION DE LA PROBLÈMATIQUE
   icones:
   - image: "/uploads/m-communication.png"

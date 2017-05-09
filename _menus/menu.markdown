@@ -1,6 +1,6 @@
 ---
 title: Menu
-date: 2017-04-26 19:17:00 -04:00
+date: '2017-04-26T23:17:00.000+00:00'
 menu-niveau-1:
 - titre: Vos actions de gestion
   url: "&#35vos-actions-de-gestion-de-la-problÈmatique"
@@ -31,7 +31,7 @@ menu-niveau-1:
       url: module-de-performances.html
       liens: 
     - titre: Valorisation du bois infesté
-      url: "valorisation-du-bois-infeste.html"
+      url: valorisation-du-bois-infeste.html
       liens: 
 - titre: SOLUTION TECHNOLOGIQUE
   url: solution-technologique.html
