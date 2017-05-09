@@ -16,6 +16,14 @@ slider:
     voila un paagraphe
   telecharger: true
 sections:
+- titre: ''
+  icones: ''
+  description: ''
+  icones_modal_slider: ''
+  description_half: ''
+  skip: ''
+  engagement: ''
+  etapes: ''
 - icones:
   - image: "/_uploads/preservation-durable.png"
     titre: test 2
