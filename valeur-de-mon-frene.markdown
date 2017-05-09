@@ -3,7 +3,7 @@ title: Valeur de mon Frene
 date: 2017-03-07 23:06:00 -05:00
 permalink: "valeur-de-mon-frene"
 slider:
-- image: "uploads/table-overlay-9939a3.jpg"
+- image: "uploads/table-overlay.jpg"
   icone_image: "uploads/valeur-de-mon-frene.png"
   description: "## **Valeur de mon frêne**\nTOUT **FRÊNE** POSSÈDE UNE **VALEUR**.
  LA CONNAÎTRE EST LA PREMIÈRE VICTOIRE FACE À L’AGRILE DU FRÊNE."

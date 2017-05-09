@@ -3,7 +3,7 @@ title: Institutions
 date: 2017-03-07 23:06:00 -05:00
 permalink: "/institutions"
 slider:
-- image: "uploads/table-overlay-9939a3.jpg"
+- image: "uploads/table-overlay.jpg"
   icone_image: 
   description: "Prendre la bonne decision en economisant temps et argent maintenant!
     \n\n **Obtenez l'evaluation gratuite de 2 a 6 frenes sur votre**"

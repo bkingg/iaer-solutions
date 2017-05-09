@@ -4,7 +4,7 @@ date: 2017-03-07 23:06:00 -05:00
 permalink: "/activites-preventives"
 parent: municipalites
 slider:
-- image: "uploads/table-overlay-9939a3.jpg"
+- image: "uploads/table-overlay.jpg"
   icone_image: "uploads/ap-activites-preventives.png"
   description: "## **Activités préventive de lutte** \nPrévenir vaut mieux que guérir, la bonne action au bon endroit, au bon moment avec la bonne technique"
 sections:

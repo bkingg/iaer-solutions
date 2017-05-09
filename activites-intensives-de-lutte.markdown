@@ -4,7 +4,7 @@ date: 2017-03-07 23:06:00 -05:00
 permalink: "/activites-intensives-de-lutte"
 parent: municipalites
 slider:
-- image: "uploads/table-overlay-9939a3.jpg"
+- image: "uploads/table-overlay.jpg"
   icone_image: "uploads/activites-intensives-contour-blanc.png"
   description: "## **Activités de lutte Intensive** \nRéduire les coûts pour susciter l’intérêt et limiter la propagation de l’insecte  par la valorisation du bois infesté"
 sections:
