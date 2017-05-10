@@ -1,7 +1,7 @@
 ---
-title: Diagnostiques et Inventaire et Evaluation
+title: Inventaire intelligent
 date: '2017-03-08T04:06:00.000+00:00'
-permalink: diagnostique-et-inventaire-et-evaluation
+permalink: INVENTAIRE INTELLIGENT
 slider:
 - image: uploads/plateforme-overlay.jpg
   icone_image: uploads/d-inventaire.png
@@ -11,9 +11,11 @@ slider:
   telecharger: true
 sections:
 - titre: PRÉSENTATION
-  description: L’application services web  pour bonifier les procédés opérationnels
-    d’inventaire et accélérer la collecte intelligente de données de tous les frênes
-    du territoire.
+  description: "Notre solution d’inventaire intelligent permet à tout  gestionnaire
+    ou propriétaire d’accéder à l’information sur la valeur et l’état de santé de
+    ses frênes en ligne. \n\nLes supports numériques de valeur de mon frêne aident
+    à assurer le suivi des services administratifs et professionnels. Au final ce
+    sont  des économies importantes (32% et +) en temps et argent pour tous les propriétaires."
 - titre: Valeur de mon frêne accompagne les professionnels selon les priorités et
     les objectifs  de manière à…
   benefices_simple:
@@ -165,5 +167,6 @@ sections:
   - description: Bonification de la qualité de l’information et des données
   - description: Contrôle de l’information à plusieurs niveaux d’intervention
 layout: default
+parent: ''
 ---
 
