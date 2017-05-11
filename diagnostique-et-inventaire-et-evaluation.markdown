@@ -1,7 +1,7 @@
 ---
 title: Inventaire intelligent
 date: '2017-03-08T04:06:00.000+00:00'
-permalink: INVENTAIRE INTELLIGENT
+permalink: diagnostique-et-inventaire-et-evaluation
 slider:
 - image: uploads/plateforme-overlay.jpg
   icone_image: uploads/d-inventaire.png
