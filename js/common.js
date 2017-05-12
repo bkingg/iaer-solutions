@@ -33,7 +33,16 @@ $(function(){
 	    speed: 1200,
 	    arrows: false,
 	    swipe: true,
-	    autoplay: true
+	    autoplay: true,
+	    responsive: [
+        {
+          breakpoint: 1000,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
+        }
+      ]
 		});
 
       // Slider arrows
@@ -159,6 +168,13 @@ $(function(){
   // //           $('.subnav').removeClass('fixed');
   // //       }
   // //   })
+
+  $('.navbar-toggle').click(function(){
+  	if($(window).width() < 768){
+  		$('.subnav').slideToggle().removeClass('affix');
+  	}
+  });
+
 });
 
 

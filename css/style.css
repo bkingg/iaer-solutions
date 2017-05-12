@@ -59,7 +59,7 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
     font-weight: bold;
     display: table-cell;
     vertical-align: middle;
-    max-width: 250px;
+    max-width: 205px;
     padding-left: 10px;
     white-space: initial;
     color: white; }
@@ -121,6 +121,9 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
   width: 100%; }
   #navbar-full .navbar-header {
     height: 150px; }
+    @media screen and (max-width: 992px) {
+      #navbar-full .navbar-header {
+        height: 100px; } }
     #navbar-full .navbar-header .navbar-brand {
       height: 100%;
       margin: 0; }
@@ -132,13 +135,21 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
           vertical-align: middle;
           padding: 15px 5px;
           height: 150px; }
+          @media screen and (max-width: 992px) {
+            #navbar-full .navbar-header .navbar-brand .logo img {
+              height: 100px; } }
   #navbar-full .navbar-right {
     height: 150px; }
-    @media (max-width: 768px) {
+    @media screen and (max-width: 992px) {
       #navbar-full .navbar-right {
-        height: auto; } }
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 0; } }
     #navbar-full .navbar-right > li {
       padding: 47.5px 0; }
+      @media screen and (max-width: 992px) {
+        #navbar-full .navbar-right > li {
+          padding: 10px 0; } }
       #navbar-full .navbar-right > li:hover, #navbar-full .navbar-right > li.active {
         background: #83b739;
         cursor: pointer; }
@@ -149,22 +160,35 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
         background: none; }
         #navbar-full .navbar-right > li > a:hover {
           background: none; }
+        @media screen and (max-width: 992px) {
+          #navbar-full .navbar-right > li > a img {
+            display: none; } }
 
 .subnav {
   background-color: rgba(79, 80, 84, 0.85);
   transition: all 0.3s; }
+  @media screen and (max-width: 992px) {
+    .subnav {
+      display: none;
+      background-color: rgba(79, 80, 84, 0.95); } }
   .subnav.affix {
     position: fixed;
     top: 0;
     width: 100%; }
   .subnav ul:first-child {
     position: relative;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    display: inline-block; }
+    @media screen and (max-width: 992px) {
+      .subnav ul:first-child {
+        display: block; } }
     .subnav ul:first-child > li {
       position: static;
       padding: 0 !important;
       cursor: pointer;
       margin: 0; }
+      .subnav ul:first-child > li.cols-1 {
+        position: relative; }
       .subnav ul:first-child > li.social:hover {
         background-color: transparent; }
       @media (max-width: 768px) {
@@ -203,11 +227,15 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
         background: white;
         width: 100%;
         text-align: left;
-        box-shadow: 1px 1px 5px #c7c7c7; }
+        box-shadow: 1px 1px 5px #c7c7c7;
+        z-index: 1; }
         .subnav ul:first-child > li .submenu .column {
           width: 33.33333%;
           float: left;
           padding: 0 20px; }
+          @media screen and (max-width: 992px) {
+            .subnav ul:first-child > li .submenu .column {
+              width: 100%; } }
           .subnav ul:first-child > li .submenu .column:not:last-child {
             border-right: 1px solid #333; }
           .subnav ul:first-child > li .submenu .column .title {
@@ -273,12 +301,31 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
                 .subnav ul:first-child > li .submenu .column .actions a button:hover {
                   background: #83b739;
                   color: white; }
+        .subnav ul:first-child > li .submenu.grid-1 {
+          width: 200%; }
+          @media screen and (max-width: 992px) {
+            .subnav ul:first-child > li .submenu.grid-1 {
+              width: 100%; } }
+          .subnav ul:first-child > li .submenu.grid-1 .column {
+            width: 100%; }
+            @media screen and (max-width: 992px) {
+              .subnav ul:first-child > li .submenu.grid-1 .column {
+                width: 100%; } }
         .subnav ul:first-child > li .submenu.grid-2 .column {
           width: 50%; }
+          @media screen and (max-width: 992px) {
+            .subnav ul:first-child > li .submenu.grid-2 .column {
+              width: 100%; } }
         .subnav ul:first-child > li .submenu.grid-3 .column {
           width: 33.33333%; }
+          @media screen and (max-width: 992px) {
+            .subnav ul:first-child > li .submenu.grid-3 .column {
+              width: 100%; } }
         .subnav ul:first-child > li .submenu.grid-4 .column {
           width: 25%; }
+          @media screen and (max-width: 992px) {
+            .subnav ul:first-child > li .submenu.grid-4 .column {
+              width: 100%; } }
       .subnav ul:first-child > li:hover, .subnav ul:first-child > li:active, .subnav ul:first-child > li:focus {
         background-color: #83b739; }
         .subnav ul:first-child > li:hover .submenu, .subnav ul:first-child > li:active .submenu, .subnav ul:first-child > li:focus .submenu {
@@ -296,17 +343,21 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
   .homepage__slider-wrapper .homepage__slider {
     visibility: hidden;
     width: 100%;
-    transition: visibility 0.3s ease-in; }
+    transition: visibility 0.3s ease-in;
+    min-height: 100vh; }
     .homepage__slider-wrapper .homepage__slider.slick-initialized {
       visibility: visible; }
     .homepage__slider-wrapper .homepage__slider .slide {
-      position: relative; }
+      position: relative;
+      min-height: 100vh; }
       .homepage__slider-wrapper .homepage__slider .slide__video iframe {
         width: 100%; }
       .homepage__slider-wrapper .homepage__slider .slide .image {
+        display: block;
         background-size: cover;
         background-position: center;
-        height: inherit; }
+        height: inherit;
+        min-height: 100vh; }
         .homepage__slider-wrapper .homepage__slider .slide .image .caption {
           padding-top: 320px;
           padding-bottom: 60px;
@@ -316,8 +367,11 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
           display: inline-block;
           width: 100%;
           color: white; }
+          @media screen and (max-width: 992px) {
+            .homepage__slider-wrapper .homepage__slider .slide .image .caption {
+              padding-top: 120px; } }
           .homepage__slider-wrapper .homepage__slider .slide .image .caption img {
-            width: 150px;
+            width: 200px;
             margin: 0 auto; }
           .homepage__slider-wrapper .homepage__slider .slide .image .caption h1, .homepage__slider-wrapper .homepage__slider .slide .image .caption h3 {
             color: white;
@@ -382,9 +436,16 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
     bottom: 5px;
     right: 15px;
     color: #83b739; }
+    @media screen and (max-width: 992px) {
+      .homepage__slider-wrapper .slider__dots {
+        width: 100%;
+        text-align: center; } }
     .homepage__slider-wrapper .slider__dots .slick-dots li {
       display: block;
-      padding: 2px 0; }
+      padding: 2px; }
+      @media screen and (max-width: 992px) {
+        .homepage__slider-wrapper .slider__dots .slick-dots li {
+          display: inline-block; } }
       .homepage__slider-wrapper .slider__dots .slick-dots li .slider__dot {
         background: #777;
         text-align: center;
@@ -436,7 +497,7 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
       pointer-events: none; }
   .section__video iframe {
     width: 100%; }
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 992px) {
       .section__video iframe {
         height: 300px; } }
   .section .section__title {
@@ -448,13 +509,15 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
     padding-bottom: 30px;
     font-size: 25px; }
   .section .section__description {
-    color: #808080;
+    color: #333;
     font-size: 12px;
-    margin-bottom: 30px; }
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: justify;
+    font-weight: normal; }
     .section .section__description.half {
       text-align: justify;
       color: #504949;
-      font-weight: bold;
       font-size: 1em; }
       @media (min-width: 768px) {
         .section .section__description.half {
@@ -481,7 +544,7 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
         font-size: 14px;
         font-weight: bold;
         margin: 0; }
-      @media screen and (max-width: 700px) {
+      @media screen and (max-width: 992px) {
         .section__tabs .tabs__wrapper .tabs .tab {
           display: block;
           margin: 3px;
@@ -609,7 +672,8 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
     padding: 10px 0;
     height: inherit;
     display: table;
-    width: 100%; }
+    width: 100%;
+    position: relative; }
     .section .offer a {
       text-decoration: none;
       display: table-cell;
@@ -632,7 +696,26 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
       line-height: 16px; }
     .section .offer .offer__description {
       font-size: 12px;
-      font-weight: normal; }
+      font-weight: normal;
+      color: #333; }
+    .section .offer .offer__hover {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.75);
+      width: 100%;
+      height: 100%;
+      color: white;
+      font-weight: normal;
+      padding: 10px;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.4s;
+      cursor: pointer; }
+    .section .offer:hover .offer__hover {
+      opacity: 1;
+      visibility: visible; }
     .section .offer.small img {
       margin: 0 auto;
       margin-bottom: 15px;
@@ -724,7 +807,7 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
       margin-bottom: 15px;
       margin-top: 10px; }
     .section .box .box__separator {
-      max-width: 150px;
+      width: 100%;
       background-color: white;
       height: 1px;
       margin: auto;
