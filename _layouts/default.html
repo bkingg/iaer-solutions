@@ -58,6 +58,12 @@
                         <h3 class="offer__title">{{ icone.titre }}</h3>
                         <div class="offer__description">{{ icone.description | markdownify }}</div>
                       </a>
+
+                      {% if icone.hover %}
+                        <div class="offer__hover">
+                          {{ icone.hover }}
+                        </div>
+                      {% endif %}
                     </div>
                   </div>
                 {% endfor %}
@@ -67,7 +73,7 @@
                 {% assign boites = section.boites %}
                 {% for boite in boites %}
                   {% assign cols = 12 | divided_by: boites.size %}
-                  <div class="col-sm-6 col-md-{{ cols }} col-eq-height">
+                  <div class="col-sm-6 col-md-{{ cols }}">
 
                       <div class="box">
 
@@ -187,6 +193,8 @@
                           {{ page.content }}
                         </p>
 
+                        <br/><br/>
+
                         <h1 class="section__title">ILS NOUS FONT CONFIANCE</h1>
 
                         <h1 class="section__title"><img src="uploads/quebec.png" alt="">&nbsp;&nbsp;<img src="uploads/terrebonne.png" alt="">&nbsp;&nbsp;<img src="uploads/montreal.png" alt=""></h1>
@@ -212,7 +220,6 @@
                     --></div>
                       <div class="tabs__content">
                         <div class="tab__content tab__content--active" data-tab="etape-1">
-                          <div class="tab__content--title">1</div>
                           <div class="tab__content--title">INVENTAIRE INTELLIGENT</div>
                           <div class="tab__content--description">TOUS LES PROPRIÉTAIRES ONT ACCÈS À LA SOLUTION D’ÉVALUATION DES FRÊNES</div>
                           <div class="row">
@@ -237,14 +244,12 @@
                           </div>
                         </div>
                         <div class="tab__content" data-tab="etape-2">
-                           <div class="tab__content--title">2</div>
                             <div class="tab__content--title">Intelligence artificielle</div>
                             <div class="tab__content--description">Une suite de logiciels integres:</div>
                             <div class="tab__content--description">Réalise des analyses et alimente par des supports numériques tous les intervenants</div>
                             <div class="tab__content--description">Modélise et coordone toutes les activités techniques à partir des données des frênes de l'ensemble des propriétaires du territoire</div>
                         </div>
                         <div class="tab__content" data-tab="etape-3">
-                           <div class="tab__content--title">3</div>
                             <div class="tab__content--title">Solutions numériques</div>
                             <div class="tab__content--description">Tous les intervenants peuvent communiquer et agir rapidement en tout temps</div>
                             <div class="tab__content--description">Tous les propriétaires on accès aux solutions et services économiques</div>

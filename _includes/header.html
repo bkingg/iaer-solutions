@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0">
   <link href="css/bootstrap.css" rel="stylesheet" />
   <link href="css/font-awesome.min.css" rel="stylesheet" />  
   <link href="css/fonts.css" rel="stylesheet" />
@@ -92,13 +93,27 @@
           </div><!-- /.container-fluid -->
         </nav>
     </div><!--  end navbar -->
-
-    {% assign page_slug = page.title | slugify %}
-    {% if page_slug == 'accueil' %}
-      {% include menu-accueil.html %}
-    {% elsif page_slug == 'citoyens' or page_slug == 'institutions' %}
-      {% include menu-citoyens-institutions.html %}
-    {% else %}
-      {% include menu.html %}
-    {% endif %}
+    <div class="subnav" data-spy="affix" data-offset-top="150">
+      <div class="container-fluid text-center">
+        <ul class="list-inline text-center menu-niveau-1"
+          {% assign page_slug = page.title | slugify %}
+          {% if page_slug == 'accueil' %}
+            {% include menu-accueil.html %}
+          {% elsif page_slug == 'citoyens' or page_slug == 'institutions' %}
+            {% include menu-citoyens-institutions.html %}
+          {% else %}
+            {% include menu.html %}
+          {% endif %}
+          ><li class="social">
+            <a href="https://www.linkedin.com" class="social__link" target="_blank"><i class="fa fa-linkedin"></i></a>
+          <li
+          ><li class="social">
+            <a href="https://www.youtube.com" class="social__link" target="_blank"><i class="fa fa-youtube"></i></a>
+          <li
+          ><li class="social">
+            <a href="https://www.facebook.com" class="social__link" target="_blank"><i class="fa fa-facebook"></i></a>
+          <li
+        ></ul>
+      </div>
+    </div>
   </div> <!-- end menu-dropdown -->
