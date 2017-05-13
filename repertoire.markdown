@@ -1,7 +1,7 @@
 ---
 title: Repertoire
 date: '2017-03-08T04:06:00.000+00:00'
-permalink: "repertoire"
+permalink: repertoire
 slider:
 - image: uploads/table-overlay.jpg
   icone_image: 
