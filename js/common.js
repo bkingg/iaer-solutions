@@ -73,15 +73,15 @@ $(function(){
 	        offset: 160
 	    });
 	    $('.section__title').addClass('hide_me').viewportChecker({
-	        classToAdd: 'visible animated fadeIn',
+	        classToAdd: 'visible animated fadeInDown',
 	        offset: 30
 	    });
 	    $('.section__description').addClass('hide_me').viewportChecker({
-	        classToAdd: 'visible animated fadeIn',
+	        classToAdd: 'visible animated fadeInDown',
 	        offset: 30
 	    });
 	    $('.caption').addClass('hide_me').viewportChecker({
-	        classToAdd: 'visible animated fadeIn',
+	        classToAdd: 'visible animated fadeInDown',
 	        offset: 30
 	    });
 
