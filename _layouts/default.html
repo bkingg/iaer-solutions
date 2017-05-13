@@ -91,7 +91,7 @@
                 {% assign benefices = section.benefices %}
                 {% for benefice in benefices %}
                   {% assign cols = 12 | divided_by: benefices.size %}
-                  <div class="col-sm-6 col-md-{{ cols }} col-eq-height">
+                  <div class="col-sm-6 col-md-{{ cols }}">
                       <div class="box">
                           {% if benefice.image %}
                             <div class="text-center">

@@ -1,8 +1,10 @@
+{% assign has_custom_menu = false %}
 
 {% for menu in site.menus %}
   {% assign page_slug = page.title | slugify %}
   {% assign menu_slug = menu.title | slugify %}
-  {% if menu_slug == 'menu' %}
+  {% if menu_slug contains page_slug %}
+    {% assign has_custom_menu = true %}
     {% for link in menu.menu-niveau-1 %}
       ><li class="cols-{{ link.menu-niveau-2.size }}">
         <a href="{{ link.url | downcase }}">
@@ -47,3 +49,55 @@
     {% endfor %}
   {% endif %}
 {% endfor %}
+
+{% if has_custom_menu == false %}
+  {% for menu in site.menus %}
+    {% assign page_slug = page.title | slugify %}
+    {% assign menu_slug = menu.title | slugify %}
+    {% if menu_slug == 'menu' %}
+      {% assign has_custom_menu = true %}
+      {% for link in menu.menu-niveau-1 %}
+        ><li class="cols-{{ link.menu-niveau-2.size }}">
+          <a href="{{ link.url | downcase }}">
+            {% assign link_title = link.titre | slugify %}
+            {% if link_title == 'menu-des-solutions' %}
+              <i class="fa fa-bars"></i>&nbsp;&nbsp;
+            {% endif %} 
+            {{ link.titre }}</a>
+          {% if link.menu-niveau-2.size > 0 %}
+            <div class="submenu grid-{{ link.menu-niveau-2.size }}">
+              {% for link-2 in link.menu-niveau-2 %}
+                <div class="column">
+                  <h3 class="title">{{ link-2.titre }}</h3>
+                  <ul class="description menu-niveau-3">
+                    {% for link-3 in link-2.menu-niveau-3 %}
+                      <li class="accordion" data-accordion="{{ link-3.titre | slugify }}">
+                        <a href="{{ link-3.url | downcase }}" class="accordion__toggle" data-accordion="{{ link-3.titre | slugify }}">
+                          {{ link-3.titre }}
+                          {% if link-3.menu-niveau-4.size > 0 %}
+                            <i class="fa fa-plus"></i>
+                          {% endif %}
+                        </a>
+                        {% if link-3.menu-niveau-4.size > 0 %}
+                          <ul class="menu-niveau-4 accordion__content">
+                            {% for link-4 in link-3.menu-niveau-4 %}
+                              <li><a href="{{ link-4.url | downcase }}">{{ link-4.titre }}</a></li>
+                            {% endfor %}
+                          </ul>
+                        {% endif %}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                  <!--<div class="actions">
+                    <a href="communication.php"><button class="btn"><span>EN SAVOIR PLUS</span></button></a>
+                    <a href=""><button class="btn"><span>TÉLÉCHARGEZ NOTRE OFFRE D’ACCOMPAGNEMENT</span></button></a>
+                  </div>-->
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </li
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{% endif %}

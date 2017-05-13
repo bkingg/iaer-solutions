@@ -21,6 +21,7 @@ body, h1, h2, h3, h4, h5, h6, p, span, a{
 
 .hide_me{
      opacity:0;
+     transition: all 0.4s;
 }
 .visible{
      opacity:1;
@@ -181,7 +182,7 @@ $navbar-mobile-height: 100;
     }
   	> li{
   		padding: ((($navbar-height/ 3) - 2.5) + px) 0;
-      @media screen and (max-width: 992px) {
+      @media screen and (max-width: 700px) {
         padding: 10px 0;
       }
   		&:hover, &.active{
@@ -197,7 +198,7 @@ $navbar-mobile-height: 100;
   			&:hover{
   				background: none;
   			}
-        @media screen and (max-width: 992px) {
+        @media screen and (max-width: 700px) {
           img{
             display: none;
           }
@@ -467,8 +468,13 @@ $navbar-mobile-height: 100;
 		      display: inline-block;
 			    width: 100%;
 					color: white;
-          @media screen and (max-width: 992px) {
+          @media screen and (max-width: 998px) {
+            padding-top: 220px;
+            padding-bottom: 30px;
+          }
+          @media screen and (max-width: 700px) {
             padding-top: 120px;
+            padding-bottom: 30px;
           }
 		      img{
 		      	width: 200px;
@@ -656,6 +662,7 @@ $navbar-mobile-height: 100;
     margin-bottom: 30px;
     text-align: justify;
     font-weight: normal;
+    text-transform: none;
     &.half{
 			text-align: justify;
 			color: #504949;
@@ -786,6 +793,9 @@ $navbar-mobile-height: 100;
     &__description{
       color: #222;
       font-weight: normal;
+      p{
+        font-size: 12px;
+      }
     }
     ul, li{
       font-weight: normal;
@@ -844,6 +854,9 @@ $navbar-mobile-height: 100;
       &__description{
         color: white;
         font-weight: normal;
+      }
+      img{
+        width: 70px;
       }
   	}
     .download{
@@ -1029,7 +1042,7 @@ $navbar-mobile-height: 100;
       }
     }
     img {
-      width: 70px;
+      width: 40px;
       text-align: center;
     }
     .box__title {
