@@ -6,7 +6,7 @@
 $green: #83b739;
 
 body, h1, h2, h3, h4, h5, h6, p, span, a{
-	font-family: 'Nauman', Arial, sans-serif;
+	font-family: 'Sinkin Sans', Arial, sans-serif;
 }
 
 .left{
@@ -24,7 +24,17 @@ body, h1, h2, h3, h4, h5, h6, p, span, a{
      transition: all 0.4s;
 }
 .visible{
-     opacity:1;
+     opacity: 1;
+}
+
+.col-eq-height{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.4s;
+  &.show{
+    visibility: visible;
+    opacity: 1;
+  }
 }
 
 .btn{
@@ -36,11 +46,12 @@ body, h1, h2, h3, h4, h5, h6, p, span, a{
   border-radius: 0;
   color: white;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
   border: none;
   transition: all 0.3s;
   display: table;
   margin: 0 auto;
+  padding: 10px;
   img{
     width: 35px;
     display: table-cell;
@@ -60,10 +71,10 @@ body, h1, h2, h3, h4, h5, h6, p, span, a{
   }
   span{
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 600;
     display: table-cell;
     vertical-align: middle;
-    max-width: 205px;
+    max-width: 250px;
     padding-left: 10px;
     white-space: initial;
     color: white;
@@ -108,6 +119,9 @@ body, h1, h2, h3, h4, h5, h6, p, span, a{
     min-height: 1px;
     padding-right: 15px;
     padding-left: 1px;
+    img{
+      height: 60px !important;
+    }
 }
 
 .col-xs-5ths {
@@ -136,7 +150,18 @@ body, h1, h2, h3, h4, h5, h6, p, span, a{
     }
 }
 
-.accordion__toggle{text-decoration: none;}
+.accordion__toggle{
+  text-decoration: none;
+  display: table;
+  width: 100%;
+  span, i{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  i{
+    padding-left: 5px;
+  }
+}
 .accordion__content{
 	display: none;
 	.accordion--open &{
@@ -246,7 +271,7 @@ $navbar-mobile-height: 100;
         text-align: center;
         text-decoration: none;
         text-transform: uppercase;
-        font-weight: bold;
+        font-weight: 600;
         display: block;
         font-size: 10px;
         line-height: 20px;
@@ -295,7 +320,7 @@ $navbar-mobile-height: 100;
       			border-right: 1px solid #333;
       		}
       		.title{
-      			font-weight: bold;
+      			font-weight: 600;
       			color: $green;
       			font-size: 12px;
 						text-transform: uppercase;
@@ -378,7 +403,7 @@ $navbar-mobile-height: 100;
       		}
       	}
         &.grid-1{
-          width: 200%;
+          width: 320px;
           @media screen and (max-width: 992px) {
             width: 100%;
           }
@@ -575,7 +600,7 @@ $navbar-mobile-height: 100;
           color: #333;
           font-weight: bold;
           cursor: pointer;
-          padding: 1px 7px;
+          padding: 2px 5px;
           transition: all 0.2s;
 				}
 				&:hover, &.slick-active{
@@ -648,12 +673,13 @@ $navbar-mobile-height: 100;
   }
   .section__title {
     text-transform: uppercase;
-    font-size: 18px;
-    font-weight: bold;
+    font-weight: 600;
     color: #4f5054;
     text-align: center;
     padding-bottom: 30px;
-    font-size: 25px;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 0;
   }
   .section__description{
   	color: #333;
@@ -715,6 +741,8 @@ $navbar-mobile-height: 100;
         &--title{
           color: $green;
           text-transform: uppercase;
+          padding-top: 30px;
+          padding-bottom: 20px;
         }
         &--description{
           font-weight: normal;
@@ -813,7 +841,7 @@ $navbar-mobile-height: 100;
     .section__title {
       color: white;
       text-align: center;
-      font-weight: bold;
+      font-weight: 600;
       text-transform: uppercase;
       margin-top: 0;
       margin-bottom: 20px;
@@ -845,6 +873,9 @@ $navbar-mobile-height: 100;
           font-weight: bold;
         }
       }
+      .offer__description p{
+        color: white;
+      }
     }
     .box {
     	border: 1px white solid;
@@ -856,7 +887,10 @@ $navbar-mobile-height: 100;
         font-weight: normal;
       }
       img{
-        width: 70px;
+        height: 40px;
+        &.boite-img{
+          height: 70px;
+        }
       }
   	}
     .download{
@@ -884,13 +918,10 @@ $navbar-mobile-height: 100;
   	text-align: center;
   	padding: 10px 0;
     height: inherit;
-    display: table;
-    width: 100%;
+    display: block;
     position: relative;
 		a{
 			text-decoration: none;
-      display: table-cell;
-      vertical-align: middle;
       transition: all 0.3s;
       opacity: 1;
       &:hover{
@@ -900,21 +931,22 @@ $navbar-mobile-height: 100;
   	img{
   		margin: 0 auto;
   		margin-bottom: 15px;
-  		max-height: 160px;
+  		height: 130px;
       display: block;
   	}
   	.offer__title{
   		text-transform: uppercase;
-	    font-size: 15px;
+	    font-size: 13px;
 	    color: #333;
-	    font-weight: bold;
+	    font-weight: 600;
 	    text-align: center;
   		line-height: 16px;
   	}
-  	.offer__description {
+  	.offer__description, .offer__description p {
 	    font-size: 12px;
 	    font-weight: normal;
       color: #333;
+      height: 100px;
 	  }
     .offer__hover {
       display: block;
@@ -993,7 +1025,7 @@ $navbar-mobile-height: 100;
   	text-transform: uppercase;
     color: #333;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 600;
   }
   .solution-box__description {
     font-size: 12px;
@@ -1003,11 +1035,10 @@ $navbar-mobile-height: 100;
     min-height: 70px;
   }
   .box {
-    border: 1px #333 solid;
-    padding: 10px;
+    border: 1px $green solid;
+    padding: 10px 0;
     border-radius: 7px;
-    margin: auto;
-    margin-bottom: 30px;
+    margin: 0 auto;
     max-width: 280px;
     height: inherit;
     &.middle {
@@ -1018,15 +1049,18 @@ $navbar-mobile-height: 100;
       }
     }
     &.small {
-      display: table;
-      width: 100%;
+      display: block;
       margin-bottom: 0;
       background-color: $green;
       border-color: white;
       .box__description, .box__title{
-        display: table-cell;
-        vertical-align: middle;
+        display: block;
         color: white;
+        margin-bottom: 0;
+        font-size: 13.5px;
+        p{
+          margin-bottom: 0;
+        }
       }
     }
     &.has-icon {
@@ -1042,15 +1076,19 @@ $navbar-mobile-height: 100;
       }
     }
     img {
-      width: 40px;
+      height: 50px;
       text-align: center;
+      &.boite-img{
+        height: 70px;
+        padding-bottom: 5px;
+      }
     }
     .box__title {
       font-size: 12px;
       line-height: 18px;
       text-align: center;
       text-transform: uppercase;
-      font-weight: bold;
+      font-weight: 600;
       margin-bottom: 15px;
       margin-top: 10px;
     }
@@ -1061,7 +1099,11 @@ $navbar-mobile-height: 100;
       margin: auto;
       margin-bottom: 20px;
     }
-    .box__description {
+    .box__title, .box__description{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .box__description, .box__description p {
       font-size: 12px;
       font-weight: normal;
       text-align: left;
@@ -1173,6 +1215,11 @@ $navbar-mobile-height: 100;
       width: 100%;
       img{
         width: 35px;
+      }
+      .btn{
+        span{
+          width: 350px;
+        }
       }
     }
   }

@@ -10,7 +10,7 @@
         <div id="villes-desservies" class="section">
           <div class="container">
             <div class="row">
-              <div class="col-sm-12s">
+              <div class="col-sm-8 col-sm-offset-2">
                 <h1 class="section__title" style="margin:0; padding:0;">carte des villes désservies</h1>
               </div>
             </div>
@@ -30,7 +30,11 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
-                <h1 class="section__title">{{ section.titre }}</h1>
+                <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2">
+                    <h1 class="section__title">{{ section.titre }}</h1>
+                  </div>
+                </div>
                 
                 {% if section.description %}
                     <p class="section__description center col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">{{ section.description }}</p>
@@ -56,7 +60,9 @@
                       <a href="{{ icone.url }}">
                         <img src="{{ icone.image }}">
                         <h3 class="offer__title">{{ icone.titre }}</h3>
-                        <div class="offer__description">{{ icone.description | markdownify }}</div>
+                        {% if icone.description %}
+                          <div class="offer__description">{{ icone.description | markdownify }}</div>
+                        {% endif %}
                       </a>
 
                       {% if icone.hover %}
@@ -71,27 +77,62 @@
 
               {% if section.boites %}
                 {% assign boites = section.boites %}
-                {% for boite in boites %}
-                  {% assign cols = 12 | divided_by: boites.size %}
-                  <div class="col-sm-6 col-md-{{ cols }}">
+                {% if  boites.size == 2 %}
+                  <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                    <div class="row row-eq-height">
+                      {% for boite in boites %}
+                        {% assign cols = 12 | divided_by: boites.size %}
+                        
+                        <div class="col-sm-6 col-md-{{ cols }} col-eq-height">
 
-                      <div class="box">
+                            <div class="box">
 
-                          <h2 class="box__title">{{ boite.titre }}</h2>
+                                {% if boite.image %}
+                                  <div class="text-center">
+                                      <img class="boite-img" src="{{ boite.image }}">
+                                  </div>
+                                {% endif %}
 
-                          <div class="box__separator"></div>
+                                <h2 class="box__title">{{ boite.titre }}</h2>
 
-                          <div class="box__description">{{ boite.description | markdownify }}</div>
-                      </div>
+                                <div class="box__separator"></div>
+
+                                <div class="box__description">{{ boite.description | markdownify }}</div>
+                            </div>
+                        </div>
+                      {% endfor %}
+                    </div>
                   </div>
-                {% endfor %}
+                {% else %}
+                  {% for boite in boites %}
+                    {% assign cols = 12 | divided_by: boites.size %}
+                    
+                    <div class="col-sm-6 col-md-{{ cols }} col-eq-height" style="margin-bottom: 20px;">
+
+                        <div class="box">
+
+                            {% if boite.image %}
+                              <div class="text-center">
+                                  <img class="boite-img" src="{{ boite.image }}">
+                              </div>
+                            {% endif %}
+
+                            <h2 class="box__title">{{ boite.titre }}</h2>
+
+                            <div class="box__separator"></div>
+
+                            <div class="box__description">{{ boite.description | markdownify }}</div>
+                        </div>
+                    </div>
+                  {% endfor %}
+                {% endif %}
               {% endif %}
 
               {% if section.benefices %}
                 {% assign benefices = section.benefices %}
                 {% for benefice in benefices %}
                   {% assign cols = 12 | divided_by: benefices.size %}
-                  <div class="col-sm-6 col-md-{{ cols }}">
+                  <div class="col-sm-6 col-md-{{ cols }}" style="margin-bottom: 20px;">
                       <div class="box">
                           {% if benefice.image %}
                             <div class="text-center">
@@ -205,7 +246,7 @@
               {% endif %}
 
               {% if section.etapes %}
-                <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-10 col-md-offset-1">
                   <div class="tabs__wrapper">
                       <div class="tabs"><!--
                         --><div class="tab tab__active" data-tab="etape-1">
@@ -223,38 +264,7 @@
                           <div class="tab__content--title">INVENTAIRE INTELLIGENT</div>
                           <div class="tab__content--description">TOUS LES PROPRIÉTAIRES ONT ACCÈS À LA SOLUTION D’ÉVALUATION DES FRÊNES</div>
                           <div class="row">
-                            <div class="col-sm-4">
-                              <a href="municipalites.html" class="offer small">
-                                <img class="img-responsive" src="uploads/m-municipalites.png">
-                                <h3 class="offer__title">Municipalités</h3>
-                              </a>
-                            </div>
-                            <div class="col-sm-4">
-                              <a href="institutions.html" class="offer small">
-                                <img class="img-responsive" src="uploads/m-institutions.png">
-                                <h3 class="offer__title">Institutions</h3>
-                              </a>
-                            </div>
-                            <div class="col-sm-4">
-                              <a href="residents.html" class="offer small">
-                                <img class="img-responsive" src="uploads/m-residents.png">
-                                <h3 class="offer__title">Résidents</h3>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="tab__content" data-tab="etape-2">
-                            <div class="tab__content--title">Intelligence artificielle</div>
-                            <div class="tab__content--description">Une suite de logiciels integres:</div>
-                            <div class="tab__content--description">Réalise des analyses et alimente par des supports numériques tous les intervenants</div>
-                            <div class="tab__content--description">Modélise et coordone toutes les activités techniques à partir des données des frênes de l'ensemble des propriétaires du territoire</div>
-                        </div>
-                        <div class="tab__content" data-tab="etape-3">
-                            <div class="tab__content--title">Solutions numériques</div>
-                            <div class="tab__content--description">Tous les intervenants peuvent communiquer et agir rapidement en tout temps</div>
-                            <div class="tab__content--description">Tous les propriétaires on accès aux solutions et services économiques</div>
-                            <div class="tab__content--description">Modélise et coordone toutes les activités techniques à partir des données des frênes de l'ensemble des propriétaires du territoire</div>
-                            <div class="row">
+                            <div class="col-sm-8 col-sm-offset-2">
                               <div class="col-sm-4">
                                 <a href="municipalites.html" class="offer small">
                                   <img class="img-responsive" src="uploads/m-municipalites.png">
@@ -271,6 +281,24 @@
                                 <a href="residents.html" class="offer small">
                                   <img class="img-responsive" src="uploads/m-residents.png">
                                   <h3 class="offer__title">Résidents</h3>
+                                </a>
+                              </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="tab__content" data-tab="etape-2">
+                            <div class="tab__content--title">Intelligence artificielle</div>
+                            <div class="tab__content--description">Modélisation et coordination de toutes les activités à prtir de solutions numériques</div>
+                            <img src="uploads/m-etape-2.png" class="img-responsive" style="width: 100%;">
+                        </div>
+                        <div class="tab__content" data-tab="etape-3">
+                            <div class="tab__content--title">Services numériques</div>
+                            <div class="tab__content--description">Tous les intervenants peuvent communiquer et agir rapidement en tout temps</div>
+                            <div class="tab__content--description">Tous les services et choix des intervenants sont évalués et suivis en ligne</div>
+                            <div class="tab__content--description">Tous les propriétaires on accès aux solutions et services économiques</div>
+                            <div class="row">
+                              <div class="col-sm-6 col-sm-offset-3">
+                                <img class="img-responsive" src="uploads/m-etape-3.png">
                                 </a>
                               </div>
                             </div>

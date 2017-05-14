@@ -170,7 +170,7 @@ sections:
     url: 
 - titre: 'Voici ce que comprennent nos services pour:'
   demander_evaluation: true
-  benefices:
+  boites:
   - image: uploads/c-evaluer.png
     titre: Evaluer
     description: |

@@ -73,7 +73,7 @@
                     {% for link-3 in link-2.menu-niveau-3 %}
                       <li class="accordion" data-accordion="{{ link-3.titre | slugify }}">
                         <a href="{{ link-3.url | downcase }}" class="accordion__toggle" data-accordion="{{ link-3.titre | slugify }}">
-                          {{ link-3.titre }}
+                          <span>{{ link-3.titre }}</span>
                           {% if link-3.menu-niveau-4.size > 0 %}
                             <i class="fa fa-plus"></i>
                           {% endif %}
