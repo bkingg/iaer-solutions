@@ -97,9 +97,9 @@ $(function(){
 				      maxColumnHeight = height;
 				    }
 				  });
-				  cols.height(maxColumnHeight);
+				  cols.height(maxColumnHeight).addClass('show');
 				});
-	    }, 4000);
+	    }, 300);
 	});
 
 	// Open Accordion
