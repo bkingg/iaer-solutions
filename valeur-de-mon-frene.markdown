@@ -3,7 +3,7 @@ title: Valeur de mon Frene
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: valeur-de-mon-frene
 slider:
-- image: uploads/table-overlay.jpg
+- image: uploads/accueil1-2.jpg
   icone_image: uploads/valeur-de-mon-frene.png
   description: |-
     ## **Valeur de mon frêne**
@@ -35,4 +35,5 @@ sections:
   - image: uploads/terrebonne.png
   - image: uploads/montreal.png
 layout: default
+parent: ''
 ---
