@@ -1,19 +1,19 @@
 ---
-title: Communication et Reglementation
+title: Communication et Réglementation
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: "/communication-et-reglementation"
 parent: municipalites
 slider:
-- image: uploads/communication-overlay.jpg
+- image: uploads/comm.jpg
   icone_image: uploads/c-communication.png
-  description: "## **Communication et Règlementation** \nDoter chaque propriétaire
+  description: "## **Communication et Réglementation** \nDoter chaque propriétaire
     de la solution accessible et complète"
 sections:
 - titre: DÉFIS ET ENJEUX
   description_half: Les municipalités ont la responsabilité de préserver à travers
-    des politiques et règlements la forêt urbaine pour le bien être de ses résidents.
+    des politiques et réglements la forêt urbaine pour le bien être de ses résidents.
     Sensibiliser les résidents sur la menace que représente le petit insecte (agrile
-    du frêne) venu d’ailleurs et vivant dans la cime des frênes est tout  une commande.
+    du frêne) venu d’ailleurs et vivant dans la cime des frênes est tout une commande.
     Déterminer la stratégie avec les outils qui permettent à la municipalité  d’établir
     un leadership de coordination constitue l’enjeu central pour assurer le contrôle
     des actions d’intervention.
@@ -33,10 +33,10 @@ sections:
       - Concilier  la règlementation aux  solutions locales concertées
       - Ajuster la règlementation aux services de soutien et aux contraintes des intervenants
       - Développer des avenues qui suscitent l’intérêt à l’application de la règlemen- tation dans les meilleurs délais
-- titre: LA SOLUTION
-  description: Valeur au frêne accompagne les municipalités grâce à des outils et
-    solutions de communication modernes  qui facilitent l’information et l’action
-    de ses résidents en tout temps.
+- titre: NOS OUTILS ET SOLUTIONS NOVATRICES
+  description: Valeur de mon frêne accompagne les municipalités en mettant à leur
+    disposition des outils de communication modernes et intelligents qui aident les
+    citoyens à faire des choix éclairés et permanent pour passer à l’action rapidement.
   icones:
   - image: uploads/ali-plateforme.png
     titre: plateforme
