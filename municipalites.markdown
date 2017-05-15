@@ -10,8 +10,8 @@ slider:
   telecharger: true
 - image: uploads/accueil1-2.jpg
   icone_image: 
-  description: "Prendre le contrôle des frênes et des espèces envahissantes dans les
-    boisés et des milieux humides \n\n**Anticiper sur les besoins et les solutions**"
+  description: Accédez aux données intelligentes des frênes en terrain privé, en boisé,
+    en milieu humide, pour prendre des décisions économiques en temps réel
   telecharger: true
 - image: uploads/accueil1-2.jpg
   icone_image: 
