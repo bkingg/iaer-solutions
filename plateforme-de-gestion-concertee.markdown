@@ -4,7 +4,7 @@ date: '2017-03-08T04:06:00.000+00:00'
 permalink: plateforme-de-gestion-concertee
 parent: municipalites
 slider:
-- image: uploads/plateforme-overlay.jpg
+- image: uploads/tech.jpg
   icone_image: uploads/p-plateforme.png
   description: "## **Plateforme de Gestion Concertée** \nFaire passer à l’action 100
     % des intervenants du territoire"
