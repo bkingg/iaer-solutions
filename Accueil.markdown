@@ -3,22 +3,23 @@ title: Accueil
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: "/"
 slider:
-- image: uploads/table-overlay.jpg
+- image: uploads/accueil1-1.jpg
   icone_image: 
-  description: "La préservation **assurée** pour tous les frênes en **santé**\x03
-    et la valorisation garantie du **bois** de ceux infestés"
+  description: "La préservation **assurée** pour tous les frênes en **santé** \x03et
+    la valorisation garantie du **bois**\nde ceux infestés\n"
   telecharger: true
-- image: uploads/table-overlay.jpg
+- image: uploads/accueil1-1.jpg
   icone_image: 
-  description: "**Comprendre, évaluer et maîtriser vos besoins** d’intervention  \nPlanifier,
-    **agir** avec **assurance** et **contrôle** des enjeux"
+  description: "**Comprendre, évaluer et maîtriser vos besoins** d’intervention \nPlanifier,
+    **agir** avec **assurance** et **contrôle** des enjeux locaux\x03   \n\n\nParce
+    que nos services et nos technologies sont fonctionnels"
   telecharger: true
-- image: uploads/table-overlay.jpg
+- image: uploads/accueil1-1.jpg
   icone_image: 
   description: "En toute sécurité, sans **coûts supplémentaires**, \x03\n\nvaloriser
     le bois infestés"
   telecharger: true
-- image: uploads/table-overlay.jpg
+- image: uploads/accueil1-1.jpg
   icone_image: 
   description: "En **contrôle**, **une action à la fois**,\x03nous vous **accompagnons**
     \x03avec sérénité"
@@ -35,11 +36,11 @@ sections:
     url: "/services-en-ligne.html"
     description: 
   - image: uploads/preservation-durable.png
-    titre: service de préservation durable
+    titre: SURVEILLANCE ET PRÉVENTION
     url: "/preservation-durable.html"
     description: 
   - image: uploads/valorisation-du-bois-infeste.png
-    titre: Valorisation tu bois infeste
+    titre: VALORISATION DU BOIS INFESTÉS
     url: "/valorisation-du-bois-infeste.html"
     description: 
 - titre: Bénéfices
@@ -53,10 +54,8 @@ sections:
     url: 
   - image: uploads/fonctionnel.png
     titre: FONCTIONNEL, PERSONNALISÉ, INTERACTIF et collaboratif
-    description: |2-
-
-
-      Faciliter l’accès contenu à toutes les ressources disponibles (professionnels, administration, subvention etc.)
+    description: Faciliter l’accès contenu à toutes les ressources disponibles (professionnels,
+      administration, subvention, etc.)
     url: 
   - image: uploads/documente.png
     titre: DOCUMENTÉ, précis, basé sur les faits, mesurable
