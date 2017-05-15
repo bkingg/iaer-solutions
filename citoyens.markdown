@@ -3,17 +3,33 @@ title: Citoyens
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: citoyens
 slider:
-- image: uploads/table-overlay.jpg
+- image: uploads/accueil1-2.jpg
   icone_image: 
-  description: "Prendre la bonne decision en economisant temps et argent maintenant!
-    \n\n **Obtenez l'evaluation gratuite de 2 a 6 frenes sur votre**"
+  description: "Prendre la bonne décision en économisant temps et argent maintenant!
+    \n**Obtenez l'évaluation gratuite de 2 à 6 frênes sur votre propriété**"
+  telecharger: true
+- image: uploads/accueil1-2.jpg
+  icone_image: ''
+  description: "Protéger et préserver contre l’agrile du frêne vos arbres\x03aux meilleurs
+    coûts \n\n**Bien agir, c’est se préparer et utiliser les outils simples**\n\n"
+  telecharger: true
+- image: uploads/accueil1-2.jpg
+  icone_image: ''
+  description: "Obtenez jusqu’à 75 % de rabais sur les frais généraux de service \n\n**Un
+    service innovant qui respecte vos choix\x03et l’environnement**\n\n"
+  telecharger: true
+- image: uploads/accueil1-2.jpg
+  icone_image: ''
+  description: "Oups! vos frênes sont infestés vous voulez réduire\x03les coûts des
+    travaux ou obtenir un revenu avec le bois\x03infesté de votre grand arbre\n\n**Nous
+    y voilà! un forfait économique pour vous**\n\n"
   telecharger: true
 sections:
-- titre: Vous etes proprietaire de
+- titre: 'Vous êtes propriétaire de:'
   description: 
   icones_modal_slider:
   - image: uploads/terrains-residentiels.png
-    titre: Terrains residentiels
+    titre: Terrains résidentiels
     problemes: "Comme propriétaire privé de frêne, vous avez besoin de savoir :\n
       - Les conditions de santé de l’arbre et son aptitude à être préservé\n - Entre
       le traitement et l’abattage, c’est quoi la bonne décision à prendre;\n - Combien
@@ -82,7 +98,7 @@ sections:
       les frênes de rue stressés\n - Déployer avec efficacité les solutions de traitement
       existantes\n\n Identifier 1 de vos rues et  expérimenter notre technologie maintenant "
   - image: uploads/boise.png
-    titre: Terrain boise
+    titre: Terrain boisé
     problemes: "L'absence de données précises, les contraintes opérationnelles, les
       risques d’envahissement par les espèces **végétales nuisibles** (nerprun par
       exemple) sont les enjeux ou défis  des propriétaires de boisés urbains qui doivent
@@ -135,42 +151,42 @@ sections:
       pratiques pour aménager et préserver la valeur écologique de ces écosystèmes\n
       - Etc.\n\n Être proactif aide à trouver des subventions ou à anticiper afin
       de prendre les décisions économiques "
-- titre: Nous vous accompagnons et vous aidons a ...
+- titre: Nous vous accompagnons et vous aidons à ...
   demander_evaluation: true
   icones:
-  - image: uploads/c-asseoir.png
+  - image: uploads/inventaire-1.png
     description: Asseoir vos décisions sur l’évaluation détaillée, documentée et informatisée
     url: 
-  - image: uploads/c-gagner.png
+  - image: uploads/Portail.png
     description: Gagner du temps grâce au portail d’informations et de services sur
       mesure en ligne
     url: 
-  - image: uploads/c-prendre.png
+  - image: uploads/Assurance.png
     description: Prendre soin de vos frenes avec assurance et confiance en utilisant
       un service professionel de suivi annuel
     url: 
-  - image: uploads/c-reduire.png
+  - image: uploads/Controle-couts.png
     description: Reduire et controler les couts de services grace au service concerte
       local
     url: 
-  - image: uploads/c-chiffrer.png
+  - image: uploads/01.png
     description: Chiffrer les bénéfices procurés annuellement par chacun des arbres.
     url: 
-  - image: uploads/c-maitriser.png
+  - image: uploads/Maîtriser.png
     description: Maîtriser les activités et besoins liés à la préservation ou à l’abattage
       des frênes
     url: 
-  - image: uploads/c-obtenir.png
+  - image: uploads/Revenu.png
     description: Obtenir du revenu avec du bois infesté ou de réaliser des économies
       sur votre facture d’abattage
     url: 
-  - image: uploads/c-accelerer.png
+  - image: uploads/02.png
     description: Accélérer l’obtention des subventions et des services de soutien
       municipaux
     url: 
 - titre: 'Voici ce que comprennent nos services pour:'
   demander_evaluation: true
-  boites:
+  benefices:
   - image: uploads/c-evaluer.png
     titre: Evaluer
     description: |
@@ -234,5 +250,6 @@ sections:
       - Forfait de préservation
       - Forfait de valorisation du bois résiduel
 layout: default
+parent: ''
 ---
 
