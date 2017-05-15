@@ -3,11 +3,12 @@ title: Solution Technologique
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: solution-technologique
 slider:
-- image: uploads/plateforme-overlay.jpg
+- image: uploads/tech.jpg
   description: |-
     ## **Solutions technologiques**
     Problèmes complexes, solutions robustes.
   telecharger: true
+  icone_image: uploads/nuage technologique blanc.png
 sections:
 - skip: ''
 - titre: PRÉSENTATION
@@ -28,4 +29,5 @@ sections:
   - description: Résidus de bois infesté et valorisation
   - description: Plantation des nouveaux arbres
 layout: default
+parent: ''
 ---
