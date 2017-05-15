@@ -4,11 +4,10 @@ date: '2017-03-08T04:06:00.000+00:00'
 permalink: "/activites-intensives-de-lutte"
 parent: municipalites
 slider:
-- image: uploads/table-overlay.jpg
+- image: uploads/comm.jpg
   icone_image: uploads/activites-intensives-contour-blanc.png
   description: "## **Activités de lutte Intensive** \nRéduire les coûts pour susciter
-    l’intérêt et limiter la propagation de l’insecte  par la valorisation du bois
-    infesté"
+    l’intérêt et limiter la propagation de l’insecte par la valorisation du bois"
 sections:
 - titre: DÉFIS ET ENJEUX
   description: La maîtrise d’une série d’activités techniques et des besoins variés
@@ -37,13 +36,13 @@ sections:
       - Identifier les avenues de gestion sécuritaire des résidus de bois
       - Donner l’information claire et précise au propriétaire
       - Développer les offres de solutions avantageuses pour les intervenants
-- titre: LA SOLUTION
-  description: En créant l’identité numérique de chaque frêne grâce à l’inno- vation
+- titre: NOS OUTILS ET SOLUTIONS NOVATRICES
+  description: En créant l’identité numérique de chaque frêne grâce à l’innovation
     d’inventaire intelligent, valeur de mon frêne offre aux municipalités, aux propriétaires
-    et aux professionnels les res- sources pour prendre les décisions économiques.
+    et aux professionnels les ressources pour prendre les décisions économiques.
   icones:
   - image: uploads/ali-inventaire.png
-    titre: inventaire Et évaluation
+    titre: INVENTAIRE INTELLIGENT
     url: diagnostique-et-inventaire-et-evaluation.html
     description: Meilleure qualité des données et la tenue numérique aident à prendre
       des décisions objectives en continues
