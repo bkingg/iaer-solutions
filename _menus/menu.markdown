@@ -21,7 +21,7 @@ menu-niveau-1:
   menu-niveau-2:
   - titre: 
     menu-niveau-3:
-    - titre: Inventaire avec évaluation
+    - titre: Inventaire intelligent
       url: diagnostique-et-inventaire-et-evaluation.html
       liens: 
     - titre: Plateforme de gestion concertée
