@@ -4,13 +4,13 @@ date: '2017-03-08T04:06:00.000+00:00'
 permalink: "/activites-preventives"
 parent: municipalites
 slider:
-- image: uploads/table-overlay.jpg
+- image: uploads/tech.jpg
   icone_image: uploads/ap-activites-preventives.png
   description: "## **Activités préventive de lutte** \nPrévenir vaut mieux que guérir,
     la bonne action au bon endroit, au bon moment avec la bonne technique"
 sections:
 - titre: DÉFIS ET ENJEUX
-  description: L’établissement des indicateurs basés sur les types de proprié- taires,
+  description: L’établissement des indicateurs basés sur les types de propriétaires,
     les milieux de croissance des frênes et la qualité des données sur les frênes
     deviennent des enjeux prioritaires.
 - boites:
@@ -36,7 +36,7 @@ sections:
       - Rapprocher les propriétaires et intervenants des actions proposées
       - Interagir avec des technologies proches des habitudes de consommation en mutations
       - Réduire et contrôler les coûts directs et indirects
-- titre: LA SOLUTION
+- titre: NOS OUTILS ET SOLUTIONS NOVATRICES
   description: La solution proposée par valeur au frêne aux municipalités consiste
     à élaborer des indicateurs propres à chaque espace de croissance des frênes du
     territoire. Ces indicateurs aident à définir les critères qui permettent de maîtriser
