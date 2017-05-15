@@ -20,8 +20,9 @@ slider:
   telecharger: true
 - image: uploads/accueil1-2.jpg
   icone_image: 
-  description: "Simplifier la collaboration entre tous les propriétaires de la municipalité
-    et les professionnels \n\n**Créer l'intérêt avec la simplicité**"
+  description: Mettez en place un plan d’intervention efficace basé sur les besoins
+    et l’implication des propriétaires privés, publics et des professionnels de votre
+    municipalité
   telecharger: true
 sections:
 - titre: Comment ça fonctionne
