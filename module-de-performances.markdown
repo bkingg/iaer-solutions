@@ -4,8 +4,8 @@ date: '2017-03-08T04:06:00.000+00:00'
 permalink: module-de-performances
 parent: municipalites
 slider:
-- image: uploads/plateforme-overlay.jpg
-  icone_image: uploads/mp-modules.png
+- image: uploads/tech.jpg
+  icone_image: uploads/performance.png
   description: "## **Modules de Performance** \nLa bonne action au bon endroit avec
     la bonne solution"
 sections:
@@ -96,7 +96,8 @@ sections:
       des économies ou des revenus concrets pour tous nos clients "
 - titre: Avantages
   icones:
-  - image: uploads/mp-avantages.png
+  - image: uploads/avantage-2.png
+  description: Les coûts sont réduits de plus de 20% par tout les intervenants.
 - titre: BÉNÉFICES DIRECTS ET INDIRECTS
   benefices_simple:
   - description: Anticipation des besoins ou enjeux et priorisation des activités
