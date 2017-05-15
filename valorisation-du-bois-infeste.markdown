@@ -4,8 +4,8 @@ date: '2017-03-08T04:06:00.000+00:00'
 permalink: valorisation-du-bois-infeste
 parent: municipalites
 slider:
-- image: uploads/plateforme-overlay.jpg
-  icone_image: uploads/v-valorisation.png
+- image: uploads/valorisation-1.jpg
+  icone_image: uploads/recyclage.png
   description: "## **Valorisation du Bois Infesté** \nRéduction des coûts et de la
     propagation de l’insecte"
 sections:
@@ -23,18 +23,16 @@ sections:
       indique la valeur du bois de chaque arbre avant l’exécution des travaux d’abattage.
   - description: Notre solution intégrée de valorisation coordonne les opérations
       de logistique et de paiement du bois.
-- titre: La solution qui réduit systématiquement coûts de gestion des abattages de
-    déplacement et de disposition et limite les déplacements donne la valeur à tous
-    résidus
+- titre: La solution qui réduit systématiquement coûts de gestion des abattages
   icones:
   - titre: Commercial
-    image: uploads/v-logs.png"
+    image: uploads/commercial.jpg
   - titre: "Énergétique"
-    image: uploads/v-logs.png"
+    image: uploads/Branches.jpg
   - titre: Artisanat et autres
-    image: uploads/v-logs.png"
+    image: uploads/commercial.jpg
   - titre: Bio écologique
-    image: uploads/v-logs.png"
+    image: "/uploads/valorisation-du-bois-infeste.png"
 - titre: BÉNÉFICES
   benefices_simple:
   - description: Réduction des coûts des travaux d’abattage
