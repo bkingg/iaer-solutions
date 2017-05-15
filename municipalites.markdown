@@ -15,8 +15,8 @@ slider:
   telecharger: true
 - image: uploads/accueil1-2.jpg
   icone_image: 
-  description: "Utiliser les services innovants en ligne pour modéliser le dépistage
-    avec précision et en continu \n\n**Techniques simples à utiliser**"
+  description: Visualisez la valeur du bois de vos frênes et obtenez un prix avant
+    les travaux d’abattages. Tout en contrôle obtenez un revenu avec le bois
   telecharger: true
 - image: uploads/accueil1-2.jpg
   icone_image: 
