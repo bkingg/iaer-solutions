@@ -5,8 +5,8 @@ permalink: municipalites
 slider:
 - image: uploads/accueil1-2.jpg
   icone_image: 
-  description: "Obtenir un inventaire rapide des frênes du territoire sans acquisition
-    du logiciel d'inventaire \n\n**Réduire temps, delai et budget**"
+  description: Réduire de 30 % les coûts des activités de coordination administrative
+    et technique de lutte à l’agrile du frêne
   telecharger: true
 - image: uploads/accueil1-2.jpg
   icone_image: 
