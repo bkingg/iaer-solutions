@@ -3,25 +3,25 @@ title: Municipalites
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: municipalites
 slider:
-- image: uploads/table-overlay.jpg
+- image: uploads/accueil1-2.jpg
   icone_image: 
-  description: "Obtenir un inventaire rapide des frenes du territoire sans acquisition
-    di logiciel d'inventaire \n\n**Reduire temps, delai et budget**"
+  description: "Obtenir un inventaire rapide des frênes du territoire sans acquisition
+    du logiciel d'inventaire \n\n**Réduire temps, delai et budget**"
   telecharger: true
-- image: uploads/table-overlay.jpg
+- image: uploads/accueil1-2.jpg
   icone_image: 
-  description: "Prendre le controle des frene et des especes envahissantes dans les
-    boises de des milieux humides \n\n**Anticiper sur les besoins et les solutions**"
+  description: "Prendre le contrôle des frênes et des espèces envahissantes dans les
+    boisés et des milieux humides \n\n**Anticiper sur les besoins et les solutions**"
   telecharger: true
-- image: uploads/table-overlay.jpg
+- image: uploads/accueil1-2.jpg
   icone_image: 
-  description: "Utiliser les services innovants en ligne pour modeliser le depistage
-    avec precision et en continu \n\n**Techniques simples a utiliser**"
+  description: "Utiliser les services innovants en ligne pour modéliser le dépistage
+    avec précision et en continu \n\n**Techniques simples à utiliser**"
   telecharger: true
-- image: uploads/table-overlay.jpg
+- image: uploads/accueil1-2.jpg
   icone_image: 
-  description: "Simplifier la collaboration entre tous les proprietaires de la municipalite
-    et les professionnels \n\n**Creer l'interet avec la simplicite**"
+  description: "Simplifier la collaboration entre tous les propriétaires de la municipalité
+    et les professionnels \n\n**Créer l'intérêt avec la simplicité**"
   telecharger: true
 sections:
 - titre: Comment ça fonctionne
@@ -29,7 +29,7 @@ sections:
 - titre: OFFRE DE LA SOLUTION CONCERTÉE ET ÉCONOMIQUE
   icones:
   - image: uploads/m-inventaire.png
-    titre: inventaire Et évaluation
+    titre: INVENTAIRE INTELLIGENT
     url: diagnostique-et-inventaire-et-evaluation.html
   - image: uploads/m-plateforme.png
     titre: plateformes de gestion concertée
