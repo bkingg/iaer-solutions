@@ -3,10 +3,10 @@ title: Inventaire intelligent
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: diagnostique-et-inventaire-et-evaluation
 slider:
-- image: uploads/plateforme-overlay.jpg
+- image: uploads/inventaire.jpg
   icone_image: uploads/d-inventaire.png
   description: |-
-    ## **Inventaire et Évaluation**
+    ## **Inventaire Intelligent**
     L’outil technologique grand public  pour impliquer vos citoyens et professionnels
   telecharger: true
 sections:
