@@ -32,7 +32,7 @@ sections:
   - titre: Artisanat et autres
     image: uploads/commercial.jpg
   - titre: Bio écologique
-    image: "/uploads/valorisation-du-bois-infeste.png"
+    image: uploads/recyclage_branches (1).png
 - titre: BÉNÉFICES
   benefices_simple:
   - description: Réduction des coûts des travaux d’abattage
