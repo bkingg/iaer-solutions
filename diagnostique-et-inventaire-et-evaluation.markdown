@@ -72,7 +72,7 @@ sections:
       bénéfices annuels générés par chaque arbre préservé \n\n Une offre d’évaluation
       gratuite de 7  frênes est disponible. Dema… "
   - image: uploads/club-de-golf-et-loisir.png
-    titre: club de golf et loisir
+    titre: Terrain de golf
     problemes: "Face à l’épidémie de l’agrile du frêne, les propriétaires des clubs
       de loisirs rencontrent les défis suivants: \n - Absence de données qualitatives
       sur les frênes\n - Besoin d’indicateurs de décision et dépistage précis\n -
@@ -84,7 +84,7 @@ sections:
       un outil technologique simple à utiliser  pour assurer la gestion de tous les
       services en ligne \n - Obtenir une estimation du revenu potentiel pouvant être
       tiré du bois infesté\n - Réduire de 15 à 30 % les coûts de services \n\n Une
-      offre d’évaluation gratuite de 7  frênes est disponible jusqu’au 25 mai. Dema… "
+      offre d’évaluation gratuite de 6 frênes est disponible."
   - image: uploads/parcs.png
     titre: Parc d'attraction
     problemes: " Les frênes des parcs sont entourés par un grand nombre de frênes
