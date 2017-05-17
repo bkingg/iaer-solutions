@@ -142,17 +142,17 @@ $(function(){
     });
 
     // Open Modal with proper content
-    $(document).on('click', '.offer--modal a', function(event) {
+    $(document).on('click', '.offer--modal > div', function(event) {
         event.preventDefault();
         var title = $(this).find('.offer__title span').html();
         var problemes = $(this).find('.offer__problemes').html();
         var solutions = $(this).find('.offer__solutions').html();
         var cta = $(this).find('.offer__cta').html();
         var $modal = $('#problemes-solutions');
-        $modal.find('.modal-title').html(title);
-        $modal.find('.problemes').html(problemes);
-        $modal.find('.solutions').html(solutions);
-        $modal.find('.cta').html(cta);
+        $modal.find('.modal-title').html('').html(title);
+        $modal.find('.problemes').html('').html(problemes);
+        $modal.find('.solutions').html('').html(solutions);
+        $modal.find('.cta').html('').html(cta);
   	});
 
   //   $(window).on('scroll', function() {
