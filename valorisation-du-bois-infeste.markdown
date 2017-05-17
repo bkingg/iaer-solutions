@@ -6,8 +6,8 @@ parent: municipalites
 slider:
 - image: uploads/valorisation-1.jpg
   icone_image: uploads/recyclage.png
-  description: "## **Valorisation du Bois Infesté** \nRéduction des coûts et de la
-    propagation de l’insecte"
+  description: "## **Valorisation du Bois Infesté** \nRéduction des coûts et obtention
+    des revenus"
 sections:
 - titre: Présentation
   description: Valeur de mon frêne met à la disposition des municipalités son processus
