@@ -376,15 +376,14 @@
               {% endif %}
 
 
-
-              <div class="download">
-                {% if section.call_to_action %}
-                  <a class="btn btn-default btn--green" href="{{ section.call_to_action.url }}">
+              {% if section.call_to_action[0]  %}
+                <div class="download">
+                  <a class="btn btn-default btn--green" href="{{ section.call_to_action[0].url }}">
                     <div class="btn__image"></div>
-                    <span>{{ section.call_to_action.texte }}</span>
+                    <span>{{ section.call_to_action[0].texte }}</span>
                   </a>
-                {% endif %}
-              </div>
+                </div>
+              {% endif %}
 
             </div>
           </div>

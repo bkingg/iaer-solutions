@@ -7,7 +7,9 @@ slider:
   description: |-
     ## **Solutions technologiques**
     Problèmes complexes, solutions robustes.
-  telecharger: true
+  call_to_action:
+  - url: index.html
+    texte: Télécharger notre offre de service dès maintenant
   icone_image: uploads/nuage technologique blanc.png
 sections:
 - skip: ''

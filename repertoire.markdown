@@ -7,7 +7,9 @@ slider:
   icone_image: 
   description: "La préservation **assurée** pour tous les frênes en **santé**\x03
     et la valorisation garantie du **bois** de ceux infestés"
-  telecharger: true
+  call_to_action:
+  - url: index.html
+  - texte: Télécharger notre offre de service dès maintenant
 - image: uploads/table-overlay.jpg
   icone_image: 
   description: "**Comprendre, évaluer et maîtriser vos besoins** d’intervention  \nPlanifier,

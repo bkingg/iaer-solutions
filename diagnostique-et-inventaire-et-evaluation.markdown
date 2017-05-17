@@ -8,7 +8,9 @@ slider:
   description: |-
     ## **Inventaire Intelligent**
     L’outil technologique grand public  pour impliquer vos citoyens et professionnels
-  telecharger: true
+  call_to_action:
+  - url: index.html
+    texte: Télécharger notre offre de service dès maintenant
 sections:
 - titre: PRÉSENTATION
   description: "Notre solution d’inventaire intelligent permet à tout  gestionnaire
@@ -28,7 +30,9 @@ sections:
   - description: Adapter la solution technologique aux besoins de  vos résidents ou
       profession- nels. Mettre à la disposition de tous les citoyens l’outil technologique
       convivial
-  telecharger: true
+  call_to_action:
+  - url: index.html
+    texte: Télécharger notre offre de service dès maintenant
 - titre: DEs critères précis pour de l’information adaptée aux frênes des...
   icones_modal_slider:
   - image: uploads/terrains-residentiels.png

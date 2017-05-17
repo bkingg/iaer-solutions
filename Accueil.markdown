@@ -7,23 +7,31 @@ slider:
   icone_image: 
   description: "La préservation **assurée** pour tous les frênes en **santé** \x03et
     la valorisation garantie du **bois**\nde ceux infestés\n"
-  telecharger: true
+  call_to_action:
+  - url: index.html
+    texte: Télécharger notre offre de service dès maintenant
 - image: uploads/accueil1-1.jpg
   icone_image: 
   description: "**Comprendre, évaluer et maîtriser vos besoins** d’intervention \nPlanifier,
     **agir** avec **assurance** et **contrôle** des enjeux locaux\x03   \n\n\nParce
     que nos services et nos technologies sont fonctionnels"
-  telecharger: true
+  call_to_action:
+  - url: index.html
+  - texte: Télécharger notre offre de service dès maintenant
 - image: uploads/accueil1-1.jpg
   icone_image: 
   description: "En toute sécurité, sans **coûts supplémentaires**, \x03\n\nvaloriser
     le bois infestés"
-  telecharger: true
+  call_to_action:
+  - url: index.html
+  - texte: Télécharger notre offre de service dès maintenant
 - image: uploads/accueil1-1.jpg
   icone_image: 
   description: "En **contrôle**, **une action à la fois**,\x03nous vous **accompagnons**
     \x03avec sérénité"
-  telecharger: true
+  call_to_action:
+  - url: index.html
+  - texte: Télécharger notre offre de service dès maintenant
 sections:
 - titre: Offre de Services
   icones:

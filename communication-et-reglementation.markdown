@@ -53,7 +53,9 @@ sections:
     url: valorisation-du-bois-infeste.html
     description: Tous les propriétaires savent c’est quoi la valeur de leur bois et
       comment le disposer en toute sécurité
-  telecharger: true
+  call_to_action:
+  - url: index.html
+    texte: Télécharger notre offre de service dès maintenant
 - titre: BÉNÉFICES DIRECTS ET INDIRECTS
   benefices:
   - titre: RÉSIDENTS PROPRIÉTAIRES

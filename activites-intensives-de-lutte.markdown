@@ -61,7 +61,9 @@ sections:
     url: valorisation-du-bois-infeste.html
     description: Solution locale et complète pour récupérer et mettre en valeur en
       toute sécurité les résidus de bois infesté
-  telecharger: true
+  call_to_action:
+  - url: index.html
+    texte: Télécharger notre offre de service dès maintenant
 - titre: BÉNÉFICES DIRECTS ET INDIRECTS
   benefices:
   - titre: RÉSIDENTS PROPRIÉTAIRES

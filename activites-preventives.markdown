@@ -62,7 +62,9 @@ sections:
     url: valorisation-du-bois-infeste.html
     description: Solution complète et sur mesure pour le processus de récupération
       et de mise en valeur des résidus de bois urbain
-  telecharger: true
+  call_to_action:
+  - url: index.html
+    texte: Télécharger notre offre de service dès maintenant
 - titre: BÉNÉFICES DIRECTS ET INDIRECTS
   benefices:
   - titre: RÉSIDENTS PROPRIÉTAIRES
