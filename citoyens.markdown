@@ -54,7 +54,7 @@ sections:
       lorsque préservé (traiter entre autre)\n - La valeur ou le revenu monétaire
       potentiel du bois résiduel de votre grand arbre infesté\n\n Prévenir vaut mieux
       que guérir, demandez et obtenez l’évaluation gratuite de vos frênes en ligne "
-    call_to_action: 
+    call_to_action:
     - url: index.html
       texte: Participer au projet pilote de démonstration
   - image: uploads/terrains-institutionnels.png
