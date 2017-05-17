@@ -28,8 +28,8 @@ sections:
       l’information sur le bilan de santé de chaque frêne\n- À la simulation des coûts
       de services professionnels et techniques\n- À la commande des services en lignes
       \ "
-- titre: Un outil accessible à tous pour des décisions d’intervention précises et
-    économiques
+- titre: Un outil accessible à tous pour des décisions d’intervention quantifiées
+    et économiques
   icones:
   - image: uploads/p-municipalites.png
     titre: MUNICIPALITÉs
