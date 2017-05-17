@@ -76,7 +76,7 @@ sections:
       bénéfices annuels générés par chaque arbre préservé \n\n Une offre d’évaluation
       gratuite de 7  frênes est disponible. Dema… "
   - image: uploads/club-de-golf-et-loisir.png
-    titre: club de golf et loisir
+    titre: Terrain de golf ou de loisir
     problemes: "Face à l’épidémie de l’agrile du frêne, les propriétaires des clubs
       de loisirs rencontrent les défis suivants: \n - Absence de données qualitatives
       sur les frênes\n - Besoin d’indicateurs de décision et dépistage précis\n -
@@ -145,7 +145,7 @@ sections:
       - Etc.\n\n Être proactif aide à trouver des subventions ou à anticiper afin
       de prendre les décisions économiques "
   - image: uploads/rues.png
-    titre: Rues
+    titre: Emprise de rue
     problemes: "Les frênes de rue sont entourés par un grand nombre de frênes qui
       ont un suivi moins serré. Cette problématique contraint les gestionnaires à:
       \ \n - Soumettre ces frênes au traitement préventif et continu ce qui est très
