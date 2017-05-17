@@ -783,6 +783,8 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
       display: none; }
     .section .offer--modal .offer__solutions {
       display: none; }
+    .section .offer--modal .offer__cta {
+      display: none; }
     .section .offer--slider .offer__title {
       width: auto;
       margin: 0 auto; }
