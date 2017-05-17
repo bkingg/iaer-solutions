@@ -33,14 +33,6 @@ slider:
   - url: index.html
   - texte: Télécharger notre offre de service dès maintenant
 sections:
-- titre: ''
-  icones: ''
-  description: ''
-  icones_modal_slider: ''
-  description_half: ''
-  skip: ''
-  engagement: ''
-  etapes: ''
 - titre: Offre de Services
   icones:
   - image: uploads/inventaire-avec-evaluation-detaillee.png
