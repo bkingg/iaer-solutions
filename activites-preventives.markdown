@@ -6,8 +6,8 @@ parent: municipalites
 slider:
 - image: uploads/tech.jpg
   icone_image: uploads/ap-activites-preventives.png
-  description: "## **Activités préventive de lutte** \nPrévenir vaut mieux que guérir,
-    la bonne action au bon endroit, au bon moment avec la bonne technique"
+  description: "## **Activités préventive de lutte** \nLa bonne action au bon endroit,
+    au bon moment avec la bonne technique"
 sections:
 - titre: DÉFIS ET ENJEUX
   description: L’établissement des indicateurs basés sur les types de propriétaires,
