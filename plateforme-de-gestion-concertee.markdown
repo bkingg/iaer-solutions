@@ -7,7 +7,7 @@ slider:
 - image: uploads/tech.jpg
   icone_image: uploads/p-plateforme.png
   description: "## **Plateforme de Gestion Concertée** \nFaire passer à l’action 100
-    % des intervenants du territoire"
+    % des propriétaires et des professionnels"
 sections:
 - titre: Présentation
   description: Valeur de mon frêne fournit une plateforme web et mobile de communication
