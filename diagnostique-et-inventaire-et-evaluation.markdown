@@ -72,7 +72,7 @@ sections:
       bénéfices annuels générés par chaque arbre préservé \n\n Une offre d’évaluation
       gratuite de 7  frênes est disponible. Dema… "
   - image: uploads/club-de-golf-et-loisir.png
-    titre: Terrain de golf
+    titre: Terrain de golf ou de loisir
     problemes: "Face à l’épidémie de l’agrile du frêne, les propriétaires des clubs
       de loisirs rencontrent les défis suivants: \n - Absence de données qualitatives
       sur les frênes\n - Besoin d’indicateurs de décision et dépistage précis\n -
