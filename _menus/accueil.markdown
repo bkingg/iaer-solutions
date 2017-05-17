@@ -75,9 +75,7 @@ menu-niveau-1:
         url: 
 - titre: Offre de Services
   url: "&#35offre-de-services"
-  menu-niveau-2:
-  - menu-niveau-3:
-    - {}
+  menu-niveau-2: []
 - titre: Bénéfices
   url: "&#35benefices"
 - titre: Histoire et Clients
