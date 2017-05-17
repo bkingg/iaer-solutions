@@ -20,10 +20,10 @@
                   </div>
                 </div>
                 <div class="download">
-                  {% if slide.telecharger == true %}
-                    <a class="btn btn-default btn--green" href="#">
+                  {% if slide.call_to_action %}
+                    <a class="btn btn-default btn--green" href="{{ slide.call_to_action.url }}">
                       <div class="btn__image"></div>
-                      <span>Découvrez comment dès maintenant</span>
+                      <span>{{ slide.call_to_action.texte }}</span>
                     </a>
                   {% endif %}
                 </div>
