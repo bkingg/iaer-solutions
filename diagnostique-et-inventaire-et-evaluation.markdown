@@ -141,7 +141,7 @@ sections:
       - Etc.\n\n Être proactif aide à trouver des subventions ou à anticiper afin
       de prendre les décisions économiques "
   - image: uploads/rues.png
-    titre: Rues
+    titre: Emprise de rue
     problemes: "Les frênes de rue sont entourés par un grand nombre de frênes qui
       ont un suivi moins serré. Cette problématique contraint les gestionnaires à:
       \ \n - Soumettre ces frênes au traitement préventif et continu ce qui est très
