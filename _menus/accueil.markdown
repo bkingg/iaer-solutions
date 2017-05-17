@@ -76,20 +76,8 @@ menu-niveau-1:
 - titre: Offre de Services
   url: "&#35offre-de-services"
   menu-niveau-2:
-  - titre: 
-    menu-niveau-3:
-    - titre: Inventaire intelligent
-      url: "/inventaire-et-evaluation.html"
-      menu-niveau-4: 
-    - titre: Plateforme de gestion concertée
-      url: "/plateforme-de-gestion-concertee.html"
-      menu-niveau-4: 
-    - titre: Module de performances
-      url: "/module-de-performances.html"
-      menu-niveau-4: 
-    - titre: Valorisation du bois infesté
-      url: "/valorisation-du-bois-infeste.html"
-      menu-niveau-4: 
+  - menu-niveau-3:
+    - {}
 - titre: Bénéfices
   url: "&#35benefices"
 - titre: Histoire et Clients
