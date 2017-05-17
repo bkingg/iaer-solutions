@@ -177,7 +177,7 @@
                   {% endif %}
                   <div class="col-sm-6 col-md-{{ cols }} col-eq-height">
                     <div class="offer offer--modal">
-                      <a href="{{ icone.url }}" data-toggle="modal" data-target="#problemes-solutions">
+                      <div data-toggle="modal" data-target="#problemes-solutions">
                         <img src="{{ icone.image }}">
                         <h3 class="offer__title"><span>{{ icone.titre }}</span> <i class="fa fa-plus"></i></h3>
                         <div class="offer__problemes">{{ icone.problemes | markdownify }}</div>
@@ -185,13 +185,13 @@
                         
                         {% if icone.call_to_action[0] %}
                           <div class="offer__cta">
-                            <a class="btn btn-default btn--green" href="{{ icone.call_to_action[0].url }}">
+                            <a class="btn btn-default btn--white" href="{{ icone.call_to_action[0].url }}">
                               <div class="btn__image"></div>
                               <span>{{ icone.call_to_action[0].texte }}</span>
                             </a>
                           </div>
                         {% endif %}
-                      </a>
+                      </div>
                     </div>
                   </div>
                 {% endfor %}
@@ -220,20 +220,20 @@
                     {% for icone in icones %}
                       <div class="col-eq-height">
                         <div class="offer offer--modal offer--slider">
-                          <a href="{{ icone.url }}" data-toggle="modal" data-target="#problemes-solutions">
+                          <div data-toggle="modal" data-target="#problemes-solutions">
                             <img src="{{ icone.image }}">
                             <h3 class="offer__title"><span>{{ icone.titre }}</span> <i class="fa fa-plus"></i></h3>
                             <div class="offer__problemes">{{ icone.problemes | markdownify }}</div>
                             <div class="offer__solutions">{{ icone.solutions | markdownify }}</div>
                             {% if icone.call_to_action[0] %}
                               <div class="offer__cta">
-                                <a class="btn btn-default btn--green" href="{{ icone.call_to_action[0].url }}">
+                                <a class="btn btn-default btn--white" href="{{ icone.call_to_action[0].url }}">
                                   <div class="btn__image"></div>
                                   <span>{{ icone.call_to_action[0].texte }}</span>
                                 </a>
                               </div>
                             {% endif %}
-                          </a>
+                          </div>
                         </div>
                       </div>
                     {% endfor %}
