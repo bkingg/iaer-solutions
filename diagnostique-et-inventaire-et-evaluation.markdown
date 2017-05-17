@@ -7,7 +7,7 @@ slider:
   icone_image: uploads/d-inventaire.png
   description: |-
     ## **Inventaire Intelligent**
-    L’outil technologique grand public  pour impliquer vos citoyens et professionnels
+    L’outil technologique pour impliquer vos citoyens et professionnels
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
