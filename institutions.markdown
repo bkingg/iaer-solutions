@@ -50,6 +50,9 @@ sections:
       et plus les coûts de services techniques et professionnels\n - Chiffrer les
       bénéfices annuels générés par chaque arbre préservé \n\n Une offre d’évaluation
       gratuite de 7  frênes est disponible. Dema… "
+    call_to_action:
+    - url: index.html
+      texte: Télécharger notre offre de service dès maintenant
   - image: uploads/club-de-golf-et-loisir.png
     titre: club de golf et loisir
     problemes: "Face à l’épidémie de l’agrile du frêne, les propriétaires des clubs
@@ -64,6 +67,9 @@ sections:
       services en ligne \n - Obtenir une estimation du revenu potentiel pouvant être
       tiré du bois infesté\n - Réduire de 15 à 30 % les coûts de services \n\n Une
       offre d’évaluation gratuite de 7  frênes est disponible jusqu’au 25 mai. Dema… "
+    call_to_action:
+    - url: index.html
+      texte: Télécharger notre offre de service dès maintenant
   - image: uploads/parcs.png
     titre: Parc d'attraction
     problemes: " Les frênes des parcs sont entourés par un grand nombre de frênes

@@ -147,10 +147,12 @@ $(function(){
         var title = $(this).find('.offer__title span').html();
         var problemes = $(this).find('.offer__problemes').html();
         var solutions = $(this).find('.offer__solutions').html();
+        var cta = $(this).find('.offer__cta').html();
         var $modal = $('#problemes-solutions');
         $modal.find('.modal-title').html(title);
         $modal.find('.problemes').html(problemes);
         $modal.find('.solutions').html(solutions);
+        $modal.find('.cta').html(cta);
   	});
 
   //   $(window).on('scroll', function() {

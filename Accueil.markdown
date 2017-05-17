@@ -24,7 +24,7 @@ slider:
     le bois infestés"
   call_to_action:
   - url: index.html
-  - texte: Télécharger notre offre de service dès maintenant
+    texte: Télécharger notre offre de service dès maintenant
 - image: uploads/accueil1-1.jpg
   icone_image: 
   description: "En **contrôle**, **une action à la fois**,\x03nous vous **accompagnons**

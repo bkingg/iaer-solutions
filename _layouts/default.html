@@ -182,6 +182,15 @@
                         <h3 class="offer__title"><span>{{ icone.titre }}</span> <i class="fa fa-plus"></i></h3>
                         <div class="offer__problemes">{{ icone.problemes | markdownify }}</div>
                         <div class="offer__solutions">{{ icone.solutions | markdownify }}</div>
+                        
+                        {% if icone.call_to_action[0] %}
+                          <div class="offer__cta">
+                            <a class="btn btn-default btn--green" href="{{ icone.call_to_action[0].url }}">
+                              <div class="btn__image"></div>
+                              <span>{{ icone.call_to_action[0].texte }}</span>
+                            </a>
+                          </div>
+                        {% endif %}
                       </a>
                     </div>
                   </div>
@@ -216,6 +225,14 @@
                             <h3 class="offer__title"><span>{{ icone.titre }}</span> <i class="fa fa-plus"></i></h3>
                             <div class="offer__problemes">{{ icone.problemes | markdownify }}</div>
                             <div class="offer__solutions">{{ icone.solutions | markdownify }}</div>
+                            {% if icone.call_to_action[0] %}
+                              <div class="offer__cta">
+                                <a class="btn btn-default btn--green" href="{{ icone.call_to_action[0].url }}">
+                                  <div class="btn__image"></div>
+                                  <span>{{ icone.call_to_action[0].texte }}</span>
+                                </a>
+                              </div>
+                            {% endif %}
                           </a>
                         </div>
                       </div>
