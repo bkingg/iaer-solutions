@@ -4,10 +4,10 @@ date: '2017-03-08T04:06:00.000+00:00'
 permalink: "/activites-intensives-de-lutte"
 parent: municipalites
 slider:
-- image: uploads/comm.jpg
-  icone_image: uploads/activites-intensives-contour-blanc.png
-  description: "## **Activités de lutte Intensive** \nRéduire les coûts pour susciter
-    l’intérêt et limiter la propagation de l’insecte par la valorisation du bois"
+- image: uploads/Activités_lutte_intensives2.jpg
+  icone_image: "/uploads/activites-intensives-contour-blanc.png"
+  description: "Réduire les coûts pour susciter l’intérêt et limiter\x03la propagation
+    de l’insecte"
 sections:
 - titre: DÉFIS ET ENJEUX
   description: La maîtrise d’une série d’activités techniques et des besoins variés
