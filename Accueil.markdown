@@ -44,7 +44,7 @@ sections:
     url: "/services-en-ligne.html"
     description: 
   - image: uploads/preservation-durable.png
-    titre: SURVEILLANCE ET PRÉVENTION
+    titre: SURVEILLANCE ET PRÉSERVATION
     url: "/preservation-durable.html"
     description: 
   - image: uploads/valorisation-du-bois-infeste.png
