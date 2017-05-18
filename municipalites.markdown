@@ -3,26 +3,21 @@ title: Municipalites
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: municipalites
 slider:
-- image: uploads/accueil1-2.jpg
+- image: uploads/municipalite-slide-1-1.png
   icone_image: 
-  description: Réduire de 30 % les coûts des activités de coordination administrative
-    et technique de lutte à l’agrile du frêne
+  description: ''
   telecharger: true
-- image: uploads/accueil1-2.jpg
+- image: uploads/municipalite-slide-2-5.png
   icone_image: 
-  description: Accédez aux données intelligentes des frênes en terrain privé, en boisé,
-    en milieu humide, pour prendre des décisions économiques en temps réel
+  description: ''
   telecharger: true
-- image: uploads/accueil1-2.jpg
+- image: uploads/municipalite-slide-3-1.png
   icone_image: 
-  description: Visualisez la valeur du bois de vos frênes et obtenez un prix avant
-    les travaux d’abattages. Tout en contrôle obtenez un revenu avec le bois
+  description: ''
   telecharger: true
-- image: uploads/accueil1-2.jpg
+- image: uploads/municipalite-slide-4.png
   icone_image: 
-  description: Mettez en place un plan d’intervention efficace basé sur les besoins
-    et l’implication des propriétaires privés, publics et des professionnels de votre
-    municipalité
+  description: ''
   telecharger: true
 sections:
 - titre: Comment ça fonctionne
