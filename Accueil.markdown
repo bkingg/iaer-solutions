@@ -51,9 +51,7 @@ sections:
     titre: VALORISATION DU BOIS INFESTÉS
     url: "/valorisation-du-bois-infeste.html"
     description: 
-  call_to_action:
-  - url: test
-    texte: test
+  call_to_action: []
 - titre: Bénéfices
   description: "UN PORTAIL AVEC LES DONNÉES ET DE L’INFORMATION PRÉCISE POUR RÉPONDRE\x03AVEC
     ASSURANCE À TOUS VOS BESOINS D’INVENTAIRES. C’EST..."
