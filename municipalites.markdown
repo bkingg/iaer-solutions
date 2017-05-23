@@ -3,7 +3,7 @@ title: Municipalites
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: municipalites
 slider:
-- image: uploads/municipalite-slide 1.psd
+- image: uploads/municipalite-slide-1-6.png
   icone_image: 
   description: ''
   telecharger: true
