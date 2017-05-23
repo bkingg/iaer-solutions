@@ -260,6 +260,8 @@ sections:
       - Plan de suivi des activités de préservation
       - Forfait de préservation
       - Forfait de valorisation du bois résiduel
+  call_to_action:
+  - texte: Télécharger notre offre de service dès maintenant
 layout: default
 parent: ''
 ---
