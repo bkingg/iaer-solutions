@@ -9,7 +9,7 @@ slider:
   telecharger: true
   call_to_action:
   - texte: Participer au projet pilote de démonstration
-- image: uploads/municipalite-slide-2-6.png
+- image: uploads/municipalite-slide-2-5.png
   icone_image: 
   description: ''
   telecharger: true
