@@ -3,19 +3,19 @@ title: Municipalites
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: municipalites
 slider:
-- image: uploads/municipalite-slide-1-1.png
+- image: uploads/municipalite-slide-1-2.png
   icone_image: 
   description: ''
   telecharger: true
   call_to_action:
   - texte: Participer au projet pilote de démonstration
-- image: uploads/municipalite-slide-2-5.png
+- image: uploads/municipalite-slide-2-6.png
   icone_image: 
   description: ''
   telecharger: true
   call_to_action:
   - texte: Participer au projet pilote de démonstration
-- image: uploads/municipalite-slide-3-1.png
+- image: uploads/municipalite-slide-3-2.png
   icone_image: 
   description: ''
   telecharger: true
