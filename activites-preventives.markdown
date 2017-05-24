@@ -4,7 +4,7 @@ date: '2017-03-08T04:06:00.000+00:00'
 permalink: "/activites-preventives"
 parent: municipalites
 slider:
-- image: uploads/tech.jpg
+- image: uploads/Arbre2.jpg
   icone_image: uploads/ap-activites-preventives.png
   description: "## **Activités préventive de lutte** \nLa bonne action au bon endroit,
     au bon moment avec la bonne technique"
