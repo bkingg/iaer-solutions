@@ -74,7 +74,7 @@ sections:
       et le revenu potentiel pouvant être tiré du bois infesté\n - Réduire de 15 %
       et plus les coûts de services techniques et professionnels\n - Chiffrer les
       bénéfices annuels générés par chaque arbre préservé \n\n Une offre d’évaluation
-      gratuite de 7  frênes est disponible. Dema… "
+      gratuite de 6  frênes est disponible."
     call_to_action:
     - texte: Participer au projet pilote de démonstration
   - image: uploads/club-de-golf-et-loisir.png
