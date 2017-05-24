@@ -3,28 +3,28 @@ title: Citoyens
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: citoyens
 slider:
-- image: uploads/accueil1-2.jpg
+- image: uploads/Arbre.jpg
   icone_image: 
   description: "Prendre la bonne décision en économisant temps et argent maintenant!
     \n**Obtenez l'évaluation gratuite de 2 à 6 frênes sur votre propriété**"
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
-- image: uploads/accueil1-2.jpg
+- image: uploads/Arbre.jpg
   icone_image: ''
   description: "Protéger et préserver contre l’agrile du frêne vos arbres\x03aux meilleurs
     coûts \n\n**Bien agir, c’est se préparer et utiliser les outils simples**\n\n"
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
-- image: uploads/accueil1-2.jpg
+- image: uploads/Arbre.jpg
   icone_image: ''
   description: "Obtenez jusqu’à 75 % de rabais sur les frais généraux de service \n\n**Un
     service innovant qui respecte vos choix\x03et l’environnement**\n\n"
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
-- image: uploads/accueil1-2.jpg
+- image: uploads/Arbre.jpg
   icone_image: ''
   description: "Oups! vos frênes sont infestés vous voulez réduire\x03les coûts des
     travaux ou obtenir un revenu avec le bois\x03infesté de votre grand arbre\n\n**Nous
