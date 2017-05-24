@@ -3,7 +3,7 @@ title: Institutions
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: "/institutions"
 slider:
-- image: uploads/accueil1-2.jpg
+- image: uploads/Arbre.jpg
   icone_image: 
   description: "Prendre la bonne décision en économisant temps et argent maintenant!
     \n\n **Obtenez l'évaluation gratuite de 2 à 6 frênes sur votre**"
