@@ -3,7 +3,7 @@ title: Inventaire intelligent
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: diagnostique-et-inventaire-et-evaluation
 slider:
-- image: uploads/valorisation-2.jpg
+- image: uploads/carte.jpg
   icone_image: uploads/d-inventaire.png
   description: |-
     ## **Inventaire Intelligent**
@@ -53,6 +53,8 @@ sections:
       lorsque préservé (traiter entre autre)\n - La valeur ou le revenu monétaire
       potentiel du bois résiduel de votre grand arbre infesté\n\n Prévenir vaut mieux
       que guérir, demandez et obtenez l’évaluation gratuite de vos frênes en ligne "
+    call_to_action:
+    - texte: Télécharger notre offre de service dès maintenant
   - image: uploads/terrains-institutionnels.png
     titre: Terrains institutionnels
     problemes: "L'absence de données précises sur l’état de santé des frênes est à
@@ -71,6 +73,8 @@ sections:
       et plus les coûts de services techniques et professionnels\n - Chiffrer les
       bénéfices annuels générés par chaque arbre préservé \n\n Une offre d’évaluation
       gratuite de 7  frênes est disponible. Dema… "
+    call_to_action:
+    - texte: Télécharger notre offre de service dès maintenant
   - image: uploads/club-de-golf-et-loisir.png
     titre: Terrain de golf ou de loisir
     problemes: "Face à l’épidémie de l’agrile du frêne, les propriétaires des clubs
@@ -85,6 +89,8 @@ sections:
       services en ligne \n - Obtenir une estimation du revenu potentiel pouvant être
       tiré du bois infesté\n - Réduire de 15 à 30 % les coûts de services \n\n Une
       offre d’évaluation gratuite de 6 frênes est disponible."
+    call_to_action:
+    - texte: Télécharger notre offre de service dès maintenant
   - image: uploads/parcs.png
     titre: Parc d'attraction
     problemes: " Les frênes des parcs sont entourés par un grand nombre de frênes
@@ -104,6 +110,8 @@ sections:
       certitude pour chaque décision\n - Entretenir et garder bien longtemps encore
       les frênes de rue stressés\n - Déployer avec efficacité les solutions de traitement
       existantes\n\n Identifier 1 de vos rues et  expérimenter notre technologie maintenant "
+    call_to_action:
+    - texte: Télécharger notre offre de service dès maintenant
   - image: uploads/boise.png
     titre: Terrain boise
     problemes: "L'absence de données précises, les contraintes opérationnelles, les
@@ -123,6 +131,8 @@ sections:
       sur votre site du revenu avec le bois infestés\n - Etc.\n\n Être proactif aide
       à aller chercher des subventions ou à anticiper afin de prendre les décisions
       économiques "
+    call_to_action:
+    - texte: Télécharger notre offre de service dès maintenant
   - image: uploads/milieu-humide.png
     titre: Milieu Humide
     problemes: "La fragilité et la règlementation sur la protection des milieux augmentent
@@ -140,6 +150,8 @@ sections:
       pratiques pour aménager et préserver la valeur écologique de ces écosystèmes\n
       - Etc.\n\n Être proactif aide à trouver des subventions ou à anticiper afin
       de prendre les décisions économiques "
+    call_to_action:
+    - texte: Télécharger notre offre de service dès maintenant
   - image: uploads/rues.png
     titre: Emprise de rue
     problemes: "Les frênes de rue sont entourés par un grand nombre de frênes qui
@@ -158,6 +170,8 @@ sections:
       pratiques pour aménager et préserver la valeur écologique de ces écosystèmes\n
       - Etc.\n\n Être proactif aide à trouver des subventions ou à anticiper afin
       de prendre les décisions économiques "
+    call_to_action:
+    - texte: Télécharger notre offre de service dès maintenant
 - titre: BÉNÉFICES
   benefices_simple:
   - description: Anticipation des besoins ou enjeux et priorisation des activités
