@@ -4,7 +4,7 @@ date: '2017-03-08T04:06:00.000+00:00'
 permalink: "/communication-et-reglementation"
 parent: municipalites
 slider:
-- image: uploads/comm.jpg
+- image: uploads/Activités_lutte_intensives2.jpg
   icone_image: uploads/c-communication.png
   description: "## **Communication et Réglementation** \nDoter chaque propriétaire
     de la solution accessible et complète"
