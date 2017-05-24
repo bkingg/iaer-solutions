@@ -4,7 +4,7 @@ date: '2017-03-08T04:06:00.000+00:00'
 permalink: valorisation-du-bois-infeste
 parent: municipalites
 slider:
-- image: uploads/valorisation-1.jpg
+- image: uploads/valorisation-2.jpg
   icone_image: uploads/recyclage.png
   description: "## **Valorisation du Bois Infesté** \nRéduction des coûts et obtention
     des revenus"
