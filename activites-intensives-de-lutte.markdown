@@ -7,7 +7,7 @@ slider:
 - image: uploads/Activités_lutte_intensives2.jpg
   icone_image: "/uploads/activites-intensives-contour-blanc.png"
   description: "## **Activités de lutte intensive** \nRéduire les coûts pour susciter
-    l’intérêt et limiter\x03la propagation de l’insecte"
+    l’intérêt et limiter \x03la propagation de l’insecte"
 sections:
 - titre: DÉFIS ET ENJEUX
   description: La maîtrise d’une série d’activités techniques et des besoins variés
