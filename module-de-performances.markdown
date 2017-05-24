@@ -8,6 +8,8 @@ slider:
   icone_image: uploads/performance.png
   description: "## **Modules de Performance** \nLa bonne action au bon endroit au
     meilleur coût"
+  call_to_action:
+  - texte: Télécharger notre offre de service dès maintenant
 sections:
 - titre: Présentation
   description: Valeur de mon frêne utilise sa suite de logiciels intégrés pour fournir
