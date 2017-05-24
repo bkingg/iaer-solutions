@@ -28,7 +28,7 @@ sections:
   - titre: Commercial
     image: uploads/commercial.jpg
   - titre: "Énergétique"
-    image: uploads/Branches.jpg
+    image: uploads/Résidu production énergétique.PNG
   - titre: Artisanat et autres
     image: uploads/commercial.jpg
   - titre: Bio écologique
