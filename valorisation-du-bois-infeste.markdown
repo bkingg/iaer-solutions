@@ -26,7 +26,7 @@ sections:
 - titre: La solution qui réduit systématiquement coûts de gestion des abattages
   icones:
   - titre: Commercial
-    image: uploads/commercial.jpg
+    image: uploads/commercial-1.jpg
   - titre: "Énergétique"
     image: uploads/Résidu production énergétique.PNG
   - titre: Artisanat et autres
