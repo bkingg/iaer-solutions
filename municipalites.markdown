@@ -13,12 +13,12 @@ slider:
   description: ''
   telecharger: true
   call_to_action: []
-- image: uploads/municipalite-slide-3-3.png
+- image: uploads/municipalite-slide-3.1.png
   icone_image: 
   description: ''
   telecharger: true
   call_to_action: []
-- image: uploads/municipalite-slide-4-2.png
+- image: uploads/municipalite-slide-4.1.png
   icone_image: 
   description: ''
   telecharger: true
