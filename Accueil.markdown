@@ -10,7 +10,7 @@ slider:
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
-- image: uploads/Arbre.jpg
+- image: uploads/Arbre3.jpg
   icone_image: 
   description: "**Comprendre, évaluer et maîtriser vos besoins** d’intervention \nPlanifier,
     **agir** avec **assurance** et **contrôle** des enjeux locaux\x03   \n\n\nParce
@@ -18,14 +18,14 @@ slider:
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
-- image: uploads/Arbre.jpg
+- image: uploads/Arbre5.jpg
   icone_image: 
   description: "En toute sécurité, sans **coûts supplémentaires**, \x03\n\nvaloriser
     le bois infestés"
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
-- image: uploads/Arbre.jpg
+- image: uploads/Activités_lutte_intensives2.jpg
   icone_image: 
   description: "En **contrôle**, **une action à la fois**,\x03nous vous **accompagnons**
     \x03avec sérénité"
