@@ -10,7 +10,7 @@ slider:
     L’outil technologique pour impliquer vos citoyens et professionnels
   call_to_action:
   - url: index.html
-    texte: Télécharger notre offre de service dès maintenant
+    texte: Participer à notre projet pilote de démonstration
 sections:
 - titre: PRÉSENTATION
   description: "Notre solution d’inventaire intelligent permet à tout  gestionnaire
