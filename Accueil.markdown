@@ -18,7 +18,7 @@ slider:
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
-- image: uploads/Arbre5.jpg
+- image: uploads/Arbre4.jpg
   icone_image: 
   description: "En toute sécurité, sans **coûts supplémentaires**, \x03\n\nvaloriser
     le bois infestés"
