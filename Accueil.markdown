@@ -30,7 +30,6 @@ slider:
   description: "En **contrôle**, **une action à la fois**,\x03nous vous **accompagnons**
     \x03avec sérénité"
   call_to_action:
-  - url: index.html
   - texte: Télécharger notre offre de service dès maintenant
 sections:
 - titre: Offre de Services
