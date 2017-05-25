@@ -3,12 +3,12 @@ title: Municipalites
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: municipalites
 slider:
-- image: uploads/municipalite-slide-1-6.png
+- image: uploads/municipalite-slide-1.1-1.png
   icone_image: 
   description: ''
   telecharger: true
   call_to_action: []
-- image: uploads/municipalite-slide-2-7.png
+- image: uploads/municipalite-slide-2.1.png
   icone_image: 
   description: ''
   telecharger: true
