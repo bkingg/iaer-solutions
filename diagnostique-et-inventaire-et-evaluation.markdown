@@ -54,7 +54,7 @@ sections:
       potentiel du bois résiduel de votre grand arbre infesté\n\n Prévenir vaut mieux
       que guérir, demandez et obtenez l’évaluation gratuite de vos frênes en ligne "
     call_to_action:
-    - texte: Télécharger notre offre de service
+    - texte: Participer à notre projet pilote
   - image: uploads/terrains-institutionnels.png
     titre: Terrains institutionnels
     problemes: "L'absence de données précises sur l’état de santé des frênes est à
@@ -74,7 +74,7 @@ sections:
       bénéfices annuels générés par chaque arbre préservé \n\n Une offre d’évaluation
       gratuite de 6  frênes est disponible."
     call_to_action:
-    - texte: Télécharger notre offre de service
+    - texte: Participer à notre projet
   - image: uploads/club-de-golf-et-loisir.png
     titre: Terrain de golf ou de loisir
     problemes: "Face à l’épidémie de l’agrile du frêne, les propriétaires des clubs
@@ -90,7 +90,7 @@ sections:
       tiré du bois infesté\n - Réduire de 15 à 30 % les coûts de services \n\n Une
       offre d’évaluation gratuite de 6 frênes est disponible."
     call_to_action:
-    - texte: Télécharger notre offre de service
+    - texte: Participer à notre projet
   - image: uploads/parcs.png
     titre: Parc d'attraction
     problemes: " Les frênes des parcs sont entourés par un grand nombre de frênes
@@ -111,7 +111,7 @@ sections:
       les frênes de rue stressés\n - Déployer avec efficacité les solutions de traitement
       existantes\n\n Identifier 1 de vos rues et  expérimenter notre technologie maintenant "
     call_to_action:
-    - texte: Télécharger notre offre de service
+    - texte: Participer à notre projet
   - image: uploads/boise.png
     titre: Terrain boise
     problemes: "L'absence de données précises, les contraintes opérationnelles, les
@@ -132,7 +132,7 @@ sections:
       à aller chercher des subventions ou à anticiper afin de prendre les décisions
       économiques "
     call_to_action:
-    - texte: Télécharger notre offre de service
+    - texte: Participer à notre projet
   - image: uploads/milieu-humide.png
     titre: Milieu Humide
     problemes: "La fragilité et la règlementation sur la protection des milieux augmentent
@@ -151,7 +151,7 @@ sections:
       - Etc.\n\n Être proactif aide à trouver des subventions ou à anticiper afin
       de prendre les décisions économiques "
     call_to_action:
-    - texte: Télécharger notre offre de service
+    - texte: Participer à notre projet
   - image: uploads/rues.png
     titre: Emprise de rue
     problemes: "Les frênes de rue sont entourés par un grand nombre de frênes qui
@@ -171,7 +171,7 @@ sections:
       - Etc.\n\n Être proactif aide à trouver des subventions ou à anticiper afin
       de prendre les décisions économiques "
     call_to_action:
-    - texte: Télécharger notre offre de service
+    - texte: Participer à notre projet
 - titre: BÉNÉFICES
   benefices_simple:
   - description: Anticipation des besoins ou enjeux et priorisation des activités
