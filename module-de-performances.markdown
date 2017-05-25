@@ -40,7 +40,7 @@ sections:
     call_to_action:
     - texte: Participer au projet pilote de démonstration
   - image: uploads/mp-depistage.png
-    titre: Contrôle des foyers d'infestation
+    titre: Contrôle des foyers d'infestation et surveillance des frêne
     problemes: "Les foyers d’infestation sont toujours de très petites tailles au
       début de l’épidémie. Comment parvenir à les dépister rapidement: Alors que:\n
       - les frênes sont présents un peu partout sur le territoire,\n - la densité
