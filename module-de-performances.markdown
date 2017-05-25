@@ -37,8 +37,10 @@ sections:
       dans les meilleurs délais et coûts\n - accéder à l’information sur la règlementation
       et le soutien disponible\n\n Aucune obligation d’acheter un logiciel ou une
       application. Tout est fonctionnel et vous payez à l’utilisation "
+    call_to_action:
+    - texte: Participer au projet pilote de démonstration
   - image: uploads/mp-depistage.png
-    titre: Dépistage et surveillance
+    titre: Contrôle des foyers d'infestation
     problemes: "Les foyers d’infestation sont toujours de très petites tailles au
       début de l’épidémie. Comment parvenir à les dépister rapidement: Alors que:\n
       - les frênes sont présents un peu partout sur le territoire,\n - la densité
@@ -58,6 +60,8 @@ sections:
       contexte de lutte préventive ou intensive aide les gestionnaires à assurer le
       suivi serré tout en évitant des traitements inutiles sur les arbres non menacés
       ou infestés "
+    call_to_action:
+    - texte: Participer au projet pilote de démonstration
   - image: uploads/mp-gestion.png
     titre: Gestion administrative concertée
     problemes: "L’agrile du frêne est un insecte exotique donc pas connu des résidents
@@ -77,6 +81,8 @@ sections:
       triangle de service entre la municipalité, le citoyen et les entrepreneurs utilise
       des supports numériques interactifs ce qui améliore la concertation utile pour
       neutraliser l’insecte et réduire les coûts. "
+    call_to_action:
+    - texte: Participer au projet pilote de démonstration
   - image: uploads/mp-residus.png
     titre: Gestion des résidus et valorisation du bois
     problemes: "Contrôler  75 % des résidus de bois appartenant aux propriétaires
@@ -96,6 +102,8 @@ sections:
       innovants permettent d’intégrer les décisions de valorisation en amont dans
       les solutions d’intervention. \n\nNos services innovants  garantissent de fait
       des économies ou des revenus concrets pour tous nos clients "
+    call_to_action:
+    - texte: Participer au projet pilote de démonstration
 - titre: Avantages
   icones:
   - image: uploads/avantage-2.png
