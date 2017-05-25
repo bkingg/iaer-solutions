@@ -32,7 +32,7 @@ sections:
       convivial
   call_to_action:
   - url: index.html
-    texte: Télécharger notre offre de service dès maintenant
+    texte: Participer à notre projet pilote de démonstration
 - titre: DEs critères précis pour de l’information adaptée aux frênes des...
   icones_modal_slider:
   - image: uploads/terrains-residentiels.png
