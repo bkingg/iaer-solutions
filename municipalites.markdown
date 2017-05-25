@@ -7,26 +7,22 @@ slider:
   icone_image: 
   description: ''
   telecharger: true
-  call_to_action:
-  - texte: Participer au projet pilote de démonstration
+  call_to_action: []
 - image: uploads/municipalite-slide-2-7.png
   icone_image: 
   description: ''
   telecharger: true
-  call_to_action:
-  - texte: Participer au projet pilote de démonstration
+  call_to_action: []
 - image: uploads/municipalite-slide-3-3.png
   icone_image: 
   description: ''
   telecharger: true
-  call_to_action:
-  - texte: Participer au projet pilote de démonstration
+  call_to_action: []
 - image: uploads/municipalite-slide-4-2.png
   icone_image: 
   description: ''
   telecharger: true
-  call_to_action:
-  - texte: Participer au projet pilote de démonstration
+  call_to_action: []
 sections:
 - titre: Comment ça fonctionne
   etapes: " "
