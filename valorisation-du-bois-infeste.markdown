@@ -30,7 +30,7 @@ sections:
   - titre: "Énergétique"
     image: uploads/Résidu production énergétique.PNG
   - titre: Artisanat et autres
-    image: uploads/commercial.jpg
+    image: uploads/artisanat.jpg
   - titre: Bio écologique
     image: uploads/recyclage_branches (1).png
 - titre: BÉNÉFICES
