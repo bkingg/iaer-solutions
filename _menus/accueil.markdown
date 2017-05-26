@@ -6,7 +6,7 @@ menu-niveau-1:
   menu-niveau-2:
   - titre: Municipalité
     menu-niveau-3:
-    - titre: Coordination numérique de gestion Des actions
+    - titre: Coordination numérique de gestion
       menu-niveau-4:
       - titre: communication et réglementation
         url: communication-et-reglementation.html
