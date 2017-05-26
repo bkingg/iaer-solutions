@@ -44,16 +44,16 @@ sections:
     description: 
   - image: uploads/preservation-durable.png
     titre: SURVEILLANCE ET PRÉSERVATION
-    url: "/preservation-durable.html"
+    url: "#"
     description: 
   - image: uploads/valorisation-du-bois-infeste.png
     titre: VALORISATION DU BOIS INFESTÉS
-    url: "/valorisation-du-bois-infeste.html"
+    url: "#"
     description: 
   call_to_action: []
 - titre: Bénéfices
-  description: "UN PORTAIL AVEC LES DONNÉES ET DE L’INFORMATION PRÉCISE POUR RÉPONDRE\x03AVEC
-    ASSURANCE À TOUS VOS BESOINS D’INVENTAIRES. C’EST..."
+  description: "UN PORTAIL AVEC LES DONNÉES ET DE L’INFORMATION PRÉCISE POUR RÉPONDRE\x03
+    AVEC ASSURANCE À TOUS VOS BESOINS. C'EST..."
   icones:
   - image: uploads/simple.png
     titre: "SIMPLE, RAPIDE \x03ET ÉCONOMIQUE"
