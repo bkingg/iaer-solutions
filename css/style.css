@@ -11,6 +11,51 @@
 body, h1, h2, h3, h4, h5, h6, p, span, a {
   font-family: 'Sinkin Sans', Arial, sans-serif; }
 
+#content {
+  padding-top: 320px; }
+  @media screen and (max-width: 998px) {
+    #content {
+      padding-top: 220px; } }
+
+.repertoire li {
+  cursor: pointer; }
+.repertoire .left-nav li {
+  border-radius: 0;
+  margin: 6px 0;
+  padding: 15px;
+  background-color: rgba(79, 80, 84, 0.85);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 12px; }
+  .repertoire .left-nav li:active, .repertoire .left-nav li.active, .repertoire .left-nav li:focus, .repertoire .left-nav li:hover {
+    background-color: #83b739; }
+.repertoire .right-nav li {
+  border-radius: 0;
+  margin: 6px 0;
+  padding: 0 20px;
+  background-color: rgba(131, 183, 57, 0.85);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 60px; }
+  .repertoire .right-nav li:active, .repertoire .right-nav li.active, .repertoire .right-nav li:focus, .repertoire .right-nav li:hover {
+    background-color: #83b739; }
+  .repertoire .right-nav li i {
+    font-size: 20px;
+    color: white;
+    float: right;
+    width: 20px;
+    padding-left: 10px;
+    padding-top: 20px; }
+  .repertoire .right-nav li .list-group-icon {
+    height: 60px;
+    padding: 10px;
+    padding-left: 0; }
+
 .left {
   text-align: left; }
 
@@ -381,8 +426,8 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
         height: inherit;
         min-height: 100vh; }
         .homepage__slider-wrapper .homepage__slider .slide .image .caption {
-          padding-top: 320px;
-          padding-bottom: 60px;
+          padding-top: 260px;
+          padding-bottom: 45px;
           text-transform: uppercase;
           width: inherit;
           text-align: center;
@@ -391,12 +436,12 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
           color: white; }
           @media screen and (max-width: 998px) {
             .homepage__slider-wrapper .homepage__slider .slide .image .caption {
-              padding-top: 220px;
-              padding-bottom: 30px; } }
+              padding-top: 180px;
+              padding-bottom: 20px; } }
           @media screen and (max-width: 700px) {
             .homepage__slider-wrapper .homepage__slider .slide .image .caption {
-              padding-top: 120px;
-              padding-bottom: 30px; } }
+              padding-top: 90px;
+              padding-bottom: 15px; } }
           .homepage__slider-wrapper .homepage__slider .slide .image .caption img {
             width: 200px;
             margin: 0 auto; }
@@ -422,8 +467,8 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
           display: inline-block;
           text-align: center;
           width: 100%;
-          margin-top: 20px;
-          margin-bottom: 50px; }
+          margin-top: 0;
+          margin-bottom: 40px; }
           .homepage__slider-wrapper .homepage__slider .slide .image .download .download__link {
             display: table;
             background-color: #83b739;
@@ -536,20 +581,27 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
     font-size: 22px;
     line-height: 30px;
     margin-bottom: 0; }
-  .section .section__description {
+  .section .section__description, .section .section__description p {
     color: #333;
     font-size: 12px;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     text-align: justify;
     font-weight: normal;
     text-transform: none; }
-    .section .section__description.half {
+    .section .section__description p, .section .section__description p p {
+      margin-bottom: 20px;
+      font-size: 14px; }
+    .section .section__description ul, .section .section__description p ul {
+      margin-bottom: 20px; }
+    .section .section__description li, .section .section__description p li {
+      margin-bottom: 10px; }
+    .section .section__description.half, .section .section__description p.half {
       text-align: justify;
       color: #504949;
       font-size: 1em; }
       @media (min-width: 768px) {
-        .section .section__description.half {
+        .section .section__description.half, .section .section__description p.half {
           -webkit-column-count: 2;
           -moz-column-count: 2;
           column-count: 2;
@@ -603,11 +655,15 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
       text-transform: uppercase;
       font-size: 20px;
       line-height: 30px; }
-    .section .col-green__description {
+    .section .col-green__description, .section .col-green__description p {
       font-weight: normal;
       font-size: 14px;
       line-height: 20px;
       margin-bottom: 20px; }
+      .section .col-green__description ul, .section .col-green__description p ul {
+        margin-bottom: 30px; }
+      .section .col-green__description li, .section .col-green__description p li {
+        margin-bottom: 6px; }
   .section__subtitle {
     text-align: center;
     font-weight: bold;
@@ -616,11 +672,8 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
     text-transform: uppercase; }
   .section .download {
     text-decoration: none;
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 30px;
-    margin-top: 30px; }
+    display: block;
+    text-align: center; }
     .section .download .download__link {
       display: inline-block;
       background-color: #83b739;
