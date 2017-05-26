@@ -36,11 +36,11 @@ sections:
   icones:
   - image: uploads/inventaire-avec-evaluation-detaillee.png
     titre: INVENTAIRE  INTELLIGENT
-    url: "/inventaire-avec-evaluation-detaillee.html"
+    url: "#"
     description: 
   - image: uploads/services-en-ligne.png
     titre: Services en ligne
-    url: "/services-en-ligne.html"
+    url: "#"
     description: 
   - image: uploads/preservation-durable.png
     titre: SURVEILLANCE ET PRÉSERVATION
