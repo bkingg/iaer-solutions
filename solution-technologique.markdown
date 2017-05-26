@@ -18,7 +18,9 @@ sections:
     cloud de dernière génération pour simplifier et bonifier l’accès à des décisions
     précises et économiques. La collecte et l’utilisation des données en temps réel.
 - titre: vos frênes ont désormais les moyens de vous avertir à temps qu’ils sont attaqués.
-  technologie: ''
+  technologie:
+  - titre: test
+    description: test
 - skip: ''
 - titre: 
   benefices_simple:
