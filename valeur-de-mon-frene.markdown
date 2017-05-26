@@ -9,7 +9,11 @@ slider:
     ## **Valeur de mon frêne**
     TOUT **FRÊNE** POSSÈDE UNE **VALEUR**. LA CONNAÎTRE EST LA PREMIÈRE VICTOIRE FACE À L’AGRILE DU FRÊNE.
 sections:
-- engagement: ''
+- engagement:
+  - titre: Engagement
+    description: Test Paragraphe
+    raison-titre: Raison
+    raison-description: Raison description
 - titre: NOTRE MISSION
   description: Rendre disponible les solutions technologiques propres et économiques
     pour préserver les frênes par la valorisation sécuritaire du bois infesté devant
