@@ -76,7 +76,8 @@ sections:
       d’abattage
     url: 
 - histoire: ''
-- carte: ''
+- carte:
+  - titre: Cart des villes
 - skip: ''
 - titre: PARTENAIRES DE DéVELOPPEMENT DES SOLUTIONS
   icones:

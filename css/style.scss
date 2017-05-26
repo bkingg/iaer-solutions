@@ -9,6 +9,72 @@ body, h1, h2, h3, h4, h5, h6, p, span, a{
 	font-family: 'Sinkin Sans', Arial, sans-serif;
 }
 
+#content{
+  padding-top: 320px;
+  @media screen and (max-width: 998px) {
+    padding-top: 220px;
+  }
+}
+
+.repertoire{
+  li{
+    cursor: pointer;
+  }
+  .left-nav{
+    li{
+      border-radius: 0;
+      margin: 6px 0;
+      padding: 15px;
+      background-color: rgba(79, 80, 84, 0.85);
+      color: white;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 1px;
+      font-size: 12px;
+      &:active,
+      &.active,
+      &:focus,
+      &:hover{
+        background-color: $green;
+      }
+    }
+  }
+
+  .right-nav{
+    li{
+      border-radius: 0;
+      margin: 6px 0;
+      padding: 0 20px;
+      background-color: rgba($green, 0.85);
+      color: white;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 1px;
+      font-size: 14px;
+      line-height: 60px;
+      &:active,
+      &.active,
+      &:focus,
+      &:hover{
+        background-color: $green;
+      }
+      i{
+        font-size: 20px;
+        color: white;
+        float: right;
+        width: 20px;
+        padding-left: 10px;
+        padding-top: 20px; 
+      }
+      .list-group-icon{
+        height: 60px;
+        padding: 10px;
+        padding-left: 0;
+      }
+    }
+  }
+}
+
 .left{
 	text-align: left;
 }
@@ -485,8 +551,8 @@ $navbar-mobile-height: 100;
         height: inherit;
         min-height: 100vh;
 	      .caption {
-		      padding-top: 320px;
-          padding-bottom: 60px;
+		      padding-top: 260px;
+          padding-bottom: 45px;
 		      text-transform: uppercase;
 		      width: inherit;
 		      text-align: center;
@@ -494,12 +560,12 @@ $navbar-mobile-height: 100;
 			    width: 100%;
 					color: white;
           @media screen and (max-width: 998px) {
-            padding-top: 220px;
-            padding-bottom: 30px;
+            padding-top: 180px;
+            padding-bottom: 20px;
           }
           @media screen and (max-width: 700px) {
-            padding-top: 120px;
-            padding-bottom: 30px;
+            padding-top: 90px;
+            padding-bottom: 15px;
           }
 		      img{
 		      	width: 200px;
@@ -532,8 +598,8 @@ $navbar-mobile-height: 100;
 		    	display: inline-block;
 		    	text-align: center;
 		    	width: 100%;
-          margin-top: 20px;
-          margin-bottom: 50px;
+          margin-top: 0;
+          margin-bottom: 40px;
 		    	.download__link{
 		    		display: table;
 		    		background-color: $green;
@@ -681,14 +747,24 @@ $navbar-mobile-height: 100;
     line-height: 30px;
     margin-bottom: 0;
   }
-  .section__description{
+  .section__description, .section__description p{
   	color: #333;
   	font-size: 12px;
 		text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     text-align: justify;
     font-weight: normal;
     text-transform: none;
+    p{
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    ul {
+      margin-bottom: 20px;
+    }
+    li{
+      margin-bottom: 10px;
+    }
     &.half{
 			text-align: justify;
 			color: #504949;
@@ -764,11 +840,17 @@ $navbar-mobile-height: 100;
       font-size: 20px;
       line-height: 30px;
     }
-    &__description{
+    &__description, &__description p{
       font-weight: normal;
       font-size: 14px;
       line-height: 20px;
       margin-bottom: 20px;
+      ul {
+        margin-bottom: 30px;
+      }
+      li{
+        margin-bottom: 6px;
+      }
     }
   }
   &__subtitle{
@@ -780,11 +862,8 @@ $navbar-mobile-height: 100;
   }
   .download{
   	text-decoration: none;
-  	display: inline-block;
+  	display: block;
   	text-align: center;
-  	width: 100%;
-    margin-bottom: 30px;
-    margin-top: 30px;
   	.download__link{
   		display: inline-block;
   		background-color: $green;

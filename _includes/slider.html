@@ -9,6 +9,8 @@
                   <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
                     {% if slide.icone_image %}
                       <img src="{{ slide.icone_image }}">
+                    {% else %}
+                      <br><br>
                     {% endif %}
                     {% if slide.video %}
                       {% assign video_url = slide.video | replace: 'https://www.youtube.com/watch?v=', 'https://www.youtube.com/embed/' | replace: 'http://www.youtube.com/watch?v=', 'https://youtube.com/embed/' | replace: 'http://youtube.com/watch?v=', 'https://www.youtube.com/embed/' | replace: 'https://youtu.be/', 'https://www.youtube.com/embed/' | replace: 'http://youtu.be/', 'https://www.youtube.com/embed/' %}
