@@ -78,6 +78,7 @@ sections:
 - histoire: ''
 - carte:
   - titre: Cart des villes
+  titre: Communauté des villes déservies
 - skip: ''
 - titre: PARTENAIRES DE DéVELOPPEMENT DES SOLUTIONS
   icones:
