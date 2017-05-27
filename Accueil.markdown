@@ -11,7 +11,7 @@ slider:
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
-- image: uploads/fond-gris.png
+- image: uploads/Arbre3.jpg
   icone_image: uploads/cercle citoyen.png
   description: "Grâce à notre plateforme, obtenez tous les services en ligne \net
     assurez-vous des  économies de 25 % et plus par service"
