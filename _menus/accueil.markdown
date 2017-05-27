@@ -17,7 +17,7 @@ menu-niveau-1:
     - titre: OFFRE DE SERVICES INTÉGRÉS ET CONCERTÉS
       menu-niveau-4:
       - titre: DIAGNOSTIC ET Inventaire et évaluation
-        url: diagnostique-et-inventaire-et-evaluation.html
+        url: inventaire-intelligent.html
       - titre: Plateforme de gestion concertée
         url: plateforme-de-gestion-concertee.html
       - titre: Module de performances

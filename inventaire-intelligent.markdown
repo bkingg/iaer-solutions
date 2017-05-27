@@ -1,7 +1,7 @@
 ---
 title: Inventaire intelligent
 date: '2017-03-08T04:06:00.000+00:00'
-permalink: diagnostique-et-inventaire-et-evaluation
+permalink: inventaire-intelligent
 slider:
 - image: uploads/carte2.jpg
   icone_image: uploads/d-inventaire.png
@@ -20,7 +20,7 @@ sections:
     sont  des économies importantes (32% et +) en temps et argent pour tous les propriétaires."
 - titre: Valeur de mon frêne accompagne les professionnels selon les priorités et
     les objectifs  de manière à…
-  benefices_simple:
+  petites_boites:
   - description: |-
       Évaluer votre territoire ou des emplacements précis  selon vos besoins. Les résultats offrent:
        - Les choix décisionnels et straté- giques ciblés et les solutions économiques.
@@ -173,7 +173,7 @@ sections:
     call_to_action:
     - texte: Participer au projet pilote de démonstration
 - titre: BÉNÉFICES
-  benefices_simple:
+  petites_boites:
   - description: Anticipation des besoins ou enjeux et priorisation des activités
   - description: Contrôle des coûts et budgets des actions et solutions
   - description: Responsabilisation des propriétaires et professionnels
