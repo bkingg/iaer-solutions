@@ -25,7 +25,7 @@ slider:
     et  à donner une estimation du revenu ou des économies envisageables après abattage
   call_to_action:
   - url: index.html
-    texte: Découvrez comment dès maintenant
+    texte: Demander comment dès maintenant
 - image: uploads/carte-ville.jpg
   icone_image: uploads/Contrôle_insect.png
   description: Nos forfaits augmentent les moyens de surveillance des frênes en santé
