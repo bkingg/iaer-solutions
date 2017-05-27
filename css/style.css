@@ -707,6 +707,8 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
         font-size: 12px; }
     .section .box ul, .section .box li {
       font-weight: normal; }
+    .section .box ul {
+      padding-bottom: 10px; }
   .section:nth-of-type(even) {
     background-color: #83b739;
     color: white; }
