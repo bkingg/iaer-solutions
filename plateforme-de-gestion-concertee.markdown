@@ -52,12 +52,5 @@ sections:
   - description: Accès à l’information actualisée en continue
   - description: Bilan de santé et sécurité accessible et disponible en tout temps
   - description: Réduction des coûts d’intervention situation d’urgence
-  petites_boites:
-  - description: Réduction des coûts d'intervention en situation d'urgence
-  - description: Bilan de santé et sécurité accessible et disponible en tout temps
-  - description: Accès à l’information actualisée en continue
-  - description: Communication spécifique avec tous les intervenants
-  - description: Suivi des services à distance en temps réel
-  - description: Accès à des services en ligne gain de temps et d'efficacité
 layout: default
 ---
