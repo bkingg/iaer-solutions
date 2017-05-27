@@ -348,14 +348,14 @@
                 <div class="col-sm-6">
                   <h3 class="section__subtitle">{{ section.engagement[0].titre }}</h3>
                   <div class="section__description">
-                    {{ section.engagement[0].description }}
+                    {{ section.engagement[0].description | markdownify }}
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="col-green">
                     <h3 class="col-green__title">{{ section.engagement[0].raison-titre }}</h3>
                     <div class="col-green__description">
-                      {{ section.engagement[0].raison-description }}
+                      {{ section.engagement[0].raison-description | markdownify }}
                     </div>
                   </div>
                 </div>
