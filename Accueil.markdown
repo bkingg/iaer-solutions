@@ -11,14 +11,14 @@ slider:
   call_to_action:
   - url: index.html
     texte: Découvrez comment dès maintenant
-- image: uploads/Billots.jpg
+- image: uploads/carte-ville.jpg
   icone_image: uploads/cercle citoyen2.png
   description: "Grâce à notre plateforme, obtenez tous les services en ligne \net
     assurez-vous des  économies de 25 % et plus par service"
   call_to_action:
   - url: index.html
     texte: Découvrez comment dès maintenant
-- image: uploads/carte-ville.jpg
+- image: uploads/Billots.jpg
   icone_image: uploads/Icône bénéfice_page accueil_04 blanc.png
   description: |-
     Notre service d’inventaire intelligent aide à connaître la valeur du bois infesté de vos frênes
