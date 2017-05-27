@@ -10,14 +10,14 @@ slider:
     vos besoins pour  **agir** avec **assurance et au meilleur coût**
   call_to_action:
   - url: index.html
-    texte: Télécharger notre offre de service dès maintenant
+    texte: Découvrez comment dès maintenant
 - image: uploads/Billots.jpg
   icone_image: uploads/cercle citoyen2.png
   description: "Grâce à notre plateforme, obtenez tous les services en ligne \net
     assurez-vous des  économies de 25 % et plus par service"
   call_to_action:
   - url: index.html
-    texte: Télécharger notre offre de service dès maintenant
+    texte: Découvrez comment dès maintenant
 - image: uploads/carte-ville.jpg
   icone_image: uploads/Icône bénéfice_page accueil_ blanc.png
   description: |-
@@ -25,13 +25,13 @@ slider:
     et  à donner une estimation du revenu ou des économies envisageables après abattage
   call_to_action:
   - url: index.html
-    texte: Télécharger notre offre de service dès maintenant
+    texte: Découvrez comment dès maintenant
 - image: uploads/carte-ville.jpg
   icone_image: uploads/Contrôle_insect.png
   description: Nos forfaits augmentent les moyens de surveillance des frênes en santé
     et aident à assurer l’efficacité des solutions de préservation utilisées
   call_to_action:
-  - texte: Télécharger notre offre de service dès maintenant
+  - texte: Découvrez comment dès maintenant
 sections:
 - titre: Offre de Services
   icones:
