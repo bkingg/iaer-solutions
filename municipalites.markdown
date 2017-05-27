@@ -60,7 +60,7 @@ sections:
   - image: uploads/m-activites-intensives.png
     titre: Activites Intensives
     url: activites-intensives-de-lutte.html
-- carte:
+- carte: 
   titre: Communauté des villes déservies
 layout: default
 parent: ''
