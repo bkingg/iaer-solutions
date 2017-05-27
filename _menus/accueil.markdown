@@ -16,12 +16,12 @@ menu-niveau-1:
         url: activites-intensives-de-lutte.html
     - titre: OFFRE DE SERVICES INTÉGRÉS ET CONCERTÉS
       menu-niveau-4:
-      - titre: DIAGNOSTIC ET Inventaire et évaluation
+      - titre: Inventaire intelligent
         url: inventaire-intelligent.html
       - titre: Plateforme de gestion concertée
         url: plateforme-de-gestion-concertee.html
-      - titre: Module de performances
-        url: module-de-performances.html
+      - titre: Modules de performance
+        url: modules-de-performance.html
       - titre: Valorisation du bois infesté
         url: valorisation-du-bois-infeste.html
     - titre: TECHNOLOGIE DE GESTION COLLABORATIVE
