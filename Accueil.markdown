@@ -18,7 +18,7 @@ slider:
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
-- image: uploads/Carte slider accueil principal 3.PNG
+- image: uploads/carte-ville.jpg
   icone_image: uploads/recyclage_bois.png
   description: |-
     Notre service d’inventaire intelligent aide à connaître la valeur du bois infesté de vos frênes
