@@ -52,8 +52,8 @@ sections:
     description: 
   call_to_action: []
 - titre: Bénéfices
-  description: "UN PORTAIL AVEC LES DONNÉES ET DE L’INFORMATION PRÉCISE POUR RÉPONDRE\x03
-    AVEC ASSURANCE À TOUS VOS BESOINS. C'EST..."
+  description: UN PORTAIL AVEC LES DONNÉES ET DE L’INFORMATION PRÉCISE POUR RÉPONDRE
+    AVEC ASSURANCE À TOUS VOS BESOINS. C'EST...
   icones:
   - image: uploads/simple.png
     titre: "SIMPLE, RAPIDE \x03ET ÉCONOMIQUE"
