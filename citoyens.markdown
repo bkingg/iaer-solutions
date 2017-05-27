@@ -9,21 +9,21 @@ slider:
     \n**Obtenez l'évaluation gratuite de 2 à 6 frênes sur votre propriété**"
   call_to_action:
   - url: index.html
-    texte: Télécharger notre offre de service dès maintenant
+    texte: Demander l'évaluation dès maintenant
 - image: uploads/Arbre.jpg
   icone_image: ''
   description: "Protéger et préserver contre l’agrile du frêne vos arbres\x03aux meilleurs
     coûts \n\n**Bien agir, c’est se préparer et utiliser les outils simples**\n\n"
   call_to_action:
   - url: index.html
-    texte: Télécharger notre offre de service dès maintenant
+    texte: Demander l'évaluation dès maintenant
 - image: uploads/Arbre.jpg
   icone_image: ''
   description: "Obtenez jusqu’à 75 % de rabais sur les frais généraux de service \n\n**Un
     service innovant qui respecte vos choix\x03et l’environnement**\n\n"
   call_to_action:
   - url: index.html
-    texte: Télécharger notre offre de service dès maintenant
+    texte: Découvrez comment dès maintenant
 - image: uploads/Arbre.jpg
   icone_image: ''
   description: "Oups! vos frênes sont infestés vous voulez réduire\x03les coûts des
@@ -31,7 +31,7 @@ slider:
     y voilà! un forfait économique pour vous**\n\n"
   call_to_action:
   - url: index.html
-    texte: Télécharger notre offre de service dès maintenant
+    texte: Demander l'évaluation dès maintenant
 sections:
 - titre: 'Vous êtes propriétaire de:'
   description: 
