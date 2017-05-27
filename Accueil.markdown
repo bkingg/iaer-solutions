@@ -19,7 +19,7 @@ slider:
   - url: index.html
     texte: Découvrez comment dès maintenant
 - image: uploads/carte-ville.jpg
-  icone_image: uploads/Icône bénéfice_page accueil_ blanc.png
+  icone_image: uploads/Icône bénéfice_page accueil_04 blanc.png
   description: |-
     Notre service d’inventaire intelligent aide à connaître la valeur du bois infesté de vos frênes
     et  à donner une estimation du revenu ou des économies envisageables après abattage
