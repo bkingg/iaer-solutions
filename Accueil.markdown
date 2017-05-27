@@ -6,7 +6,7 @@ slider:
 - image: uploads/Arbre.jpg
   icone_image: 
   description: "La préservation **assurée** pour tous les frênes en **santé** \x03et
-    la valorisation garantie du **bois**\nde ceux infestés"
+    la valorisation garantie du **bois**\nde ceux infestés\n \n \n \n \n \n"
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
