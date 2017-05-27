@@ -3,25 +3,26 @@ title: Accueil
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: "/"
 slider:
-- image: uploads/Arbre.jpg
-  icone_image: 
-  description: "La préservation **assurée** pour tous les frênes en **santé** \x03et
-    la valorisation garantie du **bois**\nde ceux infestés\n \n \n \n \n \n"
+- image: uploads/fond-gris.png
+  icone_image: uploads/résident cercle verts.png
+  description: |-
+    **Notre plateforme aide à comprendre, évaluer et maîtriser** rapidement
+    vos besoins pour  **agir** avec **assurance et au meilleur coût**
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
-- image: uploads/Arbre3.jpg
-  icone_image: 
-  description: "**Comprendre, évaluer et maîtriser vos besoins** d’intervention \nPlanifier,
-    **agir** avec **assurance** et **contrôle** des enjeux locaux\x03   \n\n\nParce
-    que nos services et nos technologies sont fonctionnels"
+- image: uploads/fond-gris.png
+  icone_image: uploads/cercle citoyen.png
+  description: "Grâce à notre plateforme, obtenez tous les services en ligne \net
+    assurez-vous des  économies de 25 % et plus par service"
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
-- image: uploads/Arbre4.jpg
-  icone_image: 
-  description: "En toute sécurité, sans **coûts supplémentaires**, \x03\n\nvaloriser
-    le bois infestés"
+- image: uploads/Carte slider accueil principal 3.PNG
+  icone_image: uploads/recyclage_bois.png
+  description: |-
+    Notre service d’inventaire intelligent aide à connaître la valeur du bois infesté de vos frênes
+    et  à donner une estimation du revenu ou des économies envisageables après abattage
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
