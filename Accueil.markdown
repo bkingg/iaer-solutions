@@ -19,7 +19,7 @@ slider:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
 - image: uploads/carte-ville.jpg
-  icone_image: uploads/recyclage_bois.png
+  icone_image: uploads/Icône bénéfice_page accueil_ blanc.png
   description: |-
     Notre service d’inventaire intelligent aide à connaître la valeur du bois infesté de vos frênes
     et  à donner une estimation du revenu ou des économies envisageables après abattage
