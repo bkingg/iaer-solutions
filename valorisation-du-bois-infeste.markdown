@@ -16,7 +16,7 @@ sections:
     et de disposition des résidus.
 - titre: Le bois des frênes infestés est valorisé en toute sécurité localement et
     éliminant ainsi tout déplacement des produits contaminés
-  benefices_simple:
+  petites_boites:
   - description: Bois des collecte des branches est récupéré  par un programme sur
       mesure permanent et flexible pour tous les intervenants
   - description: Le service intégré de valorisation du bois des abattages urbains
@@ -34,7 +34,7 @@ sections:
   - titre: Bio écologique
     image: uploads/recyclage_branches (1).png
 - titre: BÉNÉFICES
-  benefices_simple:
+  petites_boites:
   - description: Réduction des coûts des travaux d’abattage
   - description: "Économie d’échelle dans un processus de préservation"
   - description: Amélioration du bilan carbone

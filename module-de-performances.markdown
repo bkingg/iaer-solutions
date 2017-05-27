@@ -109,7 +109,7 @@ sections:
   - image: uploads/avantage-2.png
   description: Les coûts sont réduits de plus de 20% par tout les intervenants.
 - titre: BÉNÉFICES DIRECTS ET INDIRECTS
-  benefices_simple:
+  petites_boites:
   - description: Anticipation des besoins ou enjeux et priorisation des activités
   - description: Contrôle des coûts et budgets des actions et solutions
   - description: Responsabilisation des propriétaires et professionnels

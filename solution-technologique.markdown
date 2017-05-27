@@ -23,7 +23,7 @@ sections:
     description: test
 - skip: ''
 - titre: 
-  benefices_simple:
+  petites_boites:
   - description: Cartographie des secteurs d’intervention
   - description: Détection et contrôle de l’insecte
   - description: Préservation et suivi des traitements

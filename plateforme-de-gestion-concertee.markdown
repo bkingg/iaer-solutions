@@ -45,7 +45,7 @@ sections:
   - image: uploads/p-recuperation.png
     titre: Fournisseurs de services de récupération et transport du bois
 - titre: BÉNÉFICES DIRECTS ET INDIRECTS
-  benefices_simple:
+  petites_boites:
   - description: Accès à des services en ligne gain de temps et d'efficacité
   - description: Suivi des services à distance
   - description: Communication spécifique avec tous les intervenants
