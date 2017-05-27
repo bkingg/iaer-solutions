@@ -4,7 +4,7 @@ date: '2017-03-08T04:06:00.000+00:00'
 permalink: plateforme-de-gestion-concertee
 parent: municipalites
 slider:
-- image: uploads/Arbre2.jpg
+- image: uploads/traitement.jpg
   icone_image: uploads/p-plateforme.png
   description: "## **Plateforme de Gestion Concertée** \nFaire passer à l’action 100
     % des propriétaires et des professionnels"
@@ -45,12 +45,13 @@ sections:
   - image: uploads/p-recuperation.png
     titre: Fournisseurs de services de récupération et transport du bois
 - titre: BÉNÉFICES DIRECTS ET INDIRECTS
-  petites_boites:
+  benefices_simple:
   - description: Accès à des services en ligne gain de temps et d'efficacité
   - description: Suivi des services à distance
   - description: Communication spécifique avec tous les intervenants
   - description: Accès à l’information actualisée en continue
   - description: Bilan de santé et sécurité accessible et disponible en tout temps
   - description: Réduction des coûts d’intervention situation d’urgence
+  benefices_simples: []
 layout: default
 ---
