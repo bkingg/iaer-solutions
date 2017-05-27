@@ -3,7 +3,7 @@ title: Solution Technologique
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: solution-technologique
 slider:
-- image: uploads/Arbre2.jpg
+- image: uploads/traitement.jpg
   description: |-
     ## **Solutions technologiques**
     Problèmes complexes, solutions robustes.
