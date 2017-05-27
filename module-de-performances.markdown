@@ -4,7 +4,7 @@ date: '2017-03-08T04:06:00.000+00:00'
 permalink: modules-de-performance
 parent: municipalites
 slider:
-- image: uploads/Arbre2.jpg
+- image: uploads/traitement.jpg
   icone_image: uploads/performance.png
   description: "## **Modules de Performance** \nLa bonne action au bon endroit au
     meilleur coût"
