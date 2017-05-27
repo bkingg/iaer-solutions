@@ -26,7 +26,7 @@ slider:
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
-- image: uploads/Carte slider accueil principal 3.PNG
+- image: uploads/carte-ville.jpg
   icone_image: uploads/Contrôle_insect.png
   description: Nos forfaits augmentent les moyens de surveillance des frênes en santé
     et aident à assurer l’efficacité des solutions de préservation utilisées
