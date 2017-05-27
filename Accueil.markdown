@@ -16,7 +16,7 @@ slider:
   description: "Grâce à notre plateforme, obtenez tous les services en ligne \net
     assurez-vous des  économies de 25 % et plus par service"
   call_to_action:
-  - url: index.html
+  - url: citoyens
     texte: Découvrez comment dès maintenant
 - image: uploads/Billots.jpg
   icone_image: uploads/Icône bénéfice_page accueil_04 blanc-1.png
@@ -24,7 +24,7 @@ slider:
     Notre service d’inventaire intelligent aide à connaître la valeur du bois infesté de vos frênes
     et  à donner une estimation du revenu ou des économies envisageables après abattage
   call_to_action:
-  - url: index.html
+  - url: citoyens
     texte: Demander comment dès maintenant
 - image: uploads/traitement.jpg
   icone_image: uploads/Contrôle_insect.png
@@ -32,6 +32,7 @@ slider:
     et aident à assurer l’efficacité des solutions de préservation utilisées
   call_to_action:
   - texte: Découvrez comment dès maintenant
+    url: citoyens
 sections:
 - titre: Offre de Services
   icones:
