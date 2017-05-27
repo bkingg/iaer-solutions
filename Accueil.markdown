@@ -26,10 +26,10 @@ slider:
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
-- image: uploads/Activités_lutte_intensives2.jpg
-  icone_image: 
-  description: "En **contrôle**, **une action à la fois**,\x03nous vous **accompagnons**
-    \x03avec sérénité"
+- image: uploads/Carte slider accueil principal 3.PNG
+  icone_image: uploads/Contrôle_insect.png
+  description: Nos forfaits augmentent les moyens de surveillance des frênes en santé
+    et aident à assurer l’efficacité des solutions de préservation utilisées
   call_to_action:
   - texte: Télécharger notre offre de service dès maintenant
 sections:
