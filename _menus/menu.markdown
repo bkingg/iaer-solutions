@@ -22,13 +22,13 @@ menu-niveau-1:
   - titre: 
     menu-niveau-3:
     - titre: Inventaire intelligent
-      url: diagnostique-et-inventaire-et-evaluation.html
-      liens: 
+      url: inventaire-intelligent.html
+      liens: ''
     - titre: Plateforme de gestion concertée
       url: plateforme-de-gestion-concertee.html
       liens: 
-    - titre: Module de performances
-      url: module-de-performances.html
+    - titre: Modules de performance
+      url: modules-de-performance.html
       liens: 
     - titre: Valorisation du bois infesté
       url: valorisation-du-bois-infeste.html
