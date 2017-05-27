@@ -1,7 +1,7 @@
 ---
-title: Module de Performances
+title: Modules de Performance
 date: '2017-03-08T04:06:00.000+00:00'
-permalink: module-de-performances
+permalink: modules-de-performance
 parent: municipalites
 slider:
 - image: uploads/Arbre2.jpg
@@ -40,7 +40,7 @@ sections:
     call_to_action:
     - texte: Participer au projet pilote de démonstration
   - image: uploads/mp-depistage.png
-    titre: Contrôle des foyers d'infestation
+    titre: Gestion numérique des foyers d'infestation
     problemes: "Les foyers d’infestation sont toujours de très petites tailles au
       début de l’épidémie. Comment parvenir à les dépister rapidement: Alors que:\n
       - les frênes sont présents un peu partout sur le territoire,\n - la densité
