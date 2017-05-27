@@ -3,7 +3,7 @@ title: Accueil
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: "/"
 slider:
-- image: uploads/fond-gris.png
+- image: "/uploads/Activités_lutte_intensives2.jpg"
   icone_image: uploads/résident cercle verts.png
   description: |-
     **Notre plateforme aide à comprendre, évaluer et maîtriser** rapidement
