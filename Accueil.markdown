@@ -9,7 +9,7 @@ slider:
     **Notre plateforme aide à comprendre, évaluer et maîtriser** rapidement
     vos besoins pour  **agir** avec **assurance et au meilleur coût**
   call_to_action:
-  - url: citoyens
+  - url: 'citoyens&#35Voici ce que comprennent nos services pour:'
     texte: Découvrez comment dès maintenant
 - image: uploads/carte-ville.jpg
   icone_image: uploads/cercle citoyen2.png
