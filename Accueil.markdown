@@ -6,8 +6,8 @@ slider:
 - image: "/uploads/Activités_lutte_intensives2.jpg"
   icone_image: uploads/résident cercle verts2-1.png
   description: |-
-    **Notre plateforme aide à comprendre, évaluer et maîtriser** rapidement
-    vos besoins pour  **agir** avec **assurance et au meilleur coût**
+    **Comprendre, évaluer et maîtriser** rapidement
+    vos besoins pour  **agir au meilleur coût**
   call_to_action:
   - url: 'citoyens&#35Voici ce que comprennent nos services pour:'
     texte: Découvrez comment dès maintenant
