@@ -7,19 +7,19 @@
               <div class="row">
                 <div class="caption">
                   {% if slide.image_large %}
-                    <div class="row-eq-height">
-                      <div class="col-sm-6 col-eq-height">
+                    <div class="col-sm-10 col-sm-offset-1">
+                      <div class="col-sm-6">
                           <div class="caption__image--wrapper">
                               <div class="caption__image">
                                   <img src="{{ slide.image_large }}" class="img-responsive">
                               </div>
                           </div>
                       </div>
-                      <div class="col-sm-6 col-eq-height">
+                      <div class="col-sm-6">
                           <div class="caption__text--wrapper">
                               <div class="caption__text">
                                   <div class="caption__description">
-                                      {{ slide.description | markdownify | replace: '<p>', '<p><i class="fa fa-quote-left"></i> ' }}
+                                      {{ slide.description | markdownify }}
                                   </div>
                               </div>
                           </div>

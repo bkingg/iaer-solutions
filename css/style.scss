@@ -605,6 +605,48 @@ $navbar-mobile-height: 100;
             padding-top: 90px;
             padding-bottom: 15px;
           }
+          &__image{
+            display: table-cell;
+            vertical-align: middle;
+            &--wrapper{
+              display: table;
+              width: 100%;
+            }
+            img{
+              margin: 0 auto;
+            }
+          }
+          &__title{
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            color: #4f5054;
+            text-align: left;
+          }
+          &__description, &__description p{
+            font-size: 12px;
+            font-weight: normal;
+            margin-bottom: 20px;
+            text-align: left;
+            i{
+              font-size: 30px;
+              color: #888;
+              padding-right: 5px;
+            }
+            @media screen and (max-width: 768px) {
+              text-align: center;
+            }
+          }
+          &__text{
+            display: table-cell;
+            vertical-align: middle;
+            text-align: left;
+            text-transform: none;
+            &--wrapper{
+              display: table;
+              width: 100%;
+            }
+          }
 		      img{
 		      	width: 200px;
 		      	margin: 0 auto;
@@ -757,7 +799,7 @@ $navbar-mobile-height: 100;
   }
 }
 
-.temoignage, .caption{
+.temoignage{
   &__image{
     display: table-cell;
     vertical-align: middle;
@@ -1364,6 +1406,7 @@ $navbar-mobile-height: 100;
     text-align: center;
     padding: 20px 0;
     cursor: pointer;
+
     &.active, &:hover {
       background-color: $green;
     }
