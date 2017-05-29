@@ -9,7 +9,7 @@ slider:
     \n\n **Obtenez l'évaluation gratuite de 2 à 6 frênes sur votre**"
   call_to_action:
   - url: index.html
-    texte: Télécharger notre offre de service dès maintenant
+    texte: Demander l'évaluation dès maintenant
 sections:
 - titre: 'Vous êtes propriétaire de:'
   description: 
