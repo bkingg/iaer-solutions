@@ -1,0 +1,18 @@
+<div class="temoignages-slider-wrapper">
+    <div class="temoignages-slider__arrow--left"></div>
+    <div class="temoignages-slider__arrow--right"></div>
+    <div class="temoignages-slider">
+    {% assign temoignages = site.temoignages %}
+    {% for temoignage in temoignages %}
+        <div class="col-eq-height">
+            <div class="temoignage">
+                <img src="{{ temoignage.image }}">
+                <h3 class="offer__title"><span>{{ temoignage.titre }}</span></h3>
+                <div class="temoignage__description">
+                    {{ temoignage.description | markdownify }}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</div>

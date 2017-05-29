@@ -5,6 +5,9 @@ collections:
   menus:
     title: Menus
     output: true
+  temoignages:
+    title: Temoignages
+    output: true
   posts:
     title: Posts
     output: true

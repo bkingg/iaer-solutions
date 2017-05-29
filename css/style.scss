@@ -2,11 +2,49 @@
 ---
 
 @import 'fonts';
+@import 'animations';
 
 $green: #83b739;
 
 body, h1, h2, h3, h4, h5, h6, p, span, a{
 	font-family: 'Sinkin Sans', Arial, sans-serif;
+}
+
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
 }
 
 #content{
@@ -202,7 +240,7 @@ body, h1, h2, h3, h4, h5, h6, p, span, a{
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     .col-md-5ths {
         width: 20%;
         float: left;
@@ -243,7 +281,7 @@ $navbar-mobile-height: 100;
   width: 100%;
   .navbar-header{
   	height: $navbar-height + px;
-    @media screen and (max-width: 992px) {
+    @media screen and (max-width: 1200px) {
       height: $navbar-mobile-height + px;
     }
   	.navbar-brand{
@@ -257,7 +295,7 @@ $navbar-mobile-height: 100;
 			    vertical-align: middle;
 			    padding: 15px 5px;
 			    height: $navbar-height + px;
-          @media screen and (max-width: 992px) {
+          @media screen and (max-width: 1200px) {
             height: $navbar-mobile-height + px;
           }
 	  		}
@@ -266,14 +304,14 @@ $navbar-mobile-height: 100;
   }
   .navbar-right{
   	height: $navbar-height + px;
-  	@media screen and (max-width: 992px) {
+  	@media screen and (max-width: 1200px) {
       height: auto;
       margin-top: 0;
       margin-bottom:  0;
     }
   	> li{
   		padding: ((($navbar-height/ 3) - 2.5) + px) 0;
-      @media screen and (max-width: 700px) {
+      @media screen and (max-width: 1200px) {
         padding: 10px 0;
       }
   		&:hover, &.active{
@@ -289,7 +327,7 @@ $navbar-mobile-height: 100;
   			&:hover{
   				background: none;
   			}
-        @media screen and (max-width: 700px) {
+        @media screen and (max-width: 1200px) {
           img{
             display: none;
           }
@@ -302,7 +340,7 @@ $navbar-mobile-height: 100;
 .subnav {
   background-color: rgba(79, 80, 84, 0.85);
   transition: all 0.3s;
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1200px) {
     display: none;
     background-color: rgba(79, 80, 84, 0.95);
   }
@@ -315,7 +353,7 @@ $navbar-mobile-height: 100;
   	position: relative;
     margin-bottom: 0;
     display: inline-block;
-    @media screen and (max-width: 992px) {
+    @media screen and (max-width: 1200px) {
       display: block;
     }
     > li {
@@ -329,7 +367,7 @@ $navbar-mobile-height: 100;
       &.social:hover{
         background-color: transparent;
       }
-      @media (max-width: 768px){
+      @media (max-width: 1200px){
       	display: block;
       }
       > a {
@@ -379,7 +417,7 @@ $navbar-mobile-height: 100;
       		width: percentage(1 / 3);
       		float: left;
       		padding: 0 20px;
-          @media screen and (max-width: 992px) {
+          @media screen and (max-width: 1200px) {
             width: 100%;
           }
       		&:not:last-child{
@@ -470,12 +508,12 @@ $navbar-mobile-height: 100;
       	}
         &.grid-1{
           width: 320px;
-          @media screen and (max-width: 992px) {
+          @media screen and (max-width: 1200px) {
             width: 100%;
           }
           .column{
             width: 100%;
-            @media screen and (max-width: 992px) {
+            @media screen and (max-width: 1200px) {
               width: 100%;
             }
           }
@@ -483,7 +521,7 @@ $navbar-mobile-height: 100;
       	&.grid-2{
       		.column{
       			width: percentage(1 / 2);
-            @media screen and (max-width: 992px) {
+            @media screen and (max-width: 1200px) {
               width: 100%;
             }
       		}
@@ -491,7 +529,7 @@ $navbar-mobile-height: 100;
       	&.grid-3{
       		.column{
       			width: percentage(1 / 3);
-            @media screen and (max-width: 992px) {
+            @media screen and (max-width: 1200px) {
               width: 100%;
             }
       		}
@@ -499,7 +537,7 @@ $navbar-mobile-height: 100;
       	&.grid-4{
       		.column{
       			width: percentage(1 / 4);
-            @media screen and (max-width: 992px) {
+            @media screen and (max-width: 1200px) {
               width: 100%;
             }
       		}
@@ -591,6 +629,7 @@ $navbar-mobile-height: 100;
           p{
             font-size: 22px;
             line-height: 30px;
+            padding-top: 10px;
           }
 		    }
 		    .download{
@@ -599,7 +638,10 @@ $navbar-mobile-height: 100;
 		    	text-align: center;
 		    	width: 100%;
           margin-top: 0;
-          margin-bottom: 40px;
+          margin-bottom: 80px;
+          @media screen and (max-width: 1200px) {
+            margin-bottom: 20px;
+          }
 		    	.download__link{
 		    		display: table;
 		    		background-color: $green;
@@ -649,7 +691,7 @@ $navbar-mobile-height: 100;
   	bottom: 5px;
   	right: 15px;
   	color: $green;
-    @media screen and (max-width: 992px) {
+    @media screen and (max-width: 1200px) {
       width: 100%;
       text-align: center;
     }
@@ -657,7 +699,7 @@ $navbar-mobile-height: 100;
 			li{
 				display: block;
         padding: 2px;
-        @media screen and (max-width: 992px) {
+        @media screen and (max-width: 1200px) {
           display: inline-block;
         }
 				.slider__dot{
@@ -677,11 +719,80 @@ $navbar-mobile-height: 100;
 			}
 		}
 	}
+  .icon-scroll {
+    &--wrapper{
+      width: 100%;
+      text-align: center;
+      position: relative;
+    }
+    width: 20px;
+    height: 35px;
+    position: absolute;
+    bottom: 20px;
+    margin-top: -35px;
+    left: 50%;
+    box-shadow: inset 0 0 0 3px #fff;
+    border-radius: 25px;
+    z-index: 99;
+    &:before{
+      position: absolute;
+      left: 50%;
+      content: ' ';
+      width: 4px;
+      height: 4px;
+      background: #fff;
+      margin-left: -2px;
+      top: 4px;
+      border-radius: 4px;
+      -webkit-animation-duration: 1.5s;
+      animation-duration: 1.5s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: scroll;
+      animation-name: scroll;
+    }
+    @media screen and (max-width: 1200px) {
+      display: none;
+    }
+  }
 }
 
 .icones-slider-wrapper{
   position: relative;
   .icones-slider{
+    visibility: hidden;
+    width: 100%;
+    transition: visibility 0.3s ease-in;
+    &.slick-initialized{
+      visibility: visible;
+    }
+    &__arrow--left,
+    &__arrow--right{
+      display: none;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 20px;
+      height: 20px;
+      padding: 10px;
+      position: absolute;
+      top: 47%;
+      z-index: 1;
+      cursor: pointer;
+    }
+    &__arrow--left{
+      background-image: url('../uploads/arrow-left.png');
+      left: 10px;
+    }
+    &__arrow--right{
+      background-image: url('../uploads/arrow-right.png');
+      right: 10px;
+    }
+  }
+}
+
+.temoignages-slider-wrapper{
+  position: relative;
+  .temoignages-slider{
     visibility: hidden;
     width: 100%;
     transition: visibility 0.3s ease-in;
@@ -732,7 +843,7 @@ $navbar-mobile-height: 100;
     iframe{
       width: 100%;
 
-      @media screen and (max-width: 992px) {
+      @media screen and (max-width: 1200px) {
         height: 300px;
       }
     }
@@ -801,7 +912,7 @@ $navbar-mobile-height: 100;
             margin: 0;
           }
 
-          @media screen and (max-width: 992px) {
+          @media screen and (max-width: 1200px) {
             display: block;
             margin: 3px;
             padding: 15px 10px;
