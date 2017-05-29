@@ -23,7 +23,7 @@ slider:
   description: Connaître la valeur du bois infesté de vos frênes pour obtenir un revenu
     ou des économies après abattage
   call_to_action:
-  - url: 'citoyens#Voici ce que comprennent nos services pour:'
+  - url: citoyens#voici-ce-que-comprennent-nos-services-pour
     texte: Demander l'évaluation dès maintenant
 - image: uploads/traitement.jpg
   icone_image: uploads/Contrôle_insect.png
