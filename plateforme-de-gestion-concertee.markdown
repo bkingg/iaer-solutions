@@ -53,5 +53,12 @@ sections:
   - description: Bilan de santé et sécurité accessible et disponible en tout temps
   - description: Réduction des coûts d’intervention situation d’urgence
   benefices_simples: []
+  benefices:
+  - titre: "Accès à des services en ligne gain\x03de temps et d'efficacité"
+  - titre: "Suivi des services à distance\x03en temps réel "
+  - titre: "Communication spécifique avec tous\x03les intervenants "
+  - titre: "Accès à l’information actualisée\x03en continue"
+  - titre: "Bilan de santé et sécurité accessible\x03et disponible en tout temps"
+  - titre: "Réduction des coûts d’intervention\x03 en situation d’urgence"
 layout: default
 ---
