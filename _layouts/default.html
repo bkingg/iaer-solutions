@@ -256,7 +256,7 @@
                         <h1 class="section__title">ILS NOUS FONT CONFIANCE</h1>
 
                         {% include temoignages.html %}
-                        
+
                       </div>
                     </div>
                   </div>
@@ -327,6 +327,10 @@
                 </div>
               {% endif %}
 
+              {% if section.temoignages %}
+                {% include temoignages.html %}
+              {% endif %}
+              
               {% if section.technologie %}
                 <div class="col-sm-6">
                   <img src="uploads/t-diagramme.png" class="img-responsive">

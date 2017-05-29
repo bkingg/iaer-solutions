@@ -27,3 +27,4 @@ defaults:
   values:
     layout: default
 permalink: pretty
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
