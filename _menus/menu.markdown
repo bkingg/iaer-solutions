@@ -35,6 +35,6 @@ menu-niveau-1:
       liens: 
 - titre: SOLUTION TECHNOLOGIQUE
   url: solution-technologique.html
-- titre: VALEUR DE MON FRÊNE
+- titre: VALEUR-DE-MON-FRÊNE
   url: valeur-de-mon-frene.html
 ---
