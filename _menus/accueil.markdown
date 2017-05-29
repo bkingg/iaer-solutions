@@ -34,7 +34,7 @@ menu-niveau-1:
         url: "/depistage-et-surveillance-de-linsecte.html"
       - titre: MISE EN VALEUR DU BOIS INFESTÉ
         url: "/mise-en-valeur-du-bois-infeste"
-  - titre: RÉSIDENTS
+  - titre: Citoyens
     url: "/residents"
     menu-niveau-3:
     - titre: Outils de gestion des besoins en ligne
