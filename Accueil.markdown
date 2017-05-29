@@ -24,7 +24,7 @@ slider:
     Notre service d’inventaire intelligent aide à connaître la valeur du bois infesté de vos frênes
     et  à donner une estimation du revenu ou des économies envisageables après abattage
   call_to_action:
-  - url: citoyens
+  - url: 'citoyens#Voici ce que comprennent nos services pour:'
     texte: Demander l'évaluation dès maintenant
 - image: uploads/traitement.jpg
   icone_image: uploads/Contrôle_insect.png
