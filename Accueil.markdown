@@ -13,8 +13,8 @@ slider:
     texte: Découvrez comment dès maintenant
 - image: uploads/carte-ville.jpg
   icone_image: uploads/cercle citoyen2.png
-  description: "Grâce à notre plateforme, obtenez tous les services en ligne \net
-    assurez-vous des  économies de 25 % et plus par service"
+  description: Obtenez tous les services en ligne et assurez-vous des  économies de
+    25 % et plus par service
   call_to_action:
   - url: 'citoyens&#35Voici ce que comprennent nos services pour:'
     texte: Découvrez comment dès maintenant
