@@ -42,17 +42,17 @@ menu-niveau-1:
       - titre: DEMANDE D’ÉVALUATION
         url: citoyens.html?open=terrains-residentiels#vous-etes-proprietaire-de
       - titre: Suivi services municipaux
-        url: citoyens.html&#35voici-ce-que-comprennent-nos-services-pour
+        url: citoyens.html#voici-ce-que-comprennent-nos-services-pour
       - titre: Suivi services technique
-        url: citoyens.html&#35voici-ce-que-comprennent-nos-services-pour
+        url: citoyens.html#voici-ce-que-comprennent-nos-services-pour
     - titre: SERVICES CONCERTÉS ET ÉCONOMIQUES
       menu-niveau-4:
       - titre: PAR ARRONDISSEMENT
-        url: citoyens.html&#35services-concertes
+        url: citoyens.html#services-concertes
       - titre: PAR QUARTIER
-        url: citoyens.html&#35services-concertes
+        url: citoyens.html#services-concertes
       - titre: PAR RUE
-        url: citoyens.html&#35services-concertes
+        url: citoyens.html#services-concertes
   - titre: Institution corporative
     menu-niveau-3:
     - titre: PORTAIL DE GESTION EN LIGNE
