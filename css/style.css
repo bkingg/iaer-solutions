@@ -490,6 +490,40 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
             .homepage__slider-wrapper .homepage__slider .slide .image .caption {
               padding-top: 90px;
               padding-bottom: 15px; } }
+          .homepage__slider-wrapper .homepage__slider .slide .image .caption__image {
+            display: table-cell;
+            vertical-align: middle; }
+            .homepage__slider-wrapper .homepage__slider .slide .image .caption__image--wrapper {
+              display: table;
+              width: 100%; }
+            .homepage__slider-wrapper .homepage__slider .slide .image .caption__image img {
+              margin: 0 auto; }
+          .homepage__slider-wrapper .homepage__slider .slide .image .caption__title {
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            color: #4f5054;
+            text-align: left; }
+          .homepage__slider-wrapper .homepage__slider .slide .image .caption__description, .homepage__slider-wrapper .homepage__slider .slide .image .caption__description p {
+            font-size: 12px;
+            font-weight: normal;
+            margin-bottom: 20px;
+            text-align: left; }
+            .homepage__slider-wrapper .homepage__slider .slide .image .caption__description i, .homepage__slider-wrapper .homepage__slider .slide .image .caption__description p i {
+              font-size: 30px;
+              color: #888;
+              padding-right: 5px; }
+            @media screen and (max-width: 768px) {
+              .homepage__slider-wrapper .homepage__slider .slide .image .caption__description, .homepage__slider-wrapper .homepage__slider .slide .image .caption__description p {
+                text-align: center; } }
+          .homepage__slider-wrapper .homepage__slider .slide .image .caption__text {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: left;
+            text-transform: none; }
+            .homepage__slider-wrapper .homepage__slider .slide .image .caption__text--wrapper {
+              display: table;
+              width: 100%; }
           .homepage__slider-wrapper .homepage__slider .slide .image .caption img {
             width: 200px;
             margin: 0 auto; }
@@ -614,34 +648,34 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
       .homepage__slider-wrapper .icon-scroll {
         display: none; } }
 
-.temoignage__image, .caption__image {
+.temoignage__image {
   display: table-cell;
   vertical-align: middle; }
-  .temoignage__image--wrapper, .caption__image--wrapper {
+  .temoignage__image--wrapper {
     display: table;
     width: 100%;
     height: inherit; }
-  .temoignage__image img, .caption__image img {
+  .temoignage__image img {
     margin: 0 auto; }
-.temoignage__title, .caption__title {
+.temoignage__title {
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 20px;
   color: #4f5054;
   text-align: right; }
-.temoignage__description, .temoignage__description p, .caption__description, .caption__description p {
+.temoignage__description, .temoignage__description p {
   font-size: 12px;
   font-weight: normal;
   margin-bottom: 20px; }
-  .temoignage__description i, .temoignage__description p i, .caption__description i, .caption__description p i {
+  .temoignage__description i, .temoignage__description p i {
     font-size: 30px;
     color: #888;
     padding-right: 5px; }
-.temoignage__text, .caption__text {
+.temoignage__text {
   display: table-cell;
   vertical-align: middle;
   text-align: right; }
-  .temoignage__text--wrapper, .caption__text--wrapper {
+  .temoignage__text--wrapper {
     display: table;
     width: 100%;
     height: inherit; }
