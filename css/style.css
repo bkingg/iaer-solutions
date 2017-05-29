@@ -633,6 +633,10 @@ body, h1, h2, h3, h4, h5, h6, p, span, a {
   font-size: 12px;
   font-weight: normal;
   margin-bottom: 20px; }
+  .temoignage__description i, .temoignage__description p i {
+    font-size: 30px;
+    color: #888;
+    padding-right: 5px; }
 .temoignage__text {
   display: table-cell;
   vertical-align: middle;
