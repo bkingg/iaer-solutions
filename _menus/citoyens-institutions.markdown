@@ -10,6 +10,6 @@ menu-niveau-1:
   url: "&#35voici-ce-que-comprennent-nos-services-pour"
 - titre: services concertés
   url: "&#35services-concertes"
-- titre: VALEUR DE MON FRÊNE
+- titre: VALEUR-DE-MON-FRÊNE
   url: valeur-de-mon-frene.html
 ---
