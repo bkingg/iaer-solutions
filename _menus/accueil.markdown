@@ -40,7 +40,7 @@ menu-niveau-1:
     - titre: Outils de gestion des besoins en ligne
       menu-niveau-4:
       - titre: DEMANDE D’ÉVALUATION
-        url: citoyens.html&#35vous-etes-proprietaire-de
+        url: citoyens.html?open=terrains-residentiels#vous-etes-proprietaire-de
       - titre: Suivi services municipaux
         url: citoyens.html&#35voici-ce-que-comprennent-nos-services-pour
       - titre: Suivi services technique
