@@ -21,7 +21,7 @@
                                 </div>
                             {% endif %}
                             <div class="temoignage__description">
-                                {{ temoignage.description | markdownify }}
+                                {{ temoignage.description | markdownify | replace: '<p>', '<p><i class="fa fa-quote-left"></i> ' }}
                             </div>
                         </div>
                     </div>
