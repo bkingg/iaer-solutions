@@ -6,20 +6,41 @@
             <div class="image" style="background-image: url({{ slide.image }})">
               <div class="row">
                 <div class="caption">
-                  <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-                    {% if slide.icone_image %}
-                      <img src="{{ slide.icone_image }}">
-                    {% else %}
-                      <br><br>
-                    {% endif %}
-                    {% if slide.video %}
-                      {% assign video_url = slide.video | replace: 'https://www.youtube.com/watch?v=', 'https://www.youtube.com/embed/' | replace: 'http://www.youtube.com/watch?v=', 'https://youtube.com/embed/' | replace: 'http://youtube.com/watch?v=', 'https://www.youtube.com/embed/' | replace: 'https://youtu.be/', 'https://www.youtube.com/embed/' | replace: 'http://youtu.be/', 'https://www.youtube.com/embed/' %}
-                      <div class="slide__video">
-                        <iframe width="100%" height="400" src="{{ video_url }}" frameborder="0" allowfullscreen></iframe>
+                  {% if slide.image_large %}
+                    <div class="row-eq-height">
+                      <div class="col-sm-6 col-eq-height">
+                          <div class="caption__image--wrapper">
+                              <div class="caption__image">
+                                  <img src="{{ slide.image_large }}" class="img-responsive">
+                              </div>
+                          </div>
                       </div>
-                    {% endif %}
-                    {{ slide.description | markdownify }}
-                  </div>
+                      <div class="col-sm-6 col-eq-height">
+                          <div class="caption__text--wrapper">
+                              <div class="caption__text">
+                                  <div class="caption__description">
+                                      {{ caption.description | markdownify | replace: '<p>', '<p><i class="fa fa-quote-left"></i> ' }}
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                  {% else %}
+                    <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                      {% if slide.icone_image %}
+                        <img src="{{ slide.icone_image }}">
+                      {% else %}
+                        <br><br>
+                      {% endif %}
+                      {% if slide.video %}
+                        {% assign video_url = slide.video | replace: 'https://www.youtube.com/watch?v=', 'https://www.youtube.com/embed/' | replace: 'http://www.youtube.com/watch?v=', 'https://youtube.com/embed/' | replace: 'http://youtube.com/watch?v=', 'https://www.youtube.com/embed/' | replace: 'https://youtu.be/', 'https://www.youtube.com/embed/' | replace: 'http://youtu.be/', 'https://www.youtube.com/embed/' %}
+                        <div class="slide__video">
+                          <iframe width="100%" height="400" src="{{ video_url }}" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                      {% endif %}
+                      {{ slide.description | markdownify }}
+                    </div>
+                  {% endif %}
                 </div>
                 <div class="download">
                   {% if slide.call_to_action[0] %}
