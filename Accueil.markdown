@@ -27,8 +27,8 @@ slider:
     texte: Demander l'évaluation dès maintenant
 - image: uploads/traitement.jpg
   icone_image: uploads/Contrôle_insect.png
-  description: Nos forfaits augmentent les moyens de surveillance des frênes en santé
-    et aident à assurer l’efficacité des solutions de préservation utilisées
+  description: Augmenter les moyens de surveillance des frênes en santé et assurer
+    l’efficacité des solutions de préservation utilisées
   call_to_action:
   - texte: Découvrez comment dès maintenant
     url: 'citoyens&#35Voici ce que comprennent nos services pour:'
