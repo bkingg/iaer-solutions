@@ -1,4 +1,24 @@
 $(function(){
+
+	window.getUrlParameter = function(name, url){
+		if (!url) url = window.location.href;
+		name = name.replace(/[\[\]]/g, "\\$&");
+		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+			results = regex.exec(url);
+		if (!results) return null;
+		if (!results[2]) return '';
+		return decodeURIComponent(results[2].replace(/\+/g, " "));
+	}
+
+	$(document).ready(function() {
+		var openModal = getUrlParameter('open');
+		setTimeout(function(){
+	    	$('[data-title-modal=' + openModal + ']').click();
+	    }, 1000);
+		console.log(openModal);
+	});
+
+
 	$('.homepage__slider').slick({
 		slidesToShow: 1,
 	    slidesToScroll: 1,
@@ -148,13 +168,13 @@ $(function(){
     // Smooth scroll
     $(document).on('click', '.subnav ul.menu-niveau-1 > li > a', function(event) {
         if ($(this).is('[href^="#"]')) {
-        	event.preventDefault();
-		      $('html, body').animate({
-			        scrollTop: $( $.attr(this, 'href') ).offset().top - 60
-			    }, 500);
+			event.preventDefault();
+			$('html, body').animate({
+				scrollTop: $( $.attr(this, 'href') ).offset().top - 60
+			}, 500);
 
-		    }
-		    console.log('yo test');
+		}
+		console.log('yo test');
     });
 
     // link tabs to their content

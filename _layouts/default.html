@@ -220,7 +220,7 @@
                     {% for icone in icones %}
                       <div class="col-eq-height">
                         <div class="offer offer--modal offer--slider">
-                          <div data-toggle="modal" data-target="#problemes-solutions">
+                          <div data-toggle="modal" data-target="#problemes-solutions" data-title-modal="{{ icone.titre | downcase | slugify | replace: 'é', 'e' | replace: 'è', 'e' | replace: 'à', 'a' | replace: 'ê', 'e' | replace: 'î', 'i' | replace: 'â', 'a' }}">
                             <img src="{{ icone.image }}">
                             <h3 class="offer__title"><span>{{ icone.titre }}</span> <i class="fa fa-plus"></i></h3>
                             <div class="offer__problemes">{{ icone.problemes | markdownify }}</div>
