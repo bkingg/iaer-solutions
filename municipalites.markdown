@@ -62,7 +62,7 @@ sections:
     url: activites-intensives-de-lutte.html
 - carte:
   - titre: Communauté des villes désservies
-  titre: Communauté des villes déservies
+  titre: Communauté des villes desservies
 layout: default
 parent: ''
 ---
