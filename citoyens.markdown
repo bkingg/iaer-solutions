@@ -18,10 +18,10 @@ slider:
   call_to_action:
   - url: index.html
     texte: Demander l'évaluation dès maintenant
-- image: uploads/Arbre.jpg
-  icone_image: ''
-  description: "Obtenez jusqu’à 75 % de rabais sur les frais généraux de service \n\n**Un
-    service innovant qui respecte vos choix\x03et l’environnement**\n\n"
+- image: "/uploads/Activités_lutte_intensives2.jpg"
+  icone_image: uploads/reduction-cout.png
+  description: "Obtenir jusqu’à 75 % de rabais sur les frais généraux de service \n\n**Utiliser
+    le service concerté local**\n\n"
   call_to_action:
   - url: index.html
     texte: Découvrez comment dès maintenant
