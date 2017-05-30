@@ -12,9 +12,9 @@ slider:
   - url: index.html
     texte: Demander l'évaluation dès maintenant
 - image: uploads/Arbre.jpg
-  icone_image: ''
-  description: "Protéger et préserver contre l’agrile du frêne vos arbres\x03aux meilleurs
-    coûts \n\n**Bien agir, c’est se préparer et utiliser les outils simples**\n\n"
+  icone_image: "/uploads/d-inventaire.png"
+  description: "Prenez des décisions éclairées en économisant temps et argent \n\n**Obtenez
+    l’évaluation gratuite de 2 à 6 frênes sur votre propriété**\n\n"
   call_to_action:
   - url: index.html
     texte: Demander l'évaluation dès maintenant
