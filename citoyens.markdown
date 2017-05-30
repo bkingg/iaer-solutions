@@ -4,7 +4,7 @@ date: '2017-03-08T04:06:00.000+00:00'
 permalink: citoyens
 slider:
 - image: uploads/valorisation-2.jpg
-  icone_image: uploads/gain-2.png
+  icone_image: uploads/gain-3.png
   description: "Vos frênes sont infestés, vous voulez réduire les coûts ou obtenir
     un revenu avec son bois\n \n**Nous y voilà! un forfait économique  qui aide à
     valoriser votre bois.**"
