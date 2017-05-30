@@ -5,9 +5,9 @@ permalink: citoyens
 slider:
 - image: uploads/valorisation-2.jpg
   icone_image: uploads/gain-1.png
-  description: "Oups! votre grand frêne sont infesté vous voulez réduire les coûts
-    des travaux ou obtenir un revenu avec son bois\n \n**Nous y voilà! un forfait
-    économique  qui aide à valoriser votre bois.**"
+  description: "Vos frênes sont infestés, vous voulez réduire les coûts ou obtenir
+    un revenu avec son bois\n \n**Nous y voilà! un forfait économique  qui aide à
+    valoriser votre bois.**"
   call_to_action:
   - url: index.html
     texte: Demander l'évaluation dès maintenant
