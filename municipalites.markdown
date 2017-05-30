@@ -19,28 +19,50 @@ slider:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
   image_large: uploads/numerique-acteurs.png
-- image: uploads/accueil1-2.jpg
+- image: ''
   icone_image: 
-  description: Accédez aux données intelligentes des frênes en terrain privé, en boisé,
-    en milieu humide, pour prendre des décisions économiques en temps réel
+  description: |
+    ## Coordination numérique des services
+
+    Compréhension des besoins
+    Évaluation des intérêts
+    concertation et intégration des services
+
+    Valeur de mon frêne met chaque frêne et les services à la portée de tous les intervenants.Ce qui aide à gagner du temps et économiser jusqu’à 40 % sur les coûts  d’intervention
+
+    Utilisez notre démonstration pilote pour mettre en place le service de coordination numérique des activités de gestion administrative et technique sur votre territoire
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
-- image: uploads/accueil1-2.jpg
+  image_large: uploads/numerique-service.png
+- image: ''
   icone_image: 
-  description: Visualisez la valeur du bois de vos frênes et obtenez un prix avant
-    les travaux d’abattages. Tout en contrôle obtenez un revenu avec le bois
+  description: |-
+    ## ABATTAGE ET VALORISATION DU BOIS
+
+    Visualisez la valeur du bois de tous vos frênes
+    Obtenez un prix avant les travaux d’abattage
+    Réaliser des économisez 25 % et plus sur vos budgets d’abattage.
+
+    Valeur de mon frêne utilise ses services numériques pour optimiser les opérations d’abattages et garantir la valorisation du bois des frênes infestés du territoire.
+
+    Utilisez notre projet pilote pour valider et implanter le service innovant sur le territoire de votre municipalité
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
-- image: uploads/accueil1-2.jpg
+  image_large: uploads/abattage-valorisation-bois.png
+- image: ''
   icone_image: 
-  description: Mettez en place un plan d’intervention efficace basé sur les besoins
-    et l’implication des propriétaires privés, publics et des professionnels de votre
-    municipalité
+  description: "## Inventaire intelligent \n\nTerrains privés\nBoisés \nMilieux humides\n\nValeur
+    de mon frêne augmente les moyens pour accélérer l’accès aux données sur l’ensemble
+    des frênes du territoire et aide ainsi les municipalités à soutenir aux meilleurs
+    coûts les activités intensives de lutte concertée\n\nSoyez parmi les 10 premières
+    municipalités à prendre le contrôle des frênes ou des foyers d’infestation sur
+    l’ensemble de leur territoire."
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
+  image_large: uploads/inventaire-intelligent.png
 sections:
 - titre: Comment ça fonctionne
   etapes: " "
