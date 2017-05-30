@@ -3,13 +3,22 @@ title: Municipalites
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: municipalites
 slider:
-- image: uploads/accueil1-2.jpg
-  icone_image: 
-  description: Réduire de 30 % les coûts des activités de coordination administrative
-    et technique de lutte à l’agrile du frêne
+- image: ''
+  icone_image: ''
+  description: |
+    ## Le numérique pour tous les acteurs
+
+    Prise de décision rapide,
+    Gestion des subventions et demandes
+    Économie temps et argent
+
+    Valeur de mon frêne numérise tous les frênes et aide la municipalité à outiller rapidement ses citoyens tout en les responsabilisant grâce aux supports numériques
+
+    Utilisez notre projet pilote de démonstration pour expérimenter et valider l’efficacité de cette innovation
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
+  image_large: uploads/numerique-acteurs.png
 - image: uploads/accueil1-2.jpg
   icone_image: 
   description: Accédez aux données intelligentes des frênes en terrain privé, en boisé,
