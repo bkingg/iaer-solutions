@@ -25,11 +25,10 @@ slider:
   call_to_action:
   - url: index.html
     texte: Découvrez comment dès maintenant
-- image: uploads/Arbre.jpg
-  icone_image: ''
-  description: "Oups! vos frênes sont infestés vous voulez réduire\x03les coûts des
-    travaux ou obtenir un revenu avec le bois\x03infesté de votre grand arbre\n\n**Nous
-    y voilà! un forfait économique pour vous**\n\n"
+- image: uploads/traitement.jpg
+  icone_image: uploads/service-ligne.png
+  description: "Des réponses et des services en ligne pour protéger vos frênes\n\n**Faites
+    vos choix d’actions ou de services en tout temps** "
   call_to_action:
   - url: index.html
     texte: Demander l'évaluation dès maintenant
