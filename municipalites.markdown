@@ -40,9 +40,9 @@ slider:
   description: |-
     ## ABATTAGE ET VALORISATION DU BOIS
 
-    Visualisez la valeur du bois de tous vos frênes
+    **Visualisez la valeur du bois de tous vos frênes
     Obtenez un prix avant les travaux d’abattage
-    Réaliser des économisez 25 % et plus sur vos budgets d’abattage.
+    Réaliser des économisez 25 % et plus sur vos budgets d’abattage.**
 
     Valeur de mon frêne utilise ses services numériques pour optimiser les opérations d’abattages et garantir la valorisation du bois des frênes infestés du territoire.
 
@@ -53,12 +53,12 @@ slider:
   image_large: uploads/abattage-valorisation-bois.png
 - image: ''
   icone_image: 
-  description: "## Inventaire intelligent \n\nTerrains privés\nBoisés \nMilieux humides\n\nValeur
-    de mon frêne augmente les moyens pour accélérer l’accès aux données sur l’ensemble
-    des frênes du territoire et aide ainsi les municipalités à soutenir aux meilleurs
-    coûts les activités intensives de lutte concertée\n\nSoyez parmi les 10 premières
-    municipalités à prendre le contrôle des frênes ou des foyers d’infestation sur
-    l’ensemble de leur territoire."
+  description: "## Inventaire intelligent \n\n**Terrains privés\nBoisés \nMilieux
+    humides**\n\nValeur de mon frêne augmente les moyens pour accélérer l’accès aux
+    données sur l’ensemble des frênes du territoire et aide ainsi les municipalités
+    à soutenir aux meilleurs coûts les activités intensives de lutte concertée\n\nSoyez
+    parmi les 10 premières municipalités à prendre le contrôle des frênes ou des foyers
+    d’infestation sur l’ensemble de leur territoire."
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
