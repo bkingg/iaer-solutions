@@ -3,7 +3,7 @@ title: Municipalites
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: municipalites
 slider:
-- image: ''
+- image: uploads/fond-gris.png
   icone_image: ''
   description: |
     ## Le numérique pour tous les acteurs
