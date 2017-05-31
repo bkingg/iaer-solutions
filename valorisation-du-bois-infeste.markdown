@@ -10,7 +10,7 @@ slider:
     des revenus"
 sections:
 - titre: Présentation
-  description: Valeur de mon frêne met à la disposition des municipalités son processus
+  description: Valeur-de-mon-frêne met à la disposition des municipalités son processus
     opérationnel qui transforme en toute sécurité l’ensemble des résidus de bois infesté
     en produits de valeur et permet de réaliser des économies sur les frais d’abattage
     et de disposition des résidus.
