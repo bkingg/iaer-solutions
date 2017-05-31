@@ -23,9 +23,9 @@ slider:
   description: |
     ## Coordination numérique des services
 
-    Compréhension des besoins,
+    **Compréhension des besoins,
     Évaluation des intérêts,
-    concertation et intégration des services
+    concertation et intégration des services**
 
     Notre plateforme technologique rend accessible en ligne les services de soutien municipaux, techniques et professionnels pour tous les propriétaires de frênes. Ce qui aide à gagner du temps et économiser jusqu’à 40 % sur les coûts  d’intervention.
 
