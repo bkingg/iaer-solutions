@@ -8,8 +8,10 @@ slider:
   description: |
     ## Le numérique pour tous les acteurs
 
-    **Mobilisation collaborative, Prise de décision rapide,
-    Gestion des subventions et demandes ,Simplification des communications**
+    - Mobilisation collaborative
+    - Prise de décision rapide
+    - Gestion des subventions et demandes
+    - Simplification des communications
 
     Les services de valeur-de-mon-frêne numérisent tous les frênes et aident la municipalité à outiller rapidement ses citoyens et professionnels tout en les responsabilisant grâce aux supports interactifs et intelligents.
 
