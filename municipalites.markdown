@@ -28,9 +28,9 @@ slider:
     Évaluation des intérêts
     concertation et intégration des services
 
-    Valeur de mon frêne met chaque frêne et les services à la portée de tous les intervenants.Ce qui aide à gagner du temps et économiser jusqu’à 40 % sur les coûts  d’intervention
+    Notre plateforme technologique rend accessible en ligne les services de soutien municipaux, techniques et professionnels pour tous les propriétaires de frênes. Ce qui aide à gagner du temps et économiser jusqu’à 40 % sur les coûts  d’intervention.
 
-    Utilisez notre démonstration pilote pour mettre en place le service de coordination numérique des activités de gestion administrative et technique sur votre territoire
+    Utilisez notre projet pilote pour comprendre les besoins et mettre en place le service de coordination numérique des activités de gestion de l’épidémie.
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
