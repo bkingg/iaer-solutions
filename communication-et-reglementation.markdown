@@ -34,7 +34,7 @@ sections:
       - Ajuster la règlementation aux services de soutien et aux contraintes des intervenants
       - Développer des avenues qui suscitent l’intérêt à l’application de la règlemen- tation dans les meilleurs délais
 - titre: NOS OUTILS ET SOLUTIONS NOVATRICES
-  description: Valeur de mon frêne accompagne les municipalités en mettant à leur
+  description: Valeur-de-mon-frêne accompagne les municipalités en mettant à leur
     disposition des outils de communication modernes et intelligents qui aident les
     citoyens à faire des choix éclairés et permanent pour passer à l’action rapidement.
   icones:
