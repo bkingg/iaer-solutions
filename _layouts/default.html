@@ -37,7 +37,7 @@
                 </div>
                 
                 {% if section.description %}
-                    <p class="section__description center col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">{{ section.description }}</p>
+                    <p class="section__description {% if section.icones.size == 1 %}center{% endif %} col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">{{ section.description }}</p>
                 {% endif %}
                 {% if section.description_half %}
                     <p class="section__description half">{{ section.description_half }}</p>

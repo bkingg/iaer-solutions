@@ -568,29 +568,28 @@ $navbar-mobile-height: 100;
 }
 .homepage__slider-wrapper {
 	position: relative;
-  box-shadow: 1px 1px 3px #dddddd;
 	.homepage__slider {
 		visibility: hidden;
 	  width: 100%;
 	  transition: visibility 0.3s ease-in;
-    min-height: 100vh;
+    display: inline-block;
 	  &.slick-initialized{
 	  	visibility: visible;
 	  }
 	  .slide {
 	  	position: relative;
-      min-height: 100vh;
       &__video{
         iframe{
           width: 100%;
         }
       }
 	    .image {
+        background-color: lightgrey;
         display: block;
 	      background-size: cover;
 	      background-position: center;
         height: inherit;
-        min-height: 100vh;
+        // min-height: 100vh;
 	      .caption {
 		      padding-top: 80px;
           padding-bottom: 45px;
@@ -602,6 +601,11 @@ $navbar-mobile-height: 100;
 		      display: inline-block;
 			    width: 100%;
 					color: white;
+          &.image__large{
+            & + .download{
+              margin-bottom: 20px;
+            }
+          }
           .caption{
             &__image{
               display: table-cell;
@@ -624,7 +628,7 @@ $navbar-mobile-height: 100;
               text-align: left;
             }
             &__description{
-              font-size: 16px;
+              font-size: 12px;
               line-height: 20px;
               font-weight: normal;
               margin-bottom: 20px;
@@ -633,12 +637,12 @@ $navbar-mobile-height: 100;
                 color: #4f5054;
               }
               h2, h3{
-                font-size: 24px;
+                font-size: 18px;
                 line-height: 30px;
                 font-weight: 500;
               }
               ul, li, p{
-                font-size: 16px;
+                font-size: 12px;
                 line-height: 20px;
                 font-weight: normal;
                 margin-bottom: 20px;
@@ -703,7 +707,7 @@ $navbar-mobile-height: 100;
 		    	text-align: center;
 		    	width: 100%;
           margin-top: 0;
-          margin-bottom: 80px;
+          margin-bottom: 35px;
           @media screen and (max-width: 1200px) {
             margin-bottom: 20px;
           }
@@ -828,8 +832,7 @@ $navbar-mobile-height: 100;
     width: 30px;
     height: 35px;
     position: absolute;
-    bottom: 20px;
-    margin-top: -35px;
+    bottom: 0px;
     left: 50%;
     color: white;
     font-size: 25px;
@@ -991,6 +994,12 @@ $navbar-mobile-height: 100;
     text-align: justify;
     font-weight: normal;
     text-transform: none;
+    &.center{
+      text-align: center;
+      p{
+        text-align: center;
+      }
+    }
     p{
       margin-bottom: 20px;
       font-size: 14px;
