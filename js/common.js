@@ -30,6 +30,7 @@ $(function(){
 	    swipe: true,
 	    fade: true,
 	    autoplay: true,
+		autoplaySpeed: 25000,
 	    customPaging : function(slider, i) {
 	        return '<div class="slider__dot">'+ (i + 1) +'</div>';
 	    }
@@ -91,9 +92,16 @@ $(function(){
 			dots: false,
 			infinite: true,
 			speed: 1200,
+			autoplaySpeed: 5000,
 			arrows: false,
 			swipe: true,
-			autoplay: true
+			autoplay: true,
+			responsive: [
+				{
+					breakpoint: 1000,
+					settings: 'unslick'
+				}
+			]
 		});
 
       // Slider arrows
