@@ -25,6 +25,9 @@
 body, h1, h2, h3, h4, h5, h6, p, span, a {
   font-family: 'Sinkin Sans', Arial, sans-serif; }
 
+a.no-link {
+  cursor: default; }
+
 @media (max-width: 1200px) {
   .navbar-header {
     float: none; }

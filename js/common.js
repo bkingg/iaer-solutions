@@ -185,6 +185,11 @@ $(function(){
 		console.log('yo test');
     });
 
+	// no link
+	$(document).on('click', 'a.no-link', function(event) {
+        event.preventDefault();
+    });
+
     // link tabs to their content
     $('.tabs').on('click', '.tab', function() {
         var tabNumber = $(this).data('tab');
