@@ -76,8 +76,6 @@ menu-niveau-1:
 - titre: Offre de Services
   url: "&#35offre-de-services"
   menu-niveau-2: []
-- titre: Bénéfices
-  url: "&#35benefices"
 - titre: Histoire et Clients
   url: "&#35histoire-et-clients"
 - titre: Villes Désservies
