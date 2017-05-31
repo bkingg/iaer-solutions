@@ -8,13 +8,13 @@ slider:
   description: |
     ## Le numérique pour tous les acteurs
 
-    **Prise de décision rapide,
+    **Mobilisation collaborative, Prise de décision rapide,
     Gestion des subventions et demandes
-    Économie temps et argent**
+    Simplification des communications**
 
-    Valeur de mon frêne numérise tous les frênes et aide la municipalité à outiller rapidement ses citoyens tout en les responsabilisant grâce aux supports numériques
+    Les services de valeur-de-mon-frêne numérisent tous les frênes et aident la municipalité à outiller rapidement ses citoyens et professionnels tout en les responsabilisant grâce aux supports interactifs et intelligents.
 
-    Utilisez notre projet pilote de démonstration pour expérimenter et valider l’efficacité de cette innovation
+    Utilisez notre projet pilote de démonstration pour expérimenter et visualiser les retombées bénéfiques immédiat de cette innovation.
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
