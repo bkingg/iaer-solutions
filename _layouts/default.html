@@ -57,7 +57,7 @@
                   {% endif %}
                   <div class="col-sm-6 col-md-{{ cols }} col-eq-height">
                     <div class="offer">
-                      <a href="{{ icone.url }}">
+                      <a href="{{ icone.url }}" {% unless icone.url %}class="no-link"{% endunless %}>
                         <img src="{{ icone.image }}">
                         <h3 class="offer__title">{{ icone.titre }}</h3>
                         {% if icone.description %}
