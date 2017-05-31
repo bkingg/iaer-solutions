@@ -78,7 +78,7 @@ menu-niveau-1:
   menu-niveau-2: []
 - titre: Histoire et Clients
   url: "&#35histoire-et-clients"
-- titre: Villes Désservies
+- titre: Villes Desservies
   url: "&#35villes-desservies"
 - titre: Partenaires
   url: "&#35partenaires-de-developpement-des-solutions"
