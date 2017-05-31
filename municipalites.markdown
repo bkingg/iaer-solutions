@@ -50,8 +50,8 @@ slider:
   image_large: uploads/abattage-valorisation-bois.png
 - image: ''
   icone_image: 
-  description: "## Inventaire intelligent ## \n\nTerrains résidentiels et institutionnels,\nRues,
-    parcs, boisés, terres agricoles, \nMilieux humides\n\nUne solution technologique
+  description: "## Inventaire intelligent ## \n\n**Terrains résidentiels et institutionnels,\nRues,
+    parcs, boisés, terres agricoles, \nMilieux humides**\n\nUne solution technologique
     qui simplifie et accélère la collecte et l’analyse d’un maximum d’informations
     sur l’état des frênes partout sur le territoire. Des innovations qui améliorent
     pour tous les gestionnaires l’efficacité des activités de lutte préventive et
