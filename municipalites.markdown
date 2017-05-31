@@ -8,9 +8,9 @@ slider:
   description: |
     ## Le numérique pour tous les acteurs
 
-    Prise de décision rapide,
+    **Prise de décision rapide,
     Gestion des subventions et demandes
-    Économie temps et argent
+    Économie temps et argent**
 
     Valeur de mon frêne numérise tous les frênes et aide la municipalité à outiller rapidement ses citoyens tout en les responsabilisant grâce aux supports numériques
 
