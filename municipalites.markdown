@@ -8,13 +8,12 @@ slider:
   description: |
     ## Le numérique pour tous les acteurs
 
-    **Prise de décision rapide,
-    Gestion des subventions et demandes
-    Économie temps et argent**
+    **Mobilisation collaborative, Prise de décision rapide,
+    Gestion des subventions et demandes ,Simplification des communications**
 
-    Valeur de mon frêne numérise tous les frênes et aide la municipalité à outiller rapidement ses citoyens tout en les responsabilisant grâce aux supports numériques
+    Les services de valeur-de-mon-frêne numérisent tous les frênes et aident la municipalité à outiller rapidement ses citoyens et professionnels tout en les responsabilisant grâce aux supports interactifs et intelligents.
 
-    Utilisez notre projet pilote de démonstration pour expérimenter et valider l’efficacité de cette innovation
+    Utilisez notre projet pilote de démonstration pour expérimenter et visualiser les retombées bénéfiques immédiat de cette innovation.
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
@@ -24,41 +23,41 @@ slider:
   description: |
     ## Coordination numérique des services
 
-    **Compréhension des besoins
-    Évaluation des intérêts
-    concertation et intégration des services**
+    Compréhension des besoins,
+    Évaluation des intérêts,
+    concertation et intégration des services
 
-    Valeur de mon frêne met chaque frêne et les services à la portée de tous les intervenants.Ce qui aide à gagner du temps et économiser jusqu’à 40 % sur les coûts  d’intervention
+    Notre plateforme technologique rend accessible en ligne les services de soutien municipaux, techniques et professionnels pour tous les propriétaires de frênes. Ce qui aide à gagner du temps et économiser jusqu’à 40 % sur les coûts  d’intervention.
 
-    Utilisez notre démonstration pilote pour mettre en place le service de coordination numérique des activités de gestion administrative et technique sur votre territoire
+    Utilisez notre projet pilote pour comprendre les besoins et mettre en place le service de coordination numérique des activités de gestion de l’épidémie.
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
   image_large: uploads/numerique-service.png
 - image: ''
   icone_image: 
-  description: |-
-    ## ABATTAGE ET VALORISATION DU BOIS
-
-    **Visualisez la valeur du bois de tous vos frênes
-    Obtenez un prix avant les travaux d’abattage
-    Réaliser des économisez 25 % et plus sur vos budgets d’abattage.**
-
-    Valeur de mon frêne utilise ses services numériques pour optimiser les opérations d’abattages et garantir la valorisation du bois des frênes infestés du territoire.
-
-    Utilisez notre projet pilote pour valider et implanter le service innovant sur le territoire de votre municipalité
+  description: "## ABATTAGE ET VALORISATION DU BOIS\n\nVisualisez la valeur du bois
+    de tous vos frênes, Simplifier la récupération du bois infesté,\nAssurez la maîtrise
+    des budgets\n\nValeur-de-mon-frêne utilise ses services numériques novateurs pour
+    aider les municipalités à optimiser les opérations d’abattage et à soutenir la
+    valorisation sécuritaire de l’ensemble du bois des frênes infestés. \nCeci limitant
+    l’explosion les coûts et du budget de gestion des résidus de bois.\n\nUtilisez
+    notre projet pilote de démonstration pour valider et implanter les services innovants
+    sur le territoire de votre municipalité."
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
   image_large: uploads/abattage-valorisation-bois.png
 - image: ''
   icone_image: 
-  description: "## Inventaire intelligent \n\n**Terrains privés\nBoisés \nMilieux
-    humides**\n\nValeur de mon frêne augmente les moyens pour accélérer l’accès aux
-    données sur l’ensemble des frênes du territoire et aide ainsi les municipalités
-    à soutenir aux meilleurs coûts les activités intensives de lutte concertée\n\nSoyez
-    parmi les 10 premières municipalités à prendre le contrôle des frênes ou des foyers
-    d’infestation sur l’ensemble de leur territoire."
+  description: "## Inventaire intelligent ## \n\nTerrains résidentiels et institutionnels\nRues,
+    parcs, boisés, terres agricoles \nMilieux humides\n\nUne solution technologique
+    qui simplifie et accélère la collecte et l’analyse d’un maximum d’informations
+    sur l’état des frênes partout sur le territoire. Des innovations qui améliorent
+    pour tous les gestionnaires l’efficacité des activités de lutte préventive et
+    intensive contre les épidémies d’insecte\n\nSoyez parmi les 10 premières municipalités
+    à prendre le contrôle des frênes ou des foyers d’infestation sur l’ensemble de
+    leur territoire."
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
