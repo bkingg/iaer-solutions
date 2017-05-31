@@ -10,7 +10,7 @@ slider:
     % des propriétaires et des professionnels"
 sections:
 - titre: Présentation
-  description: Valeur de mon frêne fournit une plateforme web et mobile de communication
+  description: Valeur-de-mon-frêne fournit une plateforme web et mobile de communication
     qui répond aux besoins et à aux intérêts des citoyens par l’accès à des services
     administratifs, techniques ou professionnels adaptés au plan de lutte et à la
     règlementation locale.
