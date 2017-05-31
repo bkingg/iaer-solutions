@@ -762,10 +762,10 @@ a.no-link {
       cursor: pointer; }
     .temoignages-slider-wrapper .temoignages-slider__arrow--left {
       background-image: url("../uploads/arrow-left.png");
-      left: -40px; }
+      left: -25px; }
     .temoignages-slider-wrapper .temoignages-slider__arrow--right {
       background-image: url("../uploads/arrow-right.png");
-      right: -40px; }
+      right: -25px; }
 
 .section {
   padding: 40px 0;
