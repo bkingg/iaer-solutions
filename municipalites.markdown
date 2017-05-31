@@ -4,9 +4,22 @@ date: '2017-03-08T04:06:00.000+00:00'
 permalink: municipalites
 slider:
 - image: uploads/fond-gris.png
+  icone_image: 
+  description: "## **Inventaire intelligent** ## \n\n- **Terrains résidentiels et
+    institutionnels,**\n- **Rues, parcs, boisés, terres agricoles,**\n- **Milieux
+    humides**\n\nUne solution technologique qui simplifie et accélère la collecte
+    et l’analyse d’un maximum d’informations sur l’état des frênes partout sur le
+    territoire. Des innovations qui améliorent pour tous les gestionnaires l’efficacité
+    des activités de lutte préventive et intensive contre les épidémies d’insecte\n\nSoyez
+    parmi les 10 premières municipalités à prendre le contrôle des frênes ou des foyers
+    d’infestation sur l’ensemble de leur territoire."
+  call_to_action:
+  - url: index.html
+    texte: Participer à notre projet pilote de démonstration
+  image_large: uploads/inventaire-intelligent.png
+- image: uploads/fond-gris.png
   icone_image: ''
-  description: |
-    ## **Le numérique pour tous les acteurs**
+  description: |2
 
     - **Mobilisation collaborative**
     - **Prise de décision rapide**
@@ -50,20 +63,6 @@ slider:
   - url: index.html
     texte: Participer à notre projet pilote de démonstration
   image_large: uploads/abattage-valorisation-bois.png
-- image: uploads/fond-gris.png
-  icone_image: 
-  description: "## **Inventaire intelligent** ## \n\n- **Terrains résidentiels et
-    institutionnels,**\n- **Rues, parcs, boisés, terres agricoles, **\n- **Milieux
-    humides**\n\nUne solution technologique qui simplifie et accélère la collecte
-    et l’analyse d’un maximum d’informations sur l’état des frênes partout sur le
-    territoire. Des innovations qui améliorent pour tous les gestionnaires l’efficacité
-    des activités de lutte préventive et intensive contre les épidémies d’insecte\n\nSoyez
-    parmi les 10 premières municipalités à prendre le contrôle des frênes ou des foyers
-    d’infestation sur l’ensemble de leur territoire."
-  call_to_action:
-  - url: index.html
-    texte: Participer à notre projet pilote de démonstration
-  image_large: uploads/inventaire-intelligent.png
 sections:
 - titre: Comment ça fonctionne
   etapes: " "
