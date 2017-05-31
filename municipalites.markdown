@@ -51,12 +51,14 @@ slider:
   image_large: uploads/abattage-valorisation-bois.png
 - image: ''
   icone_image: 
-  description: "## Inventaire intelligent \n\nTerrains privés\nBoisés \nMilieux humides\n\nValeur
-    de mon frêne augmente les moyens pour accélérer l’accès aux données sur l’ensemble
-    des frênes du territoire et aide ainsi les municipalités à soutenir aux meilleurs
-    coûts les activités intensives de lutte concertée\n\nSoyez parmi les 10 premières
-    municipalités à prendre le contrôle des frênes ou des foyers d’infestation sur
-    l’ensemble de leur territoire."
+  description: "## Inventaire intelligent ## \n\nTerrains résidentiels et institutionnels\nRues,
+    parcs, boisés, terres agricoles \nMilieux humides\n\nUne solution technologique
+    qui simplifie et accélère la collecte et l’analyse d’un maximum d’informations
+    sur l’état des frênes partout sur le territoire. Des innovations qui améliorent
+    pour tous les gestionnaires l’efficacité des activités de lutte préventive et
+    intensive contre les épidémies d’insecte\n\nSoyez parmi les 10 premières municipalités
+    à prendre le contrôle des frênes ou des foyers d’infestation sur l’ensemble de
+    leur territoire."
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
