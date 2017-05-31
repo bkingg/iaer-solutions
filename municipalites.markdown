@@ -37,16 +37,14 @@ slider:
   image_large: uploads/numerique-service.png
 - image: ''
   icone_image: 
-  description: |-
-    ## ABATTAGE ET VALORISATION DU BOIS
-
-    Visualisez la valeur du bois de tous vos frênes
-    Obtenez un prix avant les travaux d’abattage
-    Réaliser des économisez 25 % et plus sur vos budgets d’abattage.
-
-    Valeur de mon frêne utilise ses services numériques pour optimiser les opérations d’abattages et garantir la valorisation du bois des frênes infestés du territoire.
-
-    Utilisez notre projet pilote pour valider et implanter le service innovant sur le territoire de votre municipalité
+  description: "## ABATTAGE ET VALORISATION DU BOIS\n\nVisualisez la valeur du bois
+    de tous vos frênes\nSimplifier la récupération du bois infesté\nAssurez la maîtrise
+    des budgets\n\nValeur-de-mon-frêne utilise ses services numériques novateurs pour
+    aider les municipalités à optimiser les opérations d’abattage et à soutenir la
+    valorisation sécuritaire de l’ensemble du bois des frênes infestés. \nCeci limitant
+    l’explosion les coûts et du budget de gestion des résidus de bois.\n\nUtilisez
+    notre projet pilote de démonstration pour valider et implanter les services innovants
+    sur le territoire de votre municipalité."
   call_to_action:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
