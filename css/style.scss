@@ -275,69 +275,67 @@ body, h1, h2, h3, h4, h5, h6, p, span, a{
 
 $navbar-height: 150;
 $navbar-mobile-height: 100;
-#navbar-full {
-  position: absolute;
-  z-index: 2;
-  width: 100%;
-  .navbar-header{
-  	height: $navbar-height + px;
-    @media screen and (max-width: 1200px) {
-      height: $navbar-mobile-height + px;
-    }
-  	.navbar-brand{
-  		height: 100%;
-  		margin: 0;
-  		.logo{
-	  		height: 100%;
-	  		display: table;
-	  		img{
-	  			display: table-cell;
-			    vertical-align: middle;
-			    padding: 15px 5px;
-			    height: $navbar-height + px;
-          @media screen and (max-width: 1200px) {
-            height: $navbar-mobile-height + px;
-          }
-	  		}
-	  	}
-  	}
+.navbar-header{
+  height: $navbar-height + px;
+  @media screen and (max-width: 1200px) {
+    height: $navbar-mobile-height + px;
   }
-  .navbar-right{
-  	height: $navbar-height + px;
-  	@media screen and (max-width: 1200px) {
-      height: auto;
-      margin-top: 0;
-      margin-bottom:  0;
-    }
-  	> li{
-  		padding: ((($navbar-height/ 3) - 2.5) + px) 0;
-      @media screen and (max-width: 1200px) {
-        padding: 10px 0;
-      }
-  		&:hover, &.active{
-  			background: $green;
-  			cursor: pointer;
-  			p{
-  				color: white;
-  			}
-  		}
-  		> a{
-  			padding: 0 20px;
-  			background: none;
-  			&:hover{
-  				background: none;
-  			}
+  .navbar-brand{
+    height: 100%;
+    margin: 0;
+    .logo{
+      height: 100%;
+      display: table;
+      img{
+        display: table-cell;
+        vertical-align: middle;
+        padding: 15px 5px;
+        height: $navbar-height + px;
         @media screen and (max-width: 1200px) {
-          img{
-            display: none;
-          }
+          height: $navbar-mobile-height + px;
         }
-  		}
-  	}
+      }
+    }
+  }
+}
+.navbar-right{
+  height: $navbar-height + px;
+  @media screen and (max-width: 1200px) {
+    height: auto;
+    margin-top: 0;
+    margin-bottom:  0;
+  }
+  > li{
+    padding: ((($navbar-height/ 3) - 2.5) + px) 0;
+    @media screen and (max-width: 1200px) {
+      padding: 10px 0;
+    }
+    &:hover, &.active{
+      background: $green;
+      cursor: pointer;
+      p{
+        color: white;
+      }
+    }
+    > a{
+      padding: 0 20px;
+      background: none;
+      &:hover{
+        background: none;
+      }
+      @media screen and (max-width: 1200px) {
+        img{
+          display: none;
+        }
+      }
+    }
   }
 }
 
 .subnav {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
   background-color: rgba(79, 80, 84, 0.85);
   transition: all 0.3s;
   @media screen and (max-width: 1200px) {
@@ -566,6 +564,7 @@ $navbar-mobile-height: 100;
 }
 .homepage__slider-wrapper {
 	position: relative;
+  box-shadow: 1px 1px 3px #dddddd;
 	.homepage__slider {
 		visibility: hidden;
 	  width: 100%;
@@ -589,26 +588,21 @@ $navbar-mobile-height: 100;
         height: inherit;
         min-height: 100vh;
 	      .caption {
-		      padding-top: 260px;
+		      padding-top: 80px;
           padding-bottom: 45px;
+          padding-left: 10px;
+          padding-right: 10px;
 		      text-transform: uppercase;
 		      width: inherit;
 		      text-align: center;
 		      display: inline-block;
 			    width: 100%;
 					color: white;
-          @media screen and (max-width: 998px) {
-            padding-top: 180px;
-            padding-bottom: 20px;
-          }
-          @media screen and (max-width: 700px) {
-            padding-top: 90px;
-            padding-bottom: 15px;
-          }
           .caption{
             &__image{
               display: table-cell;
               vertical-align: middle;
+              padding-bottom: 20px;
               &--wrapper{
                 display: table;
                 width: 100%;
@@ -631,9 +625,13 @@ $navbar-mobile-height: 100;
               font-weight: normal;
               margin-bottom: 20px;
               text-align: left;
+              &.light{
+                color: #4f5054;
+              }
               h2, h3{
                 font-size: 24px;
                 line-height: 30px;
+                font-weight: 500;
               }
               ul, li, p{
                 font-size: 16px;
@@ -659,6 +657,9 @@ $navbar-mobile-height: 100;
               vertical-align: middle;
               text-align: left;
               text-transform: none;
+              padding-bottom: 20px;
+              border-top: 3px solid $green;
+              border-bottom: 3px solid $green;
               &--wrapper{
                 display: table;
                 width: 100%;
@@ -751,7 +752,9 @@ $navbar-mobile-height: 100;
   	bottom: 5px;
   	right: 15px;
   	color: $green;
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 768px) {
+      display: none;
+      bottom: -25px;
       width: 100%;
       text-align: center;
     }
@@ -770,9 +773,11 @@ $navbar-mobile-height: 100;
           cursor: pointer;
           padding: 2px 5px;
           transition: all 0.2s;
+          border: 1px solid transparent;
 				}
 				&:hover, &.slick-active{
 					.slider__dot{
+            border: 1px solid #999;
 						background: white;
 					}
 				}
@@ -811,6 +816,19 @@ $navbar-mobile-height: 100;
       -webkit-animation-name: scroll;
       animation-name: scroll;
     }
+    @media screen and (max-width: 1200px) {
+      display: none;
+    }
+  }
+  i{
+    width: 30px;
+    height: 35px;
+    position: absolute;
+    bottom: 20px;
+    margin-top: -35px;
+    left: 50%;
+    color: white;
+    font-size: 25px;
     @media screen and (max-width: 1200px) {
       display: none;
     }

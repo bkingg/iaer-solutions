@@ -5,8 +5,8 @@
           <div class="slide col-eq-height">
             <div class="image" style="background-image: url({{ slide.image }})">
               <div class="row">
-                <div class="caption">
-                  {% if slide.image_large %}
+                {% if slide.image_large %}
+                  <div class="caption image__large">
                     <div class="col-sm-10 col-sm-offset-1">
                       <div class="col-sm-5">
                           <div class="caption__image--wrapper">
@@ -18,14 +18,16 @@
                       <div class="col-sm-7">
                           <div class="caption__text--wrapper">
                               <div class="caption__text">
-                                  <div class="caption__description">
+                                  <div class="caption__description light">
                                       {{ slide.description | markdownify }}
                                   </div>
                               </div>
                           </div>
                       </div>
                     </div>
-                  {% else %}
+                  </div>
+                {% else %}
+                  <div class="caption">
                     <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
                       {% if slide.icone_image %}
                         <img src="{{ slide.icone_image }}">
@@ -40,8 +42,8 @@
                       {% endif %}
                       {{ slide.description | markdownify }}
                     </div>
-                  {% endif %}
-                </div>
+                  </div>
+                {% endif %}
                 <div class="download">
                   {% if slide.call_to_action[0] %}
                     <a class="btn btn-default btn--green" href="{{ slide.call_to_action[0].url }}">
@@ -59,7 +61,7 @@
       </div>
       <div class="slider__dots"></div>
       <div class="icon-scroll--wrapper">
-        <div class="icon-scroll"></div>
+        <i class="fa fa-chevron-down"></i>
       </div>
     </div>
   {% endif %}

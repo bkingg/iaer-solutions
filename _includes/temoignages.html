@@ -2,31 +2,32 @@
     <div class="temoignages-slider__arrow--left"></div>
     <div class="temoignages-slider__arrow--right"></div>
     <div class="temoignages-slider">
-    {% for temoignage in site.temoignages %}
-        <div class="temoignage col-eq-height">
-            <div class="row row-eq-height">
-                <div class="col-sm-4 col-eq-height">
-                    <div class="temoignage__image--wrapper">
-                        <div class="temoignage__image">
-                            <img src="{{ temoignage.image }}" class="img-responsive">
+        {% for temoignage in site.temoignages %}
+            <div class="temoignage col-eq-height">
+                <div class="row row-eq-height">
+                    <div class="col-sm-4 col-eq-height">
+                        <div class="temoignage__image--wrapper">
+                            <div class="temoignage__image">
+                                <img src="{{ temoignage.image }}" class="img-responsive">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-8 col-eq-height">
-                    <div class="temoignage__text--wrapper">
-                        <div class="temoignage__text">
-                            {% if temoignage.title %}
-                                <div class="temoignage__title">
-                                    {{ temoignage.title }}
+                    <div class="col-sm-8 col-eq-height">
+                        <div class="temoignage__text--wrapper">
+                            <div class="temoignage__text">
+                                {% if temoignage.title %}
+                                    <div class="temoignage__title">
+                                        {{ temoignage.title }}
+                                    </div>
+                                {% endif %}
+                                <div class="temoignage__description">
+                                    {{ temoignage.description | markdownify | replace: '<p>', '<p><i class="fa fa-quote-left"></i> ' }}
                                 </div>
-                            {% endif %}
-                            <div class="temoignage__description">
-                                {{ temoignage.description | markdownify | replace: '<p>', '<p><i class="fa fa-quote-left"></i> ' }}
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    {% endfor %}
+        {% endfor %}
+    </div>
 </div>
