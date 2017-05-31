@@ -12,7 +12,7 @@ slider:
   - texte: Participer à notre projet pilote de démonstration
 sections:
 - titre: Présentation
-  description: Valeur de mon frêne utilise sa suite de logiciels intégrés pour fournir
+  description: Valeur-de-mon-frêne utilise sa suite de logiciels intégrés pour fournir
     des modules et des services d’analyse des résultats d’activités antérieures. Ceci
     en plus de réaliser la modélisation et l’élaboration des cahiers de charges des
     actions techniques préventives ou intensives à chaque année.
