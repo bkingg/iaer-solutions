@@ -18,7 +18,7 @@ sections:
     ses frênes en ligne. \n\nLes supports numériques de valeur-de-mon-frêne aident
     à assurer le suivi des services administratifs et professionnels. Au final ce
     sont  des économies importantes (32% et +) en temps et argent pour tous les propriétaires."
-- titre: Valeur de mon frêne accompagne les professionnels selon les priorités et
+- titre: Valeur-de-mon-frêne accompagne les professionnels selon les priorités et
     les objectifs  de manière à…
   petites_boites:
   - description: |-
