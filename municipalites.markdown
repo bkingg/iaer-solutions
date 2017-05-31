@@ -16,7 +16,7 @@ slider:
     Utilisez notre projet pilote de démonstration pour expérimenter et visualiser les retombées bénéfiques immédiat de cette innovation.
   call_to_action:
   - url: index.html
-    texte: Télécharger notre offre de service dès maintenant
+    texte: Participer à notre projet pilote de démonstration
   image_large: uploads/numerique-acteurs.png
 - image: ''
   icone_image: 
@@ -32,7 +32,7 @@ slider:
     Utilisez notre projet pilote pour comprendre les besoins et mettre en place le service de coordination numérique des activités de gestion de l’épidémie.
   call_to_action:
   - url: index.html
-    texte: Télécharger notre offre de service dès maintenant
+    texte: Participer à notre projet pilote de démonstration
   image_large: uploads/numerique-service.png
 - image: ''
   icone_image: 
@@ -46,7 +46,7 @@ slider:
     sur le territoire de votre municipalité."
   call_to_action:
   - url: index.html
-    texte: Télécharger notre offre de service dès maintenant
+    texte: Participer à notre projet pilote de démonstration
   image_large: uploads/abattage-valorisation-bois.png
 - image: ''
   icone_image: 
@@ -60,7 +60,7 @@ slider:
     leur territoire."
   call_to_action:
   - url: index.html
-    texte: Télécharger notre offre de service dès maintenant
+    texte: Participer à notre projet pilote de démonstration
   image_large: uploads/inventaire-intelligent.png
 sections:
 - titre: Comment ça fonctionne
