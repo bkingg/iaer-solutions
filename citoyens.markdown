@@ -37,7 +37,7 @@ sections:
   description: 
   icones_modal_slider:
   - image: uploads/terrains-residentiels.png
-    titre: Terrains résidentiels
+    titre: Terrain résidentiel
     problemes: "Comme propriétaire privé de frêne, vous avez besoin de savoir :\n
       - Les conditions de santé de l’arbre et son aptitude à être préservé\n - Entre
       le traitement et l’abattage, c’est quoi la bonne décision à prendre;\n - Combien
@@ -58,7 +58,7 @@ sections:
     - url: index.html
       texte: Demander l'évaluation dès maintenant
   - image: uploads/terrains-institutionnels.png
-    titre: Terrains institutionnels
+    titre: Terrain institutionnel
     problemes: "L'absence de données précises sur l’état de santé des frênes est à
       l’origine des prises de décision tardives ou plus coûteuses pour les institutions
       propriétaires de frênes. Le gestionnaires ne disposent toujours pas des outils
