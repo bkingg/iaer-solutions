@@ -18,7 +18,7 @@ slider:
   - url: index.html
     texte: Participer à notre projet pilote de démonstration
   image_large: uploads/numerique-acteurs.png
-- image: ''
+- image: uploads/fond-gris.png
   icone_image: 
   description: |
     ## Coordination numérique des services
@@ -34,7 +34,7 @@ slider:
   - url: index.html
     texte: Participer à notre projet pilote de démonstration
   image_large: uploads/numerique-service.png
-- image: ''
+- image: uploads/fond-gris.png
   icone_image: 
   description: "## ABATTAGE ET VALORISATION DU BOIS\n\n**Visualisez la valeur du bois
     de tous vos frênes, Simplifier la récupération du bois infesté,\nAssurez la maîtrise
@@ -48,7 +48,7 @@ slider:
   - url: index.html
     texte: Participer à notre projet pilote de démonstration
   image_large: uploads/abattage-valorisation-bois.png
-- image: ''
+- image: uploads/fond-gris.png
   icone_image: 
   description: "## Inventaire intelligent ## \n\n**Terrains résidentiels et institutionnels,\nRues,
     parcs, boisés, terres agricoles, \nMilieux humides**\n\nUne solution technologique
