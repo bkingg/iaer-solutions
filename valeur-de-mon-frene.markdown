@@ -1,12 +1,12 @@
 ---
-title: Valeur de mon Frene
+title: Valeur-de-mon-Frêne
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: valeur-de-mon-frene
 slider:
 - image: uploads/Arbre.jpg
   icone_image: uploads/valeur-de-mon-frene.png
   description: |-
-    ## **Valeur de mon frêne**
+    ## **Valeur-de-mon-frêne**
     TOUT **FRÊNE** POSSÈDE UNE **VALEUR**. LA CONNAÎTRE EST LA PREMIÈRE VICTOIRE FACE À L’AGRILE DU FRÊNE.
 sections:
 - engagement:
