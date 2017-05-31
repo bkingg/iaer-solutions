@@ -78,7 +78,7 @@ sections:
     url: 
 - histoire: ''
 - carte:
-  - titre: Communauté des villes désservies
+  - titre: Communauté des villes desservies
   titre: Communauté des villes desservies
 - skip: ''
 - titre: PARTENAIRES DE DéVELOPPEMENT DES SOLUTIONS
