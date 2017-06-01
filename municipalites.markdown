@@ -6,7 +6,7 @@ slider:
 - image: uploads/fond-gris.png
   icone_image: 
   description: |2-
-     ##**Inventaire intelligent**
+     ##**INVENTAIRE INTELLIGENT** ##
 
     - **Terrains résidentiels et institutionnels,**
     - **Rues, parcs, boisés, terres agricoles,**
