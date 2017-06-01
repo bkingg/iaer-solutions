@@ -5,14 +5,16 @@ permalink: municipalites
 slider:
 - image: uploads/fond-gris.png
   icone_image: 
-  description: "## **INVENTAIRE INTELLIGENT** ## \n\n- **Terrains résidentiels et
-    institutionnels,**\n- **Rues, parcs, boisés, terres agricoles,**\n- **Milieux
-    humides**\n\nUne solution technologique qui simplifie et accélère la collecte
-    et l’analyse d’un maximum d’informations sur l’état des frênes partout sur le
-    territoire. Des innovations qui améliorent pour tous les gestionnaires l’efficacité
-    des activités de lutte préventive et intensive contre les épidémies d’insecte\n\nSoyez
-    parmi les 10 premières municipalités à prendre le contrôle des frênes ou des foyers
-    d’infestation sur l’ensemble de leur territoire."
+  description: |2-
+     ##**Inventaire intelligent**
+
+    - **Terrains résidentiels et institutionnels,**
+    - **Rues, parcs, boisés, terres agricoles,**
+    - **Milieux humides**
+
+    Une solution technologique qui simplifie et accélère la collecte et l’analyse d’un maximum d’informations sur l’état des frênes partout sur le territoire. Des innovations qui améliorent pour tous les gestionnaires l’efficacité des activités de lutte préventive et intensive contre les épidémies d’insecte
+
+    Soyez parmi les 10 premières municipalités à prendre le contrôle des frênes ou des foyers d’infestation sur l’ensemble de leur territoire.
   call_to_action:
   - url: index.html
     texte: Participer à notre projet pilote de démonstration
