@@ -10,8 +10,9 @@ slider:
     de la solution accessible et complète"
 sections:
 - titre: DÉFIS ET ENJEUX
-  description_half: Les municipalités ont la responsabilité de préserver à travers
-    des politiques et réglements la forêt urbaine pour le bien être de ses résidents.
+  description_half: ''
+  description: Les municipalités ont la responsabilité de préserver à travers des
+    politiques et règlements la forêt urbaine pour le bien être de ses résidents.
     Sensibiliser les résidents sur la menace que représente le petit insecte (agrile
     du frêne) venu d’ailleurs et vivant dans la cime des frênes est tout une commande.
     Déterminer la stratégie avec les outils qui permettent à la municipalité  d’établir
