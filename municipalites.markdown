@@ -5,8 +5,8 @@ permalink: municipalites
 slider:
 - image: uploads/fond-gris.png
   icone_image: 
-  description: |2-
-     ##**INVENTAIRE INTELLIGENT** ##
+  description: |-
+    ## **INVENTAIRE INTELLIGENT**
 
     - **Terrains résidentiels et institutionnels,**
     - **Rues, parcs, boisés, terres agricoles,**
