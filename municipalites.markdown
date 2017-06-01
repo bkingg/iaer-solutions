@@ -12,7 +12,7 @@ slider:
     - **Rues, parcs, boisés, terres agricoles,**
     - **Milieux humides**
 
-    Une solution technologique qui simplifie et accélère la collecte et l’analyse d’un maximum d’informations sur l’état des frênes partout sur le territoire. Des innovations qui améliorent pour tous les gestionnaires l’efficacité des activités de lutte préventive et intensive contre les épidémies d’insecte
+    Une solution technologique qui simplifie et accélère la collecte puis l’analyse d’un maximum d’informations sur l’état des frênes partout sur le territoire. Des innovations qui améliorent pour tous les gestionnaires l’efficacité des activités de lutte préventive et intensive contre les épidémies d’insecte
 
     Soyez parmi les 10 premières municipalités à prendre le contrôle des frênes ou des foyers d’infestation sur l’ensemble de leur territoire.
   call_to_action:
