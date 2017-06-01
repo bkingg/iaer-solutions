@@ -16,7 +16,7 @@ slider:
   call_to_action:
   - url: index.html
     texte: Participer à notre projet pilote de démonstration
-  image_large: uploads/inventaire-intelligent.png
+  image_large: uploads/Inventaire intelligentt.png
 - image: uploads/fond-gris.png
   icone_image: ''
   description: |
