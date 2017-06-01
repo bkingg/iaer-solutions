@@ -5,7 +5,7 @@ permalink: municipalites
 slider:
 - image: uploads/fond-gris.png
   icone_image: 
-  description: "## **Inventaire intelligent** ## \n\n- **Terrains résidentiels et
+  description: "## **INVENTAIRE INTELLIGENT** ## \n\n- **Terrains résidentiels et
     institutionnels,**\n- **Rues, parcs, boisés, terres agricoles,**\n- **Milieux
     humides**\n\nUne solution technologique qui simplifie et accélère la collecte
     et l’analyse d’un maximum d’informations sur l’état des frênes partout sur le
@@ -19,7 +19,8 @@ slider:
   image_large: uploads/inventaire-intelligent.png
 - image: uploads/fond-gris.png
   icone_image: ''
-  description: |2
+  description: |
+    ## **LE NUMÉRIQUE POUR TOUS LES ACTEURS**
 
     - **Mobilisation collaborative**
     - **Prise de décision rapide**
@@ -36,7 +37,7 @@ slider:
 - image: uploads/fond-gris.png
   icone_image: 
   description: |
-    ## **Coordination numérique des services**
+    ## **COORDINATION NUMÉRIQUE DES SERVICES**
 
     - **Compréhension des besoins,**
     - **Évaluation des intérêts,**
