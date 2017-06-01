@@ -6,7 +6,7 @@ slider:
 - image: uploads/Arbre.jpg
   icone_image: 
   description: "Prendre la bonne décision en économisant temps et argent maintenant!
-    \n\n **Obtenez l'évaluation gratuite de 2 à 6 frênes sur votre**"
+    \n\n **Obtenez l'évaluation gratuite de 2 à 6 frênes**"
   call_to_action:
   - url: index.html
     texte: Demander l'évaluation dès maintenant
