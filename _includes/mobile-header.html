@@ -1,0 +1,37 @@
+<nav class="container-fluid">
+    <div class="mobile-menu accordion sticky-mobile" data-accordion="mobile-menu" data-spy="affix" data-offset-top="100">
+        <ul class="mobile-menu__main-menu">
+            <li class="menu-toggle">
+                <a href="#" class="accordion__toggle" data-accordion="mobile-menu">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </li>
+            <li data-title-menu="municipalites" class="{% if page.url contains 'municipalites' or page.parent contains 'municipalites' %}active{% endif %}">
+                <a href="municipalites.html">
+                    <img src="uploads/menu-municipalites{% if page.url contains 'municipalites' or page.parent contains 'municipalites' %}-hover{% endif %}.png" class="icon">
+                </a>
+            </li>
+
+            <li data-title-menu="institutions" class="{% if page.url contains 'institutions' or page.parent contains 'institutions' %}active{% endif %}">
+                <a href="institutions.html">
+                    <img src="uploads/menu-institutions{% if page.url contains 'institutions' or page.parent contains 'institutions' %}-hover{% endif %}.png" class="icon">
+                </a>
+            </li>
+
+            <li data-title-menu="citoyens" class="{% if page.url contains 'citoyens' or page.parent contains 'citoyens' %}active{% endif %}">
+                <a href="citoyens.html">
+                    <img src="uploads/menu-citoyens{% if page.url contains 'citoyens' or page.parent contains 'citoyens' %}-hover{% endif %}.png" class="icon">
+                </a>
+            </li>
+
+            <li data-title-menu="se-connecter">
+                <a href="#">
+                    <img src="uploads/menu-connexion.png" class="icon">
+                </a>
+            </li>
+        </ul>
+        <ul class="mobile-menu__submenu menu-niveau-1 accordion__content">
+            {% include menu-mobile.html %}
+        </ul>
+    </div>
+</nav>
