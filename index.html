@@ -19,7 +19,7 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".subnav">
+<body>
     <!--    
     navbar-default can be changed with navbar-ct-blue navbar-ct-azzure navbar-ct-red navbar-ct-green navbar-ct-orange  
     -->
@@ -28,12 +28,6 @@
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
           <a class="navbar-brand navbar-brand-logo" href="index.html">
               <div class="logo">
                 <img src="uploads/iaer-solutions.png" class="img-responsive" title="IAER Solutions" alt="IAER Solutions">
@@ -44,28 +38,28 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
 
-                <li class="">
+                <li data-title-menu="municipalites" class="">
                     <a href="municipalites.html">
                         <img src="uploads/menu-municipalites.png" class="icon">
                         <p>Municipalités</p>
                     </a>
                 </li>
 
-                <li class="">
+                <li data-title-menu="institutions" class="">
                     <a href="institutions.html">
                         <img src="uploads/menu-institutions.png" class="icon">
                         <p>Institutions</p>
                     </a>
                 </li>
 
-                <li class="">
+                <li data-title-menu="citoyens" class="">
                     <a href="citoyens.html">
                         <img src="uploads/menu-citoyens.png" class="icon">
                         <p>Citoyens</p>
                     </a>
                 </li>
 
-                <li>
+                <li data-title-menu="se-connecter">
                     <a href="#">
                         <img src="uploads/menu-connexion.png" class="icon">
                         <p>Se Connecter</p>
@@ -91,8 +85,321 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
+
+    <nav class="container-fluid">
+    <div class="mobile-menu accordion sticky-mobile" data-accordion="mobile-menu" data-spy="affix" data-offset-top="100">
+        <ul class="mobile-menu__main-menu">
+            <li class="menu-toggle">
+                <a href="#" class="accordion__toggle" data-accordion="mobile-menu">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </li>
+            <li data-title-menu="municipalites" class="">
+                <a href="municipalites.html">
+                    <img src="uploads/menu-municipalites.png" class="icon">
+                </a>
+            </li>
+
+            <li data-title-menu="institutions" class="">
+                <a href="institutions.html">
+                    <img src="uploads/menu-institutions.png" class="icon">
+                </a>
+            </li>
+
+            <li data-title-menu="citoyens" class="">
+                <a href="citoyens.html">
+                    <img src="uploads/menu-citoyens.png" class="icon">
+                </a>
+            </li>
+
+            <li data-title-menu="se-connecter">
+                <a href="#">
+                    <img src="uploads/menu-connexion.png" class="icon">
+                </a>
+            </li>
+        </ul>
+        <ul class="mobile-menu__submenu menu-niveau-1 accordion__content">
+            
+
+
+  
+  
+  
+    
+    
+			<li class="accordion" data-accordion="menu-des-solutions">
+				<a href="" class="accordion__toggle" data-accordion="menu-des-solutions">
+					
+					<span>MENU DES SOLUTIONs</span>
+					
+						<i class="fa fa-plus"></i>
+					
+				</a>
+				
+					<ul class="menu-niveau-2 accordion__content">
+						
+							
+								<li class="accordion" data-accordion="municipalité">
+									<a href="" class="accordion__toggle" data-accordion="municipalité">
+										Municipalité
+										
+											<i class="fa fa-plus"></i>
+										
+									</a>
+									<ul class="menu-niveau-3 accordion__content">
+										
+											<li class="accordion" data-accordion="coordination-numérique-de-gestion">
+												<a href="" class="accordion__toggle" data-accordion="coordination-numérique-de-gestion">
+													Coordination numérique de gestion
+													
+														<i class="fa fa-plus"></i>
+													
+												</a>
+												
+													<ul class="menu-niveau-4 accordion__content">
+														
+															<li><a href="communication-et-reglementation.html">communication et réglementation</a></li>
+														
+															<li><a href="activites-preventives.html">Activités préventives</a></li>
+														
+															<li><a href="activites-intensives-de-lutte.html">Activités intensives de lutte</a></li>
+														
+													</ul>
+												
+											</li>
+										
+											<li class="accordion" data-accordion="offre-de-services-intÉgrÉs-et-concertÉs">
+												<a href="" class="accordion__toggle" data-accordion="offre-de-services-intÉgrÉs-et-concertÉs">
+													OFFRE DE SERVICES INTÉGRÉS ET CONCERTÉS
+													
+														<i class="fa fa-plus"></i>
+													
+												</a>
+												
+													<ul class="menu-niveau-4 accordion__content">
+														
+															<li><a href="inventaire-intelligent.html">Inventaire intelligent</a></li>
+														
+															<li><a href="plateforme-de-gestion-concertee.html">Plateforme de gestion concertée</a></li>
+														
+															<li><a href="modules-de-performance.html">Modules de performance</a></li>
+														
+															<li><a href="valorisation-du-bois-infeste.html">Valorisation du bois infesté</a></li>
+														
+													</ul>
+												
+											</li>
+										
+											<li class="accordion" data-accordion="technologie-de-gestion-collaborative">
+												<a href="" class="accordion__toggle" data-accordion="technologie-de-gestion-collaborative">
+													TECHNOLOGIE DE GESTION COLLABORATIVE
+													
+														<i class="fa fa-plus"></i>
+													
+												</a>
+												
+													<ul class="menu-niveau-4 accordion__content">
+														
+															<li><a href="/besoins-administratifs.html">BESOINS ADMINISTRATIFS</a></li>
+														
+															<li><a href="/solutions-de-soutien.html">SOLUTIONS DE SOUTIEN</a></li>
+														
+															<li><a href="/depistage-et-surveillance-de-linsecte.html">DÉPISTAGE ET SURVEILLANCE DE L’INSECTE</a></li>
+														
+															<li><a href="/mise-en-valeur-du-bois-infeste">MISE EN VALEUR DU BOIS INFESTÉ</a></li>
+														
+													</ul>
+												
+											</li>
+										
+									</ul>
+								</li>
+							
+						
+							
+								<li class="accordion" data-accordion="citoyens">
+									<a href="/residents" class="accordion__toggle" data-accordion="citoyens">
+										Citoyens
+										
+											<i class="fa fa-plus"></i>
+										
+									</a>
+									<ul class="menu-niveau-3 accordion__content">
+										
+											<li class="accordion" data-accordion="outils-de-gestion-des-besoins-en-ligne">
+												<a href="" class="accordion__toggle" data-accordion="outils-de-gestion-des-besoins-en-ligne">
+													Outils de gestion des besoins en ligne
+													
+														<i class="fa fa-plus"></i>
+													
+												</a>
+												
+													<ul class="menu-niveau-4 accordion__content">
+														
+															<li><a href="citoyens.html?open=terrains-residentiels#vous-etes-proprietaire-de">DEMANDE D’ÉVALUATION</a></li>
+														
+															<li><a href="citoyens.html#voici-ce-que-comprennent-nos-services-pour">Suivi services municipaux</a></li>
+														
+															<li><a href="citoyens.html#voici-ce-que-comprennent-nos-services-pour">Suivi services technique</a></li>
+														
+													</ul>
+												
+											</li>
+										
+											<li class="accordion" data-accordion="services-concertÉs-et-Économiques">
+												<a href="" class="accordion__toggle" data-accordion="services-concertÉs-et-Économiques">
+													SERVICES CONCERTÉS ET ÉCONOMIQUES
+													
+														<i class="fa fa-plus"></i>
+													
+												</a>
+												
+													<ul class="menu-niveau-4 accordion__content">
+														
+															<li><a href="citoyens.html#services-concertes">PAR ARRONDISSEMENT</a></li>
+														
+															<li><a href="citoyens.html#services-concertes">PAR QUARTIER</a></li>
+														
+															<li><a href="citoyens.html#services-concertes">PAR RUE</a></li>
+														
+													</ul>
+												
+											</li>
+										
+									</ul>
+								</li>
+							
+						
+							
+								<li class="accordion" data-accordion="institution-corporative">
+									<a href="" class="accordion__toggle" data-accordion="institution-corporative">
+										Institution corporative
+										
+											<i class="fa fa-plus"></i>
+										
+									</a>
+									<ul class="menu-niveau-3 accordion__content">
+										
+											<li class="accordion" data-accordion="portail-de-gestion-en-ligne">
+												<a href="" class="accordion__toggle" data-accordion="portail-de-gestion-en-ligne">
+													PORTAIL DE GESTION EN LIGNE
+													
+														<i class="fa fa-plus"></i>
+													
+												</a>
+												
+													<ul class="menu-niveau-4 accordion__content">
+														
+															<li><a href="citoyens.html&#35vous-etes-proprietaire-de">ÉVALUATION INTELLIGENTE DES ARBRES</a></li>
+														
+															<li><a href="citoyens.html&#35vous-etes-proprietaire-de">PLAN DE GESTION TECHNIQUE</a></li>
+														
+													</ul>
+												
+											</li>
+										
+											<li class="accordion" data-accordion="supports-intÉgrÉs-et-numÉriques">
+												<a href="" class="accordion__toggle" data-accordion="supports-intÉgrÉs-et-numÉriques">
+													SUPPORTS INTÉGRÉS ET  NUMÉRIQUES
+													
+														<i class="fa fa-plus"></i>
+													
+												</a>
+												
+													<ul class="menu-niveau-4 accordion__content">
+														
+															<li><a href="">SUIVI DU DÉPISTAGE ET SURVEILLANCE</a></li>
+														
+															<li><a href="">GESTION DES TRAITEMENT</a></li>
+														
+															<li><a href="">GESTION DES ABATTAGES ET MISE EN VALEUR DU BOIS RÉSIDUEL</a></li>
+														
+													</ul>
+												
+											</li>
+										
+											<li class="accordion" data-accordion="offre-de-services-Économiques">
+												<a href="" class="accordion__toggle" data-accordion="offre-de-services-Économiques">
+													OFFRE DE SERVICES ÉCONOMIQUES
+													
+														<i class="fa fa-plus"></i>
+													
+												</a>
+												
+													<ul class="menu-niveau-4 accordion__content">
+														
+															<li><a href="">FORFAIT DE SURVEILLANCE ANNUEL</a></li>
+														
+													</ul>
+												
+											</li>
+										
+									</ul>
+								</li>
+							
+						
+					</ul>
+				
+			</li>
+		
+			<li class="accordion" data-accordion="offre-de-services">
+				<a href="&#35offre-de-services" class="accordion__toggle" data-accordion="offre-de-services">
+					
+					<span>Offre de Services</span>
+					
+				</a>
+				
+			</li>
+		
+			<li class="accordion" data-accordion="histoire-et-clients">
+				<a href="&#35histoire-et-clients" class="accordion__toggle" data-accordion="histoire-et-clients">
+					
+					<span>Histoire et Clients</span>
+					
+				</a>
+				
+			</li>
+		
+			<li class="accordion" data-accordion="villes-desservies">
+				<a href="&#35villes-desservies" class="accordion__toggle" data-accordion="villes-desservies">
+					
+					<span>Villes Desservies</span>
+					
+				</a>
+				
+			</li>
+		
+			<li class="accordion" data-accordion="partenaires">
+				<a href="&#35partenaires-de-developpement-des-solutions" class="accordion__toggle" data-accordion="partenaires">
+					
+					<span>Partenaires</span>
+					
+				</a>
+				
+			</li>
+		
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+
+
+        </ul>
+    </div>
+</nav>
+
     <!--  end navbar -->
-    <div class="subnav" data-spy="affix" data-offset-top="150">
+    <div class="subnav sticky" data-spy="affix" data-offset-top="150">
       <div class="container-fluid text-center">
         <ul class="list-inline text-center menu-niveau-1"
           
@@ -1000,8 +1307,21 @@ vos besoins pour  <strong>agir au meilleur coût</strong></p>
 
 
 <footer class="section footer">
-    <div class="row">
-        <p>&copy; IAER Solutions, 2016, Tous Droits Reserves</p>
+    <div class="text-center">
+        <div class="bottom col-xs-12">
+            <ul class="list-inline text-center footer__social"
+            ><li class="social">
+                <a href="https://www.linkedin.com" class="social__link" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <li
+            ><li class="social">
+                <a href="https://www.youtube.com" class="social__link" target="_blank"><i class="fa fa-youtube"></i></a>
+            <li
+            ><li class="social">
+                <a href="https://www.facebook.com" class="social__link" target="_blank"><i class="fa fa-facebook"></i></a>
+            <li
+            ></ul>
+            <p>&copy; IAER Solutions, 2016, Tous Droits Reserves</p>
+        </div>
     </div>
   </footer>
 

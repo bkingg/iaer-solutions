@@ -19,7 +19,7 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".subnav">
+<body>
     <!--    
     navbar-default can be changed with navbar-ct-blue navbar-ct-azzure navbar-ct-red navbar-ct-green navbar-ct-orange  
     -->
@@ -28,12 +28,6 @@
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
           <a class="navbar-brand navbar-brand-logo" href="index.html">
               <div class="logo">
                 <img src="uploads/iaer-solutions.png" class="img-responsive" title="IAER Solutions" alt="IAER Solutions">
@@ -44,28 +38,28 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
 
-                <li class="active">
+                <li data-title-menu="municipalites" class="active">
                     <a href="municipalites.html">
                         <img src="uploads/menu-municipalites-hover.png" class="icon">
                         <p>Municipalités</p>
                     </a>
                 </li>
 
-                <li class="">
+                <li data-title-menu="institutions" class="">
                     <a href="institutions.html">
                         <img src="uploads/menu-institutions.png" class="icon">
                         <p>Institutions</p>
                     </a>
                 </li>
 
-                <li class="">
+                <li data-title-menu="citoyens" class="">
                     <a href="citoyens.html">
                         <img src="uploads/menu-citoyens.png" class="icon">
                         <p>Citoyens</p>
                     </a>
                 </li>
 
-                <li>
+                <li data-title-menu="se-connecter">
                     <a href="#">
                         <img src="uploads/menu-connexion.png" class="icon">
                         <p>Se Connecter</p>
@@ -91,8 +85,200 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
+
+    <nav class="container-fluid">
+    <div class="mobile-menu accordion sticky-mobile" data-accordion="mobile-menu" data-spy="affix" data-offset-top="100">
+        <ul class="mobile-menu__main-menu">
+            <li class="menu-toggle">
+                <a href="#" class="accordion__toggle" data-accordion="mobile-menu">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </li>
+            <li data-title-menu="municipalites" class="active">
+                <a href="municipalites.html">
+                    <img src="uploads/menu-municipalites-hover.png" class="icon">
+                </a>
+            </li>
+
+            <li data-title-menu="institutions" class="">
+                <a href="institutions.html">
+                    <img src="uploads/menu-institutions.png" class="icon">
+                </a>
+            </li>
+
+            <li data-title-menu="citoyens" class="">
+                <a href="citoyens.html">
+                    <img src="uploads/menu-citoyens.png" class="icon">
+                </a>
+            </li>
+
+            <li data-title-menu="se-connecter">
+                <a href="#">
+                    <img src="uploads/menu-connexion.png" class="icon">
+                </a>
+            </li>
+        </ul>
+        <ul class="mobile-menu__submenu menu-niveau-1 accordion__content">
+            
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+
+
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      
+      
+				<li class="accordion" data-accordion="vos-actions-de-gestion">
+					<a href="&#35vos-actions-de-gestion-de-la-problÈmatique" class="accordion__toggle" data-accordion="vos-actions-de-gestion">
+						
+						<span>Vos actions de gestion</span>
+						
+							<i class="fa fa-plus"></i>
+						
+					</a>
+					
+						<ul class="menu-niveau-2 accordion__content">
+							
+								
+									
+										<li class="accordion" data-accordion="la-communication-et-la-réglementation">
+											<a href="communication-et-reglementation.html" class="accordion__toggle" data-accordion="la-communication-et-la-réglementation">
+												<span>La communication et la réglementation</span>
+												
+											</a>
+											
+										</li>
+									
+										<li class="accordion" data-accordion="activités-préventives">
+											<a href="activites-preventives.html" class="accordion__toggle" data-accordion="activités-préventives">
+												<span>Activités préventives</span>
+												
+											</a>
+											
+										</li>
+									
+										<li class="accordion" data-accordion="activités-intensives-à-la-lutte">
+											<a href="activites-intensives-de-lutte.html" class="accordion__toggle" data-accordion="activités-intensives-à-la-lutte">
+												<span>Activités intensives à la lutte</span>
+												
+											</a>
+											
+										</li>
+									
+								
+							
+						</ul>
+					
+				</li>
+			
+				<li class="accordion" data-accordion="offre-de-services">
+					<a href="&#35offre-de-la-solution-concertÉe-et-Économique" class="accordion__toggle" data-accordion="offre-de-services">
+						
+						<span>Offre de Services</span>
+						
+							<i class="fa fa-plus"></i>
+						
+					</a>
+					
+						<ul class="menu-niveau-2 accordion__content">
+							
+								
+									
+										<li class="accordion" data-accordion="inventaire-intelligent">
+											<a href="inventaire-intelligent.html" class="accordion__toggle" data-accordion="inventaire-intelligent">
+												<span>Inventaire intelligent</span>
+												
+											</a>
+											
+										</li>
+									
+										<li class="accordion" data-accordion="plateforme-de-gestion-concertée">
+											<a href="plateforme-de-gestion-concertee.html" class="accordion__toggle" data-accordion="plateforme-de-gestion-concertée">
+												<span>Plateforme de gestion concertée</span>
+												
+											</a>
+											
+										</li>
+									
+										<li class="accordion" data-accordion="modules-de-performance">
+											<a href="modules-de-performance.html" class="accordion__toggle" data-accordion="modules-de-performance">
+												<span>Modules de performance</span>
+												
+											</a>
+											
+										</li>
+									
+										<li class="accordion" data-accordion="valorisation-du-bois-infesté">
+											<a href="valorisation-du-bois-infeste.html" class="accordion__toggle" data-accordion="valorisation-du-bois-infesté">
+												<span>Valorisation du bois infesté</span>
+												
+											</a>
+											
+										</li>
+									
+								
+							
+						</ul>
+					
+				</li>
+			
+				<li class="accordion" data-accordion="solution-technologique">
+					<a href="solution-technologique.html" class="accordion__toggle" data-accordion="solution-technologique">
+						
+						<span>SOLUTION TECHNOLOGIQUE</span>
+						
+					</a>
+					
+				</li>
+			
+				<li class="accordion" data-accordion="valeur-de-mon-frÊne">
+					<a href="valeur-de-mon-frene.html" class="accordion__toggle" data-accordion="valeur-de-mon-frÊne">
+						
+						<span>VALEUR-DE-MON-FRÊNE</span>
+						
+					</a>
+					
+				</li>
+			
+    
+  
+    
+    
+    
+  
+
+        </ul>
+    </div>
+</nav>
+
     <!--  end navbar -->
-    <div class="subnav" data-spy="affix" data-offset-top="150">
+    <div class="subnav sticky" data-spy="affix" data-offset-top="150">
       <div class="container-fluid text-center">
         <ul class="list-inline text-center menu-niveau-1"
           
@@ -279,15 +465,15 @@
               <div class="row">
                 
                   <div class="caption image__large">
-                    <div class="col-sm-10 col-sm-offset-1">
-                      <div class="col-sm-4">
+                    <div class="col-sm-10 col-sm-offset-1 row-eq-height">
+                      <div class="col-sm-3 col-eq-height">
                           <div class="caption__image--wrapper">
                               <div class="caption__image">
                                   <img src="uploads/Inventaire intelligentt.png" class="img-responsive">
                               </div>
                           </div>
                       </div>
-                      <div class="col-sm-8">
+                      <div class="col-sm-9 col-eq-height">
                           <div class="caption__text--wrapper">
                               <div class="caption__text">
                                   <div class="caption__description light">
@@ -328,15 +514,15 @@
               <div class="row">
                 
                   <div class="caption image__large">
-                    <div class="col-sm-10 col-sm-offset-1">
-                      <div class="col-sm-4">
+                    <div class="col-sm-10 col-sm-offset-1 row-eq-height">
+                      <div class="col-sm-3 col-eq-height">
                           <div class="caption__image--wrapper">
                               <div class="caption__image">
                                   <img src="uploads/numerique-acteurs.png" class="img-responsive">
                               </div>
                           </div>
                       </div>
-                      <div class="col-sm-8">
+                      <div class="col-sm-9 col-eq-height">
                           <div class="caption__text--wrapper">
                               <div class="caption__text">
                                   <div class="caption__description light">
@@ -378,15 +564,15 @@
               <div class="row">
                 
                   <div class="caption image__large">
-                    <div class="col-sm-10 col-sm-offset-1">
-                      <div class="col-sm-4">
+                    <div class="col-sm-10 col-sm-offset-1 row-eq-height">
+                      <div class="col-sm-3 col-eq-height">
                           <div class="caption__image--wrapper">
                               <div class="caption__image">
                                   <img src="uploads/numerique-service.png" class="img-responsive">
                               </div>
                           </div>
                       </div>
-                      <div class="col-sm-8">
+                      <div class="col-sm-9 col-eq-height">
                           <div class="caption__text--wrapper">
                               <div class="caption__text">
                                   <div class="caption__description light">
@@ -427,15 +613,15 @@
               <div class="row">
                 
                   <div class="caption image__large">
-                    <div class="col-sm-10 col-sm-offset-1">
-                      <div class="col-sm-4">
+                    <div class="col-sm-10 col-sm-offset-1 row-eq-height">
+                      <div class="col-sm-3 col-eq-height">
                           <div class="caption__image--wrapper">
                               <div class="caption__image">
                                   <img src="uploads/abattage-valorisation-bois.png" class="img-responsive">
                               </div>
                           </div>
                       </div>
-                      <div class="col-sm-8">
+                      <div class="col-sm-9 col-eq-height">
                           <div class="caption__text--wrapper">
                               <div class="caption__text">
                                   <div class="caption__description light">
@@ -523,18 +709,17 @@ Ceci limitant l’explosion les coûts et du budget de gestion des résidus de b
                   <div class="tabs__wrapper">
                       <div class="tabs"><!--
                         --><div class="tab tab__active" data-tab="etape-1">
-                            <h3 class="tab__title">Etape 1</h3>
+                            <h3 class="tab__title">INVENTAIRE INTELLIGENT</h3>
                         </div><!--
                         --><div class="tab" data-tab="etape-2">
-                            <h3 class="tab__title">Etape 2</h3>
+                            <h3 class="tab__title">Intelligence artificielle</h3>
                         </div><!--
                         --><div class="tab" data-tab="etape-3">
-                            <h3 class="tab__title">Etape 3</h3>
+                            <h3 class="tab__title">Services numériques</h3>
                         </div><!--
                     --></div>
                       <div class="tabs__content">
                         <div class="tab__content tab__content--active" data-tab="etape-1">
-                          <div class="tab__content--title">INVENTAIRE INTELLIGENT</div>
                           <div class="tab__content--description">TOUS LES PROPRIÉTAIRES ONT ACCÈS À LA SOLUTION D’ÉVALUATION DES FRÊNES</div>
                           <div class="row">
                             <div class="col-sm-8 col-sm-offset-2">
@@ -560,12 +745,10 @@ Ceci limitant l’explosion les coûts et du budget de gestion des résidus de b
                           </div>
                         </div>
                         <div class="tab__content" data-tab="etape-2">
-                            <div class="tab__content--title">Intelligence artificielle</div>
                             <div class="tab__content--description">Coordination numérique de toutes les activités et services à partir des solutions intégrées</div>
                             <img src="uploads/m-etape-2.png" class="img-responsive" style="width: 100%;">
                         </div>
                         <div class="tab__content" data-tab="etape-3">
-                            <div class="tab__content--title">Services numériques</div>
                             <div class="tab__content--description">Tous les intervenants peuvent communiquer et agir rapidement en tout temps</div>
                             <div class="row">
                               <div class="col-sm-6 col-sm-offset-3">
@@ -815,8 +998,21 @@ Ceci limitant l’explosion les coûts et du budget de gestion des résidus de b
 
 
 <footer class="section footer">
-    <div class="row">
-        <p>&copy; IAER Solutions, 2016, Tous Droits Reserves</p>
+    <div class="text-center">
+        <div class="bottom col-xs-12">
+            <ul class="list-inline text-center footer__social"
+            ><li class="social">
+                <a href="https://www.linkedin.com" class="social__link" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <li
+            ><li class="social">
+                <a href="https://www.youtube.com" class="social__link" target="_blank"><i class="fa fa-youtube"></i></a>
+            <li
+            ><li class="social">
+                <a href="https://www.facebook.com" class="social__link" target="_blank"><i class="fa fa-facebook"></i></a>
+            <li
+            ></ul>
+            <p>&copy; IAER Solutions, 2016, Tous Droits Reserves</p>
+        </div>
     </div>
   </footer>
 

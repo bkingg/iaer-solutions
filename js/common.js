@@ -1,5 +1,7 @@
 $(function(){
 
+	$('body').scrollspy({ target: '.sticky, .sticky-mobile' });
+
 	window.getUrlParameter = function(name, url){
 		if (!url) url = window.location.href;
 		name = name.replace(/[\[\]]/g, "\\$&");
@@ -10,12 +12,39 @@ $(function(){
 		return decodeURIComponent(results[2].replace(/\+/g, " "));
 	}
 
+	window.addParam = function(url, param, value) {
+		var a = document.createElement('a'), regex = /(?:\?|&amp;|&)+([^=]+)(?:=([^&]*))*/g;
+		var match, str = []; a.href = url; param = encodeURIComponent(param);
+		while (match = regex.exec(a.search))
+			if (param != match[1]) str.push(match[1]+(match[2]?"="+match[2]:""));
+		str.push(param+(value?"="+ encodeURIComponent(value):""));
+		a.search = str.join("&");
+		return a.href;
+	}
+
 	$(document).ready(function() {
 		var openModal = getUrlParameter('open');
 		setTimeout(function(){
 	    	$('[data-title-modal=' + openModal + ']').click();
 	    }, 1000);
 		console.log(openModal);
+	});
+
+	$(document).ready(function() {
+		var showMenu = getUrlParameter('show');
+		if(showMenu){
+			$('.navbar-right > li').hide();
+	    	$('[data-title-menu=' + showMenu + ']').show();
+			$('[data-title-menu=se-connecter]').show();
+			$('a').each(function(){
+				if($(this).attr('href') != ''){
+					var oldUrl = $(this).attr('href');
+					var newUrl = addParam(oldUrl, 'show', showMenu);
+					$(this).attr('href', newUrl);
+				}
+			});
+	    };
+		console.log(showMenu);
 	});
 
 
@@ -114,13 +143,14 @@ $(function(){
 		});
 	});
 
-	$('#navbar ul > li:not(.active)').mouseenter(function(){ 
+	$('ul.navbar-right > li:not(.active)').mouseenter(function(){ 
 		var oldAttr = $(this).find('img').attr('src');
 		var newAttr = oldAttr.replace('.png', '-hover.png');
         $(this).find('img').attr('src', newAttr);
+		console.log('ha');
     });
 
-    $('#navbar ul > li:not(.active)').mouseleave(function(){
+    $('ul.navbar-right > li:not(.active)').mouseleave(function(){
         var oldAttr = $(this).find('img').attr('src');
 		var newAttr = oldAttr.replace('-hover.png', '.png');
         $(this).find('img').attr('src', newAttr);
@@ -144,26 +174,58 @@ $(function(){
 	        offset: 30
 	    });
 
-	    // Equalize adjacent rows
-	    setTimeout(function(){
-	    	$('.row-eq-height').each(function(){
+	    // Equalize nested adjacent rows 
+			setTimeout(function(){
+
+				if($(window).width() > 768){
+					$('.row-eq-height .row-eq-height').each(function(){
+						console.log('nested');
+						var $row = $(this);
+						var maxColumnHeight = $row.find('> .col-eq-height:first').height();
+						var cols = $row.find('> .col-eq-height');
+						cols.each(function(){
+							var height = $(this).height();
+							if(height > maxColumnHeight){
+								maxColumnHeight = height;
+							}
+						});
+						cols.height(maxColumnHeight).addClass('show');
+					});
+
+					$('.row-eq-height').each(function(){
+						console.log('normal');
+						var $row = $(this);
+						var maxColumnHeight = $row.find('> .col-eq-height:first').height();
+						var cols = $row.find('> .col-eq-height');
+						cols.each(function(){
+							var height = $(this).height();
+							if(height > maxColumnHeight){
+								maxColumnHeight = height;
+							}
+						});
+						cols.height(maxColumnHeight).addClass('show');
+					});
+				}
+
+				$('.row-eq-height').each(function(){
+					console.log('normal');
 					var $row = $(this);
-					var maxColumnHeight = $row.find('.col-eq-height:first').height();
-				  var cols = $row.find('.col-eq-height');
-				  cols.each(function(){
-				    var height = $(this).height();
-				    if(height > maxColumnHeight){
-				      maxColumnHeight = height;
-				    }
-				  });
-				  cols.height(maxColumnHeight).addClass('show');
+					var maxColumnHeight = $row.find('.slide:first').height();
+					var cols = $row.find('.slide');
+					cols.each(function(){
+						var height = $(this).height();
+						if(height > maxColumnHeight){
+							maxColumnHeight = height;
+						}
+					});
+					cols.height(maxColumnHeight).addClass('show');
 				});
-	    }, 300);
+			}, 300);
 	});
 
 	// Open Accordion
     $(document).on('click', '.accordion__toggle', function(event) {
-    	if($(this).attr('href') !== ''){
+    	if($(this).attr('href') || $(this).attr('href') !== ''){
     		window.location.href = $(this).attr('href');
     	}
         event.preventDefault();
@@ -235,11 +297,11 @@ $(function(){
   // //       }
   // //   })
 
-  $('.navbar-toggle').click(function(){
-  	if($(window).width() < 1200){
-  		$('.subnav').slideToggle().removeClass('affix');
-  	}
-  });
+  // $('.navbar-toggle').click(function(){
+  // 	if($(window).width() < 1200){
+  // 		$('.subnav').slideToggle().removeClass('affix');
+  // 	}
+  // });
 
 });
 
