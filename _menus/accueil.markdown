@@ -40,7 +40,7 @@ menu-niveau-1:
     - titre: Outils de gestion des besoins en ligne
       menu-niveau-4:
       - titre: DEMANDE D’ÉVALUATION
-        url: citoyens.html?open=terrains-residentiels#vous-etes-proprietaire-de
+        url: citoyens.html?open=terrain-residentiel#vous-etes-proprietaire-de
       - titre: Suivi services municipaux
         url: citoyens.html#voici-ce-que-comprennent-nos-services-pour
       - titre: Suivi services technique
@@ -74,13 +74,13 @@ menu-niveau-1:
       - titre: FORFAIT DE SURVEILLANCE ANNUEL
         url: 
 - titre: Offre de Services
-  url: "&#35offre-de-services"
+  url: "#offre-de-services"
   menu-niveau-2: []
 - titre: Histoire et Clients
-  url: "&#35histoire-et-clients"
+  url: "#histoire-et-clients"
 - titre: Villes Desservies
-  url: "&#35villes-desservies"
+  url: "#villes-desservies"
 - titre: Partenaires
-  url: "&#35partenaires-de-developpement-des-solutions"
+  url: "#partenaires-de-developpement-des-solutions"
 ---
 
