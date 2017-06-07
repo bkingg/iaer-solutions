@@ -551,7 +551,7 @@ a.no-link {
     visibility: hidden;
     width: 100%;
     transition: visibility 0.3s ease-in;
-    display: inline-block; }
+    display: block; }
     .homepage__slider-wrapper .homepage__slider.slick-initialized {
       visibility: visible; }
     .homepage__slider-wrapper .homepage__slider .slide {
