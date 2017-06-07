@@ -11,7 +11,6 @@ slider:
   - url: index.html
     texte: Télécharger notre offre de service dès maintenant
   icone_image: uploads/nuage technologique blanc.png
-  image_large: ''
 sections:
 - skip: ''
 - titre: PRÉSENTATION

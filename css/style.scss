@@ -708,7 +708,7 @@ $navbar-mobile-height: 100;
 		visibility: hidden;
 	  width: 100%;
 	  transition: visibility 0.3s ease-in;
-    display: inline-block;
+    display: block;
 	  &.slick-initialized{
 	  	visibility: visible;
 	  }

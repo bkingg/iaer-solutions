@@ -5,7 +5,7 @@
           <div class="slide {% if page.slider.size > 1 %}col-eq-height{% endif %}">
             <div class="image" style="background-image: url({{ slide.image }})">
               <div class="row">
-                {% if slide.image_large %}
+                {% if slide.image_large and slide.image_large != undefined %}
                   <div class="caption image__large">
                     <div class="col-sm-10 col-sm-offset-1 row-eq-height">
                       <div class="col-sm-3 col-eq-height">
