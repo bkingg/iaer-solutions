@@ -19,9 +19,8 @@ sections:
     précises et économiques. La collecte et l’utilisation des données en temps réel.
 - titre: vos frênes ont désormais les moyens de vous avertir à temps qu’ils sont attaqués.
   technologie:
-  - titre: VOS FRÊNES ONT DÉSORMAIS LES MOYENS DE VOUS AVERTIR À TEMPS QU’ILS SONT
-      ATTAQUÉS.
-    description: "## **INVENTAIRE STRATÉGIQUE POUR SAVOIR RAPIDEMENT:**\n\n- où sont
+  - titre: "INVENTAIRE STRATÉGIQUE POUR SAVOIR RAPIDEMENT:"
+    description: "- où sont
       les frênes du territoire \n\n- quel est leur état de santé et besoins d’entretien
       \n\n- qui sont les propriétaires \n\n- Élaboration du bilan de santé précis
       avec suivi continu du frêne"

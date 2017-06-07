@@ -334,9 +334,9 @@
                 </div>
                 <div class="col-sm-6">
                   <div class="col-green">
-                    <h3 class="col-green__title">{{ section.titre }}</h3>
+                    <h3 class="col-green__title">{{ section.technologie[0].titre }}</h3>
                     <div class="col-green__description">
-                      {{ section.technologie[0].description }}
+                      {{ section.technologie[0].description | markdownify }}
                       <!-- - où sont les frênes du territoire  <br/><br/>
                       - quel est leur état de santé et besoins d’entretien <br/><br/>
                       - qui sont les propriétaires <br/><br/>
