@@ -1,8 +1,6 @@
 ---
 title: Terrebonne
 date: '2017-05-29T01:47:29+00:00'
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo porro atque
-  consectetur error voluptatem qui placeat quia dignissimos soluta cumque, perferendis
-  aut explicabo amet cum, voluptatum non repudiandae nemo quam?
+description: 'La mobilisation de tous pour sauver les frênes: http://www.iaersolutions.com/projets_detail.php?idProjets=12&etatProjets=2'
 image: "/uploads/terrebonne.png"
 ---
