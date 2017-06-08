@@ -84,7 +84,7 @@ sections:
 - titre: PARTENAIRES DE DéVELOPPEMENT DES SOLUTIONS
   icones:
   - image: uploads/logo-03.png
-  - image: uploads/logo-01-1.png
+  - image: uploads/UMR-01.png
   - image: uploads/logo-02.png
 layout: default
 parent: ''
