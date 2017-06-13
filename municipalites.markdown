@@ -95,7 +95,7 @@ sections:
     titre: Activites Intensives
     url: activites-intensives-de-lutte.html
 - carte:
-  - titre: Communauté des villes desservies
+  - titre: Communauté des villes participantes
   titre: Communauté des villes desservies
 layout: default
 parent: ''
