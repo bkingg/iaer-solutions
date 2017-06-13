@@ -3,13 +3,32 @@ title: Institutions
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: "/institutions"
 slider:
-- image: uploads/Arbre.jpg
+- image: uploads/fond-gris.png
   icone_image: 
-  description: "Prendre la bonne décision en économisant temps et argent maintenant!
-    \n\n **Obtenez l'évaluation gratuite de 2 à 6 frênes**"
+  description: "## **ABATTAGE ET VALORISATION DU BOIS**\n\n- **Visualisez la valeur
+    du bois de tous vos frênes**\n- **Assurez la maîtrise des coûts et des budgets**\n-
+    **Obtenez un revenu avec du bois des arbres abattus**\n\n**Chacun des frênes mature
+    a un potentiel** utilise ses services numériques novateurs pour aider les municipalités
+    à optimiser les opérations d’abattage et à soutenir la valorisation sécuritaire
+    de l’ensemble du bois des frênes infestés. \nCeci limitant l’explosion les coûts
+    et du budget de gestion des résidus de bois.\n\nUtilisez notre projet pilote de
+    démonstration pour contrôler l’ensemble des opérations (abattage et valorisation
+    de vos grands frênes infestés."
   call_to_action:
   - url: index.html
     texte: Demander l'évaluation dès maintenant
+  image_large: uploads/abattage-valorisation-bois.png
+- image: uploads/fond-gris.png
+  icone_image: ''
+  description: "## **INVENTAIRE INTELLIGENT**\n\n- **Terrains institutionnels**\n-
+    **Terrain de golf, boisés**\n- **Milieux humides**\n\nLes besoins d’intervention
+    pour chaque frêne de vos propriétés sont identifiés et les services pour répondre
+    aux meilleurs coûts disponibles en ligne. Simplifiez vous la gestion de vos frênes
+    \n\nVoyez comment utiliser la plateforme Valeur-de-mon-frêne pour gérer les frênes
+    sur l’ensemble de vos propriétés en économisant temps et argent."
+  call_to_action:
+  - texte: Demander l'évaluation dès maintenant
+  image_large: uploads/Inventaire intelligentt.png
 sections:
 - titre: 'Vous êtes propriétaire de:'
   description: 
