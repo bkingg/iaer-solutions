@@ -78,7 +78,7 @@ sections:
     url: 
 - histoire: ''
 - carte:
-  - titre: Communauté des villes desservies
+  - titre: Carte des MRC projet pilote
   titre: Communauté des villes desservies
 - skip: ''
 - titre: PARTENAIRES DE DéVELOPPEMENT DES SOLUTIONS
