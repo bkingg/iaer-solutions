@@ -70,7 +70,7 @@ sections:
       offre d’évaluation gratuite de 7  frênes est disponible jusqu’au 25 mai. Dema… "
     call_to_action:
     - url: index.html
-      texte: Télécharger notre offre de service dès maintenant
+      texte: Demander l'évaluation dès maintenant
   - image: uploads/parcs.png
     titre: Parc d'attraction
     problemes: " Les frênes des parcs sont entourés par un grand nombre de frênes
@@ -90,6 +90,8 @@ sections:
       certitude pour chaque décision\n - Entretenir et garder bien longtemps encore
       les frênes de rue stressés\n - Déployer avec efficacité les solutions de traitement
       existantes\n\n Identifier 1 de vos rues et  expérimenter notre technologie maintenant "
+    call_to_action:
+    - texte: Demander l'évaluation dès maintenant
   - image: uploads/boise.png
     titre: Terrain boisé
     problemes: "L'absence de données précises, les contraintes opérationnelles, les
@@ -106,9 +108,11 @@ sections:
       préventives et intensives\n - L’inventaire rapide, le dépistage ou la surveillance
       technologique\n - Planifier, déterminer des budgets et la description des travaux
       d’intervention\n - D’assurer la succession en contrôle du peuplement \n - D’obtenir
-      sur votre site du revenu avec le bois infestés\n - Etc.\n\n Être proactif aide
-      à aller chercher des subventions ou à anticiper afin de prendre les décisions
-      économiques "
+      sur votre site du revenu avec le bois infestés\n - Etc.\n En étant proactif,
+      nous vous aidons à aller chercher des subventions ou à anticiper afin de prendre
+      les décisions économiques "
+    call_to_action:
+    - texte: Demander l'évaluation dès maintenant
   - image: uploads/milieu-humide.png
     titre: Milieu Humide
     problemes: "La fragilité et la règlementation sur la protection des milieux augmentent
@@ -126,6 +130,8 @@ sections:
       pratiques pour aménager et préserver la valeur écologique de ces écosystèmes\n
       - Etc.\n\n Être proactif aide à trouver des subventions ou à anticiper afin
       de prendre les décisions économiques "
+    call_to_action:
+    - texte: Demander l'évaluation dès maintenant
   - image: uploads/rues.png
     titre: Rues
     problemes: "Les frênes de rue sont entourés par un grand nombre de frênes qui
@@ -144,6 +150,8 @@ sections:
       pratiques pour aménager et préserver la valeur écologique de ces écosystèmes\n
       - Etc.\n\n Être proactif aide à trouver des subventions ou à anticiper afin
       de prendre les décisions économiques "
+    call_to_action:
+    - texte: Demander l'évaluation dès maintenant
 - titre: Nous vous accompagnons et vous aidons à ...
   demander_evaluation: true
   icones:
