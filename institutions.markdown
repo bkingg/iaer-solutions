@@ -33,45 +33,27 @@ sections:
 - titre: 'Vous êtes propriétaire de:'
   description: 
   icones_modal_slider:
-  - image: uploads/terrains-residentiels.png
-    titre: Terrain résidentiel
-    problemes: "Comme propriétaire privé de frêne, vous avez besoin de savoir :\n
-      - Les conditions de santé de l’arbre et son aptitude à être préservé\n - Entre
-      le traitement et l’abattage, c’est quoi la bonne décision à prendre;\n - Combien
-      vous coûte le traitement ou l’abattage\n - Si le bois de votre frêne infesté
-      a une valeur commerciale ou  autre\n - Les subventions disponibles \n\n Comment
-      agir de manière à obtenir des réponses claires et précises rapidement? "
-    solutions: "Grâce à une demande d’évaluation obtenue en ligne, nos professionnels
-      se déplacent sur votre propriété pour rentrer vos frênes dans le logiciel qui
-      vous aidera a à prendre les bonnes décisions en toute circonstance en plus d’obtenir
-      tous les services en ligne . Ce logiciel expert ressort: \n - le bilan de santé
-      détaillé de chacun de vos frênes qui vous permet d’agir à partir de la décision
-      éclairée\n - Les supports pour obtenir les subventions et déterminer la solution
-      avantageuse pour vous\n - Les bénéfices annuels chiffrés que votre arbre génère
-      lorsque préservé (traiter entre autre)\n - La valeur ou le revenu monétaire
-      potentiel du bois résiduel de votre grand arbre infesté\n\n Prévenir vaut mieux
-      que guérir, demandez et obtenez l’évaluation gratuite de vos frênes en ligne "
   - image: uploads/terrains-institutionnels.png
     titre: Terrain institutionnel
     problemes: "L'absence de données précises sur l’état de santé des frênes est à
       l’origine des prises de décision tardives ou plus coûteuses pour les institutions
       propriétaires de frênes. Le gestionnaires ne disposent toujours pas des outils
       appropriés pour:\n - Assurer la détection rapide la présence de l’insecte\n
-      - Assurer le suivi économique et efficace des frênes en préservation\n - Déterminer
+      - Contrôler le suivi économique et efficace des frênes en préservation\n - Déterminer
       la valeur des arbres ou du bois résiduel\n - Mettre en place le plan de gestion
       à moindres coûts\n\n Comment maîtriser les coûts tout en préservant sur du long
       terme les actifs arboricoles? "
-    solutions: "Valeur aux frênes vous permettra: \n - D’obtenir une évaluation rapide
-      intelligente des arbres pour une prise de décision économique\n - S’offrir un
-      outil technologique simple à utiliser  pour assurer la gestion de tous les services
-      en ligne \n - Déterminer les prévisions garantie de préservation des arbres
+    solutions: "Valeur aux frênes vous permettra de: \n  - S’offrir un outil technologique
+      simple à utiliser  pour assurer la gestion de tous les services en ligne \n-
+      D’obtenir une évaluation rapide intelligente des arbres pour une prise de décision
+      économique\n- Déterminer les prévisions pour garantir la préservation des arbres
       et le revenu potentiel pouvant être tiré du bois infesté\n - Réduire de 15 %
       et plus les coûts de services techniques et professionnels\n - Chiffrer les
-      bénéfices annuels générés par chaque arbre préservé \n\n Une offre d’évaluation
-      gratuite de 7  frênes est disponible. Dema… "
+      bénéfices annuels générés par chaque frêne préservé\n\n Une offre d’évaluation
+      gratuite jusqu'à 6 frênes est disponible. "
     call_to_action:
     - url: index.html
-      texte: Télécharger notre offre de service dès maintenant
+      texte: Demander l'évaluation dès maintenant
   - image: uploads/club-de-golf-et-loisir.png
     titre: club de golf et loisir
     problemes: "Face à l’épidémie de l’agrile du frêne, les propriétaires des clubs
