@@ -7,13 +7,12 @@ slider:
   icone_image: 
   description: "## **ABATTAGE ET VALORISATION DU BOIS**\n\n- **Visualisez la valeur
     du bois de tous vos frênes**\n- **Assurez la maîtrise des coûts et des budgets**\n-
-    **Obtenez un revenu avec du bois des arbres abattus**\n\n**Chacun des frênes mature
-    a un potentiel** utilise ses services numériques novateurs pour aider les municipalités
-    à optimiser les opérations d’abattage et à soutenir la valorisation sécuritaire
-    de l’ensemble du bois des frênes infestés. \nCeci limitant l’explosion les coûts
-    et du budget de gestion des résidus de bois.\n\nUtilisez notre projet pilote de
-    démonstration pour contrôler l’ensemble des opérations (abattage et valorisation
-    de vos grands frênes infestés."
+    **Obtenez un revenu avec du bois des arbres abattus**\n\nChacun des frênes mature
+    a un potentiel de valorisation. Valeur-de-mon frêne aide à générer ce potentiel
+    en plus de faciliter la récupération du bois directement sur les sites d'abattage.
+    Ce sont d'importantes économies en frais de transport ou de disposition règlementaire
+    du bois infesté.\nSi vous êtes dans une Ville qui participe à notre projet pilote
+    de démonstration contactez-nous en demandant une évaluation de vos frênes. "
   call_to_action:
   - url: index.html
     texte: Demander l'évaluation dès maintenant
