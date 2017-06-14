@@ -8,7 +8,7 @@ slider:
   description: "## **ABATTAGE ET VALORISATION DU BOIS**\n\n- **Visualisez la valeur
     du bois de tous vos frênes**\n- **Assurez la maîtrise des coûts et des budgets**\n-
     **Obtenez un revenu avec du bois des arbres abattus**\n\nPlus de 70 % des frênes
-    matures ont un potentiel de valorisation commerciale. Valeur-de-mon frêne aide
+    matures ont un potentiel de valorisation commerciale. Valeur-de-mon-frêne aide
     à générer et préserver ce potentiel en plus de faciliter la récupération du bois
     directement sur les propriétés d'abattage. Ce sont d'importantes économies en
     frais de transport ou de disposition règlementaire du bois infesté.\nSi vous êtes
