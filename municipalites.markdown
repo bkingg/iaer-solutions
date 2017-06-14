@@ -55,11 +55,12 @@ slider:
 - image: uploads/fond-gris.png
   icone_image: 
   description: "## **ABATTAGE ET VALORISATION DU BOIS**\n\n- **Visualisez la valeur
-    du bois de tous vos frênes**\n- **Simplifier la récupération du bois infesté**\n-
-    **Assurez la maîtrise des budgets**\n\n**Valeur-de-mon-frêne** utilise ses services
-    numériques novateurs pour aider les municipalités à optimiser les opérations d’abattage
-    et à soutenir la valorisation sécuritaire de l’ensemble du bois des frênes infestés.
-    \nCeci limitant l’explosion les coûts et du budget de gestion des résidus de bois.\n\nUtilisez
+    du bois de tous vos frênes**\n- **Simplifier la récupération avec la valorisation
+    du bois infesté**\n- **Assurez la maîtrise des budgets**\n\n**Valeur-de-mon-frêne**
+    utilise ses services numériques novateurs pour aider les municipalités à optimiser
+    les opérations d’abattage et à soutenir la valorisation sécuritaire de l’ensemble
+    du bois des frênes infestés sur son territoire. \nCeci limitant l’explosion des
+    coûts pour son administration et ses résidents propriétaires de frênes infestés\n\nUtilisez
     notre projet pilote de démonstration pour valider et implanter les services innovants
     sur le territoire de votre municipalité."
   call_to_action:
