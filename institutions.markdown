@@ -28,7 +28,7 @@ slider:
     sur l’ensemble de vos propriétés en économisant temps et argent."
   call_to_action:
   - texte: Demander l'évaluation dès maintenant
-  image_large: uploads/Inventaire intelligentt.png
+  image_large: uploads/terrain-gofl-inventaire-intelligent-1.png
 sections:
 - titre: 'Vous êtes propriétaire de:'
   description: 
