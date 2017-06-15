@@ -281,6 +281,13 @@ $(function(){
         $modal.find('.cta').html('').html(cta);
   	});
 
+	  // Map iframe
+	  $(document).on('click', '.section.map', function(event) {
+			console.log('map click');
+			$(this).find('iframe').css('pointer-events', 'initial');
+		});
+
+
   //   $(window).on('scroll', function() {
 	 //    	var scrollTop = $(this).scrollTop();
 

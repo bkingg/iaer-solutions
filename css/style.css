@@ -1268,7 +1268,8 @@ a.no-link {
   min-width: 80%;
   top: 20%; }
 #problemes-solutions .modal-body {
-  border-radius: 5px; }
+  border-radius: 5px;
+  padding-bottom: 30px; }
 #problemes-solutions .modal-title {
   display: inline-block;
   background-color: white;
