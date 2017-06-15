@@ -97,6 +97,7 @@ sections:
     url: activites-intensives-de-lutte.html
 - carte:
   - titre: Communauté des villes participantes
+    url_carte: https://demo-preview5.evouala.com/map/browse/3646/embedded?bbox=-8629103.740427837%2C5624975.934002339%2C-7848834.555692758%2C6013276.037691033&ds=330%2C1487
   titre: Communauté des villes desservies
 layout: default
 parent: ''
