@@ -19,7 +19,7 @@
 
         <div class="section map">
           <div class="container-fluid">
-            <iframe src="{{ section.carte.url_carte }}" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="{{ section.carte[0].url_carte }}" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
         </div>
       {% elsif section.skip %}
