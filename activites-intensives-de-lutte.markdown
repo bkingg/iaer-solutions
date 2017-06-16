@@ -75,7 +75,7 @@ sections:
       4. Assurance de préserver durablement les frênes
   - titre: MUNICIPALITÉ
     image: uploads/menu-municipalites-hover.png
-    description: "1. Réduction des délais de traitement des demandes des citoyens\n2.
+    description: "1. Optimisation des délais de traitement des demandes des citoyens\n2.
       Réduction  et maîtrise des budgets de gestion de l’épidémie\n3. Contrôle rapide
       des foyers d’infestation et de la propagation\n4. Valorisation  interne  ou
       commerciale des résidus de bois "
