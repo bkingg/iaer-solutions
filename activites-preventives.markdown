@@ -80,7 +80,7 @@ sections:
       2. Réduction de l’utilisation du papier
       3. Responsabilisation des citoyens propriétaires
       4. Meilleure visibilité du plan d’intervention
-      5. Digitalisation et mobilisation et implication  plusieurs intervenants
+      5. Digitalisation et implication  plusieurs intervenants
       6. Amélioration de la qualité et  de l’utilisation des données
   - titre: PROFESSIONNELS
     image: uploads/menu-professionnels-hover.png
