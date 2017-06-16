@@ -75,8 +75,8 @@ sections:
   - titre: PROFESSIONNELS
     image: uploads/menu-professionnels-hover.png
     description: "1. Bonification l’offre de services auprès des citoyens\n2. Meilleure
-      vulgarisation de la réglementation \n3. Gain d’efficacité et de temps dansles
-      échanges avec  les propriétaire\n4. Valorisation de l’image des profes-sionnels
-      auprès des résidents"
+      vulgarisation de la réglementation et de l'information \n3. Gain d’efficacité
+      et de temps dans les échanges avec  les propriétaires\n4. Valorisation de l’image
+      des professionnels auprès des résidents"
 layout: default
 ---
