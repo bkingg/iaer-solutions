@@ -82,9 +82,10 @@ sections:
   - titre: PROFESSIONNELS
     image: uploads/menu-professionnels-hover.png
     description: |-
-      1. Simplification de la surveillance des frênes traités
-      2. Amélioration des processus de suivi et de contrôle des frênes
-      3. Optimisation des déplacements et du temps d’intervention
-      4. Valorisation des intervenants
+      1. Augmentation de la précision des diagnostics
+      2. Simplification de la surveillance des frênes traités
+      3. Amélioration des processus de suivi et de contrôle des frênes
+      4. Optimisation des déplacements et du temps d’intervention
+      5. Valorisation des résultats d'intervention
 layout: default
 ---
