@@ -69,9 +69,10 @@ sections:
   benefices:
   - titre: RÉSIDENTS PROPRIÉTAIRES
     image: uploads/menu-citoyens-hover.png
-    description: "1. Accès à un outil permanent d’aide à la décision\n2. Réduction
-      des coûts de gestion\n3. Amélioration des connaissances\n4. Gestion des services
-      municipaux en ligne "
+    description: "1. Amélioration des connaissances\n2. Accès à un outil permanent
+      d’aide à la décision\n3. Contrôle des enjeux liées aux coûts de gestion\n4.
+      Participation active aux efforts de lutte\n5. Gestion des services municipaux
+      en ligne "
   - titre: MUNICIPALITÉ
     image: uploads/menu-municipalites-hover.png
     description: |-
