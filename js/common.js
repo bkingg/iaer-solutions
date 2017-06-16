@@ -127,7 +127,7 @@ $(function(){
 			autoplay: true,
 			responsive: [
 				{
-					breakpoint: 1000,
+					breakpoint: 1200,
 					settings: 'unslick'
 				}
 			]
