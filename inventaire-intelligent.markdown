@@ -15,9 +15,10 @@ sections:
 - titre: PRÉSENTATION
   description: "Notre solution d’inventaire intelligent permet à tout  gestionnaire
     ou propriétaire d’accéder à l’information sur la valeur et l’état de santé de
-    ses frênes en ligne. \n\nLes supports numériques de valeur-de-mon-frêne aident
-    à assurer le suivi des services administratifs et professionnels. Au final ce
-    sont  des économies importantes (32% et +) en temps et argent pour tous les propriétaires."
+    des frênes en ligne. \nGrâce à ses supports numériques interactifs, Valeur-de-mon-frêne
+    aide à assurer le suivi des  activités administratives et professionnelles sur
+    la base des faits. Au final chaque décision est soutenue par des indicateurs concrets
+    et accessibles à tous les intervenants impliqués"
 - titre: Valeur-de-mon-frêne accompagne les professionnels selon les priorités et
     les objectifs  de manière à…
   petites_boites:
