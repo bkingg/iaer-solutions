@@ -25,7 +25,12 @@ menu-niveau-1:
       - titre: Valorisation du bois infesté
         url: valorisation-du-bois-infeste.html
     - titre: TECHNOLOGIE DE GESTION COLLABORATIVE
-      menu-niveau-4: []
+      menu-niveau-4:
+      - {}
+      - {}
+      - {}
+      - {}
+      url: http://staging.abcagriledufrene.ca/solution-technologique.html
   - titre: Citoyens
     url: "/residents"
     menu-niveau-3:
