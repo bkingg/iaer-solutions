@@ -9,7 +9,7 @@ slider:
     Problèmes complexes, solutions robustes.
   call_to_action:
   - url: index.html
-    texte: Télécharger notre offre de service dès maintenant
+    texte: Participer au projet pilote de démonstration
   icone_image: uploads/nuage technologique blanc.png
 sections:
 - skip: ''
