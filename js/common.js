@@ -287,6 +287,17 @@ $(function(){
 			$(this).find('iframe').css('pointer-events', 'initial');
 		});
 
+	$(document).on('click', '.icon--scroll', function(event) {
+		var $section = $(this).closest('.homepage__slider-wrapper');
+        var $nextSection = $section.next();
+
+        if($nextSection.length){
+            $('html, body').animate({
+                scrollTop: $nextSection.offset().top
+            }, 700);
+		}
+	});
+
 
   //   $(window).on('scroll', function() {
 	 //    	var scrollTop = $(this).scrollTop();

@@ -720,7 +720,7 @@ $navbar-mobile-height: 100;
         }
       }
 	    .image {
-        background-color: lightgrey;
+        background-color: transparent;
         display: block;
 	      background-size: cover;
 	      background-position: center;
@@ -928,6 +928,9 @@ $navbar-mobile-height: 100;
 			}
 		}
 	}
+  .icon--scroll{
+    cursor: pointer;
+  }
   .icon-scroll {
     &--wrapper{
       width: 100%;
@@ -1585,7 +1588,7 @@ $navbar-mobile-height: 100;
 }
 
 .slider-caption {
-  background-color: #4f5054;
+  // background-color: #4f5054;
   .caption {
     padding: 0;
     text-align: center;
