@@ -559,7 +559,7 @@ a.no-link {
       .homepage__slider-wrapper .homepage__slider .slide__video iframe {
         width: 100%; }
       .homepage__slider-wrapper .homepage__slider .slide .image {
-        background-color: lightgrey;
+        background-color: transparent;
         display: block;
         background-size: cover;
         background-position: center;
@@ -727,6 +727,8 @@ a.no-link {
       .homepage__slider-wrapper .slider__dots .slick-dots li:hover .slider__dot, .homepage__slider-wrapper .slider__dots .slick-dots li.slick-active .slider__dot {
         border: 1px solid #999;
         background: white; }
+  .homepage__slider-wrapper .icon--scroll {
+    cursor: pointer; }
   .homepage__slider-wrapper .icon-scroll {
     width: 20px;
     height: 35px;
@@ -1229,25 +1231,23 @@ a.no-link {
     .section .box .box__description li {
       margin-bottom: 10px; }
 
-.slider-caption {
-  background-color: #4f5054; }
-  .slider-caption .caption {
-    padding: 0;
+.slider-caption .caption {
+  padding: 0;
+  text-align: center;
+  padding: 20px 0;
+  cursor: pointer; }
+  .slider-caption .caption.active, .slider-caption .caption:hover {
+    background-color: #83b739; }
+  .slider-caption .caption img {
+    width: 60px;
+    height: 60px; }
+  .slider-caption .caption p {
     text-align: center;
-    padding: 20px 0;
-    cursor: pointer; }
-    .slider-caption .caption.active, .slider-caption .caption:hover {
-      background-color: #83b739; }
-    .slider-caption .caption img {
-      width: 60px;
-      height: 60px; }
-    .slider-caption .caption p {
-      text-align: center;
-      font-size: 13px;
-      color: white;
-      text-transform: uppercase;
-      font-weight: bold;
-      margin-bottom: 0; }
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0; }
 
 #problemes-solutions .modal-header {
   text-align: center;
