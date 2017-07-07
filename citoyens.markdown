@@ -3,18 +3,25 @@ title: Citoyens
 date: '2017-03-08T04:06:00.000+00:00'
 permalink: citoyens
 slider:
+- image: uploads/Arbre.jpg
+  icone_image: "/uploads/d-inventaire.png"
+  description: "Prenez des décisions éclairées en économisant temps et argent \n\n**Obtenez
+    l’évaluation gratuite de 2 à 6 frênes sur votre propriété**\n\n"
+  call_to_action:
+  - url: index.html
+    texte: Demander l'évaluation dès maintenant
+- image: uploads/traitement.jpg
+  icone_image: uploads/service-ligne.png
+  description: "Des réponses et des services en ligne pour protéger vos frênes\n\n**Faites
+    vos choix d’actions ou de services en tout temps** "
+  call_to_action:
+  - url: index.html
+    texte: Demander l'évaluation dès maintenant
 - image: uploads/valorisation-2.jpg
   icone_image: uploads/gain-3.png
   description: "Vos frênes sont infestés, vous voulez réduire les coûts ou obtenir
     un revenu avec son bois\n \n**Nous y voilà! une solution économique  qui aide
     à valoriser votre bois.**"
-  call_to_action:
-  - url: index.html
-    texte: Demander l'évaluation dès maintenant
-- image: uploads/Arbre.jpg
-  icone_image: "/uploads/d-inventaire.png"
-  description: "Prenez des décisions éclairées en économisant temps et argent \n\n**Obtenez
-    l’évaluation gratuite de 2 à 6 frênes sur votre propriété**\n\n"
   call_to_action:
   - url: index.html
     texte: Demander l'évaluation dès maintenant
@@ -25,13 +32,6 @@ slider:
   call_to_action:
   - url: index.html
     texte: Découvrez comment dès maintenant
-- image: uploads/traitement.jpg
-  icone_image: uploads/service-ligne.png
-  description: "Des réponses et des services en ligne pour protéger vos frênes\n\n**Faites
-    vos choix d’actions ou de services en tout temps** "
-  call_to_action:
-  - url: index.html
-    texte: Demander l'évaluation dès maintenant
 sections:
 - titre: 'Vous êtes propriétaire de:'
   description: 
