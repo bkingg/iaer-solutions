@@ -27,7 +27,6 @@ $(function(){
 		setTimeout(function(){
 	    	$('[data-title-modal=' + openModal + ']').click();
 	    }, 1000);
-		console.log(openModal);
 	});
 
 	$(document).ready(function() {
@@ -44,7 +43,6 @@ $(function(){
 				}
 			});
 	    };
-		console.log(showMenu);
 	});
 
 
@@ -147,7 +145,6 @@ $(function(){
 		var oldAttr = $(this).find('img').attr('src');
 		var newAttr = oldAttr.replace('.png', '-hover.png');
         $(this).find('img').attr('src', newAttr);
-		console.log('ha');
     });
 
     $('ul.navbar-right > li:not(.active)').mouseleave(function(){
@@ -179,7 +176,6 @@ $(function(){
 
 				if($(window).width() > 768){
 					$('.row-eq-height .row-eq-height').each(function(){
-						console.log('nested');
 						var $row = $(this);
 						var maxColumnHeight = $row.find('> .col-eq-height:first').height();
 						var cols = $row.find('> .col-eq-height');
@@ -193,7 +189,6 @@ $(function(){
 					});
 
 					$('.row-eq-height').each(function(){
-						console.log('normal');
 						var $row = $(this);
 						var maxColumnHeight = $row.find('> .col-eq-height:first').height();
 						var cols = $row.find('> .col-eq-height');
@@ -208,7 +203,6 @@ $(function(){
 				}
 
 				$('.row-eq-height').each(function(){
-					console.log('normal');
 					var $row = $(this);
 					var maxColumnHeight = $row.find('.slide:first').height();
 					var cols = $row.find('.slide');
@@ -232,7 +226,6 @@ $(function(){
         var accordionName = $(this).data('accordion');
         $('.accordion[data-accordion="' + accordionName + '"]').toggleClass('accordion--open');
 		var icon = $(this).find('i').toggleClass('fa-plus fa-minus');
-		console.log('yo');
     });
 
     // Smooth scroll
@@ -244,7 +237,6 @@ $(function(){
 			}, 500);
 
 		}
-		console.log('yo test');
     });
 
 	// no link
@@ -283,7 +275,6 @@ $(function(){
 
 	  // Map iframe
 	  $(document).on('click', '.section.map', function(event) {
-			console.log('map click');
 			$(this).find('iframe').css('pointer-events', 'initial');
 		});
 
