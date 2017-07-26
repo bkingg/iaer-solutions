@@ -312,6 +312,60 @@ $(function(){
   // 	}
   // });
 
+  $(document).on('submit', '#projet-pilote', function(){
+	event.preventDefault();
+
+	var errors = false;
+
+	var form = this;
+
+	$(form).find('.status__failure').slideUp();
+	$(form).find('.status__success').slideUp();
+
+	// Clear out errors
+	var errField = 'input.error, select.error, textarea.error';
+	var msgField = 'p.error';
+	var errClass = 'error';
+	$(errField, form).removeClass(errClass);
+	// $('.status__failure').slideUp();
+
+	if ( !form.nom.value ) {
+		$(form.nom).addClass(errClass)
+			.siblings(msgField).slideDown();
+		errors = true;
+	} else {
+		$(this.nom).siblings(msgField).slideUp();
+	}
+	
+	if ( /[-0-9a-zA-Z.+_]+@[-0-9a-zA-Z.+_]+\.[a-zA-Z]{2,4}/.test(form.email.value) == false ) {
+		$(form.email).addClass(errClass).siblings(msgField).slideDown();
+		errors = true;
+	} else {
+		$(form.email).siblings(msgField).slideUp();
+	}
+
+	if ( errors ) {
+		return false;
+	}
+
+	$.ajax({
+		url: 'https:' + '//formspree.io/' + 'gaspard.diallo+formspree' + '@' + 'gmail' + '.' + 'com', 
+		method: 'POST',
+		data: $(form).serialize(),
+		dataType: 'json',
+		success: function(){
+			console.log('success');
+			$(form).find('.status__failure').slideUp();
+			$(form).find('.status__success').slideDown();
+		},
+		error: function(){
+			console.log('error');
+			$(form).find('.status__failure').slideDown();
+			$(form).find('.status__success').slideUp();
+		}
+	});
+  });
+
 });
 
 
