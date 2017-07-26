@@ -1,0 +1,28 @@
+{% include header.html %}
+
+<br/><br/><br/><br/>
+<section class="">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <form id="projet-pilote" action="?" method="POST">
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <div class="input-wrapper">
+                        <input type="text" name="nom" value="" placeholder="Nom">
+                        <p class="error" style="display: none;">Votre nom est requis</p>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="email" name="email" value="" placeholder="Email">
+                        <p class="error" style="display: none;">Votre email est requis</p>
+                    </div>
+                    <button type="submit" class="btn btn--green">Envoyer</button>
+
+                    <p class="status__failure" style="display: none;">Error</p>
+                    <p class="status__success" style="display: none;">Success</p>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include footer.html %}
