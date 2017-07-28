@@ -327,6 +327,7 @@ $(function(){
 	var msgField = 'p.error';
 	var errClass = 'error';
 	$(errField, form).removeClass(errClass);
+	$(form.besoins).val('');
 	// $('.status__failure').slideUp();
 
 	if ( !form.nom.value ) {
@@ -344,7 +345,22 @@ $(function(){
 		$(form.email).siblings(msgField).slideUp();
 	}
 
-	if ( errors ) {
+	if ($(form).find('input:checkbox:checked').length > 2 || !$(form).find('input:checkbox:checked').length){
+		$(form).find('.error--checkbox').slideDown();
+		errors = true;
+	}
+	else{
+		$(form).find('.error--checkbox').slideUp();
+	}
+
+	// $(form).find('input:checkbox:checked').each(function(){
+	// 	var besoins = $(form.besoins).val();
+	// 	$(form.besoins).val(besoins + $(this).val() + '\n');
+	// });
+
+	// console.log($(form.besoins).val());     
+
+	if (errors) {
 		return false;
 	}
 
@@ -353,13 +369,14 @@ $(function(){
 		method: 'POST',
 		data: $(form).serialize(),
 		dataType: 'json',
-		success: function(){
-			console.log('success');
+		success: function(data){
+			console.log('success', data);
 			$(form).find('.status__failure').slideUp();
 			$(form).find('.status__success').slideDown();
+			$(form)[0].reset();
 		},
-		error: function(){
-			console.log('error');
+		error: function(data){
+			console.log('error', data);
 			$(form).find('.status__failure').slideDown();
 			$(form).find('.status__success').slideUp();
 		}
