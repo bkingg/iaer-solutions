@@ -5,6 +5,11 @@
 @import 'animations';
 
 $green: #83b739;
+$color-brand: $green;
+$color-error: #930012;
+$color-success: green;
+$color-brand-light: lighten($green, 10%);
+$input-height: 40;
 
 body, h1, h2, h3, h4, h5, h6, p, span, a{
 	font-family: 'Sinkin Sans', Arial, sans-serif;
@@ -49,6 +54,75 @@ a.no-link{
     .collapse.in{
         display:block !important;
     }
+}
+
+@mixin textbox {
+	$border-color: $green;
+
+	border: 2px solid $color-brand-light;
+	border-radius: 0;
+	color: #333;
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: #333;
+		border-color: $color-brand;
+	}
+
+	&.error{
+		border-color: $color-error;
+		color: $color-error;
+	}
+}
+
+.form-group{
+	position: relative;
+	input[type=text],
+	input[type=email],
+	input[type=password],
+	input[type=number],
+	input[typef=file]{
+		@include textbox;
+	}
+	input[type=file]{
+		padding: 10px;
+	}
+
+	textarea {
+		@include textbox;
+		resize: vertical;
+		height: $input-height * 4 + px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		line-height: 17px;
+	}
+
+	select {
+		// @include dropdown;
+	}
+  label{
+    a{
+      color: #99999a;
+    }
+  }
+
+	span,
+	p{
+		display: block;
+		font-size: 10px;
+		line-height: 13px;
+		margin-bottom: 7px;
+		&.error{
+			color: $color-error;
+		}
+		&.success{
+			color: $color-success;
+		}
+		&.help{
+			color: inherit;
+		}
+	}
 }
 
 #content{
@@ -1728,6 +1802,49 @@ $navbar-mobile-height: 100;
     i{
       font-size: 25px;
       color: white;
+    }
+  }
+}
+
+.projet-pilote{
+  .section__title{
+    padding-bottom: 10px;
+    &--small{
+      font-size: 18px;
+      font-weight: normal;
+    }
+  }
+  .line{
+    background-color: $green;
+    width: 100px;
+    height: 2px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
+
+#projet-pilote-1,
+#projet-pilote-2,
+#projet-pilote-3{
+  .modal-header{
+    border: none;
+  }
+  .modal__title{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #4f5054;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 0;
+  }
+  .modal__description{
+    
+  }
+  .modal__image{
+    img{
+      width: 100%;
     }
   }
 }

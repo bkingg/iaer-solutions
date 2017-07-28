@@ -1,28 +1,59 @@
 {% include header.html %}
 
 <br/><br/><br/><br/>
-<section class="">
+<section class="projet-pilote section">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
-                <form id="projet-pilote" action="?" method="POST">
+            <div class="col-sm-6 col-sm-offset-3">
+                <h1 class="section__title">PARTICIPER AU PROJET PILOTE DE DÉMONSTRATION</h1>
+                <div class="line"></div>
+
+                <form id="projet-pilote" class="projet-pilote__form" action="?" method="POST">
+                    <input type="hidden" name="_subject" value="Participation au projet pilote" />
+                    <input type="hidden" name="_format" value="plain" />
+                    <input type="hidden" name="_language" value="fr" />
                     <input type="text" name="_gotcha" style="display:none" />
-                    <div class="input-wrapper">
-                        <input type="text" name="nom" value="" placeholder="Nom">
-                        <p class="error" style="display: none;">Votre nom est requis</p>
+                    <div class="form-group">
+                        <input type="text" name="nom" value="" placeholder="Nom" class="form-control">
+                        <p class="help-block text-error error" style="display: none;">Veuillez entrer votre nom.</p>
                     </div>
-                    <div class="input-wrapper">
-                        <input type="email" name="email" value="" placeholder="Email">
-                        <p class="error" style="display: none;">Votre email est requis</p>
+                    <div class="form-group">
+                        <input type="email" name="email" value="" placeholder="Addresse courriel" class="form-control">
+                        <p class="help-block text-error error" style="display: none;">Veuillez entrer votre addresse courriel.</p>
+                    </div>
+
+
+                    <h3 class="section__title section__title--small">VOUS POUVEZ SÉLECTIONNER 1 À 2 BESOINS PRIORITAIRES</h3>
+
+
+                    <div class="form-group checkbox">
+                        <input type="checkbox" name="besoins_prioritaires" id="besoin1" value="Inventaire intelligent des frênes">
+                        <label for="besoin1">Inventaire intelligent des frênes <a data-toggle="modal" data-target="#projet-pilote-1"><i class="fa fa-info-circle"></i></a></label>
+                    </div>
+                    <div class="form-group checkbox">
+                        <input type="checkbox" name="besoins_prioritaires" id="besoin2" value="Gestion économique des abattages et de la valorisation du bois infesté">
+                        <label for="besoin2">Gestion économique des abattages et de la valorisation du bois infesté <a data-toggle="modal" data-target="#projet-pilote-2"><i class="fa fa-info-circle"></i></a></label>
+                    </div>
+                    <div class="form-group checkbox">
+                        <input type="checkbox" name="besoins_prioritaires" id="besoin3" value="Coordination numérique des activités techniques de lutte et des services administratifs de gestion">
+                        <label for="besoin3">Coordination numérique des activités techniques de lutte et des services administratifs de gestion <a data-toggle="modal" data-target="#projet-pilote-3"><i class="fa fa-info-circle"></i></a></label>
+                    </div>
+                    <div class="form-group">
+                        <p class="help-block text-error error error--checkbox" style="display: none;">Veuillez sélectionner 1 à 2 besoins prioritaires</p>
                     </div>
                     <button type="submit" class="btn btn--green">Envoyer</button>
 
-                    <p class="status__failure" style="display: none;">Error</p>
-                    <p class="status__success" style="display: none;">Success</p>
+                    <p class="status__failure text-error text-center" style="display: none;">Une erreur s'est produite. Veuillez réessayer.</p>
+                    <p class="status__success text-success text-center" style="display: none;">Votre demande de participation a été envoyée.</p>
                 </form>
             </div>
         </div>
     </div>
 </section>
+
+{% include projet-pilote-1-modal.html %}
+{% include projet-pilote-2-modal.html %}
+{% include projet-pilote-3-modal.html %}
+
 
 {% include footer.html %}
