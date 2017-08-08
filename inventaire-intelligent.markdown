@@ -1,6 +1,6 @@
 ---
 title: Inventaire intelligent
-date: '2017-03-08T04:06:00.000+00:00'
+date: 2017-03-08 04:06:00 +0000
 permalink: inventaire-intelligent
 slider:
 - image: uploads/carte2.jpg
@@ -9,7 +9,7 @@ slider:
     ## **Inventaire Intelligent**
     L’outil technologique pour impliquer vos citoyens et professionnels
   call_to_action:
-  - url: index.html
+  - url: "/projet-pilote.html"
     texte: Participer à notre projet pilote de démonstration
 sections:
 - titre: PRÉSENTATION
