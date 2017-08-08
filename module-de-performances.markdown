@@ -1,6 +1,6 @@
 ---
 title: Modules de Performance
-date: '2017-03-08T04:06:00.000+00:00'
+date: 2017-03-08 04:06:00 +0000
 permalink: modules-de-performance
 parent: municipalites
 slider:
@@ -10,6 +10,7 @@ slider:
     meilleur coût"
   call_to_action:
   - texte: Participer à notre projet pilote de démonstration
+    url: "/projet-pilote.html"
 sections:
 - titre: Présentation
   description: Valeur-de-mon-frêne utilise sa suite de logiciels intégrés pour fournir
@@ -39,6 +40,7 @@ sections:
       application. Tout est fonctionnel et vous payez à l’utilisation "
     call_to_action:
     - texte: Participer au projet pilote de démonstration
+      url: "/projet-pilote.html"
   - image: uploads/mp-depistage.png
     titre: Gestion numérique des foyers d'infestation
     problemes: "Les foyers d’infestation sont toujours de très petites tailles au
@@ -62,6 +64,7 @@ sections:
       ou infestés "
     call_to_action:
     - texte: Participer au projet pilote de démonstration
+      url: "/projet-pilote.html"
   - image: uploads/mp-gestion.png
     titre: Gestion administrative concertée
     problemes: "L’agrile du frêne est un insecte exotique donc pas connu des résidents
@@ -83,6 +86,7 @@ sections:
       neutraliser l’insecte et réduire les coûts. "
     call_to_action:
     - texte: Participer au projet pilote de démonstration
+      url: "/projet-pilote.html"
   - image: uploads/mp-residus.png
     titre: Gestion des résidus et valorisation du bois
     problemes: "Contrôler  75 % des résidus de bois appartenant aux propriétaires
@@ -104,6 +108,7 @@ sections:
       des économies ou des revenus concrets pour tous nos clients "
     call_to_action:
     - texte: Participer au projet pilote de démonstration
+      url: "/projet-pilote.html"
 - titre: Avantages
   icones:
   - image: uploads/avantage-2.png
