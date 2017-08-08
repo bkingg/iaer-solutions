@@ -1,6 +1,6 @@
 ---
 title: Municipalites
-date: '2017-03-08T04:06:00.000+00:00'
+date: 2017-03-08 04:06:00 +0000
 permalink: municipalites
 slider:
 - image: uploads/fond-gris.png
@@ -15,7 +15,7 @@ slider:
     notre projet pilote de démonstration pour valider et implanter les services innovants
     sur le territoire de votre municipalité."
   call_to_action:
-  - url: index.html
+  - url: "/projet-pilote.html"
     texte: Participer à notre projet pilote de démonstration
   image_large: uploads/abattage-valorisation-bois.png
 - image: uploads/fond-gris.png
@@ -31,7 +31,7 @@ slider:
 
     Soyez parmi les 10 premières municipalités à prendre le contrôle des frênes ou des foyers d’infestation sur l’ensemble de leur territoire.
   call_to_action:
-  - url: index.html
+  - url: "/projet-pilote.html"
     texte: Participer à notre projet pilote de démonstration
   image_large: uploads/Inventaire intelligentt.png
 - image: uploads/fond-gris.png
@@ -48,7 +48,7 @@ slider:
 
     Utilisez notre projet pilote de démonstration pour expérimenter et visualiser les retombées bénéfiques immédiat de cette innovation.
   call_to_action:
-  - url: index.html
+  - url: "/projet-pilote.html"
     texte: Participer à notre projet pilote de démonstration
   image_large: uploads/numerique-acteurs.png
 - image: uploads/fond-gris.png
@@ -64,7 +64,7 @@ slider:
 
     Utilisez notre projet pilote pour comprendre les besoins et mettre en place le service de coordination numérique des activités de gestion de l’épidémie.
   call_to_action:
-  - url: index.html
+  - url: "/projet-pilote.html"
     texte: Participer à notre projet pilote de démonstration
   image_large: uploads/numerique-service.png
 sections:
