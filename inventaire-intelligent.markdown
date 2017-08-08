@@ -94,6 +94,7 @@ sections:
       offre d’évaluation gratuite de 6 frênes est disponible."
     call_to_action:
     - texte: Participer au projet pilote de démonstration
+      url: "/projet-pilote.html"
   - image: uploads/parcs.png
     titre: Parc d'attraction
     problemes: " Les frênes des parcs sont entourés par un grand nombre de frênes
@@ -115,6 +116,7 @@ sections:
       existantes\n\n Identifier 1 de vos rues et  expérimenter notre technologie maintenant "
     call_to_action:
     - texte: Participer au projet pilote de démonstration
+      url: "/projet-pilote.html"
   - image: uploads/boise.png
     titre: Terrain boise
     problemes: "L'absence de données précises, les contraintes opérationnelles, les
@@ -136,6 +138,7 @@ sections:
       économiques "
     call_to_action:
     - texte: Participer au projet pilote de démonstration
+      url: "/projet-pilote.html"
   - image: uploads/milieu-humide.png
     titre: Milieu Humide
     problemes: "La fragilité et la règlementation sur la protection des milieux augmentent
@@ -155,6 +158,7 @@ sections:
       de prendre les décisions économiques "
     call_to_action:
     - texte: Participer au projet pilote de démonstration
+      url: "/projet-pilote.html"
   - image: uploads/rues.png
     titre: Emprise de rue
     problemes: "Les frênes de rue sont entourés par un grand nombre de frênes qui
@@ -175,6 +179,7 @@ sections:
       de prendre les décisions économiques "
     call_to_action:
     - texte: Participer au projet pilote de démonstration
+      url: "/projet-pilote.html"
 - titre: BÉNÉFICES
   petites_boites:
   - description: Anticipation des besoins ou enjeux et priorisation des activités
