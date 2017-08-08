@@ -32,7 +32,7 @@ sections:
       profession- nels. Mettre à la disposition de tous les citoyens l’outil technologique
       convivial
   call_to_action:
-  - url: index.html
+  - url: "/projet-pilote.html"
     texte: Participer à notre projet pilote de démonstration
 - titre: DEs critères précis pour de l’information adaptée aux frênes des...
   icones_modal_slider:
@@ -56,6 +56,7 @@ sections:
       que guérir, demandez et obtenez l’évaluation gratuite de vos frênes en ligne "
     call_to_action:
     - texte: Participer au projet pilote de démonstration
+      url: "/projet-pilote.html"
   - image: uploads/terrains-institutionnels.png
     titre: Terrains institutionnels
     problemes: "L'absence de données précises sur l’état de santé des frênes est à
@@ -76,6 +77,7 @@ sections:
       gratuite de 6  frênes est disponible."
     call_to_action:
     - texte: Participer au projet pilote de démonstration
+      url: "/projet-pilote.html"
   - image: uploads/club-de-golf-et-loisir.png
     titre: Terrain de golf ou de loisir
     problemes: "Face à l’épidémie de l’agrile du frêne, les propriétaires des clubs
