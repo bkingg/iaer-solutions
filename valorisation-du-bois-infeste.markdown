@@ -44,5 +44,6 @@ sections:
   - description: Réutilisation sécuritaire du bois infesté suite à la mise en valeur
   - description: "Économie sur la facture de disposition des résidus bois"
   - description: Réutilisation pour les nouvelles plantations
+- offre_de_service: true
 layout: default
 ---

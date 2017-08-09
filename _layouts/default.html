@@ -363,6 +363,10 @@
                 </div>
               {% endif %}
 
+              {% if section.offre_de_service %}
+                {% include offre-de-service.html %}
+              {% endif %}
+
 
               {% if section.call_to_action[0]  %}
                 <div class="download">

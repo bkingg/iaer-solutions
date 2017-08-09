@@ -62,5 +62,6 @@ sections:
   - description: "Bilan de santé et sécurité accessible \x03et disponible en tout
       temps"
   - description: "Réduction des coûts d’intervention\x03 en situation d’urgence"
+- offre_de_service: true
 layout: default
 ---

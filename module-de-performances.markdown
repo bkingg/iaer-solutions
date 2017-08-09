@@ -125,5 +125,6 @@ sections:
   - description: Augmentation de l’efficacité des communications
   - description: Bonification de la qualité de l’information et des données
   - description: Maîtrise des prévisions d’intervention pour chaque activité
+- offre_de_service: true
 layout: default
 ---

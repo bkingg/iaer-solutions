@@ -1848,3 +1848,21 @@ $navbar-mobile-height: 100;
     }
   }
 }
+
+/* START OFFRE DE SERVICE
+===================================== */
+.offre-de-service{
+  .section__title{
+    text-align: left;
+    padding-bottom: 0;
+    &--small{
+      margin: 0;
+      font-size: 16px;
+    }
+  }
+  form{
+    padding: 20px 0;
+  }
+}
+/* END OFFRE DE SERVICE
+===================================== */

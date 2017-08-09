@@ -192,6 +192,7 @@ sections:
   - description: Augmentation de l’efficacité des communications
   - description: Bonification de la qualité de l’information et des données
   - description: Contrôle de l’information à plusieurs niveaux d’intervention
+- offre_de_service: true
 layout: default
 parent: ''
 ---
