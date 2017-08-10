@@ -1450,6 +1450,8 @@ a.no-link {
     font-size: 16px; }
 .offre-de-service form {
   padding: 20px 0; }
+  .offre-de-service form .form-group {
+    max-width: 200px; }
 
 /* END OFFRE DE SERVICE
 ===================================== */
