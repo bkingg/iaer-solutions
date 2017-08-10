@@ -1862,6 +1862,9 @@ $navbar-mobile-height: 100;
   }
   form{
     padding: 20px 0;
+    .form-group{
+      max-width: 200px;
+    }
   }
 }
 /* END OFFRE DE SERVICE
