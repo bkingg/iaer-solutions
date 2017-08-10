@@ -1,6 +1,6 @@
 ---
 title: Accueil
-date: '2017-03-08T04:06:00.000+00:00'
+date: 2017-03-08 04:06:00 +0000
 permalink: "/"
 slider:
 - image: "/uploads/Activités_lutte_intensives2.jpg"

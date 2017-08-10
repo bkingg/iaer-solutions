@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Page de test
-date: 2017-05-08 21:54
+date: 2017-05-08 00:00:00 +0000
 permalink: page-de-test
 slider:
 - image: "/uploads/table-overlay.jpg"
