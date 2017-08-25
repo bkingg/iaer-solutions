@@ -121,10 +121,10 @@ a.no-link {
     margin-bottom: 7px; }
     .form-group span.error,
     .form-group p.error {
-      color: #930012; }
+      color: #930012 !important; }
     .form-group span.success,
     .form-group p.success {
-      color: green; }
+      color: green !important; }
     .form-group span.help,
     .form-group p.help {
       color: inherit; }
@@ -193,7 +193,10 @@ a.no-link {
 .btn {
   border-radius: 0; }
 
-.btn--green, .btn--white, .section:nth-of-type(even) .btn, .section .btn {
+.btn--green, .btn--white, .section:nth-of-type(even) .btn, .section.green .btn,
+.section.white:nth-of-type(even) .btn,
+.section.white.green .btn, .section .btn,
+.section.white .btn {
   background-color: #83b739;
   border-radius: 0;
   color: white;
@@ -204,7 +207,10 @@ a.no-link {
   display: table;
   margin: 0 auto;
   padding: 10px; }
-  .btn--green img, .btn--white img, .section:nth-of-type(even) .btn img, .section .btn img {
+  .btn--green img, .btn--white img, .section:nth-of-type(even) .btn img, .section.green .btn img,
+  .section.white:nth-of-type(even) .btn img,
+  .section.white.green .btn img, .section .btn img,
+  .section.white .btn img {
     width: 35px;
     display: table-cell;
     vertical-align: middle;
@@ -219,7 +225,10 @@ a.no-link {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center; }
-  .btn--green span, .btn--white span, .section:nth-of-type(even) .btn span, .section .btn span {
+  .btn--green span, .btn--white span, .section:nth-of-type(even) .btn span, .section.green .btn span,
+  .section.white:nth-of-type(even) .btn span,
+  .section.white.green .btn span, .section .btn span,
+  .section.white .btn span {
     text-transform: uppercase;
     font-weight: 600;
     display: table-cell;
@@ -234,17 +243,21 @@ a.no-link {
     .btn--green:hover span, .btn--white:hover span, .section .btn:hover span, .btn--green:focus span, .btn--white:focus span, .section .btn:focus span, .btn--green:active span, .btn--white:active span, .section .btn:active span {
       color: white; }
 
-.btn--white, .section:nth-of-type(even) .btn {
+.btn--white, .section:nth-of-type(even) .btn, .section.green .btn,
+.section.white:nth-of-type(even) .btn,
+.section.white.green .btn {
   background-color: white;
   color: #83b739; }
-  .btn--white .btn__image, .section:nth-of-type(even) .btn .btn__image {
+  .btn--white .btn__image, .section:nth-of-type(even) .btn .btn__image, .section.green .btn .btn__image {
     background-image: url("../uploads/telecharger-green.png"); }
-  .btn--white span, .section:nth-of-type(even) .btn span {
+  .btn--white span, .section:nth-of-type(even) .btn span, .section.green .btn span,
+  .section.white:nth-of-type(even) .btn span,
+  .section.white.green .btn span {
     color: #83b739; }
-  .btn--white:hover, .section:nth-of-type(even) .btn:hover, .btn--white:focus, .section:nth-of-type(even) .btn:focus, .btn--white:active, .section:nth-of-type(even) .btn:active {
+  .btn--white:hover, .section:nth-of-type(even) .btn:hover, .section.green .btn:hover, .btn--white:focus, .section:nth-of-type(even) .btn:focus, .section.green .btn:focus, .btn--white:active, .section:nth-of-type(even) .btn:active, .section.green .btn:active {
     background-color: #f8fbf4;
     color: #83b739; }
-    .btn--white:hover span, .section:nth-of-type(even) .btn:hover span, .btn--white:focus span, .section:nth-of-type(even) .btn:focus span, .btn--white:active span, .section:nth-of-type(even) .btn:active span {
+    .btn--white:hover span, .section:nth-of-type(even) .btn:hover span, .section.green .btn:hover span, .btn--white:focus span, .section:nth-of-type(even) .btn:focus span, .section.green .btn:focus span, .btn--white:active span, .section:nth-of-type(even) .btn:active span, .section.green .btn:active span {
       color: #83b739; }
 
 .col-xs-5ths,
@@ -926,24 +939,32 @@ a.no-link {
       background-image: url("../uploads/arrow-right.png");
       right: -25px; }
 
-.section {
+.section,
+.section.white {
   padding: 40px 0;
   color: #99999a;
-  font-weight: bold; }
-  .section .btn {
+  font-weight: bold;
+  background: white; }
+  .section .btn,
+  .section.white .btn {
     margin-top: 30px;
     margin-bottom: 30px; }
-  .section.map {
+  .section.map,
+  .section.white.map {
     padding: 0;
     margin: 0; }
-    .section.map iframe {
+    .section.map iframe,
+    .section.white.map iframe {
       pointer-events: none; }
-  .section__video iframe {
+  .section .section__video iframe,
+  .section.white .section__video iframe {
     width: 100%; }
     @media screen and (max-width: 1200px) {
-      .section__video iframe {
+      .section .section__video iframe,
+      .section.white .section__video iframe {
         height: 300px; } }
-  .section .section__title {
+  .section .section__title,
+  .section.white .section__title {
     text-transform: uppercase;
     font-weight: 600;
     color: #4f5054;
@@ -952,7 +973,9 @@ a.no-link {
     font-size: 22px;
     line-height: 30px;
     margin-bottom: 0; }
-  .section .section__description, .section .section__description p {
+  .section .section__description, .section .section__description p,
+  .section.white .section__description,
+  .section.white .section__description p {
     color: #333;
     font-size: 12px;
     text-transform: uppercase;
@@ -960,32 +983,48 @@ a.no-link {
     text-align: justify;
     font-weight: normal;
     text-transform: none; }
-    .section .section__description.center, .section .section__description p.center {
+    .section .section__description.center, .section .section__description p.center,
+    .section.white .section__description.center,
+    .section.white .section__description p.center {
       text-align: center; }
-      .section .section__description.center p, .section .section__description p.center p {
+      .section .section__description.center p, .section .section__description p.center p,
+      .section.white .section__description.center p,
+      .section.white .section__description p.center p {
         text-align: center; }
-    .section .section__description p, .section .section__description p p {
+    .section .section__description p, .section .section__description p p,
+    .section.white .section__description p,
+    .section.white .section__description p p {
       margin-bottom: 20px;
       font-size: 14px; }
-    .section .section__description ul, .section .section__description p ul {
+    .section .section__description ul, .section .section__description p ul,
+    .section.white .section__description ul,
+    .section.white .section__description p ul {
       margin-bottom: 20px; }
-    .section .section__description li, .section .section__description p li {
+    .section .section__description li, .section .section__description p li,
+    .section.white .section__description li,
+    .section.white .section__description p li {
       margin-bottom: 10px; }
-    .section .section__description.half, .section .section__description p.half {
+    .section .section__description.half, .section .section__description p.half,
+    .section.white .section__description.half,
+    .section.white .section__description p.half {
       text-align: justify;
       color: #504949;
       font-size: 1em; }
       @media (min-width: 768px) {
-        .section .section__description.half, .section .section__description p.half {
+        .section .section__description.half, .section .section__description p.half,
+        .section.white .section__description.half,
+        .section.white .section__description p.half {
           -webkit-column-count: 2;
           -moz-column-count: 2;
           column-count: 2;
           -webkit-column-gap: 40px;
           -moz-column-gap: 40px;
           column-gap: 40px; } }
-  .section__tabs .tabs__wrapper {
+  .section .section__tabs .tabs__wrapper,
+  .section.white .section__tabs .tabs__wrapper {
     text-align: center; }
-    .section__tabs .tabs__wrapper .tabs .tab {
+    .section .section__tabs .tabs__wrapper .tabs .tab,
+    .section.white .section__tabs .tabs__wrapper .tabs .tab {
       display: inline-block;
       padding: 5px 20px;
       margin: 0 3px;
@@ -994,62 +1033,81 @@ a.no-link {
       cursor: pointer;
       text-transform: uppercase;
       transition: all 0.3s; }
-      .section__tabs .tabs__wrapper .tabs .tab__active, .section__tabs .tabs__wrapper .tabs .tab:hover {
+      .section .section__tabs .tabs__wrapper .tabs .tab__active, .section .section__tabs .tabs__wrapper .tabs .tab:hover,
+      .section.white .section__tabs .tabs__wrapper .tabs .tab__active,
+      .section.white .section__tabs .tabs__wrapper .tabs .tab:hover {
         background-color: #83b739; }
-      .section__tabs .tabs__wrapper .tabs .tab__title {
+      .section .section__tabs .tabs__wrapper .tabs .tab__title,
+      .section.white .section__tabs .tabs__wrapper .tabs .tab__title {
         font-size: 14px;
         font-weight: bold;
         margin: 0; }
       @media screen and (max-width: 1200px) {
-        .section__tabs .tabs__wrapper .tabs .tab {
+        .section .section__tabs .tabs__wrapper .tabs .tab,
+        .section.white .section__tabs .tabs__wrapper .tabs .tab {
           display: block;
           margin: 3px;
           padding: 15px 10px; } }
-    .section__tabs .tabs__wrapper .tab__content {
+    .section .section__tabs .tabs__wrapper .tab__content,
+    .section.white .section__tabs .tabs__wrapper .tab__content {
       display: none;
       padding: 20px 0; }
-      .section__tabs .tabs__wrapper .tab__content--active {
+      .section .section__tabs .tabs__wrapper .tab__content--active,
+      .section.white .section__tabs .tabs__wrapper .tab__content--active {
         display: block; }
-      .section__tabs .tabs__wrapper .tab__content--title {
+      .section .section__tabs .tabs__wrapper .tab__content--title,
+      .section.white .section__tabs .tabs__wrapper .tab__content--title {
         color: #83b739;
         text-transform: uppercase;
         padding-top: 30px;
         padding-bottom: 20px; }
-      .section__tabs .tabs__wrapper .tab__content--description {
+      .section .section__tabs .tabs__wrapper .tab__content--description,
+      .section.white .section__tabs .tabs__wrapper .tab__content--description {
         font-weight: normal;
         text-transform: uppercase;
         margin-bottom: 20px; }
-  .section .col-green {
+  .section .col-green,
+  .section.white .col-green {
     background-color: #83b739;
     padding: 20px;
     color: white;
     border-radius: 10px; }
-    .section .col-green__title {
+    .section .col-green__title,
+    .section.white .col-green__title {
       font-weight: bold;
       margin-bottom: 20px;
       text-transform: uppercase;
       font-size: 20px;
       line-height: 30px; }
-    .section .col-green__description, .section .col-green__description p {
+    .section .col-green__description, .section .col-green__description p,
+    .section.white .col-green__description,
+    .section.white .col-green__description p {
       font-weight: normal;
       font-size: 14px;
       line-height: 20px;
       margin-bottom: 20px; }
-      .section .col-green__description ul, .section .col-green__description p ul {
+      .section .col-green__description ul, .section .col-green__description p ul,
+      .section.white .col-green__description ul,
+      .section.white .col-green__description p ul {
         margin-bottom: 30px; }
-      .section .col-green__description li, .section .col-green__description p li {
+      .section .col-green__description li, .section .col-green__description p li,
+      .section.white .col-green__description li,
+      .section.white .col-green__description p li {
         margin-bottom: 6px; }
-  .section__subtitle {
+  .section .section__subtitle,
+  .section.white .section__subtitle {
     text-align: center;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
     text-transform: uppercase; }
-  .section .download {
+  .section .download,
+  .section.white .download {
     text-decoration: none;
     display: block;
     text-align: center; }
-    .section .download .download__link {
+    .section .download .download__link,
+    .section.white .download .download__link {
       display: inline-block;
       background-color: #83b739;
       padding: 5px 15px;
@@ -1057,115 +1115,176 @@ a.no-link {
       text-align: center;
       text-decoration: none;
       margin-top: 20px; }
-      .section .download .download__link.white {
+      .section .download .download__link.white,
+      .section.white .download .download__link.white {
         background: white;
         color: #83b739; }
-        .section .download .download__link.white .download__text {
+        .section .download .download__link.white .download__text,
+        .section.white .download .download__link.white .download__text {
           color: #83b739; }
-      .section .download .download__link .download__image {
+      .section .download .download__link .download__image,
+      .section.white .download .download__link .download__image {
         height: 30px;
         display: inherit;
         margin-bottom: 5px; }
-      .section .download .download__link .download__text {
+      .section .download .download__link .download__text,
+      .section.white .download .download__link .download__text {
         color: white;
         text-transform: uppercase;
         font-weight: bold;
         text-decoration: none; }
-  .section .box {
+  .section .box,
+  .section.white .box {
     border: 1px white solid; }
-    .section .box__title {
+    .section .box__title,
+    .section.white .box__title {
       color: #222; }
-    .section .box__description {
+    .section .box__description,
+    .section.white .box__description {
       color: #222;
       font-weight: normal; }
-      .section .box__description p {
+      .section .box__description p,
+      .section.white .box__description p {
         font-size: 12px; }
-    .section .box ul, .section .box li {
+    .section .box ul, .section .box li,
+    .section.white .box ul,
+    .section.white .box li {
       font-weight: normal; }
-    .section .box ul {
+    .section .box ul,
+    .section.white .box ul {
       padding-bottom: 10px; }
-  .section:nth-of-type(even) {
+  .section:nth-of-type(even), .section.green,
+  .section.white:nth-of-type(even),
+  .section.white.green {
     background-color: #83b739;
     color: white; }
-    .section:nth-of-type(even) + .footer {
+    .section:nth-of-type(even) + .footer, .section.green + .footer,
+    .section.white:nth-of-type(even) + .footer,
+    .section.white.green + .footer {
       background-color: #83b739; }
-    .section:nth-of-type(even) .section__title {
+    .section:nth-of-type(even) .section__title, .section.green .section__title,
+    .section.white:nth-of-type(even) .section__title,
+    .section.white.green .section__title {
       color: white;
       text-align: center;
       font-weight: 600;
       text-transform: uppercase;
       margin-top: 0;
       margin-bottom: 20px; }
-    .section:nth-of-type(even) p {
+    .section:nth-of-type(even) p, .section.green p,
+    .section.white:nth-of-type(even) p,
+    .section.white.green p {
       color: white; }
-    .section:nth-of-type(even) .offer a:hover {
+    .section:nth-of-type(even) .offer a:hover, .section.green .offer a:hover,
+    .section.white:nth-of-type(even) .offer a:hover,
+    .section.white.green .offer a:hover {
       opacity: 0.6; }
-    .section:nth-of-type(even) .offer .offer__title {
+    .section:nth-of-type(even) .offer .offer__title, .section.green .offer .offer__title,
+    .section.white:nth-of-type(even) .offer .offer__title,
+    .section.white.green .offer .offer__title {
       color: white; }
-    .section:nth-of-type(even) .offer--modal .offer__title {
+    .section:nth-of-type(even) .offer--modal .offer__title, .section.green .offer--modal .offer__title,
+    .section.white:nth-of-type(even) .offer--modal .offer__title,
+    .section.white.green .offer--modal .offer__title {
       background-color: white;
       color: #83b739; }
-      .section:nth-of-type(even) .offer--modal .offer__title i {
+      .section:nth-of-type(even) .offer--modal .offer__title i, .section.green .offer--modal .offer__title i,
+      .section.white:nth-of-type(even) .offer--modal .offer__title i,
+      .section.white.green .offer--modal .offer__title i {
         color: #83b739; }
-    .section:nth-of-type(even) .offer--inline .offer__title, .section:nth-of-type(even) .offer--inline .offer__description {
+    .section:nth-of-type(even) .offer--inline .offer__title, .section:nth-of-type(even) .offer--inline .offer__description, .section.green .offer--inline .offer__title, .section.green .offer--inline .offer__description,
+    .section.white:nth-of-type(even) .offer--inline .offer__title,
+    .section.white:nth-of-type(even) .offer--inline .offer__description,
+    .section.white.green .offer--inline .offer__title,
+    .section.white.green .offer--inline .offer__description {
       text-align: left;
       font-weight: bold; }
-    .section:nth-of-type(even) .offer .offer__description p {
+    .section:nth-of-type(even) .offer .offer__description p, .section.green .offer .offer__description p,
+    .section.white:nth-of-type(even) .offer .offer__description p,
+    .section.white.green .offer .offer__description p {
       color: white; }
-    .section:nth-of-type(even) .box {
+    .section:nth-of-type(even) .box, .section.green .box,
+    .section.white:nth-of-type(even) .box,
+    .section.white.green .box {
       border: 1px white solid; }
-      .section:nth-of-type(even) .box__title {
+      .section:nth-of-type(even) .box__title, .section.green .box__title,
+      .section.white:nth-of-type(even) .box__title,
+      .section.white.green .box__title {
         color: white; }
-      .section:nth-of-type(even) .box__description {
+      .section:nth-of-type(even) .box__description, .section.green .box__description,
+      .section.white:nth-of-type(even) .box__description,
+      .section.white.green .box__description {
         color: white;
         font-weight: normal; }
-      .section:nth-of-type(even) .box img {
+      .section:nth-of-type(even) .box img, .section.green .box img,
+      .section.white:nth-of-type(even) .box img,
+      .section.white.green .box img {
         height: 40px; }
-        .section:nth-of-type(even) .box img.boite-img {
+        .section:nth-of-type(even) .box img.boite-img, .section.green .box img.boite-img,
+        .section.white:nth-of-type(even) .box img.boite-img,
+        .section.white.green .box img.boite-img {
           height: 70px; }
-    .section:nth-of-type(even) .download__link {
+    .section:nth-of-type(even) .download__link, .section.green .download__link,
+    .section.white:nth-of-type(even) .download__link,
+    .section.white.green .download__link {
       background-color: white; }
-      .section:nth-of-type(even) .download__link.white {
+      .section:nth-of-type(even) .download__link.white, .section.green .download__link.white,
+      .section.white:nth-of-type(even) .download__link.white,
+      .section.white.green .download__link.white {
         background: white;
         color: white; }
-        .section:nth-of-type(even) .download__link.white .download__text {
+        .section:nth-of-type(even) .download__link.white .download__text, .section.green .download__link.white .download__text,
+        .section.white:nth-of-type(even) .download__link.white .download__text,
+        .section.white.green .download__link.white .download__text {
           color: #83b739; }
-      .section:nth-of-type(even) .download__link .download__image {
+      .section:nth-of-type(even) .download__link .download__image, .section.green .download__link .download__image,
+      .section.white:nth-of-type(even) .download__link .download__image,
+      .section.white.green .download__link .download__image {
         height: 30px;
         display: inherit;
         margin-bottom: 5px; }
-      .section:nth-of-type(even) .download__link .download__text {
+      .section:nth-of-type(even) .download__link .download__text, .section.green .download__link .download__text,
+      .section.white:nth-of-type(even) .download__link .download__text,
+      .section.white.green .download__link .download__text {
         color: #83b739; }
-  .section .offer {
+  .section .offer,
+  .section.white .offer {
     text-align: center;
     padding: 10px 0;
     height: inherit;
     display: block;
     position: relative; }
-    .section .offer a {
+    .section .offer a,
+    .section.white .offer a {
       text-decoration: none;
       transition: all 0.3s;
       opacity: 1; }
-      .section .offer a:hover {
+      .section .offer a:hover,
+      .section.white .offer a:hover {
         opacity: 0.8; }
-    .section .offer img {
+    .section .offer img,
+    .section.white .offer img {
       margin: 0 auto;
       margin-bottom: 15px;
       height: 130px;
       display: block; }
-    .section .offer .offer__title {
+    .section .offer .offer__title,
+    .section.white .offer .offer__title {
       text-transform: uppercase;
       font-size: 13px;
       color: #333;
       font-weight: 600;
       text-align: center;
       line-height: 16px; }
-    .section .offer .offer__description, .section .offer .offer__description p {
+    .section .offer .offer__description, .section .offer .offer__description p,
+    .section.white .offer .offer__description,
+    .section.white .offer .offer__description p {
       font-size: 12px;
       font-weight: normal;
       color: #333;
       height: 100px; }
-    .section .offer .offer__hover {
+    .section .offer .offer__hover,
+    .section.white .offer .offer__hover {
       display: block;
       position: absolute;
       top: 0;
@@ -1180,14 +1299,17 @@ a.no-link {
       visibility: hidden;
       transition: all 0.4s;
       cursor: pointer; }
-    .section .offer:hover .offer__hover {
+    .section .offer:hover .offer__hover,
+    .section.white .offer:hover .offer__hover {
       opacity: 1;
       visibility: visible; }
-    .section .offer.small img {
+    .section .offer.small img,
+    .section.white .offer.small img {
       margin: 0 auto;
       margin-bottom: 15px;
       max-height: 50px; }
-    .section .offer--modal .offer__title {
+    .section .offer--modal .offer__title,
+    .section.white .offer--modal .offer__title {
       background-color: #83b739;
       color: white;
       padding: 0 10px;
@@ -1197,67 +1319,88 @@ a.no-link {
       border: none;
       line-height: 20px;
       font-size: 15px; }
-      .section .offer--modal .offer__title span {
+      .section .offer--modal .offer__title span,
+      .section.white .offer--modal .offer__title span {
         display: table-cell;
         vertical-align: middle;
         font-size: 14px;
         line-height: 20px; }
-      .section .offer--modal .offer__title i {
+      .section .offer--modal .offer__title i,
+      .section.white .offer--modal .offer__title i {
         color: white;
         padding: 6px;
         display: table-cell;
         vertical-align: middle;
         font-size: 14px;
         line-height: 20px; }
-    .section .offer--modal .offer__problemes {
+    .section .offer--modal .offer__problemes,
+    .section.white .offer--modal .offer__problemes {
       display: none; }
-    .section .offer--modal .offer__solutions {
+    .section .offer--modal .offer__solutions,
+    .section.white .offer--modal .offer__solutions {
       display: none; }
-    .section .offer--modal .offer__cta {
+    .section .offer--modal .offer__cta,
+    .section.white .offer--modal .offer__cta {
       display: none; }
-    .section .offer--slider .offer__title {
+    .section .offer--slider .offer__title,
+    .section.white .offer--slider .offer__title {
       width: auto;
       margin: 0 auto; }
-  .section .solution-box {
+  .section .solution-box,
+  .section.white .solution-box {
     text-align: center;
     margin-top: 30px; }
-  .section .solution-box__title {
+  .section .solution-box__title,
+  .section.white .solution-box__title {
     text-transform: uppercase;
     color: #333;
     font-size: 15px;
     font-weight: 600; }
-  .section .solution-box__description {
+  .section .solution-box__description,
+  .section.white .solution-box__description {
     font-size: 12px;
     font-weight: normal; }
-  .section .boxes-small .box {
+  .section .boxes-small .box,
+  .section.white .boxes-small .box {
     min-height: 70px; }
-  .section .box {
+  .section .box,
+  .section.white .box {
     border: 1px #83b739 solid;
     padding: 10px 0;
     border-radius: 7px;
     margin: 0 auto;
     max-width: 280px;
     height: inherit; }
-    .section .box.middle {
+    .section .box.middle,
+    .section.white .box.middle {
       display: table; }
-      .section .box.middle .box__description, .section .box.middle .box__title {
+      .section .box.middle .box__description, .section .box.middle .box__title,
+      .section.white .box.middle .box__description,
+      .section.white .box.middle .box__title {
         display: table-cell;
         vertical-align: middle; }
-    .section .box.small {
+    .section .box.small,
+    .section.white .box.small {
       display: block;
       margin-bottom: 0;
       background-color: #83b739;
       border-color: white; }
-      .section .box.small .box__description, .section .box.small .box__title {
+      .section .box.small .box__description, .section .box.small .box__title,
+      .section.white .box.small .box__description,
+      .section.white .box.small .box__title {
         display: block;
         color: white;
         margin-bottom: 0;
         font-size: 13.5px; }
-        .section .box.small .box__description p, .section .box.small .box__title p {
+        .section .box.small .box__description p, .section .box.small .box__title p,
+        .section.white .box.small .box__description p,
+        .section.white .box.small .box__title p {
           margin-bottom: 0; }
-    .section .box.has-icon {
+    .section .box.has-icon,
+    .section.white .box.has-icon {
       position: relative; }
-      .section .box.has-icon:after {
+      .section .box.has-icon:after,
+      .section.white .box.has-icon:after {
         position: absolute;
         content: "=";
         font-weight: bold;
@@ -1265,13 +1408,16 @@ a.no-link {
         top: 50%;
         color: white;
         right: -20px; }
-    .section .box img {
+    .section .box img,
+    .section.white .box img {
       height: 50px;
       text-align: center; }
-      .section .box img.boite-img {
+      .section .box img.boite-img,
+      .section.white .box img.boite-img {
         height: 70px;
         padding-bottom: 5px; }
-    .section .box .box__title {
+    .section .box .box__title,
+    .section.white .box .box__title {
       font-size: 12px;
       line-height: 18px;
       text-align: center;
@@ -1279,23 +1425,30 @@ a.no-link {
       font-weight: 600;
       margin-bottom: 15px;
       margin-top: 10px; }
-    .section .box .box__separator {
+    .section .box .box__separator,
+    .section.white .box .box__separator {
       width: 100%;
       background-color: white;
       height: 1px;
       margin: auto;
       margin-bottom: 20px; }
-    .section .box .box__title, .section .box .box__description {
+    .section .box .box__title, .section .box .box__description,
+    .section.white .box .box__title,
+    .section.white .box .box__description {
       padding-left: 10px;
       padding-right: 10px; }
-    .section .box .box__description, .section .box .box__description p {
+    .section .box .box__description, .section .box .box__description p,
+    .section.white .box .box__description,
+    .section.white .box .box__description p {
       font-size: 12px;
       font-weight: normal;
       text-align: left; }
-    .section .box ol.box__description {
+    .section .box ol.box__description,
+    .section.white .box ol.box__description {
       padding-top: 20px;
       padding-left: 20px; }
-    .section .box .box__description li {
+    .section .box .box__description li,
+    .section.white .box .box__description li {
       margin-bottom: 10px; }
 
 .slider-caption .caption {
@@ -1420,6 +1573,11 @@ a.no-link {
   margin: 0 auto;
   margin-bottom: 30px; }
 
+#projet-pilote-1 .modal-dialog,
+#projet-pilote-2 .modal-dialog,
+#projet-pilote-3 .modal-dialog {
+  min-width: 80%;
+  top: 5%; }
 #projet-pilote-1 .modal-header,
 #projet-pilote-2 .modal-header,
 #projet-pilote-3 .modal-header {
@@ -1451,7 +1609,26 @@ a.no-link {
 .offre-de-service form {
   padding: 20px 0; }
   .offre-de-service form .form-group {
-    max-width: 200px; }
+    max-width: 200px;
+    vertical-align: top; }
+    .offre-de-service form .form-group .btn {
+      margin: 0; }
+
+#telecharger-offre .modal-header {
+  border: none; }
+#telecharger-offre .modal-body {
+  padding: 0px; }
+  #telecharger-offre .modal-body .modal__title {
+    color: #83b739;
+    text-align: left; }
+#telecharger-offre .modal-dialog {
+  min-width: 80%;
+  top: 5%; }
+#telecharger-offre .section {
+  padding-left: 15px;
+  padding-right: 15px; }
+  #telecharger-offre .section.white {
+    padding-top: 0; }
 
 /* END OFFRE DE SERVICE
 ===================================== */
