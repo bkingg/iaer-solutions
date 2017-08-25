@@ -55,7 +55,7 @@ sections:
     description: Tous les propriétaires savent c’est quoi la valeur de leur bois et
       comment le disposer en toute sécurité
   call_to_action:
-  - url: index.html
+  - url: 
     texte: Télécharger notre offre de service dès maintenant
 - titre: BÉNÉFICES DIRECTS ET INDIRECTS
   benefices:

@@ -62,7 +62,7 @@ sections:
     description: Solution locale et complète pour récupérer et mettre en valeur en
       toute sécurité les résidus de bois infesté
   call_to_action:
-  - url: index.html
+  - url: 
     texte: Télécharger notre offre de service dès maintenant
 - titre: BÉNÉFICES DIRECTS ET INDIRECTS
   benefices:

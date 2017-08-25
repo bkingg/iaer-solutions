@@ -114,10 +114,10 @@ a.no-link{
 		line-height: 13px;
 		margin-bottom: 7px;
 		&.error{
-			color: $color-error;
+			color: $color-error !important;
 		}
 		&.success{
-			color: $color-success;
+			color: $color-success !important;
 		}
 		&.help{
 			color: inherit;
@@ -1164,10 +1164,12 @@ $navbar-mobile-height: 100;
   }
 }
 
-.section {
+.section,
+.section.white {
   padding: 40px 0;
   color: #99999a;
   font-weight: bold;
+  background: white;
   .btn{
     @extend .btn--green;
     margin-top: 30px;
@@ -1180,7 +1182,7 @@ $navbar-mobile-height: 100;
 			pointer-events: none;
 		}
 	}
-  &__video{
+  .section__video{
     iframe{
       width: 100%;
 
@@ -1237,7 +1239,7 @@ $navbar-mobile-height: 100;
       }
 		}
   }
-  &__tabs{
+  .section__tabs{
     .tabs__wrapper{
       text-align: center;
       .tabs{
@@ -1311,7 +1313,7 @@ $navbar-mobile-height: 100;
       }
     }
   }
-  &__subtitle{
+  .section__subtitle{
     text-align: center;
     font-weight: bold;
     color: #333;
@@ -1369,7 +1371,7 @@ $navbar-mobile-height: 100;
       padding-bottom: 10px;
     }
   }
-  &:nth-of-type(even) {
+  &:nth-of-type(even), &.green {
     background-color: $green;
     color: white;
     & + .footer{
@@ -1826,6 +1828,10 @@ $navbar-mobile-height: 100;
 #projet-pilote-1,
 #projet-pilote-2,
 #projet-pilote-3{
+  .modal-dialog{
+    min-width: 80%;
+    top: 5%;
+  }
   .modal-header{
     border: none;
   }
@@ -1864,6 +1870,33 @@ $navbar-mobile-height: 100;
     padding: 20px 0;
     .form-group{
       max-width: 200px;
+      vertical-align: top;
+      .btn{
+        margin: 0;
+      }
+    }
+  }
+}
+#telecharger-offre{
+  .modal-header{
+    border: none;
+  }
+  .modal-body{
+    padding: 0px;
+    .modal__title{
+      color: $green;
+      text-align: left;
+    }
+  }
+  .modal-dialog{
+    min-width: 80%;
+    top: 5%;
+  }
+  .section{
+    padding-left: 15px;
+    padding-right: 15px;
+    &.white{
+      padding-top: 0;
     }
   }
 }

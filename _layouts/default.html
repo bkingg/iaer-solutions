@@ -26,7 +26,7 @@
         <div class="section" style="margin:0; padding: 0;">
         </div>
       {% else %}
-        <div class="section {% cycle 'white', 'green' %} {% if section.etapes %}section__tabs{% endif %}" id="{{ section.titre | downcase | slugify | replace: 'é', 'e' | replace: 'è', 'e' | replace: 'à', 'a' | replace: 'ê', 'e' | replace: 'î', 'i' | replace: 'â', 'a' }}">
+        <div class="section {% if section.etapes %}section__tabs{% endif %}" id="{{ section.titre | downcase | slugify | replace: 'é', 'e' | replace: 'è', 'e' | replace: 'à', 'a' | replace: 'ê', 'e' | replace: 'î', 'i' | replace: 'â', 'a' }}">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
@@ -185,7 +185,7 @@
                         
                         {% if icone.call_to_action[0] %}
                           <div class="offer__cta">
-                            <a class="btn btn-default btn--white" href="{{ icone.call_to_action[0].url }}">
+                            <a class="btn btn-default btn--white" href="{{ icone.call_to_action[0].url }}" data-toggle="modal" data-target="#telecharger-offre">
                               <div class="btn__image"></div>
                               <span>{{ icone.call_to_action[0].texte }}</span>
                             </a>
@@ -227,7 +227,7 @@
                             <div class="offer__solutions">{{ icone.solutions | markdownify }}</div>
                             {% if icone.call_to_action[0] %}
                               <div class="offer__cta">
-                                <a class="btn btn-default btn--white" href="{{ icone.call_to_action[0].url }}">
+                                <a class="btn btn-default btn--white" href="{{ icone.call_to_action[0].url }}" data-toggle="modal" data-target="#telecharger-offre">
                                   <div class="btn__image"></div>
                                   <span>{{ icone.call_to_action[0].texte }}</span>
                                 </a>
@@ -370,7 +370,7 @@
 
               {% if section.call_to_action[0]  %}
                 <div class="download">
-                  <a class="btn btn-default btn--green" href="{{ section.call_to_action[0].url }}">
+                  <a class="btn btn-default btn--green" href="{{ section.call_to_action[0].url }}" {% if section.call_to_action[0].url == undefined %}data-toggle="modal" data-target="#telecharger-offre"{% endif %}>
                     <div class="btn__image"></div>
                     <span>{{ section.call_to_action[0].texte }}</span>
                   </a>
@@ -384,5 +384,6 @@
     {% endfor %}
   {% endif %}
 
+  {% include telecharger-offre-modal.html %}
 
 {% include footer.html %}

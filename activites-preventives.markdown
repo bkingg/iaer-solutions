@@ -63,7 +63,7 @@ sections:
     description: Solution complète et sur mesure pour le processus de récupération
       et de mise en valeur des résidus de bois urbain
   call_to_action:
-  - url: index.html
+  - url: 
     texte: Télécharger notre offre de service dès maintenant
 - titre: BÉNÉFICES DIRECTS ET INDIRECTS
   benefices:
