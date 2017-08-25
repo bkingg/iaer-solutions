@@ -958,12 +958,12 @@ a.no-link {
     .section.map iframe,
     .section.white.map iframe {
       pointer-events: none; }
-  .section .section__video iframe,
-  .section.white .section__video iframe {
+  .section.section__video iframe,
+  .section.white.section__video iframe {
     width: 100%; }
     @media screen and (max-width: 1200px) {
-      .section .section__video iframe,
-      .section.white .section__video iframe {
+      .section.section__video iframe,
+      .section.white.section__video iframe {
         height: 300px; } }
   .section .section__title,
   .section.white .section__title {
@@ -1022,11 +1022,11 @@ a.no-link {
           -webkit-column-gap: 40px;
           -moz-column-gap: 40px;
           column-gap: 40px; } }
-  .section .section__tabs .tabs__wrapper,
-  .section.white .section__tabs .tabs__wrapper {
+  .section.section__tabs .tabs__wrapper,
+  .section.white.section__tabs .tabs__wrapper {
     text-align: center; }
-    .section .section__tabs .tabs__wrapper .tabs .tab,
-    .section.white .section__tabs .tabs__wrapper .tabs .tab {
+    .section.section__tabs .tabs__wrapper .tabs .tab,
+    .section.white.section__tabs .tabs__wrapper .tabs .tab {
       display: inline-block;
       padding: 5px 20px;
       margin: 0 3px;
@@ -1035,36 +1035,36 @@ a.no-link {
       cursor: pointer;
       text-transform: uppercase;
       transition: all 0.3s; }
-      .section .section__tabs .tabs__wrapper .tabs .tab__active, .section .section__tabs .tabs__wrapper .tabs .tab:hover,
-      .section.white .section__tabs .tabs__wrapper .tabs .tab__active,
-      .section.white .section__tabs .tabs__wrapper .tabs .tab:hover {
+      .section.section__tabs .tabs__wrapper .tabs .tab__active, .section.section__tabs .tabs__wrapper .tabs .tab:hover,
+      .section.white.section__tabs .tabs__wrapper .tabs .tab__active,
+      .section.white.section__tabs .tabs__wrapper .tabs .tab:hover {
         background-color: #83b739; }
-      .section .section__tabs .tabs__wrapper .tabs .tab__title,
-      .section.white .section__tabs .tabs__wrapper .tabs .tab__title {
+      .section.section__tabs .tabs__wrapper .tabs .tab__title,
+      .section.white.section__tabs .tabs__wrapper .tabs .tab__title {
         font-size: 14px;
         font-weight: bold;
         margin: 0; }
       @media screen and (max-width: 1200px) {
-        .section .section__tabs .tabs__wrapper .tabs .tab,
-        .section.white .section__tabs .tabs__wrapper .tabs .tab {
+        .section.section__tabs .tabs__wrapper .tabs .tab,
+        .section.white.section__tabs .tabs__wrapper .tabs .tab {
           display: block;
           margin: 3px;
           padding: 15px 10px; } }
-    .section .section__tabs .tabs__wrapper .tab__content,
-    .section.white .section__tabs .tabs__wrapper .tab__content {
+    .section.section__tabs .tabs__wrapper .tab__content,
+    .section.white.section__tabs .tabs__wrapper .tab__content {
       display: none;
       padding: 20px 0; }
-      .section .section__tabs .tabs__wrapper .tab__content--active,
-      .section.white .section__tabs .tabs__wrapper .tab__content--active {
+      .section.section__tabs .tabs__wrapper .tab__content--active,
+      .section.white.section__tabs .tabs__wrapper .tab__content--active {
         display: block; }
-      .section .section__tabs .tabs__wrapper .tab__content--title,
-      .section.white .section__tabs .tabs__wrapper .tab__content--title {
+      .section.section__tabs .tabs__wrapper .tab__content--title,
+      .section.white.section__tabs .tabs__wrapper .tab__content--title {
         color: #83b739;
         text-transform: uppercase;
         padding-top: 30px;
         padding-bottom: 20px; }
-      .section .section__tabs .tabs__wrapper .tab__content--description,
-      .section.white .section__tabs .tabs__wrapper .tab__content--description {
+      .section.section__tabs .tabs__wrapper .tab__content--description,
+      .section.white.section__tabs .tabs__wrapper .tab__content--description {
         font-weight: normal;
         text-transform: uppercase;
         margin-bottom: 20px; }
