@@ -224,7 +224,7 @@ $(function(){
     	}
         event.preventDefault();
         var accordionName = $(this).data('accordion');
-        $('.accordion[data-accordion="' + accordionName + '"]').toggleClass('accordion--open');
+        $('.accordion[data-accordion="' + accordionName + '"]').toggleClass('accordion--open').find('.accordion__content').slideToggle();
 		var icon = $(this).find('i').toggleClass('fa-plus fa-minus');
     });
 
