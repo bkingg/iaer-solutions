@@ -411,7 +411,7 @@ $(function(){
 	}
 
 	$.ajax({
-		url: 'https:' + '//formspree.io/' + 'gaspard.diallo' + '@' + 'gmail' + '.' + 'com', 
+		url: 'https:' + '//formspree.io/' + 'pagoune' + '@' + 'iaersolutions' + '.' + 'com', 
 		method: 'POST',
 		data: $(form).serialize(),
 		dataType: 'json',
