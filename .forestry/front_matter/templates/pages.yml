@@ -1,0 +1,298 @@
+---
+pages:
+- activites-intensives-de-lutte.markdown
+- projet-pilote.md
+- page-de-test.md
+- valorisation-du-bois-infeste.markdown
+- plateforme-de-gestion-concertee.markdown
+- municipalites.markdown
+- module-de-performances.markdown
+- inventaire-intelligent.markdown
+- solution-technologique.markdown
+- communication-et-reglementation.markdown
+- Accueil.markdown
+- repertoire.markdown
+- valeur-de-mon-frene.markdown
+- institutions.markdown
+- citoyens.markdown
+- activites-preventives.markdown
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: ''
+- name: slider
+  label: Slider
+  type: field_group_list
+  fields:
+  - name: image
+    label: Image
+    type: file
+    hidden: false
+    default: ''
+  - name: icone_image
+    label: Icone image
+    type: file
+    hidden: false
+    default: ''
+  - name: description
+    label: Description
+    type: textarea
+    hidden: false
+    default: ''
+  - name: call_to_action
+    label: Call To Action
+    type: field_group_list
+    fields:
+    - name: texte
+      type: text
+      label: Texte
+    - name: url
+      type: text
+      label: Url
+    hidden: false
+    default: ''
+  - name: video
+    type: text
+    label: Vidéo
+  - name: image_large
+    type: file
+    label: Image Large
+  hidden: false
+  default: ''
+- name: sections
+  label: Sections
+  type: field_group_list
+  fields:
+  - name: titre
+    label: Titre
+    type: text
+    hidden: false
+    default: ''
+  - name: icones
+    label: Icones
+    type: field_group_list
+    fields:
+    - name: image
+      label: Image
+      type: file
+      hidden: false
+      default: ''
+    - name: titre
+      label: Titre
+      type: text
+      hidden: false
+      default: ''
+    - name: url
+      label: Url
+      type: text
+      hidden: false
+      default: ''
+    - name: description
+      label: Description
+      type: text
+      hidden: false
+      default: ''
+    - name: hover
+      type: textarea
+      label: Hover
+    hidden: false
+    default: ''
+  - name: description
+    label: Description
+    type: textarea
+    hidden: false
+    default: ''
+  - name: icones_modal_slider
+    label: Icones avec Problèmes Solutions
+    type: field_group_list
+    fields:
+    - name: image
+      label: Image
+      type: file
+      hidden: false
+      default: ''
+    - name: titre
+      label: Titre
+      type: text
+      hidden: false
+      default: ''
+    - name: problemes
+      label: Problemes
+      type: textarea
+      hidden: false
+      default: ''
+    - name: solutions
+      label: Solutions
+      type: textarea
+      hidden: false
+      default: ''
+    - name: call_to_action
+      type: field_group_list
+      label: Call To Action
+      fields:
+      - name: texte
+        type: text
+        label: Texte
+      - name: url
+        type: text
+        label: Url
+    hidden: false
+    default: ''
+  - name: icones_modal
+    type: field_group_list
+    label: Modules avec Problèmes et Solutions
+    fields:
+    - name: titre
+      type: text
+      label: Titre
+    - name: image
+      type: file
+      label: Image
+    - name: problemes
+      type: textarea
+      label: Problèmes
+    - name: solutions
+      type: textarea
+      label: Solutions
+    - name: call_to_action
+      type: field_group_list
+      label: Call To Action
+      fields:
+      - name: texte
+        type: text
+        label: Texte
+      - name: url
+        type: text
+        label: Url
+  - name: description_half
+    label: Description half
+    type: textarea
+    hidden: false
+    default: ''
+  - name: boites
+    type: field_group_list
+    label: Boites
+    fields:
+    - name: titre
+      type: text
+      label: Titre
+    - name: image
+      type: file
+      label: Image
+    - name: description
+      type: textarea
+      label: Description
+  - name: benefices
+    type: field_group_list
+    label: Bénéfices
+    fields:
+    - name: titre
+      type: text
+      label: Titre
+    - name: image
+      type: file
+      label: Image
+    - name: description
+      type: textarea
+      label: Description
+  - name: petites_boites
+    type: field_group_list
+    label: Petites Boites
+    fields:
+    - name: description
+      type: textarea
+      label: Description
+  - name: call_to_action
+    type: field_group_list
+    label: Call To action
+    description: Boutton CTA
+    fields:
+    - name: texte
+      type: text
+      label: Texte
+    - name: url
+      type: text
+      label: Url
+  - name: skip
+    label: Skip
+    type: boolean
+    hidden: false
+    default: ''
+  - name: engagement
+    label: Engagement
+    type: field_group_list
+    fields:
+    - name: titre
+      type: text
+      label: Titre
+    - name: description
+      type: textarea
+      label: Description
+    - type: text
+      name: raison-titre
+      label: Raison (TItre)
+    - name: raison-description
+      type: textarea
+      label: Raison (Description)
+    hidden: false
+    default: ''
+  - name: etapes
+    label: Etapes
+    type: boolean
+    hidden: false
+    default: ''
+  - name: video
+    type: text
+    label: Vidéo
+  - name: histoire
+    type: boolean
+    label: Histoire
+  - name: carte
+    type: field_group_list
+    label: Carte
+    fields:
+    - name: titre
+      type: text
+      label: Titre
+    - name: url_carte
+      type: text
+      label: URL Carte
+      description: URL de la carte
+  - type: field_group_list
+    label: Technologie
+    name: technologie
+    fields:
+    - name: titre
+      type: text
+      label: Titre
+    - name: description
+      type: textarea
+      label: Description
+  - name: temoignages
+    type: boolean
+    label: Témoignages
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: default
+- name: parent
+  label: Parent
+  type: text
+  hidden: false
+  default: ''

@@ -1,0 +1,13 @@
+---
+pages:
+- _temoignages/ville-de-quebec.md
+- _temoignages/ville-de-montreal.md
+- _temoignages/terrebonne.md
+hide_body: false
+fields:
+- name: image
+  type: file
+  label: image
+- name: description
+  type: textarea
+  label: description

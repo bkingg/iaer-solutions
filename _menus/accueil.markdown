@@ -76,7 +76,7 @@ menu-niveau-1:
 - titre: Histoire et Clients
   url: "#histoire-et-clients"
 - titre: Villes Desservies
-  url: "#villes-desservies [MRC projet pilote de démonstration] "
+  url: "#carte-des-mrc-du-projet-pilote"
 - titre: Partenaires
   url: "#partenaires-de-developpement-des-solutions"
 ---
