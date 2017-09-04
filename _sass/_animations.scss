@@ -4,8 +4,8 @@
   }
   100% {
     opacity: 0;
-    -webkit-transform: translateY(23px);
-    transform: translateY(23px);
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
   }
 }
 
@@ -15,7 +15,17 @@
   }
   100% {
     opacity: 0;
-    -webkit-transform: translateY(23px);
-    transform: translateY(23px);
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
   }
+}
+
+@-webkit-keyframes bounce {
+  to { -webkit-transform: scale(1.4); }
+}
+@-moz-keyframes bounce {
+  to { -moz-transform: scale(1.4); }
+}
+@keyframes bounce {
+  to { transform: scale(1.4); }
 }

@@ -43,7 +43,7 @@ sections:
   icones:
   - image: uploads/ali-inventaire.png
     titre: INVENTAIRE INTELLIGENT
-    url: diagnostique-et-inventaire-et-evaluation.html
+    url: inventaire-intelligent.html
     description: Meilleure qualité des données et la tenue numérique aident à prendre
       des décisions objectives en continues
   - image: uploads/ali-plateforme.png
@@ -53,7 +53,7 @@ sections:
       ligne
   - image: uploads/ali-module.png
     titre: Modules de performance
-    url: module-de-performances.html
+    url: modules-de-performance.html
     description: Solution complète pour la planification des actions techniques et
       la coordination des solutions de lutte
   - image: uploads/ali-valorisation.png

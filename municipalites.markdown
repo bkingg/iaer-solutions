@@ -74,13 +74,13 @@ sections:
   icones:
   - image: uploads/m-inventaire.png
     titre: INVENTAIRE INTELLIGENT
-    url: diagnostique-et-inventaire-et-evaluation.html
+    url: inventaire-intelligent.html
   - image: uploads/m-plateforme.png
     titre: plateformes de gestion concertée
     url: plateforme-de-gestion-concertee.html
   - image: uploads/m-module.png
     titre: Modules de performance
-    url: module-de-performances.html
+    url: modules-de-performance.html
   - image: uploads/m-valorisation.png
     titre: VALORISATION du bois
     url: valorisation-du-bois-infeste.html

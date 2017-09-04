@@ -44,7 +44,7 @@ sections:
   icones:
   - image: uploads/ali-inventaire.png
     titre: Diagnostique
-    url: diagnostique-et-inventaire-et-evaluation.html
+    url: inventaire-intelligent.html
     description: Partir des besoins locaux pour créer des solutions de soutien intégrées
       aux actions de lutte économiques et avantageuses pour les propriétaires
   - image: uploads/ali-plateforme.png
@@ -54,7 +54,7 @@ sections:
       et la gestion de ses besoins en services administratifs et techniques
   - image: uploads/ali-module.png
     titre: Modules
-    url: module-de-performances.html
+    url: modules-de-performance.html
     description: Un environnement taillé sur mesure pour un suivi technique personnalisé
       de l’ensemble des actions et solutions retenues
   - image: uploads/ali-valorisation.png

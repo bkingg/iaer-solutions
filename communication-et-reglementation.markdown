@@ -46,7 +46,7 @@ sections:
       à partir d’un seul portail pour tous les intervenants
   - image: uploads/ali-module.png
     titre: Modules
-    url: module-de-performances.html
+    url: modules-de-performance.html
     description: Tous les services et activités techniques sont coordonnés par des
       solutions en ligne
   - image: uploads/ali-valorisation.png
