@@ -1,13 +1,13 @@
 ---
 pages:
+- municipalites.markdown
 - Accueil.markdown
 - activites-intensives-de-lutte.markdown
 - projet-pilote.md
 - page-de-test.md
 - valorisation-du-bois-infeste.markdown
 - plateforme-de-gestion-concertee.markdown
-- municipalites.markdown
-- modules-de-performance.markdown
+- module-de-performances.markdown
 - inventaire-intelligent.markdown
 - solution-technologique.markdown
 - communication-et-reglementation.markdown
