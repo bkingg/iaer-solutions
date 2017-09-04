@@ -16,22 +16,22 @@ sections:
     de bois contaminés et la réduction des coûts d’opérations sont au coeur des enjeux
     de déploiement des actions et solutions de lutte intensive.
 - boites:
-  - titre: données de décision
+  - titre: Prendre des décisions gagnantes
     description: "- Intégrer les actions de préservation aux solutions de gestion
       rigoureuses des arbres et des résidus infestés\n- Constituer les indicateurs
       et critères solides ou basés sur des faits\n- Mettre en place une offre d’action
       concertée bénéfique pour tous les intervenants "
-  - titre: précision et certitudes
+  - titre: Augmenter la précision
     description: |-
       - Planifier les interventions de manière à prendre en compte tous les impacts indirects
       - Adapter les techniques de dépistage à l’état de santé et à la réalité de distribution des frênes sur le territoire
       - Gérer l’historique des résultats des activités passées  pour modéliser le futur
-  - titre: traçabilité
+  - titre: Suivre Activités
     description: |-
       - Assurer un suivi serré des actions et solutions de lutte
       - Mettre en place un tableau de bord actualisé en permanence
       - Gérer les historiques des données massives d’intervention
-  - titre: contrôle des coûts
+  - titre: contrôler les coûts
     description: |-
       - Identifier les avenues de gestion sécuritaire des résidus de bois
       - Donner l’information claire et précise au propriétaire
