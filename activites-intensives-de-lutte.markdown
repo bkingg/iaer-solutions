@@ -36,6 +36,7 @@ sections:
       - Identifier les avenues de gestion sécuritaire des résidus de bois
       - Donner l’information claire et précise au propriétaire
       - Développer les offres de solutions avantageuses pour les intervenants
+  titre: Nous Vous Accompagnons de manière à...
 - titre: NOS OUTILS ET SOLUTIONS NOVATRICES
   description: En créant l’identité numérique de chaque frêne grâce à l’innovation
     d’inventaire intelligent, valeur de mon frêne offre aux municipalités, aux propriétaires
