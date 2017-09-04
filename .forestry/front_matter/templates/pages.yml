@@ -1,5 +1,6 @@
 ---
 pages:
+- Accueil.markdown
 - activites-intensives-de-lutte.markdown
 - projet-pilote.md
 - page-de-test.md
@@ -10,7 +11,6 @@ pages:
 - inventaire-intelligent.markdown
 - solution-technologique.markdown
 - communication-et-reglementation.markdown
-- Accueil.markdown
 - repertoire.markdown
 - valeur-de-mon-frene.markdown
 - institutions.markdown

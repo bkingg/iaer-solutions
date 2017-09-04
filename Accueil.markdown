@@ -80,7 +80,7 @@ sections:
 - carte:
   - titre: Carte des MRC du projet pilote
     url_carte: https://demo-preview5.evouala.com/map/browse/3339/embedded?bbox=-7992941.341429052%2C5885503.784186181%2C-7895407.693337168%2C5934041.297147268&ds=330%2C8%2C1417%2C1337%2C1414
-  titre: Communauté des villes desservies
+  titre: Carte des MRC du Projet Pilote
 - skip: ''
 - titre: PARTENAIRES DE DéVELOPPEMENT DES SOLUTIONS
   icones:
