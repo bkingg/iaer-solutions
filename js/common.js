@@ -51,13 +51,12 @@ $(function(){
 	    slidesToScroll: 1,
 	    dots: true,
 	    infinite: true,
-	    speed: 1200,
+	    speed: 800,
 	    appendDots: $('.slider__dots'),
 	    arrows: false,
 	    swipe: true,
-	    fade: true,
 	    autoplay: true,
-		autoplaySpeed: 25000,
+		autoplaySpeed: 2500,
 	    customPaging : function(slider, i) {
 	        return '<div class="slider__dot">'+ (i + 1) +'</div>';
 	    }
@@ -235,7 +234,6 @@ $(function(){
 			$('html, body').animate({
 				scrollTop: $( $.attr(this, 'href') ).offset().top - 60
 			}, 500);
-
 		}
     });
 
