@@ -34,6 +34,7 @@ sections:
       - Concilier  la règlementation aux  solutions locales concertées
       - Ajuster la règlementation aux services de soutien et aux contraintes des intervenants
       - Développer des avenues qui suscitent l’intérêt à l’application de la règlemen- tation dans les meilleurs délais
+  titre: Nous Vous Accompagnons de manière à...
 - titre: NOS OUTILS ET SOLUTIONS NOVATRICES
   description: Valeur-de-mon-frêne accompagne les municipalités en mettant à leur
     disposition des outils de communication modernes et intelligents qui aident les
