@@ -36,6 +36,7 @@ sections:
       - Rapprocher les propriétaires et intervenants des actions proposées
       - Interagir avec des technologies proches des habitudes de consommation en mutations
       - Réduire et contrôler les coûts directs et indirects
+  titre: Nous Vous Accompagnons de manière à...
 - titre: NOS OUTILS ET SOLUTIONS NOVATRICES
   description: La solution proposée par valeur au frêne aux municipalités consiste
     à élaborer des indicateurs propres à chaque espace de croissance des frênes du
