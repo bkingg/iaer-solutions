@@ -273,7 +273,7 @@ sections:
       - Forfait de préservation
       - Forfait de valorisation du bois résiduel
   call_to_action:
-  - texte: Demander l'évaluation dès maintenant
+  - texte: Pour en savoir plus
 layout: default
 parent: ''
 ---
