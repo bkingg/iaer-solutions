@@ -801,7 +801,7 @@ a.no-link {
         width: 100%;
         text-align: center; } }
     .homepage__slider-wrapper .slider__dots .slick-dots li {
-      display: block;
+      display: inline-block;
       padding: 2px; }
       @media screen and (max-width: 1200px) {
         .homepage__slider-wrapper .slider__dots .slick-dots li {
