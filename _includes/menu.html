@@ -3,7 +3,7 @@
 {% for menu in site.menus %}
   {% assign page_slug = page.title | slugify %}
   {% assign menu_slug = menu.title | slugify %}
-  {% if menu_slug contains page_slug %}
+  {% if menu_slug == page_slug %}
     {% assign has_custom_menu = true %}
     {% for link in menu.menu-niveau-1 %}
       ><li class="cols-{{ link.menu-niveau-2.size }}">

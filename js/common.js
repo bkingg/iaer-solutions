@@ -25,6 +25,13 @@ $(function(){
 	$(document).ready(function() {
 		var openModal = getUrlParameter('open');
 		setTimeout(function(){
+			var section = window.location.hash.substr(1);
+			if (section) {
+				console.log(section);
+				$('html, body').animate({
+					scrollTop: $('#' + section).offset().top - 60
+				}, 500);
+			}
 	    	$('[data-title-modal=' + openModal + ']').click();
 	    }, 1000);
 	});

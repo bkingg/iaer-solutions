@@ -978,7 +978,7 @@ $navbar-mobile-height: 100;
     }
 		.slick-dots{
 			li{
-				display: block;
+				display: inline-block;
         padding: 2px;
         @media screen and (max-width: 1200px) {
           display: inline-block;
