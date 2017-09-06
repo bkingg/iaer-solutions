@@ -57,7 +57,6 @@ sections:
     call_to_action:
     - url: index.html
       texte: Demander l'évaluation dès maintenant
-  
   - image: uploads/boise.png
     titre: Terrain boisé
     problemes: "L'absence de données précises, les contraintes opérationnelles, les
