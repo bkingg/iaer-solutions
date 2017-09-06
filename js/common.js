@@ -333,12 +333,12 @@ $(function(){
 	var errClass = 'error';
 	$(errField, form).removeClass(errClass);
 
-	if ( !form.nom.value ) {
-		$(form.nom).addClass(errClass)
+	if ( !form.organisation.value ) {
+		$(form.organisation).addClass(errClass)
 			.siblings(msgField).slideDown();
 		errors = true;
 	} else {
-		$(this.nom).siblings(msgField).slideUp();
+		$(this.organisation).siblings(msgField).slideUp();
 	}
 	
 	if ( /[-0-9a-zA-Z.+_]+@[-0-9a-zA-Z.+_]+\.[a-zA-Z]{2,4}/.test(form.email.value) == false ) {
