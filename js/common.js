@@ -160,19 +160,19 @@ $(function(){
     });
 
 	$(document).ready(function() {
-	    $('.box, .offer').addClass('hide_me').viewportChecker({
+	    $('.box, .offer').addClass('').viewportChecker({
 	        classToAdd: 'visible animated fadeInDown',
 	        offset: 160
 	    });
-	    $('.section__title').addClass('hide_me').viewportChecker({
+	    $('.section__title').addClass('').viewportChecker({
 	        classToAdd: 'visible animated fadeInDown',
 	        offset: 30
 	    });
-	    $('.section__description').addClass('hide_me').viewportChecker({
+	    $('.section__description').addClass('').viewportChecker({
 	        classToAdd: 'visible animated fadeInDown',
 	        offset: 30
 	    });
-	    $('.caption').addClass('hide_me').viewportChecker({
+	    $('.caption').addClass('').viewportChecker({
 	        classToAdd: 'visible animated fadeInDown',
 	        offset: 30
 	    });
@@ -278,10 +278,10 @@ $(function(){
         $modal.find('.cta').html('').html(cta);
   	});
 
-	  // Map iframe
-	  $(document).on('click', '.section.map', function(event) {
-			$(this).find('iframe').css('pointer-events', 'initial');
-		});
+	// Map iframe
+	$(document).on('click', '.section.map', function(event) {
+		$(this).find('iframe').css('pointer-events', 'initial');
+	});
 
 	$(document).on('click', '.icon--scroll', function(event) {
 		var $section = $(this).closest('.homepage__slider-wrapper');
